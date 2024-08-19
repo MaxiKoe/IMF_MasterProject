@@ -351,7 +351,7 @@ def plot_cluster_distribution(cluster_table, params, cluster_name):
 def plot_milky_way_with_cluster(params, cluster_name):
     ra = params['ra'] * u.degree
     dec = params['dec'] * u.degree
-    mw1 = MWSkyMap(projection="aitoff", grayscale=False, grid=True)
+    mw1 = MWSkyMap(projection="aitoff", grayscale=False, grid="galactic")
     #mw1.title = f'Position of {cluster_name} in the Milky Way'
     mw1.scatter(ra, dec, c="y", s=200)
     plt.savefig(f'{cluster_name}_milky_way_position.png')
