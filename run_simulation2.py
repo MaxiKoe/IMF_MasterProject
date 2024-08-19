@@ -30,7 +30,7 @@ open_cluster_table = Table.read(open_cluster_filename)
 cluster_names = open_cluster_table['NAME']  # Assuming 'NAME' is the column with cluster names
 
 # Set the batch size for processing clusters
-batch_size = 100
+batch_size = 50
 
 # LaTeX template for individual clusters
 cluster_template = r"""
