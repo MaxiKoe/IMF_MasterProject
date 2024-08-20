@@ -35,7 +35,7 @@ os.makedirs(plots_dir, exist_ok=True)
 os.makedirs(pdf_dir, exist_ok=True)
 
 # Load the OpenCluster table
-open_cluster_filename = 'Simulation/OpenClusters_final.fits'
+open_cluster_filename = 'OpenClusters_final.fits'
 open_cluster_table = Table.read(open_cluster_filename)
 
 # List of cluster names to process (for test with 10 clusters)
