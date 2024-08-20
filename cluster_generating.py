@@ -258,37 +258,53 @@ def print_snr_percentages(photometry_results_j, photometry_results_ks):
         print(f"Percentage of stars with SNR > 10: {snr10_percentage:.2f}%\n")
 
 
-def plot_cluster_image_j(hdus, cluster_name, contrast_factor=10):
+def plot_cluster_image_j(hdus, cluster_name, plot_dir, contrast_factor=10):
     data = hdus[1].data
     # Calculate the background noise
     background_noise = np.std(data)
+    # Ensure contrast_factor is a numeric value
+    if not isinstance(contrast_factor, (int, float)):
+        raise ValueError("contrast_factor must be a numeric value")
+    
     # Set the contrast limits
     vmin = 10000  # or other suitable value for J filter
     vmax = contrast_factor * background_noise
+    
     plt.figure(figsize=(8, 8))
     plt.imshow(data, origin='lower', norm=LogNorm(vmin=vmin, vmax=vmax))
     plt.colorbar()
     plt.xlabel('X Position (pixels)')
     plt.ylabel('Y Position (pixels)')
     plt.title(f'Image of {cluster_name} in J Filter')
-    plt.savefig(f'{cluster_name}_J_image.png')
-    plt.show()
+    
+    # Save the image in the specified directory
+    output_file = os.path.join(plot_dir, f'{cluster_name}_J_image.png')
+    plt.savefig(output_file)
+    plt.close()
 
-def plot_cluster_image_ks(hdus, cluster_name, contrast_factor=40):
+def plot_cluster_image_ks(hdus, cluster_name, plot_dir, contrast_factor=40):
     data = hdus[1].data
     # Calculate the background noise
     background_noise = np.std(data)
+    # Ensure contrast_factor is a numeric value
+    if not isinstance(contrast_factor, (int, float)):
+        raise ValueError("contrast_factor must be a numeric value")
+    
     # Set the contrast limits
     vmin = 100000  # or other suitable value for Ks filter
     vmax = contrast_factor * background_noise
+    
     plt.figure(figsize=(8, 8))
     plt.imshow(data, origin='lower', norm=LogNorm(vmin=vmin, vmax=vmax))
     plt.colorbar()
     plt.xlabel('X Position (pixels)')
     plt.ylabel('Y Position (pixels)')
     plt.title(f'Image of {cluster_name} in Ks Filter')
-    plt.savefig(f'{cluster_name}_Ks_image.png')
-    plt.show()
+    
+    # Save the image in the specified directory
+    output_file = os.path.join(plot_dir, f'{cluster_name}_Ks_image.png')
+    plt.savefig(output_file)
+    plt.close()
     
     
 # Function to convert core and tidal radii from parsecs to arcseconds
