@@ -22,11 +22,11 @@ from astropy.table import Table
 from astropy.io import fits, ascii
 import numpy as np
 
-# Define directories
-IMAGE_DIR = "../Images/"
-PLOT_DIR = "../Plots/"
-OTHER_DIR = "../Other/"
-PDF_DIR = "../PDF/"
+# Define directories relative to the current working directory (IMF_MasterProject)
+IMAGE_DIR = "Images/"
+PLOT_DIR = "Plots/"
+OTHER_DIR = "Other/"
+PDF_DIR = "PDF/"
 
 # Ensure directories exist
 os.makedirs(IMAGE_DIR, exist_ok=True)
