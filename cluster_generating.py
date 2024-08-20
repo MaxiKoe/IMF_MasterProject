@@ -457,9 +457,9 @@ TABLE_DIR = "Table/"  # Define this at the top of the file
 
 # Ensure the directory exists
 os.makedirs(TABLE_DIR, exist_ok=True)
+from astropy.io import ascii
 
 def append_flux_snr_to_cluster_table(cluster_table, photometry_results_j, photometry_results_ks, cluster_name):
-
     # Convert cluster table coordinates to match the photometry results
     cluster_table['x'] = ((cluster_table['X Position (arcsec)'] / 0.004) + 2048).astype(int)
     cluster_table['y'] = ((cluster_table['Y Position (arcsec)'] / 0.004) + 2048).astype(int)
@@ -485,6 +485,13 @@ def append_flux_snr_to_cluster_table(cluster_table, photometry_results_j, photom
         'Spectral Type', 'Flux J', 'SNR J', 'Flux Ks', 'SNR Ks'
     ]
     filtered_cluster_table = filtered_cluster_table[columns_to_keep]
+
+    # Save the table as a CSV file
+    table_filename = os.path.join(TABLE_DIR, f'{cluster_name}_table.csv')
+    ascii.write(filtered_cluster_table, table_filename, format='csv', overwrite=True)
+
+    return filtered_cluster_table
+
 
   # Save the table to a CSV file
     table_filename = os.path.join(TABLE_DIR, f'{cluster_name}_table.csv')
