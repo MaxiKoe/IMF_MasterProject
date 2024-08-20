@@ -168,7 +168,7 @@ def run_simulation():
     rendered_main_latex = render_main_latex(all_clusters_content)
 
     # Save the rendered LaTeX to a file
-    output_tex_file = os.path.join(PDF_DIR, 'all_clusters.tex')
+    output_tex_file = os.path.join(PDF_DIR, 'one_cluster.tex')
     with open(output_tex_file, 'w') as f:
         f.write(rendered_main_latex)
 
