@@ -154,17 +154,18 @@ def process_cluster(cluster_name, index):
     rendered_cluster_latex = render_cluster_latex(cluster_data)
 
     return rendered_cluster_latex
-
+    
 def run_simulation():
-    global cluster_names
+    global cluster_names, total_clusters
     from multiprocessing import Pool
 
     # Create a pool of workers
     with Pool() as pool:
-        results = [pool.apply_async(process_cluster, args=(cluster_name,)) for index, cluster_name in cluster_names]
+        results = [pool.apply_async(process_cluster, args=(cluster_name, index)) for index, cluster_name in enumerate(cluster_names)]
 
         # Combine the LaTeX content for all clusters
         all_clusters_content = "".join([res.get() for res in results])
+
 
     # Render the main LaTeX template with all clusters content
     rendered_main_latex = render_main_latex(all_clusters_content)
