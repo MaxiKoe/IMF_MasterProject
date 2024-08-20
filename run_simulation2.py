@@ -132,7 +132,6 @@ main_template = r"""
 cluster_jinja_template = jinja2.Template(cluster_template, variable_start_string='[[', variable_end_string=']]')
 main_jinja_template = jinja2.Template(main_template, variable_start_string='[[', variable_end_string=']]')
 
-# Function to process each cluster
 def process_cluster(cluster_name):
     global IMAGE_DIR, PLOT_DIR, OTHER_DIR
     
@@ -195,7 +194,9 @@ def process_cluster(cluster_name):
     # Calculate apparent magnitudes for G2 and M9 stars in J and Ks filters
     apparent_magnitudes = calculate_apparent_magnitudes(params)
 
+
     # Save cluster parameters to JSON for LaTeX rendering
+    json_filename = os.path.join(OTHER_DIR, f'{cluster_name}_data.json')
     cluster_data = {
         'cluster_name': cluster_name,
         'total_mass': total_cluster_mass,
@@ -214,11 +215,11 @@ def process_cluster(cluster_name):
         'apparent_mag_g2_ks': f"{apparent_magnitudes['G2_Ks']:.2f}",
         'apparent_mag_m9_j': f"{apparent_magnitudes['M9_J']:.2f}",
         'apparent_mag_m9_ks': f"{apparent_magnitudes['M9_Ks']:.2f}",
-        'milky_way_position_image': os.path.join(images_dir, f'{cluster_name}_milky_way_position.png'),
-        'j_image': os.path.join(images_dir, f'{cluster_name}_J_image.png'),
-        'ks_image': os.path.join(images_dir, f'{cluster_name}_Ks_image.png'),
-        'distribution_image': os.path.join(plots_dir, f'{cluster_name}_distribution.png'),
-        'spectral_type_vs_snr_image': os.path.join(plots_dir, f'{cluster_name}_spectral_type_vs_snr.png'),
+        'milky_way_position_image': os.path.join(PLOT_DIR, f'{cluster_name}_milky_way_position.png'),
+        'j_image': os.path.join(PLOT_DIR, f'{cluster_name}_J_image.png'),
+        'ks_image': os.path.join(PLOT_DIR, f'{cluster_name}_Ks_image.png'),
+        'distribution_image': os.path.join(PLOT_DIR, f'{cluster_name}_distribution.png'),
+        'spectral_type_vs_snr_image': os.path.join(PLOT_DIR, f'{cluster_name}_spectral_type_vs_snr.png'),
     }
 
     with open(json_filename, 'w') as f:
@@ -236,30 +237,30 @@ def process_cluster(cluster_name):
 
     return rendered_cluster_latex
 
-# Function to track progress
 def run_simulation():
-    with multiprocessing.Pool() as pool:
-        results = []
-        for i, cluster_name in enumerate(cluster_names, 1):
-            result = pool.apply_async(process_cluster, (cluster_name,))
-            results.append(result)
-            print(f"Processing cluster {i}/{len(cluster_names)}")
+    global cluster_names
+    from multiprocessing import Pool
 
-        # Collect all LaTeX content
+    # Create a pool of workers
+    with Pool() as pool:
+        results = [pool.apply_async(process_cluster, args=(cluster_name,)) for cluster_name in cluster_names]
+
+        # Combine the LaTeX content for all clusters
         all_clusters_content = "".join([res.get() for res in results])
 
     # Render the main LaTeX template with all clusters content
     rendered_main_latex = main_jinja_template.render(content=all_clusters_content)
 
     # Save the rendered LaTeX to a file
-    output_tex_file = os.path.join(pdf_dir, 'all_clusters.tex')
+    output_tex_file = os.path.join(OTHER_DIR, 'all_clusters.tex')
     with open(output_tex_file, 'w') as f:
         f.write(rendered_main_latex)
 
     print(f"Rendered LaTeX saved to {output_tex_file}")
 
     # Compile the LaTeX file to PDF and capture the output
-    process = subprocess.Popen(['pdflatex', output_tex_file], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    output_pdf_file = os.path.join(PDF_DIR, 'all_clusters.pdf')
+    process = subprocess.Popen(['pdflatex', '-output-directory', PDF_DIR, output_tex_file], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     stdout, stderr = process.communicate()
 
     # Decode with 'latin-1' and fallback to 'ignore' in case of issues
@@ -272,6 +273,7 @@ def run_simulation():
         print(stderr.decode('utf-8'))
     except UnicodeDecodeError:
         print(stderr.decode('latin-1'))
+
 
 if __name__ == "__main__":
     run_simulation()
