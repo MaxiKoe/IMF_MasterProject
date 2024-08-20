@@ -76,7 +76,7 @@ def process_cluster(cluster_name):
     photometry_results_ks = perform_photometry(hdus_ks, micado_ks)
 
     # Append flux and SNR values to the cluster table
-    cluster_table_with_flux_snr = append_flux_snr_to_cluster_table(cluster_table, photometry_results_j, photometry_results_ks)
+    cluster_table_with_flux_snr = append_flux_snr_to_cluster_table(cluster_table, photometry_results_j, photometry_results_ks, cluster_name)
 
     # Convert all values in params to standard Python types
     params = {k: float(v) if isinstance(v, (np.float32, np.float64, np.int32, np.int64)) else v for k, v in params.items()}
