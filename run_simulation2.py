@@ -47,11 +47,11 @@ cluster_names = open_cluster_table['NAME']  # All Clusters
 total_clusters = len(cluster_names)
 
 def process_cluster(cluster_name, index):
-    global IMAGE_DIR, PLOT_DIR, OTHER_DIR, TABLE_DIR
-
-     # Print progress
-    print(f"Processing cluster {index + 1}/{total_clusters}: {cluster_name}")
+    global IMAGE_DIR, PLOT_DIR, OTHER_DIR, TABLE_DIR, total_clusters
     
+    # Print progress
+    print(f"Processing cluster {index + 1}/{total_clusters}: {cluster_name}")
+
     # Retrieve the parameters for the specified cluster
     params = get_cluster_params(cluster_name, open_cluster_table)
 
@@ -82,25 +82,33 @@ def process_cluster(cluster_name, index):
     # Perform photometry on the simulated data for Ks filter
     photometry_results_ks = perform_photometry(hdus_ks, micado_ks)
 
-    # Append flux and SNR values to the cluster table and save
+    # Append flux and SNR values to the cluster table and save it
     cluster_table_with_flux_snr = append_flux_snr_to_cluster_table(cluster_table, photometry_results_j, photometry_results_ks, cluster_name)
-    
-    # Save the processed table
     table_filename = os.path.join(TABLE_DIR, f'{cluster_name}_table.csv')
-    cluster_table_with_flux_snr.write(table_filename, format='csv', overwrite=True)
+    ascii.write(cluster_table_with_flux_snr, table_filename, format='csv', overwrite=True)
 
     # Convert all values in params to standard Python types
     params = {k: float(v) if isinstance(v, (np.float32, np.float64, np.int32, np.int64)) else v for k, v in params.items()}
     
-    # Format specific values
-    gal_lon = f"{params.get('gal_lon', 'N/A'):.3f}"
-    gal_lat = f"{params.get('gal_lat', 'N/A'):.3f}"
-    total_cluster_mass = f"{params.get('total_cluster_mass', 'N/A'):.1f}"
-    log_age = f"{params.get('log_age', 'N/A'):.3f}"
-    star_density_core = f"{params.get('star_density_core', 'N/A'):.3f}"
-    crowding_distance_micado = f"{np.sqrt(params.get('pixels_per_star_micado', 'N/A')):.1f}"
-    crowding_distance_jwst = f"{np.sqrt(params.get('pixels_per_star_jwst', 'N/A')):.1f}"
-    crowding_distance_hawki = f"{np.sqrt(params.get('pixels_per_star_hawki', 'N/A')):.1f}"
+    # Ensure gal_lon, gal_lat, total_cluster_mass, log_age, star_density_core, and pixels_per_star_micado are correctly assigned
+    gal_lon = params.get('gal_lon', 'N/A')
+    gal_lat = params.get('gal_lat', 'N/A')
+    total_cluster_mass = params.get('total_cluster_mass', 'N/A')
+    log_age = params.get('log_age', 'N/A')
+    star_density_core = params.get('star_density_core', 'N/A')
+    pixels_per_star_micado = params.get('pixels_per_star_micado', 'N/A')
+    pixels_per_star_jwst = params.get('pixels_per_star_jwst', 'N/A')
+    pixels_per_star_hawki = params.get('pixels_per_star_hawki', 'N/A')
+
+    # Format values to 3 decimal places
+    gal_lon = f"{gal_lon:.3f}"
+    gal_lat = f"{gal_lat:.3f}"
+    total_cluster_mass = f"{total_cluster_mass:.1f}"
+    log_age = f"{log_age:.3f}"
+    star_density_core = f"{star_density_core:.3f}"
+    crowding_distance_micado = f"{np.sqrt(pixels_per_star_micado):.1f}"
+    crowding_distance_jwst = f"{np.sqrt(pixels_per_star_jwst):.1f}"
+    crowding_distance_hawki = f"{np.sqrt(pixels_per_star_hawki):.1f}"
     
     # Calculate apparent magnitudes for G2 and M9 stars in J and Ks filters
     apparent_magnitudes = calculate_apparent_magnitudes(params)
