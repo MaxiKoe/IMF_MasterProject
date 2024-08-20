@@ -565,12 +565,12 @@ cluster_template = r"""
     \begin{center}
         \includegraphics[width=0.9\linewidth]{[[ distribution_image ]]} \\
         %\textbf{Tidal radius, core radius and FoV}
-    </begin{center}
+    </end{center}
 
     \begin{center}
         \includegraphics[width=0.9\linewidth]{[[ spectral_type_vs_snr_image ]]} \\
         %\textbf{Spectral type vs SNR}
-    </begin{center}
+    </end{center}
     
 </begin{multicols}
 
