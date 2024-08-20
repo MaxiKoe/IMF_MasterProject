@@ -25,7 +25,7 @@ import logging
 
 # Set the logging level to ERROR to suppress warnings
 logging.getLogger('astar').setLevel(logging.ERROR)
-logging.getLogger('scopesim').setLevel(logging.ERROR)
+logging.getLogger('sim').setLevel(logging.ERROR)
 
 
 # Define directories relative to the current working directory (IMF_MasterProject)
@@ -40,6 +40,7 @@ os.makedirs(IMAGE_DIR, exist_ok=True)
 os.makedirs(PLOT_DIR, exist_ok=True)
 os.makedirs(OTHER_DIR, exist_ok=True)
 os.makedirs(PDF_DIR, exist_ok=True)
+os.makedirs(TABLE_DIR, exist_ok=True)
 
 # Load the OpenCluster table
 open_cluster_filename = 'OpenClusters_final.fits'
