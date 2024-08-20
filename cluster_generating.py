@@ -520,7 +520,6 @@ def calculate_apparent_magnitudes(params):
     return apparent_magnitudes
 
 
-# LaTeX templates
 cluster_template = r"""
 % Title and basic information
 \begin{center}
@@ -567,24 +566,24 @@ cluster_template = r"""
     \begin{center}
         \includegraphics[width=1\linewidth]{[[ ks_image ]]} \\
         %\textbf{Image in Ks Filter}
-    </end{center}
-</begin{multicols}
+    \end{center}
+\end{multicols}
 
 % Second row of images
-<begin{multicols}{2}
+\begin{multicols}{2}
     \begin{center}
         \includegraphics[width=0.9\linewidth]{[[ distribution_image ]]} \\
         %\textbf{Tidal radius, core radius and FoV}
-    </end{center}
+    \end{center}
 
     \begin{center}
         \includegraphics[width=0.9\linewidth]{[[ spectral_type_vs_snr_image ]]} \\
         %\textbf{Spectral type vs SNR}
-    </end{center}
+    \end{center}
     
-</begin{multicols}
+\end{multicols}
 
-<newpage
+\newpage
 """
 
 main_template = r"""
