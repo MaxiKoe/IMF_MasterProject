@@ -41,10 +41,16 @@ open_cluster_filename = os.path.join(BASE_DIR, 'OpenClusters_final.fits')
 open_cluster_table = Table.read(open_cluster_filename)
 
 # List of cluster names to process (for test with 10 clusters)
-cluster_names = open_cluster_table['NAME'][:10]  # First 10 clusters
+cluster_names = open_cluster_table['NAME']  # All Clusters
+
+# Total number of clusters
+total_clusters = len(cluster_names)
 
 def process_cluster(cluster_name):
     global IMAGE_DIR, PLOT_DIR, OTHER_DIR, TABLE_DIR
+
+     # Print progress
+    print(f"Processing cluster {index + 1}/{total_clusters}: {cluster_name}")
     
     # Retrieve the parameters for the specified cluster
     params = get_cluster_params(cluster_name, open_cluster_table)
@@ -156,14 +162,14 @@ def run_simulation():
     rendered_main_latex = render_main_latex(all_clusters_content)
 
     # Save the rendered LaTeX to a file
-    output_tex_file = os.path.join(OTHER_DIR, '10_clusters.tex')
+    output_tex_file = os.path.join(OTHER_DIR, 'Complete_clusters.tex')
     with open(output_tex_file, 'w') as f:
         f.write(rendered_main_latex)
 
     print(f"Rendered LaTeX saved to {output_tex_file}")
 
     # Compile the LaTeX file to PDF and capture the output
-    output_pdf_file = os.path.join(PDF_DIR, '10_clusters.pdf')
+    output_pdf_file = os.path.join(PDF_DIR, 'Complete_clusters.pdf')
     process = subprocess.Popen(['pdflatex', '-output-directory', PDF_DIR, output_tex_file], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     stdout, stderr = process.communicate()
 
