@@ -23,17 +23,13 @@ from astropy.io import fits, ascii
 import numpy as np
 import logging
 
-# Set the logging level to ERROR to suppress warnings
-logging.getLogger('astar').setLevel(logging.ERROR)
-logging.getLogger('sim').setLevel(logging.ERROR)
-
-
 # Define directories relative to the current working directory (IMF_MasterProject)
-IMAGE_DIR = "Images/"
-PLOT_DIR = "Plots/"
-OTHER_DIR = "Other/"
-PDF_DIR = "PDF/"
-TABLE_DIR = "Table/"
+BASE_DIR = os.path.abspath(os.getcwd())
+IMAGE_DIR = os.path.join(BASE_DIR, "Images")
+PLOT_DIR = os.path.join(BASE_DIR, "Plots")
+OTHER_DIR = os.path.join(BASE_DIR, "Other")
+PDF_DIR = os.path.join(BASE_DIR, "PDF")
+TABLE_DIR = os.path.join(BASE_DIR, "Table")
 
 # Ensure directories exist
 os.makedirs(IMAGE_DIR, exist_ok=True)
@@ -43,14 +39,14 @@ os.makedirs(PDF_DIR, exist_ok=True)
 os.makedirs(TABLE_DIR, exist_ok=True)
 
 # Load the OpenCluster table
-open_cluster_filename = 'OpenClusters_final.fits'
+open_cluster_filename = os.path.join(BASE_DIR, 'OpenClusters_final.fits')
 open_cluster_table = Table.read(open_cluster_filename)
 
 # List of cluster names to process (for test with 10 clusters)
 cluster_names = open_cluster_table['NAME'][:1]  # First 10 clusters
 
 def process_cluster(cluster_name):
-    global IMAGE_DIR, PLOT_DIR, OTHER_DIR
+    global IMAGE_DIR, PLOT_DIR, OTHER_DIR, TABLE_DIR
     
     # Retrieve the parameters for the specified cluster
     params = get_cluster_params(cluster_name, open_cluster_table)
@@ -82,31 +78,25 @@ def process_cluster(cluster_name):
     # Perform photometry on the simulated data for Ks filter
     photometry_results_ks = perform_photometry(hdus_ks, micado_ks)
 
-    # Append flux and SNR values to the cluster table
+    # Append flux and SNR values to the cluster table and save
     cluster_table_with_flux_snr = append_flux_snr_to_cluster_table(cluster_table, photometry_results_j, photometry_results_ks, cluster_name)
+    
+    # Save the processed table
+    table_filename = os.path.join(TABLE_DIR, f'{cluster_name}_table.csv')
+    cluster_table_with_flux_snr.write(table_filename, format='csv', overwrite=True)
 
     # Convert all values in params to standard Python types
     params = {k: float(v) if isinstance(v, (np.float32, np.float64, np.int32, np.int64)) else v for k, v in params.items()}
     
-    # Ensure gal_lon, gal_lat, total_cluster_mass, log_age, star_density_core, and pixels_per_star_micado are correctly assigned
-    gal_lon = params.get('gal_lon', 'N/A')
-    gal_lat = params.get('gal_lat', 'N/A')
-    total_cluster_mass = params.get('total_cluster_mass', 'N/A')
-    log_age = params.get('log_age', 'N/A')
-    star_density_core = params.get('star_density_core', 'N/A')
-    pixels_per_star_micado = params.get('pixels_per_star_micado', 'N/A')
-    pixels_per_star_jwst = params.get('pixels_per_star_jwst', 'N/A')
-    pixels_per_star_hawki = params.get('pixels_per_star_hawki', 'N/A')
-
-    # Format values to 3 decimal places
-    gal_lon = f"{gal_lon:.3f}"
-    gal_lat = f"{gal_lat:.3f}"
-    total_cluster_mass = f"{total_cluster_mass:.1f}"
-    log_age = f"{log_age:.3f}"
-    star_density_core = f"{star_density_core:.3f}"
-    crowding_distance_micado = f"{np.sqrt(pixels_per_star_micado):.1f}"
-    crowding_distance_jwst = f"{np.sqrt(pixels_per_star_jwst):.1f}"
-    crowding_distance_hawki = f"{np.sqrt(pixels_per_star_hawki):.1f}"
+    # Format specific values
+    gal_lon = f"{params.get('gal_lon', 'N/A'):.3f}"
+    gal_lat = f"{params.get('gal_lat', 'N/A'):.3f}"
+    total_cluster_mass = f"{params.get('total_cluster_mass', 'N/A'):.1f}"
+    log_age = f"{params.get('log_age', 'N/A'):.3f}"
+    star_density_core = f"{params.get('star_density_core', 'N/A'):.3f}"
+    crowding_distance_micado = f"{np.sqrt(params.get('pixels_per_star_micado', 'N/A')):.1f}"
+    crowding_distance_jwst = f"{np.sqrt(params.get('pixels_per_star_jwst', 'N/A')):.1f}"
+    crowding_distance_hawki = f"{np.sqrt(params.get('pixels_per_star_hawki', 'N/A')):.1f}"
     
     # Calculate apparent magnitudes for G2 and M9 stars in J and Ks filters
     apparent_magnitudes = calculate_apparent_magnitudes(params)
@@ -165,18 +155,20 @@ def run_simulation():
         all_clusters_content = "".join([res.get() for res in results])
 
     # Render the main LaTeX template with all clusters content
-    rendered_main_latex = render_main_latex(all_clusters_content)
+    rendered_main_latex = main_jinja_template.render(content=all_clusters_content)
 
-    # Save the rendered LaTeX to a file
-    output_tex_file = os.path.join(PDF_DIR, 'one_cluster.tex')
+    # Save the rendered LaTeX to a file in the OTHER directory
+    output_tex_file = os.path.join(OTHER_DIR, 'all_clusters.tex')
     with open(output_tex_file, 'w') as f:
         f.write(rendered_main_latex)
 
     print(f"Rendered LaTeX saved to {output_tex_file}")
 
-    # Compile the LaTeX file to PDF and capture the output
-    output_pdf_file = os.path.join(PDF_DIR, 'test_cluster.pdf')
-    process = subprocess.Popen(['pdflatex', '-output-directory', PDF_DIR, output_tex_file], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    # Compile the LaTeX file to PDF and save it in the PDF directory
+    process = subprocess.Popen(
+        ['pdflatex', '-output-directory', PDF_DIR, output_tex_file],
+        stdout=subprocess.PIPE, stderr=subprocess.PIPE
+    )
     stdout, stderr = process.communicate()
 
     # Decode with 'latin-1' and fallback to 'ignore' in case of issues
@@ -189,6 +181,8 @@ def run_simulation():
         print(stderr.decode('utf-8'))
     except UnicodeDecodeError:
         print(stderr.decode('latin-1'))
+
+    print(f"PDF generated in {PDF_DIR}")
 
 if __name__ == "__main__":
     run_simulation()
