@@ -46,7 +46,7 @@ cluster_names = open_cluster_table['NAME']  # All Clusters
 # Total number of clusters
 total_clusters = len(cluster_names)
 
-def process_cluster(cluster_name):
+def process_cluster(cluster_name, index):
     global IMAGE_DIR, PLOT_DIR, OTHER_DIR, TABLE_DIR
 
      # Print progress
