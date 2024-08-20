@@ -21,6 +21,12 @@ from cluster_generating import (
 from astropy.table import Table
 from astropy.io import fits, ascii
 import numpy as np
+import logging
+
+# Set the logging level to ERROR to suppress warnings
+logging.getLogger('astar').setLevel(logging.ERROR)
+logging.getLogger('scopesim').setLevel(logging.ERROR)
+
 
 # Define directories relative to the current working directory (IMF_MasterProject)
 IMAGE_DIR = "Images/"
