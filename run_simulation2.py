@@ -47,7 +47,7 @@ open_cluster_filename = 'OpenClusters_final.fits'
 open_cluster_table = Table.read(open_cluster_filename)
 
 # List of cluster names to process (for test with 10 clusters)
-cluster_names = open_cluster_table['NAME'][:10]  # First 10 clusters
+cluster_names = open_cluster_table['NAME'][:1]  # First 10 clusters
 
 def process_cluster(cluster_name):
     global IMAGE_DIR, PLOT_DIR, OTHER_DIR
