@@ -11,7 +11,6 @@ from cluster_generating import (
     plot_cluster_image_ks,
     plot_cluster_distribution, 
     plot_milky_way_with_cluster, 
-    print_snr_percentages,
     plot_spectral_type_vs_snr,
     append_flux_snr_to_cluster_table,
     calculate_apparent_magnitudes,
@@ -19,9 +18,8 @@ from cluster_generating import (
     render_main_latex
 )
 from astropy.table import Table
-from astropy.io import fits, ascii
+from astropy.io import fits
 import numpy as np
-import logging
 
 # Define directories relative to the current working directory (IMF_MasterProject)
 BASE_DIR = os.path.abspath(os.getcwd())
@@ -155,20 +153,18 @@ def run_simulation():
         all_clusters_content = "".join([res.get() for res in results])
 
     # Render the main LaTeX template with all clusters content
-    rendered_main_latex = main_jinja_template.render(content=all_clusters_content)
+    rendered_main_latex = render_main_latex(all_clusters_content)
 
-    # Save the rendered LaTeX to a file in the OTHER directory
+    # Save the rendered LaTeX to a file
     output_tex_file = os.path.join(OTHER_DIR, 'all_clusters.tex')
     with open(output_tex_file, 'w') as f:
         f.write(rendered_main_latex)
 
     print(f"Rendered LaTeX saved to {output_tex_file}")
 
-    # Compile the LaTeX file to PDF and save it in the PDF directory
-    process = subprocess.Popen(
-        ['pdflatex', '-output-directory', PDF_DIR, output_tex_file],
-        stdout=subprocess.PIPE, stderr=subprocess.PIPE
-    )
+    # Compile the LaTeX file to PDF and capture the output
+    output_pdf_file = os.path.join(PDF_DIR, 'all_clusters.pdf')
+    process = subprocess.Popen(['pdflatex', '-output-directory', PDF_DIR, output_tex_file], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     stdout, stderr = process.communicate()
 
     # Decode with 'latin-1' and fallback to 'ignore' in case of issues
@@ -182,8 +178,6 @@ def run_simulation():
     except UnicodeDecodeError:
         print(stderr.decode('latin-1'))
 
-    print(f"PDF generated in {PDF_DIR}")
 
 if __name__ == "__main__":
     run_simulation()
-
