@@ -161,7 +161,7 @@ def run_simulation():
 
     # Create a pool of workers
     with Pool() as pool:
-        results = [pool.apply_async(process_cluster, args=(cluster_name,)) for cluster_name in cluster_names]
+        results = [pool.apply_async(process_cluster, args=(cluster_name,)) for index, cluster_name in cluster_names]
 
         # Combine the LaTeX content for all clusters
         all_clusters_content = "".join([res.get() for res in results])
