@@ -27,6 +27,12 @@ PLOT_DIR = "../Plots/"
 OTHER_DIR = "../Other/"
 PDF_DIR = "../PDF/"
 
+# Ensure directories exist
+os.makedirs(IMAGE_DIR, exist_ok=True)
+os.makedirs(PLOT_DIR, exist_ok=True)
+os.makedirs(OTHER_DIR, exist_ok=True)
+os.makedirs(PDF_DIR, exist_ok=True)
+
 # Load the OpenCluster table
 open_cluster_filename = 'OpenClusters_final.fits'
 open_cluster_table = Table.read(open_cluster_filename)
