@@ -403,7 +403,7 @@ def calculate_snr_statistics(photometry_results, snr_column, key='spectral_type'
         std_snr.append(np.std(snr_values))
     return unique_keys, avg_snr, std_snr
 
-def plot_spectral_type_vs_snr(photometry_results_j, photometry_results_ks, cluster_name):
+def plot_spectral_type_vs_snr(photometry_results_j, photometry_results_ks, cluster_name, plot_dir):
     spectral_type_order = [
         'O0V', 'O0.5V', 'O1V', 'O1.5V', 'O2V', 'O2.5V', 'O3V', 'O3.5V', 'O4V', 'O4.5V', 'O5V', 'O5.5V', 'O6V', 'O6.5V', 'O7V', 'O7.5V', 'O8V', 'O8.5V', 'O9V', 'O9.5V',
         'B0V', 'B0.5V', 'B1V', 'B1.5V', 'B2V', 'B2.5V', 'B3V', 'B3.5V', 'B4V', 'B4.5V', 'B5V', 'B5.5V', 'B6V', 'B6.5V', 'B7V', 'B7.5V', 'B8V', 'B8.5V', 'B9V', 'B9.5V',
@@ -445,8 +445,9 @@ def plot_spectral_type_vs_snr(photometry_results_j, photometry_results_ks, clust
     plt.grid(True)
     plt.xticks(rotation=90, ha='right')  # Rotate x-axis labels for better readability
     plt.tight_layout()  # Adjust layout to prevent clipping of tick-labels
-    plt.savefig(f'{cluster_name}_spectral_type_vs_snr.png')  # Save the plot as a PNG file
-    plt.show()
+    output_file = os.path.join(plot_dir, f'{cluster_name}_spectral_type_vs_snr.png')
+    plt.savefig(output_file)
+    plt.close()
 
 
 
