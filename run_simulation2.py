@@ -27,6 +27,7 @@ IMAGE_DIR = "Images/"
 PLOT_DIR = "Plots/"
 OTHER_DIR = "Other/"
 PDF_DIR = "PDF/"
+TABLE_DIR = "Table/"
 
 # Ensure directories exist
 os.makedirs(IMAGE_DIR, exist_ok=True)
