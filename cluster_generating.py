@@ -480,10 +480,10 @@ def append_flux_snr_to_cluster_table(cluster_table, photometry_results_j, photom
     ]
     filtered_cluster_table = filtered_cluster_table[columns_to_keep]
 
-    # Save the filtered cluster table to a file in the TABLE_DIR
+  # Save the table to a CSV file
     table_filename = os.path.join(TABLE_DIR, f'{cluster_name}_table.csv')
-    ascii.write(filtered_cluster_table, table_filename, format='csv', overwrite=True)
-    
+    filtered_cluster_table.write(table_filename, format='csv', overwrite=True)
+
     return filtered_cluster_table
 
 def calculate_apparent_magnitudes(params):
