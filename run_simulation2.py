@@ -175,7 +175,7 @@ def run_simulation():
     print(f"Rendered LaTeX saved to {output_tex_file}")
 
     # Compile the LaTeX file to PDF and capture the output
-    output_pdf_file = os.path.join(PDF_DIR, 'all_clusters.pdf')
+    output_pdf_file = os.path.join(PDF_DIR, 'test_cluster.pdf')
     process = subprocess.Popen(['pdflatex', '-output-directory', PDF_DIR, output_tex_file], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     stdout, stderr = process.communicate()
 
