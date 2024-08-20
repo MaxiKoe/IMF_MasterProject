@@ -134,6 +134,8 @@ main_jinja_template = jinja2.Template(main_template, variable_start_string='[[',
 
 # Function to process each cluster
 def process_cluster(cluster_name):
+    global IMAGE_DIR, PLOT_DIR, OTHER_DIR
+    
     # Retrieve the parameters for the specified cluster
     params = get_cluster_params(cluster_name, open_cluster_table)
 
