@@ -452,7 +452,7 @@ def plot_spectral_type_vs_snr(photometry_results_j, photometry_results_ks, clust
 
 
 # Define a function to append flux and SNR values to the cluster table
-def append_flux_snr_to_cluster_table(cluster_table, photometry_results_j, photometry_results_ks):
+def append_flux_snr_to_cluster_table(cluster_table, photometry_results_j, photometry_results_ks, cluster_name):
 
     # Convert cluster table coordinates to match the photometry results
     cluster_table['x'] = ((cluster_table['X Position (arcsec)'] / 0.004) + 2048).astype(int)
@@ -480,6 +480,10 @@ def append_flux_snr_to_cluster_table(cluster_table, photometry_results_j, photom
     ]
     filtered_cluster_table = filtered_cluster_table[columns_to_keep]
 
+    # Save the filtered cluster table to a file in the TABLE_DIR
+    table_filename = os.path.join(TABLE_DIR, f'{cluster_name}_table.csv')
+    ascii.write(filtered_cluster_table, table_filename, format='csv', overwrite=True)
+    
     return filtered_cluster_table
 
 def calculate_apparent_magnitudes(params):
