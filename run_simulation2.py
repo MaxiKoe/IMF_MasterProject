@@ -21,18 +21,11 @@ from astropy.table import Table
 from astropy.io import fits, ascii
 import numpy as np
 
-# Directories
-base_dir = os.getcwd()
-other_dir = os.path.join(base_dir, 'Other')
-images_dir = os.path.join(base_dir, 'Images')
-plots_dir = os.path.join(base_dir, 'Plots')
-pdf_dir = os.path.join(base_dir, 'PDF')
-
-# Ensure directories exist
-os.makedirs(other_dir, exist_ok=True)
-os.makedirs(images_dir, exist_ok=True)
-os.makedirs(plots_dir, exist_ok=True)
-os.makedirs(pdf_dir, exist_ok=True)
+# Define directories
+IMAGE_DIR = "../Images/"
+PLOT_DIR = "../Plots/"
+OTHER_DIR = "../Other/"
+PDF_DIR = "../PDF/"
 
 # Load the OpenCluster table
 open_cluster_filename = 'OpenClusters_final.fits'
@@ -147,7 +140,7 @@ def process_cluster(cluster_name):
     hdus_j, micado_j = simulate_micado(cluster_table, filter_name='J')
 
     # Save the simulated image to a FITS file
-    output_filename_j = os.path.join(other_dir, f'{cluster_name}_J_image.fits')
+    output_filename_j = os.path.join(IMAGE_DIR, f'{cluster_name}_J_image.fits')
     hdul_j = fits.HDUList(hdus_j)
     hdul_j.writeto(output_filename_j, overwrite=True)
 
@@ -158,7 +151,7 @@ def process_cluster(cluster_name):
     hdus_ks, micado_ks = simulate_micado(cluster_table, filter_name='Ks')
 
     # Save the simulated image to a FITS file
-    output_filename_ks = os.path.join(other_dir, f'{cluster_name}_Ks_image.fits')
+    output_filename_ks = os.path.join(IMAGE_DIR, f'{cluster_name}_Ks_image.fits')
     hdul_ks = fits.HDUList(hdus_ks)
     hdul_ks.writeto(output_filename_ks, overwrite=True)
 
@@ -220,15 +213,15 @@ def process_cluster(cluster_name):
         'spectral_type_vs_snr_image': os.path.join(plots_dir, f'{cluster_name}_spectral_type_vs_snr.png'),
     }
 
-    with open(os.path.join(other_dir, f'{cluster_name}_data.json'), 'w') as f:
+    with open(json_filename, 'w') as f:
         json.dump(cluster_data, f)
 
     # Generate the plots and save as images
-    plot_cluster_image_j(hdus_j, cluster_name)
-    plot_cluster_image_ks(hdus_ks, cluster_name)
-    plot_cluster_distribution(cluster_table, params, cluster_name)
-    plot_milky_way_with_cluster(params, cluster_name)
-    plot_spectral_type_vs_snr(photometry_results_j, photometry_results_ks, cluster_name)
+    plot_cluster_image_j(hdus_j, cluster_name, PLOT_DIR)
+    plot_cluster_image_ks(hdus_ks, cluster_name, PLOT_DIR)
+    plot_cluster_distribution(cluster_table, params, cluster_name, PLOT_DIR)
+    plot_milky_way_with_cluster(params, cluster_name, PLOT_DIR)
+    plot_spectral_type_vs_snr(photometry_results_j, photometry_results_ks, cluster_name, PLOT_DIR)
 
     # Render the cluster template with the cluster data
     rendered_cluster_latex = cluster_jinja_template.render(cluster_data)
