@@ -15,6 +15,8 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from astropy import units as u
 from mw_plot import MWSkyMap
+import jinja2
+import os
 
 def generate_cluster_masses(total_mass, imf_type):
     """Generate stellar masses for a cluster using a specified IMF (IMF package by keflavich: https://github.com/keflavich/imf)"""
@@ -487,7 +489,102 @@ def calculate_apparent_magnitudes(params):
     return apparent_magnitudes
 
 
+# LaTeX templates
+cluster_template = r"""
+% Title and basic information
+\begin{center}
+    \LARGE \textbf{Cluster: [[ cluster_name ]]} \\
+    \vspace{0.5cm}
+\end{center}
 
+\begin{multicols}{2}
+    % Left column for text
+    \raggedright
+    \small
+    \begin{itemize}
+        \item \textbf{Total Mass:} [[ total_mass ]] \(\textup{M}_\odot\)
+        \item \textbf{Number of Stars:} [[ number_of_stars ]]
+        \item \textbf{Distance:} [[ distance ]] pc
+        \item \textbf{Core Radius:} [[ core_radius ]] pc
+        \item \textbf{Tidal Radius:} [[ tidal_radius ]] pc
+        \item \textbf{Log Age:} [[ age ]] Gyr
+        \item \textbf{Galactic Longitude:} [[ galactic_longitude ]]\textdegree
+        \item \textbf{Galactic Latitude:} [[ galactic_latitude ]]\textdegree
+        \item \textbf{Core Density:} [[ star_density_core ]] stars/arcsec$^2$
+        \item \textbf{Crowding Distance (MICADO):} [[ crowding_distance_micado ]] px
+        \item \textbf{Crowding Distance (JWST):} [[ crowding_distance_jwst ]] px
+        \item \textbf{Crowding Distance (HAWKI):} [[ crowding_distance_hawki ]] px
+        \item \textbf{App. Mag G2 \& M9 (J):} [[ apparent_mag_g2_j ]] \& [[ apparent_mag_m9_j ]]
+        \item \textbf{App. Mag G2 \& M9 (Ks):} [[ apparent_mag_g2_ks ]] \& [[ apparent_mag_m9_ks ]]
+    \end{itemize}
+
+    
+    % Right column for images
+    \begin{center}
+        \includegraphics[width=1\linewidth]{[[ milky_way_position_image ]]} \\
+        %\textbf{Cluster position in the Milky Way}
+    \end{center}
+    
+\end{multicols}
+
+\begin{multicols}{2}
+    \begin{center}
+        \includegraphics[width=1\linewidth]{[[ j_image ]]} \\
+        %\textbf{Image in J Filter}
+    \end{center}
+    
+    \begin{center}
+        \includegraphics[width=1\linewidth]{[[ ks_image ]]} \\
+        %\textbf{Image in Ks Filter}
+    </end{center}
+</begin{multicols}
+
+% Second row of images
+<begin{multicols}{2}
+    \begin{center}
+        \includegraphics[width=0.9\linewidth]{[[ distribution_image ]]} \\
+        %\textbf{Tidal radius, core radius and FoV}
+    </begin{center}
+
+    \begin{center}
+        \includegraphics[width=0.9\linewidth]{[[ spectral_type_vs_snr_image ]]} \\
+        %\textbf{Spectral type vs SNR}
+    </begin{center}
+    
+</begin{multicols}
+
+<newpage
+"""
+
+main_template = r"""
+\documentclass[a4paper, 12pt]{article}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{ragged2e}
+
+\geometry{top=0.2in, bottom=0.2in, left=0.5in, right=0.5in}
+\setlength{\columnsep}{10pt}
+
+\begin{document}
+
+[[ content ]]
+
+\end{document}
+"""
+
+# Create Jinja2 templates
+cluster_jinja_template = jinja2.Template(cluster_template, variable_start_string='[[', variable_end_string=']]')
+main_jinja_template = jinja2.Template(main_template, variable_start_string='[[', variable_end_string=']]')
+
+def render_cluster_latex(cluster_data):
+    return cluster_jinja_template.render(cluster_data)
+
+def render_main_latex(all_clusters_content):
+    return main_jinja_template.render(content=all_clusters_content)
 
 
 
