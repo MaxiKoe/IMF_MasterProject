@@ -369,14 +369,15 @@ def plot_cluster_distribution(cluster_table, params, cluster_name, plot_dir):
     plt.close()
     plt.show()
     
-def plot_milky_way_with_cluster(params, cluster_name):
+def plot_milky_way_with_cluster(params, cluster_name, plot_dir):
     ra = params['ra'] * u.degree
     dec = params['dec'] * u.degree
     mw1 = MWSkyMap(projection="aitoff", grayscale=False, grid="galactic")
     #mw1.title = f'Position of {cluster_name} in the Milky Way'
     mw1.scatter(ra, dec, c="y", s=200)
-    plt.savefig(f'{cluster_name}_milky_way_position.png')
-    plt.show()
+    output_file = os.path.join(plot_dir, f'{cluster_name}_milky_way_position.png')
+    plt.savefig(output_file)
+    plt.close()
     
 #Function to calculate SNR statistics
 def calculate_snr_statistics(photometry_results, snr_column, key='spectral_type'):
