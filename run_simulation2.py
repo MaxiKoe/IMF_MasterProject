@@ -1,3 +1,9 @@
+import warnings
+
+# Suppress warnings related to the MORFEO package
+warnings.filterwarnings("ignore", message="Package could not be found: /home/mkoecher/IMF_MasterProject/inst_pkgs/MORFEO")
+
+
 import json
 import os
 import subprocess
@@ -18,6 +24,7 @@ from cluster_generating import (
     render_main_latex
 )
 from astropy.table import Table
+from astropy.io import ascii
 from astropy.io import fits
 import numpy as np
 
