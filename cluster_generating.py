@@ -452,6 +452,12 @@ def plot_spectral_type_vs_snr(photometry_results_j, photometry_results_ks, clust
 
 
 # Define a function to append flux and SNR values to the cluster table
+
+TABLE_DIR = "Table/"  # Define this at the top of the file
+
+# Ensure the directory exists
+os.makedirs(TABLE_DIR, exist_ok=True)
+
 def append_flux_snr_to_cluster_table(cluster_table, photometry_results_j, photometry_results_ks, cluster_name):
 
     # Convert cluster table coordinates to match the photometry results
