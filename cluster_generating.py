@@ -326,7 +326,7 @@ def calculate_radii_and_fov(params):
 
     return core_radius_arcsec, tidal_radius_arcsec, micado_fov_arcsec
 
-def plot_cluster_distribution(cluster_table, params, cluster_name):
+def plot_cluster_distribution(cluster_table, params, cluster_name, plot_dir):
     """Plot the star distribution in the cluster with core radius, tidal radius, and MICADO FOV."""
     
     # Calculate core radius, tidal radius, and MICADO FOV
@@ -363,7 +363,10 @@ def plot_cluster_distribution(cluster_table, params, cluster_name):
     plt.axhline(0, color='gray', linewidth=0.5)
     plt.axvline(0, color='gray', linewidth=0.5)
     plt.gca().set_aspect('equal', adjustable='box')
-    plt.savefig(f'{cluster_name}_distribution.png')
+    # Save the plot to the specified directory
+    output_file = os.path.join(plot_dir, f'{cluster_name}_distribution.png')
+    plt.savefig(output_file)
+    plt.close()
     plt.show()
     
 def plot_milky_way_with_cluster(params, cluster_name):
