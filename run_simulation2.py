@@ -1,5 +1,4 @@
 import json
-import jinja2
 import os
 import subprocess
 import multiprocessing
@@ -15,7 +14,9 @@ from cluster_generating import (
     print_snr_percentages,
     plot_spectral_type_vs_snr,
     append_flux_snr_to_cluster_table,
-    calculate_apparent_magnitudes
+    calculate_apparent_magnitudes,
+    render_cluster_latex,
+    render_main_latex
 )
 from astropy.table import Table
 from astropy.io import fits, ascii
@@ -39,98 +40,6 @@ open_cluster_table = Table.read(open_cluster_filename)
 
 # List of cluster names to process (for test with 10 clusters)
 cluster_names = open_cluster_table['NAME'][:10]  # First 10 clusters
-
-# LaTeX template for individual clusters
-cluster_template = r"""
-% Title and basic information
-\begin{center}
-    \LARGE \textbf{Cluster: [[ cluster_name ]]} \\
-    \vspace{0.5cm}
-\end{center}
-
-\begin{multicols}{2}
-    % Left column for text
-    \raggedright
-    \small
-    \begin{itemize}
-        \item \textbf{Total Mass:} [[ total_mass ]] \(\textup{M}_\odot\)
-        \item \textbf{Number of Stars:} [[ number_of_stars ]]
-        \item \textbf{Distance:} [[ distance ]] pc
-        \item \textbf{Core Radius:} [[ core_radius ]] pc
-        \item \textbf{Tidal Radius:} [[ tidal_radius ]] pc
-        \item \textbf{Log Age:} [[ age ]] Gyr
-        \item \textbf{Galactic Longitude:} [[ galactic_longitude ]]\textdegree
-        \item \textbf{Galactic Latitude:} [[ galactic_latitude ]]\textdegree
-        \item \textbf{Core Density:} [[ star_density_core ]] stars/arcsec$^2$
-        \item \textbf{Crowding Distance (MICADO):} [[ crowding_distance_micado ]] px
-        \item \textbf{Crowding Distance (JWST):} [[ crowding_distance_jwst ]] px
-        \item \textbf{Crowding Distance (HAWKI):} [[ crowding_distance_hawki ]] px
-        \item \textbf{App. Mag G2 \& M9 (J):} [[ apparent_mag_g2_j ]] \& [[ apparent_mag_m9_j ]]
-        \item \textbf{App. Mag G2 \& M9 (Ks):} [[ apparent_mag_g2_ks ]] \& [[ apparent_mag_m9_ks ]]
-    \end{itemize}
-
-    
-    % Right column for images
-    \begin{center}
-        \includegraphics[width=1\linewidth]{[[ milky_way_position_image ]]} \\
-        %\textbf{Cluster position in the Milky Way}
-    \end{center}
-    
-\end{multicols}
-
-\begin{multicols}{2}
-    \begin{center}
-        \includegraphics[width=1\linewidth]{[[ j_image ]]} \\
-        %\textbf{Image in J Filter}
-    \end{center>
-    
-    \begin{center}
-        \includegraphics[width=1\linewidth]{[[ ks_image ]]} \\
-        %\textbf{Image in Ks Filter}
-    \end{center}
-</begin{multicols}
-
-% Second row of images
-<begin{multicols}{2}
-    \begin{center}
-        \includegraphics[width=0.9\linewidth]{[[ distribution_image ]]} \\
-        %\textbf{Tidal radius, core radius and FoV}
-    </begin{center}
-
-    \begin{center}
-        \includegraphics[width=0.9\linewidth]{[[ spectral_type_vs_snr_image ]]} \\
-        %\textbf{Spectral type vs SNR}
-    </begin{center}
-    
-</begin{multicols}
-
-<newpage
-"""
-
-# Main LaTeX document structure
-main_template = r"""
-\documentclass[a4paper, 12pt]{article}
-\usepackage{graphicx}
-\usepackage{geometry}
-\usepackage{amsmath}
-\usepackage{multicol}
-\usepackage{fancyhdr}
-\usepackage{hyperref}
-\usepackage{ragged2e>
-
-\geometry{top=0.2in, bottom=0.2in, left=0.5in, right=0.5in>
-\setlength{\columnsep}{10pt}
-
-\begin{document>
-
-[[ content ]]
-
-\end{document}
-"""
-
-# Create Jinja2 templates with custom delimiters
-cluster_jinja_template = jinja2.Template(cluster_template, variable_start_string='[[', variable_end_string=']]')
-main_jinja_template = jinja2.Template(main_template, variable_start_string='[[', variable_end_string=']]')
 
 def process_cluster(cluster_name):
     global IMAGE_DIR, PLOT_DIR, OTHER_DIR
@@ -194,7 +103,6 @@ def process_cluster(cluster_name):
     # Calculate apparent magnitudes for G2 and M9 stars in J and Ks filters
     apparent_magnitudes = calculate_apparent_magnitudes(params)
 
-
     # Save cluster parameters to JSON for LaTeX rendering
     json_filename = os.path.join(OTHER_DIR, f'{cluster_name}_data.json')
     cluster_data = {
@@ -233,7 +141,7 @@ def process_cluster(cluster_name):
     plot_spectral_type_vs_snr(photometry_results_j, photometry_results_ks, cluster_name, PLOT_DIR)
 
     # Render the cluster template with the cluster data
-    rendered_cluster_latex = cluster_jinja_template.render(cluster_data)
+    rendered_cluster_latex = render_cluster_latex(cluster_data)
 
     return rendered_cluster_latex
 
@@ -249,7 +157,7 @@ def run_simulation():
         all_clusters_content = "".join([res.get() for res in results])
 
     # Render the main LaTeX template with all clusters content
-    rendered_main_latex = main_jinja_template.render(content=all_clusters_content)
+    rendered_main_latex = render_main_latex(all_clusters_content)
 
     # Save the rendered LaTeX to a file
     output_tex_file = os.path.join(OTHER_DIR, 'all_clusters.tex')
@@ -274,6 +182,6 @@ def run_simulation():
     except UnicodeDecodeError:
         print(stderr.decode('latin-1'))
 
-
 if __name__ == "__main__":
     run_simulation()
+
