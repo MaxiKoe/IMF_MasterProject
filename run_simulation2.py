@@ -84,25 +84,25 @@ cluster_template = r"""
         %\textbf{Image in J Filter}
     \end{center>
     
-    \begin{center>
+    \begin{center}
         \includegraphics[width=1\linewidth]{[[ ks_image ]]} \\
         %\textbf{Image in Ks Filter}
-    \end{center>
-</begin{multicols>
+    \end{center}
+</begin{multicols}
 
 % Second row of images
-<begin{multicols}{2>
-    \begin{center>
+<begin{multicols}{2}
+    \begin{center}
         \includegraphics[width=0.9\linewidth]{[[ distribution_image ]]} \\
         %\textbf{Tidal radius, core radius and FoV}
-    </begin{center>
+    </begin{center}
 
-    \begin{center>
+    \begin{center}
         \includegraphics[width=0.9\linewidth]{[[ spectral_type_vs_snr_image ]]} \\
         %\textbf{Spectral type vs SNR}
-    </begin{center>
+    </begin{center}
     
-</begin{multicols>
+</begin{multicols}
 
 <newpage
 """
