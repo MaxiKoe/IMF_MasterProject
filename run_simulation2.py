@@ -35,7 +35,7 @@ open_cluster_filename = os.path.join(BASE_DIR, 'OpenClusters_final.fits')
 open_cluster_table = Table.read(open_cluster_filename)
 
 # List of cluster names to process (all clusters, sorted by MICADO crowding distance)
-cluster_names = open_cluster_table['NAME'][:11]  
+cluster_names = open_cluster_table['NAME'][:]  
 
 # Total number of clusters
 total_clusters = len(cluster_names)
@@ -84,8 +84,8 @@ def process_cluster(cluster_name, index):
         recommended_instrument = "None"
     
     # Generate the plots again with arcseconds on the axes
-    plot_cluster_image_j(hdus_j, cluster_name)
-    plot_cluster_image_ks(hdus_ks, cluster_name)
+    plot_cluster_image_j(hdus_j, os.path.join(IMAGE_DIR, f'{cluster_name}_J_image.png'))
+    pplot_cluster_image_ks(hdus_ks, os.path.join(IMAGE_DIR, f'{cluster_name}_Ks_image.png'))
     distribution_image = os.path.join(PLOT_DIR, f'{cluster_name}_distribution.png')
     spectral_type_vs_snr_image = os.path.join(PLOT_DIR, f'{cluster_name}_spectral_type_vs_snr.png')
     milky_way_image = os.path.join(PLOT_DIR, f'{cluster_name}_milky_way_position.png')
@@ -129,7 +129,7 @@ def run_simulation():
     rendered_main_latex = render_main_latex(all_clusters_content)
 
     # Save the rendered LaTeX to a file
-    output_tex_file = os.path.join(OTHER_DIR, '11_clusters.tex')
+    output_tex_file = os.path.join(OTHER_DIR, 'Complete_clusters.tex')
     with open(output_tex_file, 'w') as f:
         f.write(rendered_main_latex)
 
