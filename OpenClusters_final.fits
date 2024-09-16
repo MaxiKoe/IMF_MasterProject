@@ -1,2657 +1,0 @@
-SIMPLE  =                    T / conforms to FITS standard                      BITPIX  =                    8 / array data type                                NAXIS   =                    0 / number of array dimensions                     EXTEND  =                    T                                                  END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / array data type                                NAXIS   =                    2 / number of array dimensions                     NAXIS1  =                  204 / length of dimension 1                          NAXIS2  =                 1049 / length of dimension 2                          PCOUNT  =                    0 / number of group parameters                     GCOUNT  =                    1 / number of groups                               TFIELDS =                   27 / number of table fields                         TTYPE1  = 'SOURCE_NUMBER'                                                       TFORM1  = 'I       '                                                            TTYPE2  = 'NAME    '                                                            TFORM2  = '17A     '                                                            TTYPE3  = 'TIDAL_MASS'                                                          TFORM3  = 'D       '                                                            TTYPE4  = 'DISTANCE'                                                            TFORM4  = 'D       '                                                            TTYPE5  = 'LOG_AGE '                                                            TFORM5  = 'E       '                                                            TTYPE6  = 'RA      '                                                            TFORM6  = 'D       '                                                            TTYPE7  = 'DEC     '                                                            TFORM7  = 'D       '                                                            TTYPE8  = 'GAL_LON '                                                            TFORM8  = 'D       '                                                            TTYPE9  = 'GAL_LAT '                                                            TFORM9  = 'D       '                                                            TTYPE10 = 'KING_CORE_RADIUS'                                                    TFORM10 = 'D       '                                                            TTYPE11 = 'KING_TIDAL_RADIUS'                                                   TFORM11 = 'D       '                                                            TTYPE12 = 'KING_NORM_FACTOR'                                                    TFORM12 = 'D       '                                                            TTYPE13 = 'KING_CORE_RADIUS_arcsec'                                             TFORM13 = 'D       '                                                            TTYPE14 = 'NUM_STARS_TIDAL'                                                     TFORM14 = 'J       '                                                            TTYPE15 = 'NUM_STARS_CORE'                                                      TFORM15 = 'J       '                                                            TTYPE16 = 'NUM_STARS_MICADO'                                                    TFORM16 = 'J       '                                                            TTYPE17 = 'NUM_STARS_CENTRALDETECTOR'                                           TFORM17 = 'J       '                                                            TTYPE18 = 'STAR_DENSITY_TIDAL'                                                  TFORM18 = 'D       '                                                            TTYPE19 = 'STAR_DENSITY_CORE'                                                   TFORM19 = 'D       '                                                            TTYPE20 = 'STAR_DENSITY_CENTRALDETECTOR'                                        TFORM20 = 'D       '                                                            TTYPE21 = 'PIXELS_PER_STAR_MICADO'                                              TFORM21 = 'D       '                                                            TTYPE22 = 'PIXELS_PER_STAR_JWST'                                                TFORM22 = 'D       '                                                            TTYPE23 = 'PIXELS_PER_STAR_HAWKI'                                               TFORM23 = 'D       '                                                            TTYPE24 = 'NUM_MICADO_FIELDS_TIDAL'                                             TFORM24 = 'D       '                                                            TTYPE25 = 'NUM_MICADO_FIELDS_CORE'                                              TFORM25 = 'D       '                                                            TTYPE26 = 'ELT_OBSERVABLE'                                                      TFORM26 = '3A      '                                                            TTYPE27 = 'CLASS   '                                                            TFORM27 = '18A     '                                                            END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ”ESO 245-09       @ƒ9j<=C„@•     AáH@<nzáG®ÀFõÂ\(ö@qMÓ6çìÀPàçîM)h@£×
-=p¤@(”záG®?æffffff@xÎ"º  ¢  µ   t   I?!Ô=Ë;ò?iIH<ù?Í}ÀúGúAÀà@­å-v;i@ttOŸÃf@’}fÃ]ê@JCöCYESOPEN STAR CLUSTER
-YFSR 0757         @Q“©°[™@°     A  @O<Iº^5?@:‘ë…¸R@e—œ­ŠÀ2+DÑÞ?Íp£×
-=q@áG®zá@/W
-=p£×@8ø5Éub   Æ   c   l   b?,ÏJn?¹á&R¢
-Á?ÓË¤™÷ë’Aåà§/9@¦DÕÐìø@ny&èÊI@gTgÛ´A?Ëü,®ôYESOPEN STAR CLUSTER
-_NGC 1557         @z™“¦nÆ@œp     A  @O¤záG®ÀQÂ\(ö@q¼HLe 7ÀC"2‡R÷?÷\(õÂ\@%ffffff?ü(õÂ\)@d®ãû}”  •  Ò   —   L?*K «·?…Õ‡ê:0?Î´†Q‚FA
-ò†¼¡¯(@¬·µÓ?Í@s¥œÕ·ÅÊ@€Žj^Ä@#3ßxÀM&YESOPEN STAR CLUSTER
-eFSR 0765         @q@ì°Í@ h     A
-=@POß;d@:6“t¼@eJb<»ŽCÀ1$Qú•–?íÂ\(õÃ@%p£×
-=q@õÂ\(ö@VÖ#±—Bj  O  ‹   º   U?&=”‚¢9l?—(žU²7?Ñ+g•7¯—A@©¬ºH8]0@q‘¿Âë@xL±7Ï@h»ñ‰5€YESOPEN STAR CLUSTER
-tFSR 0762         @d"ç‚²@£ˆ     AÌÍ@P[33333@;<(õÂ\@eDGšxhqÀ/›#8]ª:?îffffff@"LÌÌÌÌÍ@\(õÂ\@S˜]cˆe”  ^     ‹   F?)ŸBkÜàá?’‘ÉÀ-´(?ÌG}n=™­AAÔAÔ@¯-+W²(@uT¸è	Zf@hû”Y¾}¡@<Lr¨óäYESOPEN STAR CLUSTER
-wFSR 0756         @p´ÏlÌ¼@¥     A¸R@Pƒt¼j~ú@=·
-=p£×@eyž§zÀ+læUœ{?è£×
-=p¤@%æfffff@Që…¸R@McÜû}zÔ  ñ  §   û   °?6{%sïc™?±ÂZwú/
-?áÆ‰[<©½@÷EÑt]F@˜Ì¨K“ˆ@`÷Á¡MB@n¡®ºbû?óbîýÊ÷öYESOPEN STAR CLUSTER
-—FSR 0768         @nŠúOXÿ@¡â     A™š@Q{…¸Qì@=¾¸Që…@e\û9ÄÖÀ&Z1bœŸ?ðõÂ\(ö@$Ü(õÂ\@=p£×
-=@Wá(TH4  ”  z   ž   i?/,<éÒš3?—”0 ‡ÏŒ?Õ5ž®3AA88@¤ÈÇÌ­@lpöŠ·#3@s\aÇIDd@	˜©Ê÷=»YESOPEN STAR CLUSTER
-²FSR 0837         @xP¸éõ 4@£ì     A
-=@R`     @4AG®zá@f’µKDT\À-"¸Ìñ|?åp£×
-=q@(®záG®@…¸Që…@Kùt~¼  Ï  í  7  ?4jêN?»éÔÂæÀ?ê\=%Øˆ@ïc¬ Ûµ@¹DžV3@Vâ?¼Œ#@uÖULEK??ðzà¶›ÀYESOPEN STAR CLUSTER
-¹Czernik 19       @~0ðÚh\3@£†     @ú¸R@R‘º^5?}@<Çï²-@eÂñÒý0À!­aµ­”¥?û®záG®@*€     @p£×
-=q@aÙ\"ª€µ  B  !   æ   t?3Ôˆ;‹?‘lºq…–?×no>ÈyA§¹a{–@¢Ð92 ù@i¾†ã¨@z6þù!fh@™õúÙì YESOPEN STAR CLUSTER
-ÐFSR 0841         @j¹z‹1?¹@¢ø     A
-áH@S%p£×
-=@5†éxÔýô@f¨½üÝ‰þÀ&ú%ÎÙ­ž?ê\(õÂ@$¸Që…?ùp£×
-=q@Q ¯ëk5  û        o?,öüåH”? ž˜PÜ?Ökáž¸'ŽAsP¸'5@£©+z/Æ5@jçeÁ|ÎE@p"»*œA?ûås´ß¨§YESOPEN STAR CLUSTER
-×FSR 0809         @a²ŠC¸òÓ@£ˆ     A33@SC33333@;ˆõÂ\)@fœ74zGÀ†M‘À­¬?ë×
-=p£×@!ž¸Që…@
-=p£×
-@QñïÝëÙ  z   º   j   R?-ÙTelœ"?—é´e*¨?ÐEÏ2µpAùÁœú@ª1|ÐGŸ@r5—š_f%@g)=ž?üèí›kyYESOPEN STAR CLUSTER
-ÜFSR 0920         @›ÙƒÛ)T@¦„     A
-zá@SZ\(õÃ@!0£×
-=q@h«_›À2d©?ï?ú¸Që…¸@4ºáG®{?÷333333@]áiG+U  œ  	Ó  4  ?BïWÞì½??¶Ë?þÅEE?ú™¾N@ß°ÆÕé9@€â}zCÄw@GæüSjV@ˆrfâ<'@	ñãIÛ|YESOPEN STAR CLUSTER
-ÞNGC 1802         @qÜ%)6Ó@ h     Aff@SaÊÀƒo@8.záG®@frÕøÀ"{Ý1ŠÔ?õ™™™™™š@%ÌÌÌÌÌÍ?æffffff@`“*l@]   µ  ›   |   E?)9ŒÀm¶k?‰±°ö™ö?Ëà”äòèA®`v¹Û@¯ Ö£+v‚@u£Üú=nC@yY–#Z©@©â„ß‹àYESOPEN STAR CLUSTER
-ßNGC 1807         @„EQåiX@¥ø     A  @Slýó¶E¢@0…¡ÊÀƒ@gC=6íL¯À*ó„TÇx@záG®@-£×
-=p¤?ÊáG®zá@iNl9ù'g  Ó     É   †?:Qÿ7ç!t?‡¶ûÚôsh?Û9â3¥`@þ‘1«ð·g@ ID~Óó@fI;tV0™@yæœB<ðÇ@,¿ñ• ®YESOPEN STAR CLUSTER
-àFSR 0796         @€ÔCœHl@±ö     Aff@So|í‘hs@>4záG®@eØ¦q;ÀI×îÄB@=p£×
-=@-Ü(õÂ\?âáG®zá@\_¯¥ÙK4  D  5  !   ²?Id?e+V?›¡ä¦ßˆö?áú?Gèý@÷à\p@˜…Rýp@`Æó:Ð´h@c©×Ü%‡@¡R}šYESOPEN STAR CLUSTER
-íESO 252-14       @Wî
-Ä3iH@¡     A
-zá@S¿\(õÂÀFž¸Që…@o[ó‰QLÀA¡öÇaå?Þ¸Që…¸@ë…¸Qì@záG®{@FµDLH†‡   é   ™   m   H?&I¬²r”?¢húXÀÀ¦?ÍU îç5AqÇqÇ@®Ox\^ü<@t½	zß @c”ï•?ç%‡ž3…YESOPEN STAR CLUSTER
-úESO 486-54       @q“
-”ƒ}æ@¦P     A
-ff@T™™™™šÀ:r° Äœ@l‘ÒN'«À>±Ô	^‘Ì?âáG®zá@%W
-=p£×?èõÂ\(ö@EN-›R-›  {  ‡  7   Ð?6N”†¦d¤?¼«†‰ë?åè&ßß@ó±;±;@”ûðÝ|Ö@\¶øé–oÙ@jíÍÚ?ä`ÄšxŽYESOPEN STAR CLUSTER
-Berkeley 19      @xðf ïä@²À     A  @T@1&éxÕ@=‘&éxÔþ@f`ò~w@Àú¨íæW?õ¸Që…@+®záG®@™™™™™š@L\‡+J  ÿ  3  Y  #?N*Í0™“?¹è®Åƒ˜¯?ícæñdH@ì&µ9. @ÿyÂXºL@T†M ÎØ@_{=Gëf?ò›™˜YESOPEN STAR CLUSTER
-FSR 0964         @ðîƒ¼Ýˆ@¥Ö     A(ö@TG+Iº@çl‹C•@h³è%_û÷À0‹$ò«Ö?ýp£×
-=q@,B\(õÃ?ú\(õÂ@`ù7´Ò8æ    d   Û   ¼?9ëÙÙÅ?—#âw4ç›?âüÌçFž
-@õÉˆ+“W@—7lˆ.#@_Äýšò²6@wÕ¥a°¯@Ý? ÇÌ4YESOPEN STAR CLUSTER
-ASCC 17          @tigÂµ;~@œè     @èzá@TU¸Që…@>.—Oß;@f#ôÀ–ÀXg®S?ó×
-=p£×@&€     ?×®záG®@aHïÔ  d  Ì   |   m?'™ýxJ¥?š˜¨òõ?ÖuÅ_€ÊAÉûM, @¤……Ò´µ@keÅ‘^7@=Þ,ç{@ÏØò=	yYESOPEN STAR CLUSTER
-!Dolidze 21       @e{?&©®@¢     A™š@Txƒn—@LÌÌÌÌÍ@h“
-Zø•À.$FÓôÛ@ë…¸Qì@*…¸Që…?ú=p£×
-=@hN¬¼@!  †  ÿ   ®   v?2:ó¯ºa7?ƒö¡tÚX?×ÕÛno=A[_u'@¢~—ŠÍ{‰@iNÒ³×u@}ö¦(@*…ŒXh~ÜYESOPEN STAR CLUSTER
-&FSR 0882         @1ÐÈÚ@|     A™š@T€bMÒò@0ê=p£×
-@g‚<7×²&À#¢‘ ¥¡?ó×
-=p£×@*
-=p£×
-@Â\(õÃ@`ñ[¼šÊ  þ  3   ë   Ž?*S~gŠ?–¬’˜ßÐ?Ü®éG–@q@üØV‰›@ž¼Â+1s+@eÏŠ ¨s@†2t'É–@ÅPÝÎýÇYESOPEN STAR CLUSTER
-9NGC 1963         @{XZŠð<@@šœ     A  @TÂ\(õÃÀB0£×
-=q@nÈ8XAÀ>äHfêÆ?ç®záG®@'B\(õÃ?úzáG®@Vh-u)f!  –  ¸     »?(¯“ñ
-?§Ñ`nÆ€?ââñððtY@õç[¸Ðç@—W4ûÖ&,@_ð{‰úÖÂ@…¾’‘ìtM@‰jyW3•YESOPEN STAR CLUSTER
-:FSR 0884         @€ Ý·Òö@¥.     A
-=@TÅ/Ÿ¾w@1-‘hr°!@gŒã^÷xÀ!›™›?ï?ù™™™™™š@+¨õÂ\)?ìzáG®{@^o¿   W  ³  1   Á?9ÁJõq?žú×­?ã~¶õn@õ9	Hôë@–sE‹@^òJ™–0é@xD˜b
-ƒM@É­¶_ëÌYESOPEN STAR CLUSTER
-;FSR 0991         @aUž` ÆÓ@ž8     Aë…@TÆéxÔýô?àõÂ\(ö@id¬¥r}´À1?Ý
-}ø·?é™™™™™š@ ÌÌÌÌÌÍ@
-Që…¸R@UT•O¯…*  9     j   :? EP £½ž?Œg:§?Çno>ÈyA§¹a{–@²Ð92 ù@y¾†ã¨@q—Sg{-¨@lYÝºŒYESOPEN STAR CLUSTER
-<Berkeley 20      @§7U©Õ@Àg€    Azá@TÉÛ"Ðå`?Çl‹C•@iož·ãë À1`!¢ž?X@ÌÌÌÌÌÍ@>#×
-=p¤?®¸Që…¸@cÌÔBïÒ  J  ‰     @?pŸòk„ü?¶°9† 4@è&ßß@Ó±;±;@tûðÝ|Ö@<¶øé–oÙ@h7Ø û@!™Næ(YESOPEN STAR CLUSTER
-@FSR 0842         @r TY»O@­Ð     @Ñ™š@Tæ5?|í‘@9 Ä›¥ã@f±)T\r=À=¸xô«?ó…¸Që…@(záG®?ó333333@P|nÅ·9¤    ­   ï   ‹??y0iÞxq?§ò§Ã{²ú?ÜÇ‘FK@ýw¶T¸,4@Ÿf–yzX0@e|aÒÃ@bÙ87ö	?øfi|39}YESOPEN STAR CLUSTER
-QFSR 1027         @‚[ê1¨¼Ú@¢*     AÂ@Uýó¶E¢À
-=p£×
-=@iäë[â“üÀ20€©æ1¯?ùG®záH@+ž¸Që…@\(õÂ\@a…|Ë¾3"  
-  ê      ›?1í„öoú|?•f{ø$£p?ßO&LV|m@úm¦Ðm@œ(ÌO5@cDCê[T@€s"š«";@¡üðÞ=YESOPEN STAR CLUSTER
-`NGC 1996         @‚&†îô0@      A=q@U#Iº^@9À     @fºÑÌfÀ§ùš•Ez@ (õÂ\)@+”záG®?ö\(õÂ@iTèJèJé  '  ˜   ­   i?,À‘ÍËŸ¸?„ïè%†=?Õ5ž®3AA88@¤ÈÇÌ­@lpöŠ·#3@„ù“£,c®@,ÍÙN¦®žYESOPEN STAR CLUSTER
-•Teutsch 10       @{h}¼ó9ø@¤P     @ù™š@U†éxÔýô@<Ó33333@f~°‡úëÓ¿Ñèä œ/?ó®záG®@)Ü(õÂ\@záG®@XeÍEÊ  Ç  ›   ÷   ˜?3+ä‰p¸? !šD†?Þ´†Q‚F@úò†¼¡¯(@œ·µÓ?Í@c¥œÕ·ÅÊ@wã@ùëÚ@
-¶ˆm_YESOPEN STAR CLUSTER
-—NGC 2039         @‚ÉcÐzF%@¡‚     A	G®@U£33333@!Y™™™™š@h±ñÝePqÀ$ŠƒÎY¹‘@\(õÂ\@,      ?ï®záG®@h÷\™AÞ$  E  Ï   Ì   {?0ò°iëâ0?†tÈ¤‘?ØØh¶Ì(A ¦
-h§@¡¾ ýà/¿@hGtÍÔˆ2@‚2Tú20@+ú¥K`YESOPEN STAR CLUSTER
-žFSR 0864         @‰þ4Ï@¨<     A  @U¼¬1&é@5ó33333@gGiv3lÀ	ž…çCŠ?ó
-=p£×
-@0c×
-=p¤?ò¸Që…¸@SÈ2´pï  ¯  b  ú  Z?AF ¤²p~?¹™~Ó]q?ñxøx:,ª@ç­"àìÃ@‰:¿î.‚@QCå5q@zjS~áE@Ø¤ËÐ§YESOPEN STAR CLUSTER
-ŸFSR 0978         @k8«ØstŽ@ ¾     @þff@UÀr° Äœ@”záG®@iIÂª¹ÚÀ&ùÏî©E}?øzáG®{@#Ñë…¸R?ú\(õÂ@bhmµû¿N    €   j   ??(Ï3nI?€C4Cpå¬?ÉsŠ|Ñ
-OAAA@±Qû¢k@w³xCH @sððÑåÐe@k¥¯ò€YESOPEN STAR CLUSTER
- Basel 4          @vç NF @¥â     A
-£×@UÐbMÒò@>4záG®@fiu§Ó?ô•µ×ü}?ôQë…¸R@(™™™™™š@p£×
-=q@WapÍô#  4  ²     y?4Ù¢K©ü?žŽ÷ÿ­oÏ?ØpüÝsidA ìõkæœ@¢	4”4Å@h®0êžëÅ@qûSzj‘@‰¹¡ùÃkYESOPEN STAR CLUSTER
-¡Collinder 74     @m^Ó4óev@¤š     Ap¤@UÉhr° Å@…¸Që…@hà¨MoÑÀ$Ê¿D‡Yè@Â\(õÃ@$áG®zá@Që…¸R@e´·Ô©Ùè    Ø   s   7?0<IÃ•?vpà%“Â9?Æ8+²Ô,AžA)äž@³Öí	BÓ¥@{&›®Ð%@m;d;«ü@%&po»·YESOPEN STAR CLUSTER
-¥Czernik 23       @uŸ±‚@£"     A®@Uá™™™™š@<æfffff@f‘5ö¯ê›?êA8¿
-ÓÉ?÷…¸Që…@'³33333@£×
-=p¤@^óÏiÎÉ>  þ  L   ´   n?0
-¨µt?IÁ†$bê?Ö8+²Ô,AžA)äž@£Öí	BÓ¥@k&›®Ð%@uÕ*I0@€–~'KWYESOPEN STAR CLUSTER
-¦BDSB 77          @Rr–Jg@²ù     @Æff@Uã…¸Qì@7àÄ›¥ãT@g ?þ?¿û¶Ôª¸V?ð      @™™™™™š@áG®zá@E;Ùk}Ý   Æ   ’   m   J?BY+1AŸ?¡äy2æ× ?Íå,Ó 4¾A¬ùÁºÐ@­}Á7G©P@t-ŒQš´@C¼`[Šº5?ä=âdKYESOPEN STAR CLUSTER
-©FSR 1123         @n²†õE¹@¡¸     A  @UûIº^À(p£×
-=q@k,@ï	£	À2´ó2[TÞ?â\(õÂ@$G®záH@¸Që…¸@J_ÐRZzü    ,   Ð   ‰?*2‘œÍØ›?¯G1žôï?Û¬[¨8Ÿ†@ýåÖãø†Š@ŸÛð~ý™@eÌLÖ±»®@r£¿œÝæQ?ï9S¹~®àYESOPEN STAR CLUSTER
-ªBerkeley 21      @“98§å/@¶T     AÌÍ@UüzáG®@5Ð£×
-=q@gZMI_^ÀÏöpy¤?õ™™™™™š@4áG®zá?ôõÂ\(ö@H[•:”°ÿ  
-—  ¤  ‚  ?Xçw=&UD?×E„ÁcÑô@øãÉ´ˆ@Ô¶ˆ“”@vb¦LI£@>3ÿ•,-@hâÍô€?ê¡¾à•ÄjYESOPEN STAR CLUSTER
-¯Koposov 43       @}*ŒÒ_Wð@§p     A×
-@V¬1&é@=å¡ÊÀƒ@f}•É¨ªÉ?ûØ1Êp­@™™™™™š@*ë…¸Qì@      @iZxÔýó·  (         z?@n1¹Q?„êÆÚóÜO?Ø¤²Ê¼ÆA ÉqO¼Ú;@¡ã\'E@hzgª5a@rÅvÕ,#÷@,Ú‚RÌìYESOPEN STAR CLUSTER
-³FSR 0852         @{©iù#u@ Ê     A  @Vß;dZ@9,Iº^5?@gmÍµß¿Û sU·\?ðzáG®{@)Që…¸R@£×
-=p¤@X·©ÙB°  Ì  ®     •?+wš,¤á? 5IÒ	sÚ?ÞâÀLˆ @û}l=Ú3‹@KÓB¬@d
-áGû@€.g‰Õ±@kc¢z‰YESOPEN STAR CLUSTER
-´NGC 2112         @¦Ä‘æ@Žˆ     A
-=@V¶E¡ÊÁ?Ún—Oß;@i»ÂÌ"œÜÀ)<bíF?ÿ333333@5À     @:hõÂ\)@yº÷àŽŠß  E  y  É  ?™³´¯îM?ˆáÍ¢5t®?ëÆ6žŽÉ7@íÊÜ Ê@¾HÑR¢@U¸%sQ@¼âM&äŒ@M·ÇØYESOPEN STAR CLUSTER
-µTeutsch 51       @tigÂµ;~@­–     A™š@Vp£×
-=@:ÔzáG®@f×®ÿg˜?Þw\ª?ñp£×
-=q@(ÌÌÌÌÌÍ@p£×
-=q@M¯-ôJ¯$  M  Â     ¹?CRq×\#?³‰0z:F-?â¯<D ÷@ö#úwb@@——ÍÅÒíÙ@`$p@ä{Ã@cþÓÔ#¸?óÆÊÁ:YESOPEN STAR CLUSTER
-·Czernik 24       @IE5ü@³±     A™š@V7
-=p£×@4â\(õÃ@gÍ†m¹dÀ²aÇ DÃ@ Që…¸R@3:áG®{?ñë…¸Qì@tÞ/ÁÜy  
-K  .     Ò?V2,<ª?~Ñ1Á1Ç¿?å5ž®3A@ó88@”ÈÇÌ­@\pöŠ·#3@k#ºÃeÂô@CŒ©E­ÞYESOPEN STAR CLUSTER
-¹IRAS 05553+1631  @€|¬´É&@ÁZ€    AÌÍ@Vc33333@0†fffff@hF¤¨LÀ›sÍÐi’?ÿ×
-=p£×@5^¸Që…?ã×
-=p£×@GQ!j·T  ²  œ  !  ¾?g•‰î~l?Õ?l\4oØ@¹›à”ä@×VÊÂum@xÞ¾§°eð@A!¹Ôh5@U“Ù²3ŽL?çó?ÚÀ?#YESOPEN STAR CLUSTER
-ºBerkeley 22      @…ø”rR@µu     A  @VhbMÒñª@+Iº@hüSè`—èÀ ó(O¢?ü£×
-=p¤@1¸Që…?ð      @PÍÉ•’Æí  Ó  Z  k  ‘?VN5Jºáæ?¿‚l9à+?ô?ýî{§/@ämÎ4Y`f@…Äâä~ó¸@MÉòCg¢@aç·$ :s?ùYŒºzöDYESOPEN STAR CLUSTER
-ÁFSR 1078         @e!i6XM@™ô     AÂ@V“÷ÎÙ‡ÀW
-=p£×@j•õä*ÜÀ+×å¡s’?àQë…¸R@!™™™™™š@=p£×
-=@OªŒ¾ý™     .   §   f?ACa¸? ç$†rz?Ôš|L©9A@¥eEæÙ¢ý@mGé%ïˆ@z,šLB^?öhú„ÃÙYESOPEN STAR CLUSTER
-ÅFSR 1131         @¡+¸A>ã@±P     AÌÍ@V©ÊÀƒoÀ(	7KÆ§ð@kKÚÊ{+À03Brf'-@×
-=p£×@7=p£×
-=?¾¸Që…¸@\ÚÑ›%µ  ç  ˜  F  {?U’“Þ5(¡?½™•jek@ ˆAîZŽ@ÙÍ4œÓ@@{~‚ò¡%N@BÏÁM£v@y£à¯Y|Õ@¯È·þ¢YESOPEN STAR CLUSTER
-ÆNGC 2141         @ ùg ê€Þ@±     Aë…@V®—Oß;@$ë…¸Qì@hÁÅŠöÀ8fd¯„F@333333@7À     ?ò=p£×
-=@g
-¯ü>â«  Ö  ò  ,  Þ?U$ß]ó?¨[#á¨1?ø#kúpìQ@á#Xç]03@‚C)tµ{@Hý¹™
-@{žl¡I“G@'Ôó°xYESOPEN STAR CLUSTER
-ÇNGC 2143         @waÄø5<¤@—H     Ap¤@V³"Ðå`B@úáG®{@iG\êè&ßÀ Ÿ‘ Ù?äzáG®{@&ë…¸Qì@ÌÌÌÌÌÍ@V&6‰,¾  w  ã   è   ·?"ò¢27Â?§»MÕ:Ä?â{†—Í•@öaìjQ"ù@—ÙÐ‰±@`Qšqxë@‹”Îþú5Ç@{7´ìJYESOPEN STAR CLUSTER
-ÊFSR 0894         @yÞM‚!@¦Œ     @æff@VÁxÔýó¶@4G®záH@g²ÓWf^ø¿è.ÙZ„Ê¯@ \(õÂ@)k…¸Qì?û\(õÂ\@b~;eq&¤  ‰  m   ©   n?6àêÃ2–?ŠôSÌ:?Ö8+²Ô,AžA)äž@£Öí	BÓ¥@k&›®Ð%@r+93Â@³à~ýÑYESOPEN STAR CLUSTER
-ÌFSR 1205         @jš§ôo@”     A™š@VÂÀƒn˜À4(´9Xb@lJë¥Ú˜…À3)Lrð0¨?ùG®záH@"ë…¸Qì?ùë…¸Qì@e…ðècR  à  ²   n   &?"Ù!˜X¿?ud‡W9?¾´†Q‚FAò†¼¡¯(@¼·µÓ?Í@ƒ¥œÕ·ÅÊ@wI®Q¿­@$É´­è°YESOPEN STAR CLUSTER
-ÍFSR 0883         @±ê_¸@§B     AÂ@VÅ¸Që…@6 Ä›¥ãT@gƒ ]s^Ð?Áyÿ¶¥ó­?üQë…¸R@,¨õÂ\)@™™™™™š@^¨½u{¬±  ¾  e     Ò??t£­Ý?ŸÛÐüÐpŸ?å5ž®3A@ó88@”ÈÇÌ­@\pöŠ·#3@u›=A‹…à@ÇóáÐÖYESOPEN STAR CLUSTER
-ÎFSR 0928         @~œvLO{@¨’     @ð  @VÆfffff@.×
-=p£×@h;¡×8mÎÀ•Î6Ž>ê@\(õÂ\@+uÂ\(ö?Ð£×
-=p¤@tÝ?6ék~  [  þ   —   M?<¯XÁå%?jø‘òr?Ïp_ª)A
-˜ï`jc¾@¬W›ÄRì@sdK|ÝÑ@qÅ¿ï¨¼@CŠSq¤èYESOPEN STAR CLUSTER
-ÒIC 2157          @[‰Ú7xK@¢     @üÌÍ@VÍ?|í‘h@8ë…¸R@gKÏ$˜å%?ôù6þÇÍ?âáG®zá@ \(õÂ@×
-=p£×@JTmúVÓ  @   Â   y   I?)ýÄÙ88?¢ÎŠJ”„ý?Í}ÀúGúAÀà@­å-v;i@ttOŸÃf@f„TÍ*=?ïeûì4YESOPEN STAR CLUSTER
-ÕFSR 0925         @£”7ðoÖ@¬@     A33@VÑG®zá@0™™™™š@h+.Úú©ÀÉO¬ÈxÜ@\(õÂ@80£×
-=q@®záG®@itƒ‚ñô8  ã  P  ×  ?PYã¬SÆ?§”‡Ç~k?ú¾Çªïœ@ßÐG”¡j@€óFÉÆÃ¼@G1ßn¤Dy@„Ý˜¢¦”@-æÙ¸@×YESOPEN STAR CLUSTER
-×FSR 0921         @g‹­Uˆ<a@œH     A  @VÔzáG®@0¬ÌÌÌÌÍ@hÛ‹­ÇiÀ4¡
-
-?ê\(õÂ@"¨õÂ\)@*”záG®@W¥z˜ÝQÝ  Õ   þ   l   K?!O$H¸ñ£?‘W§Ð?ÎL˜¬øÛ‚AN´èO@­bê‹¿@sè¬”Lÿ
-@xÆüÝ:~×@	YiM³.YESOPEN STAR CLUSTER
-ØFSR 0933         @iÕÊ@L     Ap¤@VØÔýó¶F@-Ÿ¾vÈ´@hXDl†]åÀ
-LËeÖ?ï
-=p£×
-@#¸Që…@\(õÂ\@Z­Kð™Z¯  (  /   u   >?$Ò•rüÊ?šX¬|8Ý?É£xcŠA„!B„@±™±y¯@xTäñÉ)@x=ØÍ	³@ñ×"ŽoYESOPEN STAR CLUSTER
-ÙFSR 0942         @u/c^•ä@ D     A  @Vß¾vÈ´9@+Që…¸R@hrã½ý}rÀÃ~§Í«…?òzáG®@&ð£×
-=q@%W
-=p£×@[üÉB@	p  Ü  Æ   ˜   j?'¦ºYU?“	§0¯²?ÕiSÿZ†¤ARû+xÁ@¤–•`Í$@l,FTFPÁ@|M>é	¸ö@”†PªYESOPEN STAR CLUSTER
-ÚFSR 0900         @ˆ‰â”f ƒ@«     @Ó…@Vç\(õÂ@3:¬1'@gØð|[ÿà¿éûÁ3âª@333333@0W
-=p£×?ç®záG®@e”6Õªr  Ú  Ó     ß?F(«
-<æø?•ûã‡]ëà?æ…¼•Q?@ò^"p€’ñ@“’™}(@ZÈƒ%¤lê@t¼ª^b´U@$æç¦} ·YESOPEN STAR CLUSTER
-ÝNGC 2158         @­Öâª¬ëQ@²¢     AG®@VöÙ‡+@8Oß;d@gTu÷ÿv÷?ü}Ðª¾@	×
-=p£×@=TzáG®?þ\(õÂ@auæ^(  !@  :  Æ  °?[˜Ú¥‹ò°?ÁÇ®ŸX@ÕÛno=@Ñ[_u'@r~—ŠÍ{‰@9NÒ³×u@ Ê1¼ƒž@]s“¯YESOPEN STAR CLUSTER
-ßFSR 0903         @Z¹óƒC|@™„     AõÃ@Vør° Äœ@3Që…¸@gàX¹7j¿ä"1ýÑA?Û…¸Që…@™™™™™š@3p£×
-=q@K( Û¹dm   þ   È   }   I?³&™Y?œ±›8.?Í}ÀúGúAÀà@­å-v;i@ttOŸÃf@tvàºÖT?ðT]‰¦oYESOPEN STAR CLUSTER
-æFSR 1132         @c~‘i
-u|@     A™š@Wp£×
-=À'      @kP	ª]À-lÏ¨…Ë?ðÌÌÌÌÌÍ@!=p£×
-=@záG®@\ž9éD½  S  :   m   /? íæ]¥…?€Ýó`/Ì?ÂüÌçFž
-AÉˆ+“W@·7lˆ.#@Äýšò²6@s[/¼µçÂ@a{0*fëYESOPEN STAR CLUSTER
-ïKoposov 53       @mMˆ>Ù¿§@§L     A áH@WÈ´9X@:B\(õÃ@gò¦Çô@	ð:Ñ4¬?Ú=p£×
-=@%aG®zá@Â\(õÃ@<\Öÿ°â  -  A  F   ì?5@p’™?Ì7‘L´ÎÍ?çÕÛno=@ñ[_u'@’~—ŠÍ{‰@YNÒ³×u@g÷œ”‹¨Ÿ?ÒS©6.YESOPEN STAR CLUSTER
-òNGC 2168         @’ÉÇòÆá@‰ð     A{@WS÷ÎÙ@8\(õÂ\@gS?“m @Ý%ë¤é@¸Që…¸@0Që…¸R@7+…¸Qì@„+mnª€  Ÿ  s   „   Y?/ìÇ¿â?b¹¸zj?Ñú?GèýAà\p@¨…Rýp@pÆó:Ð´h@¶ˆZ†íoÌ@b)/Ú0YESOPEN STAR CLUSTER
-ôDias 2           @‘}Àd†@§:     AQì@Wë…¸R@W
-=p£×@i~êñêˆÀ‰>Íž…?þ=p£×
-=@1Ï\(õÂ@\(õÂ\@`d'BÀ  
-$  ò    @?A»ÿ[¡€Ú?¨›¬™ï<?ð(ÙõÚ¬@é™™™™™š@‹G…ì»ã@Rª!Ë/@€»xer­˜@~ìsYESOPEN STAR CLUSTER
-FSR 1094         @eyNŒþ“@™l     A™š@Wß;dZÀG®záH@j¼®¿‰À()t¦ò6›?å¸Që…@!¨õÂ\)@\(õÂ\@Të¥Ÿ>  ý     r   P? òNðªqÞ?—²”­VM8?Ð(ÙõÚ¬A	™™™™™š@«G…ì»ã@rª!Ë/@{wF3Æ)ü@¤-™·YESOPEN STAR CLUSTER
-FSR 0939         @zj²¤ßFt@¢º     A\)@W/|í‘hs@,ÊÀƒn˜@hpõMÖø¡Às«LÍÛ%?ùë…¸Qì@).záG®@ë…¸Qì@alænš->    o   ¬   m?0'à;™º?Ž~/‘¡g~?ÖuÅ_€ÊAÉûM, @¤……Ò´µ@keÅ‘^7@y¹·Ë§ˆÛ@B~M5A«YESOPEN STAR CLUSTER
-FSR 0968         @e¬,<&YÙ@¡     AQì@W5Òñ©ûç@'½ó¶E¡Ë@h¹hÇÑR¬À
-xKvýŒ?ñp£×
-=q@"záG®{@=p£×
-=@Y³Z‡Ô¼  Þ  %   i   H?*B~˜ähÉ?|*où‹æ?ÍU îç5AqÇqÇ@®Ox\^ü<@t½	zß @p¥8µUÜß@¦2Ñm<YESOPEN STAR CLUSTER
-FSR 0985         @l>1ÈpeZ@£$     A  @W<(õÂ\@záG®@iCÍoœÀ"½ð¶$?û\(õÂ\@$ffffff@p£×
-=q@aþÝšÿ?    ³   r   :?-1œMŠŠa?€:á—^Øê?Çno>ÈyA§¹a{–@²Ð92 ù@y¾†ã¨@p)«ªE@§rí1YESOPEN STAR CLUSTER
-FSR 1000         @p,©N¼B@ô     A£×@WDIº^5?@½p£×
-=@iyÃ!æÝÐÀ'ÖÈõL?ðÌÌÌÌÌÍ@$®záG®@333333@\>’¡8}  @  £   ‡   R?#j5B®qs?k¦ÔÛ?ÐEÏ2µpAùÁœú@ª1|ÐGŸ@r5—š_f%@{!2-o@ç	YESOPEN STAR CLUSTER
-FSR 0956         @sß° Ý@¡     A™š@WF¸Që…@*
-=p£×
-@h
-÷è›®ÀB#—(?òáG®zá@&Që…¸R@      @[éyHnz±  ¡  ?   Ä   _?).Ý†æ2o?‘™ÌQ5?Ó0‚ÓòñlAŽÒ0Xí@¦øÜ‘uÌ¤@ooaUòÖ@xp–þÕ\@|K­,YESOPEN STAR CLUSTER
-Czernik 25       @hðÖão¨F@     AQì@W[n—P@Ïß;dZ@iLü`FïäÀ’œá/³ ?àQë…¸R@"úáG®{@3&fffff@LCXÏ1  í  L   Â   ?"—qŠs7?©%^›Áè?Ù§@i}]±A  @@¡/×¤·Q@gƒ±¡S‡@x?§UP(?ñíšÞ¥ÚYESOPEN STAR CLUSTER
- FSR 0937         @Œ€2ñ¹"@±õ     A®@W[C•%@-ýp£×
-=@hjJ=¨‚¿õ¡9MŠ?ë333333@2      @(õÂ\)@CÌ§»ÖX  ê  æ  "  ?R>©àv|æ?ßõ½ó·¤Q@¾·ÌÖº@ÔóbÝL›@vSjUžò@>Œû»¢@l˜qµÐR?àRÀ^¿†¸YESOPEN STAR CLUSTER
-#NGC 2194         @‘œÊ1ó Ø@¥è     AÌÍ@W\Iº^5?@)¢Ðå`A‰@h§Á,¿{êÀ¸óÂë`@
-=p£×
-@1ÌÌÌÌÌÍ@"záG®@c•ê¬9é  
-  ¡  »  ??5ŒÓVæ?¡%22ê?ëÆ6žŽÉ7@íÊÜ Ê@¾HÑR¢@U¸%sQ@‚Éö­ÍS@!7þ8Ô›FYESOPEN STAR CLUSTER
-)FSR 0940         @i”ŸrG–¤@¢ê     Aff@Wc÷ÎÙ‡@-™™™™™š@hqÈ‚þh¬¿ô©•ã#ôñ?à      @#ÌÌÌÌÌÍ@\(õÂ@EL°`o©·  ¸  3   ä   ‹?)ÍºÑžš?³Â%Ó‹?ÜÇ‘FK@ýw¶T¸,4@Ÿf–yzX0@e|aÒÃ@o/˜†<„ï?ä]>°¹_$YESOPEN STAR CLUSTER
-6NGC 2204         @-™»·Ø@­œ     A£×@WxÔýó¶FÀ2¨õÂ\)@l@JVªÎÀ0ªr,XŒ@ffffff@1333333@ÌÌÌÌÌÍ@h&õvyÚ  	ˆ  t  ^   ü?MT²<·?•Nqº\,¯?ésŠ|Ñ
-O@ðAA@‘Qû¢k@W³xCH @s4uÛ”Y@*.-»scŽYESOPEN STAR CLUSTER
-7FSR 0909         @h|MŽy&w@ î     A¸@W{Æ§ï²@3G®zá@h ôqií£?ðqµ—L¹c?æffffff@#G®záH@(õÂ\)@P¨DýÁcZ  ®  7   š   [?%NÔ>’œ2?Ÿ’1)9Wù?Òa«!A£ãAhh@§û\j×Ð@phŽ<UöÅ@rt'=:c*?øèØ¯@…YESOPEN STAR CLUSTER
-<NGC 2202         @`S¿1	ëP@žP     A33@WÂ\(ö@¥ãS÷Ï@is ìçú˜À‰ös‰B ?ß\(õÂ\@ Š=p£×
-@(õÂ\)@J†´éï  "   ¼   u   B?L†F:{?¡iÆºR\?Ê©ÎÚþ›AÁð|@°ˆp2b[
-@vŸ¬×­t@pò±Ælz?îuV±TeYESOPEN STAR CLUSTER
-=FSR 0891         @Oü›á~è@ 6     Aë…@W™‡+@6mOß;dZ@g¦þA¦Ü@9D3Ó®Ù?ØõÂ\(ö@p£×
-=q@.=p£×
-=@CbIàD±Â   °   ƒ   m   B?!–Tì?£¸y&9´?Ê©ÎÚþ›AÁð|@°ˆp2b[
-@vŸ¬×­t@bìåWÝï?àÝ®»<ÕYESOPEN STAR CLUSTER
->FSR 1056         @u¸”@¤:     A¸R@WžzáG®¿û
-=p£×
-@jS;¢½À x_¶@=p£×
-=@'Š=p£×
-?áë…¸Qì@n,Ç”B¯A    Q   ž   A?2«¿‘´½?q›¬¢ßE·?ÊBb/‚W×Aøø @°É}ýx@vøÇ!E&G@sE¾PtHÚ@4oˆ'^ÂYESOPEN STAR CLUSTER
-?Koposov 62       @ÁýR°@ªÖ     A£×@W “t¼j@8±ë…¸R@ghu_x²A@Ã$Ý“ÿ ?õ¸Që…@1Ê=p£×
-?þ\(õÂ@SÐÛ¥PÍV  	Y  ?  ë  ˜?EßK!~?¿	œe)z?ôš|L©9@ä@…eEæÙ¢ý@MGé%ïˆ@y	ý!£@ ='×ïòYESOPEN STAR CLUSTER
-DFSR 0988         @ˆPJÛE„¿@¦à     A¸R@W¯\(õÂ@NÙ‡+@iV$'Úq±Àƒu›XÒä@p£×
-=q@/Š=p£×
-?ÕÂ\(õÃ@c2J³ž¢Ö  ¾  ·  Y   Ã?=,–y›;?—Ú»—Ë¶?ã±É£¡Áá@õPP@–býQõX@^¡	±ˆ_@{Óé92ˆ@ ŠmïYESOPEN STAR CLUSTER
-HFSR 1107         @€fu­¸,Á@§‚     A
-ff@WÆ5?|í‘À¸Që…@jö$¤Ó=À$%æã‰Î?ñ™™™™™š@+\(õÂ\?øQë…¸R@RÙß×)šk  Ž  Ô  j   Ê?;¨ëtfªE?°µõII?äfÆ_üå¹@ôFøebÙû@•›€äì@]‘Qj0s+@sF/¹¤¨?ÿçŽ€PYESOPEN STAR CLUSTER
-MFSR 0859         @q~^¿Ÿ'8@°a     A×
-@WÜ¬1&é@;™™™™š@g0°Èä™@:™â×ã?éG®záH@'ð£×
-=q@¸Që…¸@Cn]´µAí  Q  æ  –   Ú?AÖº%M“Ù?¿þÚÀrÕ.?æuÅ_€Ê@òÉûM, @”……Ò´µ@[eÅ‘^7@^eéiv8„?àò¹¬á	ØYESOPEN STAR CLUSTER
-NFSR 0941         @‘’k~K«‡@²     A
-£×@WÜ›¥ãSø@/wKÆ§ïž@hseç?è¨ ·@™™™™™š@3Që…¸R?ü£×
-=p¤@jÀ?øäY  
-p  ¼     î?R¦¬ð²3?”Â·Vœè?è	‘Â @ñ5È5È@’VÎ3•ùl@Yaûñâ@p`ÂÞaÐy@.\)¬pÔYESOPEN STAR CLUSTER
-OBerkeley 73      @ƒ"Íš-5†@¾É     Aff@Wá$Ý/ÀF§ï²-@jè:j½‡,À"ÊšXd¨@ záG®{@1c×
-=p¤?Ð£×
-=p¤@Jõ&$JK©  6  E  Ñ  ?`ÊÏkÌÌŽ?Â²ª6$G%?ôHÏSÍ@ä¢­vJ@…ý	JXÖ@NÈ5å6¦@R)C¨üV,?ðOi×ó!YESOPEN STAR CLUSTER
-PFSR 0888         @^‹.MáO@˜      @ó33@Wã¶E¡ÊÁ@7hõÂ\)@g›Ga,R@¿Çd\m?à£×
-=p¤@×
-=p£×@.      @Qu3333  D   Ñ   k   F?©Pìz‡/?•¨wIa?ÌG}n=™­AAÔAÔ@¯-+W²(@uT¸è	Zf@yeË‡[?û\ø¯YESOPEN STAR CLUSTER
-RCollinder 92     @‘ss÷9çk@¤Ü     AQì@Wî¸Që…@ffffff@i¤
-ú
-4Àà?³ jÈ@	…¸Që…@1‡®záH?ø(õÂ\)@nÍ÷|`/Ü  	­  ö  ?   º?<,Ëº›üP?Š–±Bƒ»?âÉúšJ¨@ö`X@—wTì¬¢?@`8˜¡0Æ@„)u+¾#@5L"n”EÂYESOPEN STAR CLUSTER
-WNGC 2219         @yÞM‚!@¢*     A  @Wû¶E¡ÊÁÀÇ®záH@j¿@‘¥ÚÀ —®wªÔk@Â\(õÃ@(G®záH?à      @hždÐæ¢  „  Ð   ž   c?0/†w×1]?~@IqÄ"ˆ?ÓÿZ†¤>õA¯Ö R¿[@¦@C-Î¸@n*;ÉlçF@ylykkÄ@+4 
-ÍÄ5YESOPEN STAR CLUSTER
-XFSR 0962         @‚ß–Êÿœž@¤Ü     AõÃ@Wý¡ÊÀƒ@,333333@h¨µ<–Î??ÛF{\F€ù?ë×
-=p£×@,½p£×
-=@záG®@PÍo¸4w3  W    ¬  ?7#¿û~õ?¸¨ð.1­?ë+Ø‰Ï@ît¥—Pä@9Ä¶®‹@V4ð’ÆÈ@{É;òÛæ?ùX}šß ‚YESOPEN STAR CLUSTER
-ZFSR 0927         @‡úäTˆÖç@§J     A
-ff@X×
-=p¤@2Z¬1@h;Dé d¯@¸§@ÀzÉ?ôzáG®{@/¨õÂ\)?þ\(õÂ@V$Od  ð  G  ì  '?>ág7œN?²sHÐ˜À?íËQÝJ@ëÄýeˆ>{@—XÞ’t@T?öEŸ‘@zK¶œ ¹/@³Ö¹YESOPEN STAR CLUSTER
-]BDSB 91          @eù[I;ä@ø     @ÔÌÍ@X¬1&éÀ%(õÂ\@ko'JÞ•À%Š6×v?ç
-=p£×
-@!úáG®{@,=p£×
-=@S[…¡í½±  Œ     ”   =?!­÷,p?•‡tÍøtÔ?È¤²Ê¼ÆAÉqO¼Ú;@±ã\'E@xzgª5a@t|’ dž@ ÑêVüùóYESOPEN STAR CLUSTER
-_Teutsch 11       @¢œ£‘|ßI@´¶     AÌÍ@X5?|í‘@+»çl‹C–@h´ßï€ä?ä°ñNÕ®?÷…¸Që…@9xQë…¸@…¸Që…@L˜Î“«¸  I  ×  Ú  A?\ñ¤½³j&?àø›–^5¡@úíV!k@È\â§@iöŠ°çE@1Ã7ó¨Ÿ@u„ê–]-?òY¬­%Î[YESOPEN STAR CLUSTER
-`Bochum 1         @jÙ¹rÉ@§ò     @Ó33@X¬1&é@3Ç®záH@hûÛqýÄ@*áe?ü£×
-=p¤@$ÌÌÌÌÌÍ?ñÂ\(õÃ@^ˆms¦  G  O   t   ^?8Óø´T¶?Š0æÓâ´8?ÒüÌçFž
-AÉˆ+“W@§7lˆ.#@oÄýšò²6@exø˜1q·@Zæ ÐxYESOPEN STAR CLUSTER
-cFSR 0948         @u:Ôî=@§^     Azá@Xó¶E¡Ë@/¸Që…¸@h~2ß?úßþ")äJ?ì(õÂ\)@(™™™™š@…¸Që…@NWÝæ¡U  :  <  O   Ä?8óäð!êp?²F¶Í!8?ãË¤™÷ë’@ôåà§/9@–DÕÐìø@^y&èÊI@nE<ìN¼¥?ôª-VÀíYESOPEN STAR CLUSTER
-dNGC 2225         @‘,úÅ®Ñ@©     A£×@X)ûçl‹DÀ#G®záH@kY4ÇOhÀ#¶>9j¯?ñë…¸Qì@1—
-=p£×@p£×
-=q@R
-ä,öC  	u  i  W  ë?C§Ìæ×ª?Âð/
-Ø\¯?øË{; ûP@à¯/r.ìµ@Ça0r@HTsÍÑ@|(plˆ?ý9dwcýYESOPEN STAR CLUSTER
-jFSR 0936         @w}f
-`@¨²     AG®@XIhr° Å@0íOß;dZ@hi¥Êâe@tðé•?ü£×
-=p¤@)#×
-=p¤?õp£×
-=q@]3d³ƒÌ  4  ©   à   l?9lôT9dT?“—IYp‡X?ÕÐ¿Ø³-hAö„½¡/h@¤4úè?RÓ@k¦¶Íù)U@m}Ýì e@#2þÞYESOPEN STAR CLUSTER
-mFSR 0967         @q“
-”ƒ}æ@²¯     A
-  @XT9XbN@,‚\(õÃ@h·ßÚ¦P§?ú‹òG"Ò@¸Që…¸@(záG®{?ôÌÌÌÌÌÍ@gáX,rr  Z  ‚   ›   C?F‰MÙ,?uf¦?Ë9â3¥`A‘1«ð·g@°ID~Óó@vI;tV0™@XmNÆpY~@)™\Û»nYESOPEN STAR CLUSTER
-nNGC 2234         @—nýNÖå@º×     AG®@XUp£×
-=@0ÂMÒñ©ü@hq¦”o¥@«Î†¹@™™™™™š@7
-=p£×?×
-=p£×
-@`‚Ä3j…O  9  	g  Ö  ö?cÂ»^OÜ?±tÖ8?h?ùY¯†zàž@àQ—÷×4@c¥ñ­Ó@GË¤tƒq@e³"ÀS@y,¥˜óÇYESOPEN STAR CLUSTER
-oAlessi 53        @cÛYn´@¢´     @à  @XU/Ÿ¾w@"TzáG®@iHhwpRt¿æ	wØXL¯?à£×
-=p¤@"™™™™š@      @FfÀ¼ãbl  d   ð   ·   q?(mã6Íñ†?¬çx%¿ûÝ?ÖÓMxÎSA·!ûx@£PQ‚Ào@jm$†¨@j¦Üµìjô?æ†ŒærYESOPEN STAR CLUSTER
-pNGC 2243         @œ¡A÷ð%î@±^     A(ö@XY‡+À?HõÂ\)@mï[ÐH+ÒÀ2ºàÏ6»?ú=p£×
-=@4ýp£×
-=@ffffff@Ss.Ç"W  Ú  
--     e?W¹²u“Yr?Î\ÙÙ¨#ñ@ñŒžá…@ÒÚ–=Ý<û@t7Sèð@@;}ü(þÌM@tÈÂ£Ìì@ =¢Ý>Ë"YESOPEN STAR CLUSTER
-sFSR 1031         @vô„M†î°@›ü     A
-(ö@XdÌÌÌÌÍ@¸Që…@iïòlrjÀ	(Ó‚ ìt?ë×
-=p£×@'™™™™š@ffffff@Y†Ñn`:  2  ó   É   u?#IÁ»,¥?šŽÿ•BCe?×¢%*ÂÛA@¢§ýÄLt@i†2–¾œO@ƒcüaŽ-@*)‰¦	åYESOPEN STAR CLUSTER
-vCzernik 26       @ƒ{Œè@½ç     A  @XpQë…¸ÀÜ(õÂ\@jËÞªM@iÀÕ÷~@ záG®@1E¸Që…?òffffff@Kq­<¼Ú  Q    W  s?`c–mŒñì?Âçðg¥¨?ò¼)o5Ï@æ³h1®”@‡‡†%4X)@PLÂqR¸@Rüs/D?ðu^IëÕ½YESOPEN STAR CLUSTER
-{FSR 0979         @of	]\S@ž4     A33@Xt(õÂ\@&*~ùÛ"Ñ@iÔA?ãègRfÅ?ê\(õÂ@$™™™™™š@2LÌÌÌÌÍ@V$I6õÇ    i   ¦   ‹?*»ƒ‘OH? Ç/ûÐ?ÜÇ‘FK@ýw¶T¸,4@Ÿf–yzX0@e|aÒÃ@zyó©[`Ô@§u©šyYESOPEN STAR CLUSTER
-}Juchert 18       @b1x-w@¡ä     AQì@Xw;dZ¬@7KÆ§ïž@i“15/©¿õ	XØšY=?Û…¸Që…@!uÂ\(ö@!úáG®{@C]Õì}  n     ð   m?(²Càƒd?³á¸ý{Œb?ÖuÅ_€ÊAÉûM, @¤……Ò´µ@keÅ‘^7@k§ƒ9â»?àÕwÃF²@YESOPEN STAR CLUSTER
-†Berkeley 23      @•Ùýää'@²t     A…@X”ÌÌÌÌÍ@4†fffff@hm©É›@’>ax ?÷
-=p£×
-@4£×
-=p¤@ ¸Që…¸@Op ±“¥  ¢  `  ?  Ì?SZmÕQ"?Î±6@»:@>?&Ð@Öá÷kC7Ç@xbA\æÞð@@®ô»3¦†@qÍU‹]´?ö.}“þ8YESOPEN STAR CLUSTER
-‘FSR 1106         @sEÈÏã™@ŸØ     Aff@X¨r° ÄœÀúáG®{@jö(¤×ÙÀ’À°Ž¹(?âáG®zá@%ë…¸Qì@$p£×
-=q@MÛWÇRÁ    ô  8   ·?*r¨ôNÊ?±ÓIÒÂäÂ?â{†—Í•@öaìjQ"ù@—ÙÐ‰±@`Qšqxë@z÷þÈ³½´?ôÏ=WYESOPEN STAR CLUSTER
-•FSR 1063         @nCJþ½ùg@ŸÀ     AÂ@Xª¬1'¿Ñ‡+J@jh´µÇgÀâcáaÚÿ?ó
-=p£×
-@$LÌÌÌÌÍ@®záG®@^2àèž  %  r   t   ??%“ÈnE†Ü?ˆ‡òc(n?ÉsŠ|Ñ
-OAAA@±Qû¢k@w³xCH @wD>9kË1@wËL|K&YESOPEN STAR CLUSTER
-—FSR 0935         @xBgæ+D=@§     AÌÍ@X²\(õÃ@1½ó¶E¡Ë@hiwËÛT„@êÝVj;?ö\(õÂ@)(õÂ\)@záG®{@Xšïk!Q¨    V   û   ‚?5¿–d<µ?šâÂ„"?ÚBb/‚W×@ÿøø @ É}ýx@føÇ!E&G@pæy6}iÛ@,û¸4jYESOPEN STAR CLUSTER
-¥Trumpler 5       @¦8ìF}@¥‚     A  @XÇ®záH@"ð£×
-=q@iYÔ(‡¶ý?ðJxf×-¨@ÌÌÌÌÌÍ@8™™™™š@      @rM˜°O  
-    Œ  À?ES>¾Pá?šç®YÂ”?öŸ—‹dzñ@âI$’I$’@ƒ|;ÏY@J©ç"± @‘Ýò®`@=-ïmGBYESOPEN STAR CLUSTER
-¨Collinder 106    @‡¨"»7Í@˜´     @ÍG®@XÓ¶E¡ÊÁ@G®záH@i½5*ñ°¿Ø7 ‰…_@ =p£×
-=@,Ñë…¸R@ë…¸Qì@pów±  °  j   º   „?';)œæòÓ?‚J^²ÑöÎ?Ú©ÎÚþ›@ÿÁð|@ ˆp2b[
-@fŸ¬×­t@“]Õtýûä@8™ÂÎ_›YESOPEN STAR CLUSTER
-©Berkeley 24      @¦`[ß Ý@µ—     A\)@XÜÌÌÌÌÍ¿ë¾vÈ´9X@j„À¥ÄfiÀoàZ4a@ õÂ\(ö@:îzáG®?ùp£×
-=q@SÇƒFQò)  ÷    ¢  É?`Îi×é~?ÔÌ²ÆÉ’N@î10“`@Ê¿×à</¦@l¯CÌÐ@3€©©w9@v#^‰ß!©@¡°‘8YESOPEN STAR CLUSTER
-¬NGC 2259         @’²öMÖÉ@§è     A
-  @Xèƒn—@%À     @i9Dî|<x@ ã’º'ô?ýp£×
-=q@2TzáG®@¸Që…¸@_Õ;n£  
-7  ©  i  d?AÝÐ&Jf?«´Pîü?ñú?Gèý@çà\p@ˆ…Rýp@PÆó:Ð´h@€ºë&±Ya@”?)¶YESOPEN STAR CLUSTER
-­Collinder 110    @ž/ßŽ~ÿf@¢t     A…@Xë33333@ G®záH@j5YÀ@€¿þtÑq)@¸Që…¸@4¦fffff@záG®@x-²O®×Ï  `  Ö  b   Ó?<ˆ·Œ8÷o?ƒ`Üt6Ñ?åOy	\ó@óióÞH@”¯Í=@\NtÄK€t@‘ÑZ.)@J=Æ#}VYESOPEN STAR CLUSTER
-²NGC 2262         @wo‘jÍt’@£ž     Aë…@Xú\(õÃ?ò=p£×
-=@jRY5‡À Ëæ¢+RY?ìÌÌÌÌÌÍ@(záG®@0nzáG®@R{†á¸n  ´  «  T   ¸?47¯Ë_?¬DsÖxã?â•aí÷F@öBÈY!d@—¸ ú`˜á@`:å»®²@upkWªä3?þªå²qV¿YESOPEN STAR CLUSTER
-´FSR 0975         @y:S‡“Žæ@²     A™š@Xÿß;dZ@*‡®záH@húYX´äõ@'i`ãÈ@õÂ\(ö@+aG®zá?á™™™™™š@e‘ÍeÍeÍ  ¯  Ê   Ÿ   r?JeËvSÍ?„¥MÛà?×d½!µA÷}Áp@£$·ÎŒÕ4@j2&rJ]@`UQÔø­(@$â=<œâàYESOPEN STAR CLUSTER
-µvdBergh 83       @Y¤,°:ã@ž     A™š@Y=p£×
-À;J=p£×
-@m‘ˆÅ€À,¹ œ©©š?Ó×
-=p£×@\(õÂ\@!Â\(õÃ@@›¼Þ?v  8   Œ      s?%RAmC4?·
-èŠŠ|À?×:¹QiuAÏ­¢@¢úaæà´@i÷Õù„P@kkÃôf)?ØÃk×OUYESOPEN STAR CLUSTER
-·FSR 1082         @¡+¸A>ã@¯     Ap¤@YÊÀƒo¿ûë…¸Qì@j¦>Ø·‘MÀ
-…ŠÃK£:@=p£×
-=@7333333?ß\(õÂ\@a½êÀˆC  Y  ‘  æ  v?TPc¹!6ˆ?¶ ¯÷»?ÿÐmLâ@Ú  @{¶_jexç@Bõù±ÏlÍ@~ÀI»¦ @BD‚ˆÊJYESOPEN STAR CLUSTER
-¹FSR 1210         @‘’k~K«‡@­     AÌÍ@YS÷ÎÙÀ1(õÂ\)@let4¨À$_.š¹?üõÂ\(ö@1ã×
-=p¤?è      @Y8ÐÃŽ    ï  ¤  º?N-Ä_Ó«d?·ƒ)?öR¨aýÝ@âˆ°ˆ°@ƒ¿ñÁfo@KêçðÌ@u‘–
-°@A×]·YESOPEN STAR CLUSTER
-»Berkeley 25      @ÏåB~I8Q@ÆD     A33@Y…¸QìÀ0~¸Që…@lS®2–!À#I›^çÐ@¸Që…¸@LxQë…¸?ÈQë…¸R@ZÒÐ®0ø  Œø  aÁ  #"  µ?†*9šeÛ›?ïîT@)‘™@0»w1j}@¨¹Ô¢¾@JY ÁÕœ@ü-ž‡›@wCm~ë`_@%ø:ñYESOPEN STAR CLUSTER
-¼Ruprecht 2       @wÑœÔ¹@¨²     A¸@YA‰7KÇÀ=ŒÌÌÌÌÍ@mØÆêeÀ.&A[4š?àQë…¸R@'Ç®záH@      @@£¸ª§æþ  ×    ì  ?Aj	7 J?Òï…‹ž(?óq&;ÊY§@åG%æ»‚þ@†¬|œÞ¨½@OÞhÇÉO@jc@Õ ?ØÛ@?OL“YESOPEN STAR CLUSTER
-¿NGC 2265         @„9$¹Ày@¦˜     @è  @Y÷ÎÙ‡@'Ñë…¸R@i'G©—ÑA@
-FÞf%Ÿ?ð£×
-=p¤@-£×
-=p¤@(õÂ\)@R‹;²«;³  ™      O??‰Aµ­£ì?¹Ï¯,Ö?ðêÄ-`G\@èt'¼À’¹@ŠÓüáS@QÔ/Dó­@x|ØqFÔÊ?þßzcÎYESOPEN STAR CLUSTER
-ÂRuprecht 3       @nå„kj¹@“¬     A™š@Y!hr° ÅÀ=që…¸R@mØ˜ŠèŒDÀ-£P*ù?×®záG®@#™™™™š@™™™™™š@NOOÉþu  c  2   ²   Š?Ó°‹Oò?«l\fí?Ûà”äòè@ý®`v¹Û@Ÿ Ö£+v‚@e£Üú=nC@ŠÓº¿Ô*?ôž |)¯YESOPEN STAR CLUSTER
-ÄAlessi 15        @i:Å¹¡ü @¢t     A
-=@Y0Ôýó¶F?úÌÌÌÌÌÍ@jO„í!<¿ñÒ<4(¼?ß\(õÂ\@#p£×
-=q@…¸Që…@Eeê ~?  ´     Ó   Œ?)?l®vÍ?³gqý¥“ó?ÜG}n=™­@ýAÔAÔ@Ÿ-+W²(@eT¸è	Zf@o•1Í7LR?äŒi/ŸüYESOPEN STAR CLUSTER
-ÅFSR 0878         @y”+©‰|€@­@     A33@Y2=p£×
-@;*=p£×
-@grý_…,@$®÷‚n@…¸Që…@*”záG®?Ù™™™™™š@`Í˜I„˜J  †  †   ¯   v?AŒÍÄ)?E7NKbì?×ÕÛno=A[_u'@¢~—ŠÍ{‰@iNÒ³×u@gÖ÷h«@X÷þØnÂYESOPEN STAR CLUSTER
-ÇNGC 2266         @‚mødjí@©Þ     A=q@Y5p£×
-=@:ü(õÂ\@gxæÃï@$œ.ðG’¨?ôQë…¸R@-G®záH@\(õÂ@SÇ}¼‹Î  4  ³  Õ  /?Cé·WPŽ?´¬@![ó°?îš)ûX•@ë	K1Ù"¤@ŒÏV…l@S¶6FÊ÷r@r;%ÂÖå?@—FH¯™YESOPEN STAR CLUSTER
-ÉTeutsch 13       @|oÏ(ï@¥‚     @ép¤@Y>¸Që…?öQë…¸R@jZ¨½ì ª¿ð“4çJ+´?ùp£×
-=q@)úáG®{@…¸Që…@]È<Ú0Ã€  í  '   û   z?6"‡à?— §A?Ø¤²Ê¼ÆA ÉqO¼Ú;@¡ã\'E@hzgª5a@tÂáÀ³„þ@è<mDÆYESOPEN STAR CLUSTER
-ÊFSR 0999         @^U°Jçóë@”h     A™š@Y>5?|í‘@"Ù™™™™š@iuÚwé”6@ú’á[¶Î?Þ¸Që…¸@(õÂ\)@0xQë…¸@RóÎÂ›gC  D   Î   k   L?ÜN–mb?’`8öÜ³ß?Î´†Q‚FA
-ò†¼¡¯(@¬·µÓ?Í@s¥œÕ·ÅÊ@€–¥ú²L-@ h<Û“YESOPEN STAR CLUSTER
-ÎPatchick 90      @qñ?¹õ,£@¸Ý     A33@YJIº^5¿áë…¸Qì@j”íÇ$K¿üT'z@ë…¸Qì@)ÌÌÌÌÌÍ?â\(õÂ@X9<ŒÜÞ  k  %   Þ   s?RxùˆrLø?•}‰‡&ÈÖ?×:¹QiuAÏ­¢@¢úaæà´@i÷Õù„P@N¤i'_ÙZ@
-VØ¬8ÜYESOPEN STAR CLUSTER
-ÏDolidze 25       @yÐÂ‘rcÐ@¥à     @Ø  @YQë…¸R?Î¸Që…¸@jï	ÿ¿ô½="3¥@ ffffff@).záG®?ç®záG®@bà~‰‚1¼  S  ›   ¨   ?:ØÂ€Ä#©?¤¾Š¼e?Ú¬BÖu@ÿÀüð@ êÝøc@g&]‚Ä±}@rÚeãn>Z@ý‰KÔÖYESOPEN STAR CLUSTER
-ÐSAI 69           @Rq ©P“@½,     A™š@YW|í‘hsÀ'”záG®@kÙ—AÞÎ"Àœím­ù?ó×
-=p£×@3úáG®{?ç\(õÂ\@AÒ]ô  	9  ”    ?d7bWûE‚?ä€®z$ÑD@óŸ+ü‚p@Ò2!;lm@s4äXò¯
-@:HH^cô˜@Z²ÝûlMo?ÚSk4»Ó“YESOPEN STAR CLUSTER
-ÔFSR 1167         @s.ohÇÞ@¢*     A(ö@Ye¡ÊÀƒÀ%øQë…¸@kÅ~-Fê†Àg]dÁ?ï®záG®@&¸Që…@=p£×
-=@UõÎ·CQ    ¥   ‹   ?0Ö	T‘A%? DžTœB?ÝU îç5@üqÇqÇ@žOx\^ü<@d½	zß @té<¡àFì@¤(Š¾›ãYESOPEN STAR CLUSTER
-ÕCollinder 115    @eÒ¡öÒÍ@¡À     @öáH@Yihr° Å?üÀƒn—@jXôßŠ5¿Ð–íÍ³­Ä?å¸Që…@"p£×
-=q@×
-=p£×@Mõ’cƒ÷Z  Ä     ¸   _?*ê]B“ì?¤„Ÿ[½¦£?Ó0‚ÓòñlAŽÒ0Xí@¦øÜ‘uÌ¤@ooaUòÖ@n¶Šy§Ss?ô%mÄTYESOPEN STAR CLUSTER
-ØDolidze 49       @q²:)V·4@¢¼     AG®@Yp£×
-=q¿„záG®{@jŽÖI.Q¿ïuO¨ºk;?ñ¸Që…@%Â\(õÃ@
-=p£×
-@WV,S/  ‘  ¨   ¥   q?/LAÌíôÎ?™Gó$ÙáD?ÖÓMxÎSA·!ûx@£PQ‚Ào@jm$†¨@s2"Îd÷è@Ã°qmzYESOPEN STAR CLUSTER
-ÞRuprecht 4       @Žäl¼ä9*@±ï     A{@Y\(õÂÀ%¸Që…@kÁ¦­1?ÀBÐFó0Ò?ôÌÌÌÌÌÍ@1îzáG®@Â\(õÃ@M4
-	z»  	m  U  E  Z?Sdp¬©œ2?ÌÑì‘}Àã?þfs£O3@Û7HJØÎ@} WòR`Â@C×½ÝÍ*k@lr8
-,°?ó$
-ÌðÐMYESOPEN STAR CLUSTER
-áBerkeley 75      @¤PQ²C`û@¸     AÌÍ@Yå`A‰7À7ü(õÂ\@mI˜×É™NÀ&YŸ¶h@
-=p£×
-@9¡G®zá?”záG®{@Už˜¾4×.  ‹  +  ®  Ú?e0+ÕÙZ?Ïpò½3?@åV1÷%@ÐÛ¦¯ƒ`@q´êfÅÄ®@8:ÙN1Ú@o"h"Èø@û
-ÿÇ8>YESOPEN STAR CLUSTER
-äFSR 1125         @f±¦nRTj@¡X     @ó33@Y¥p£×
-=ÀáG®zá@k5ºsUÎ™ÀàÇ0Ö?åÂ\(õÃ@"€     @õÂ\(ö@O—¡ ?  2  U   ¯   €?/¾”ŒCç?¦ñþ(Ÿwý?ÙÚöV)±A       @¡³³õmâ@gTª=Ê:à@p0o)fÜ¯?öeÂÈ£…µYESOPEN STAR CLUSTER
-çBerkeley 27      @c•šz˜@³²     AÌÍ@YµÂ\(ö@Oß;dZ@iùKïÿ¯¤@ÛA=·Kb?özáG®@$(õÂ\)@G®záH@L::ÆÂ  |  4   ¿   k?GOòÊjß?£ndØ§€?Õ	ìÚA#ãJ+¿@¤eSbG£@kèÞËüC@MÐöINn?ñâá5‰YESOPEN STAR CLUSTER
-ìAlessi 59        @"79bi¥@«n     @à  @YÅ¡ÊÀƒ@…¸Që…@jbÆx9Ú«?ó:J¼£\@ÌÌÌÌÌÍ@,ž¸Që…@G®záH@aAÝ»E    ä  '   Ÿ?Bþdêo?–X\\÷Õ?àþÿƒäû@ùÂÑNä¡@›sqÖfÛ@bÈ.âÙ‹+@nû"‹©„K@¼€0A;fYESOPEN STAR CLUSTER
-íFSR 1191         @‚¨HDU‡@ªB     A™š@YÇ¾vÈ´9À*xQë…¸@lËµ5Á•ÀëÉsÏ½?õG®záH@,®záG®@      @TgÓF6#Ý    Ê  µ   ò?AXž‚¹GÄ?¯‚µÐº‰?èpüÝsid@ðìõkæœ@’	4”4Å@X®0êžëÅ@pù—·;Á@°ÍI Ì/YESOPEN STAR CLUSTER
-îRuprecht 149     @˜´ýþ©«@¯     AÌÍ@YÇ¾vÈ´9À7¨r° Äœ@mJÃr4&À$§Œwó@®záG®@3ó33333?ê\(õÂ@ašÀ¥ñýš    
-  ¬  ¶?QtÛ…(<P?­8Pšø?öP»µª{@â´­+@@ƒî¤'›@KE¾Ò*YÝ@wN>q³¸@Ò°ÙnÞqYESOPEN STAR CLUSTER
-ðBerkeley 29      @¾á|nÀ@Å€    A™š@YÐ£×
-=q@0îzáG®@h¾3	øÇ@æÔÏí@ë…¸Qì@FÃ×
-=p¤?ž¸Që…¸@P«è÷  A­  *Ä  \  î?|ùu&],?óCG]Ù¥@&‚6CŒ	@²`ÅKÏ/@S•hæÓ”@Ì[—Îß@p”ý×ùð0?øñ+/ŠYESOPEN STAR CLUSTER
-ôFSR 1029         @cPÐoÖ´'@Ä     AáH@YàõÂ\)@æfffff@iç‘<[˜2@!Z}Ù»X?àõÂ\(ö@!k…¸Qì@p£×
-=q@L±jƒ°C  O     ¼   W?mó{þôì? ”)–­?Ñ’ÓnV[AŠLx¤È@©¡fíM@q)¯Bi@s~b¨'Ð?òzOçÍdYESOPEN STAR CLUSTER
-ûNGC 2304         @…ÑÛö«7B@®p     A\)@Yó33333@1úáG®{@h¦ê¶ îý@!Ë|D?ò=p£×
-=@/Ü(õÂ\?û\(õÂ\@N-heÄê=  œ  Í  1  ’?HÏÈoxL?ÂìÑ˜H‹ž?ôLëi¦¼@ä`ËÇõÏš@…·ýfoî@M¶ùðrëv@o-þiNõ¾?ôpaüï¼YESOPEN STAR CLUSTER
-üRuprecht 5       @„-;ÜnŸ„@²h     Aff@YóÆ§ï²À2™™™™™š@lÀ#HI;À7drÔ?ü      @.Ç®záH?Ç
-=p£×
-@S&»Ã&®¹  Ø  Å  ë  /?Q0¸¨G:?´Åõ©°5w?îš)ûX•@ë	K1Ù"¤@ŒÏV…l@S¶6FÊ÷r@cå 7Y@ vª®vúYESOPEN STAR CLUSTER
- SAI 72           @SQ'Þá0@©N     AÂ@YüÌÌÌÌÍ?Ìj~ùÛ"Ñ@j§i€ôñ?ñ%ÿk@-?à£×
-=p¤@\(õÂ\@õÂ\(ö@@Ž§Eú¨9   Û   ¨   œ   W?4èò›Ï?°F.½ï°?Ñ’ÓnV[AŠLx¤È@©¡fíM@q)¯Bi@S'¢§¬¸?Øœv—¬á;YESOPEN STAR CLUSTER
-Ruprecht 6       @†SøyÎ3Ü@·     AÌÍ@Yþ¸Që…À*\(õÂ@l)"çnvÀ&@èÛ:Ý?ñÂ\(õÃ@0ÔzáG®?Ýp£×
-=q@CW2D
-±	  b  –  å  ‹?\§Ô<,ñ
-?Ù»ªBA-Ø@ oôGS@Ù*Ý d«t@zÑ… ÅK¶@BYe@¸7¾@^(	 @??àÊfÅSJYESOPEN STAR CLUSTER
-NGC 2309         @ˆáFY‚÷ä@¢      AÂ@ZG®záÀ³33333@k{"¾ƒ	Àé‚sü¾@Â\(õÃ@.p£×
-=q@ÌÌÌÌÌÍ@hkê²   ü  É     «?5‚lûÕ~?˜	 		c?áEB‹ÙH@÷ôý@@™†Jh»Æð@avÄL1“^@ƒ è0Î%-@)à*OÍ¦iYESOPEN STAR CLUSTER
-Berkeley 31      @™u/#.(£@¸b     AÌÍ@ZG®zá@ ˜“t¼j@iÇ$²ôÉ@„ Nç@Â\(õÃ@7ë…¸R?Î¸Që…¸@fxk¿~Ü  P  
-•  _  ¦?a–¤3m?£Å&mâœ?õOy	\ó@ãióÞH@„¯Í=@LNtÄK€t@iyÄÈj^Ÿ@&ª#°ýYESOPEN STAR CLUSTER
-	Berkeley 33      @	z&žž@²±     A£×@Zp£×
-=À*p£×
-=q@l.,!™À_f0Œö?úáG®zá@,\(õÂ@      @RÑß1‡á  Æ  T     ?PÑ£œqýN?²ü©³œ®ö?ì{3Zéí@íµnÀt@Žôµ|=…@U-þgLvÏ@`œ*Ÿªr?ým?ÿ .ÛYESOPEN STAR CLUSTER
-
-Berkeley 30      @žep¹<¤ë@³w     Aë…@ZÌÌÌÌÍ@	¼j~ùÛ#@jYQëê@7htÕ@Â\(õÃ@78Që…¸?ìzáG®{@\%Òpád  ¨    3  “?ZöK)ø?¾³\…PáC@ £ªóTµ@ØÜ¦C—ä@z~-`ª	ë@B ^ù;;@t?–E(‡…@È9©4YESOPEN STAR CLUSTER
-NGC 2311         @*ÎÛ3g@¡Z     A
-=@ZzáG®Àp£×
-=q@k88Úòæõ¿æ1øße?ó…¸Që…@/ð£×
-=q@
-ffffff@\SPµ”  	n  `  Ä  a?6äžyK·ù?®¥Ž-ý:„?ñÓvÖg¾–@ç4ðÅAþ@ˆº¬+sîm@Pës{Ûçú@ˆ6:á1@âÿà9HYESOPEN STAR CLUSTER
-Berkeley 32      @]ÉWŸÂ@³„     A33@Z!ÊÀƒo@½p£×
-=@iþuVö”Õ@¡ G«½h@®záG®@2G®záH?è      @[ø¦Q?k  ì  À    ?R‘xã”à?ªg =9Ë?ëùì‹;™@í’ò#Š@ƒ›£Ag@UÝ›yá@h÷ÔŸÃ— @TôÒYESOPEN STAR CLUSTER
-IRAS 06562-0337  @€S+e#R	@·Ë     @öff@Z+¶E¡ÊÁÀzáG®{@k![¡¶‹¿®¥·Í²L¢@Që…¸R@.úáG®{?¾¸Që…¸@Y¼V"{  H  Ô  ~   Û?Y ×CÝ?¤Ê€ÆZ?æP»µª{@ò´­+@@“î¤'›@[E¾Ò*YÝ@X„€„w$@»tmç97YESOPEN STAR CLUSTER
-FSR 1195         @°tÀÂ@¨œ     A33@Z4záG®À)æfffff@l+†OoñPÀ¢)aµ 2?ó
-=p£×
-@1®záH?ï
-=p£×
-@S{‚c«Y  Ï  ¸  Â  Ÿ?Bê/äJ?¾CWtp9?ôôúªÖË@ã½`Ù#)U@…â¤	*k@LÈ¯|÷Ý@{AoÞœ ’@×ûÞ7xYESOPEN STAR CLUSTER
-FSR 1185         @~mø£Ø„@´þ     A™š@Z9ÊÀƒoÀ'ò° Ä›¦@lË,Þ˜£À&ã
-/]@      @,õÂ\(ö?àõÂ\(ö@c0æ.M|  `  h   Ô   ’?Ré AÝO1?ŽùÍ;÷T?Ý}ÀúGú@üÀà@å-v;i@dtOŸÃf@[~LÄ”@ ˆ)±>LdYESOPEN STAR CLUSTER
-Ivanov 9         @qRt®‘°@¦.     @Ð  @Z;¶E¡ÊÁÀD›¥ãSø@k/àÞ1 á¿‰½]„ãÖ?ð      @%Ñë…¸R@G®záH@R)ÜÕ+(  K     Ä   c?3}HÿïBÜ?¢’CÈXH?ÓÿZ†¤>õA¯Ö R¿[@¦@C-Î¸@n*;ÉlçF@kŠÄ³ &?ýž:´§1YESOPEN STAR CLUSTER
- FSR 1171         @…ÅÔß@³E     A33@ZBáG®{À$¥`A‰7L@kã¯ºôsFÀ(6ŸcØ?ö¸Që…¸@0&fffff?ê=p£×
-=@M¯ü.5)b  õ    ]  q?Qp×9Ð‘Ü?ÁŸónÑß?ò¢N‰@æ3V¸ŠÀÞ@‡¨+ý*êU@P/£3ãw@cýKÑÈ¥Ž?óÇÝŽrN’YESOPEN STAR CLUSTER
-"Berkeley 34      @œ¢¸ê>T@¼o     A33@ZEÂ\(ö¿ÎzáG®@jÅ•ð¬é?þx@˜¤S@záG®@4=p£×
-=?àQë…¸R@j£ÑÅâ¹  c    °  5?gz°Q5?”ì.<õÐ?ï5KV R¼@ê‚æQ0áY@Œ@ ¥ ›@ST:1ˆãº@\ÖßN*A@/Ù<#~‡	YESOPEN STAR CLUSTER
-$Tombaugh 1       @†°Ù 66@¤¤     A
-=@ZGï²-À4£×
-=q@m
-°=žFƒÀ>ñ‰­@
-=p£×
-@-Që…¸R@G®záH@iª€"ºEÿ  :     þ   “?9b`«)æ…?ˆ¥½<Œ7?Ý±væóá\@ûÝ+‰”÷@±‘J®@dP°ð†Û@|¶½ªÒ@-‘É"UbêYESOPEN STAR CLUSTER
-+Wit 2            @‰l¬U’@¦     A\@ZUÒñ©ûçÀï²-V@kÍ-RÓ?évãTµ?ù¸Që…@/G®záH?âáG®zá@\›€2ò[Õ  j  ¼  ¯  ?>x[—Ãƒ?§ŸŠ9Ý8à?ê÷^ëÝ{¯@î®€zºë@Xáþ
-õW@V^™£ÀðŠ@|{m·“Ý@^ìŽw-YESOPEN STAR CLUSTER
-.Ruprecht 9       @€fu­¸,Á@ªÔ     A¸R@ZaÛ"Ðå`À5êÀƒn˜@m74‚è¾˜ÀH8m‹ùf?ó333333@+¸Që…?ýG®záH@R3Jñ    Í  }  "?DdyëBpL?´WÕ9EË?íJ›:—@ì?Ãøð@ŽôáéÎ\@T˜kèÜä†@m„\fSï?ý&—*Ãf¬YESOPEN STAR CLUSTER
-/Alessi 60        @aññ@¤d     A
-=q@ZhbMÒò¿ñß;dZ¬@jæ	C¯-?ÿ:ªïjˆ ?áë…¸Qì@!záG®{@$¨õÂ\)@F ÇŸ¦  :   ù   µ   d?+u²öjí ?ª º‹)k©?Ô3sP’WAzáG®{@¥ÒÑŠ/èÏ@mÝÞs~@déÄ¶Õ¾ñ?åú¯ÌÇrYESOPEN STAR CLUSTER
-1FSR 1184         @™u/#.(£@·     A™š@ZjÀƒn˜À&Þ¸Që…@lT@U	YÀÚŠM|²@\(õÂ@6G®záH?ØQë…¸R@Vo…šso  ³  	p    y?`Ò/¶%½Ó?ÃÀÐ^wÏ?ÿ÷5†‹l@Ùâš}_
-@{”Àgjü@BÞø‚Ý N@i’.œ‡|L@Æyt»*=YESOPEN STAR CLUSTER
-4Tombaugh 2       @¡}q9Ï@¹¥     A(ö@ZqXbMÓÀ4Ð£×
-=q@m”°‹ËÀ„wAQýî?üQë…¸R@8Ç®záH?ã333333@KÎCeü•…  î  c  ×  Â?dØÇnáC?ßëñ`}˜ñ@Àò|—@Êç2Ý*	@l«š4|@3Z”¡œ±@j’9@>?ñZD¦šð{YESOPEN STAR CLUSTER
-7Bochum 3         @`úš`b@ Î     A…@Zw®záHÀ¸Që…@kX? è¥?ØÞ¨Öx€’?åÂ\(õÃ@ ¸Që…¸@Â\(õÃ@PM?È(  †   Ô   y   Z?)Q˜u€?å?M”ö?Ò-õ4•PAÁlÁl@¨?“}ÉÊ@p—:{•3@l+åj~?÷Û„líOXYESOPEN STAR CLUSTER
-;FSR 1149         @p]ÂšEƒ@§8     A=q@Zß;dZÀŠ=p£×
-@k\eüá¿ÀÁa¦)=?ä(õÂ\)@%™™™™™š@áG®zá@EÜ£t@9U  C  ^     ™?5œÈ†á?¸­ë@½´õ?ÞçºrýÕ©@úÅpÅp@œ‡Þwƒý@c„½FJZ@h ¿²uV?åt"eûCYESOPEN STAR CLUSTER
-<NGC 2324         @§Eip*#@®     A
-áH@Z‚Àƒn˜?ð›¥ãS÷Ï@j®µäç±@
-s³yë6&@Që…¸R@9p£×
-=q@(õÂ\)@df¨ìãÓø  ö  œ  k  ª?R”¢wZvr?´TÕt—,@8UbÄo@Ø€`@y™sêêß‹@Aƒà¦L{@„qQ¼éé@"®ªËùòÝYESOPEN STAR CLUSTER
-?Auner 1          @³üÑ½\º@»ò     A™š@Zƒçl‹C–À3¾vÈ´9X@lÿ¤%?þDÀ¡2t—@	ë…¸Qì@@³33333?ØõÂ\(ö@WZ ø¶ß  ,  ²  A  *?o¶Q
-…a?ÚSü$²º@'U¨ÕÒ@ÁÝðì¼¸A@c	ÿ&rT@*• Iõ@@tSXÛ6¾@{oj/Þ€YESOPEN STAR CLUSTER
-AFSR 1150         @—Â0«¢ZŸ@¶      AÌÍ@Z‰ÊÀƒoÀffffff@k‰¼)ŠÔ¿·¹˜‰·@p£×
-=q@5¨õÂ\)?àõÂ\(ö@VŒ&.Ül  ¦  	  ÷  =?[$Ïë°?ÀØÍð7³?üïŒ¯m¨¬@Ü—æûäM@~x}®z@DØÔàü/?@kF"*b ³@ø=*¹ùjYESOPEN STAR CLUSTER
-CFSR 1178         @waÄø5<¤@¢Ž     @ÔÌÍ@Z–fffffÀ%\(õÂ\@l  ~HA¿ü¨Ú»÷{s@\(õÂ\@'Š=p£×
-@ÌÌÌÌÌÍ@gŽÁ™W`  i  P   ‰   V?1mÅîÇ%?€ô©@zA?Ñ_äùAÐ_A}ô@©`Lôª@q\Æ"…@væé«SH%@(é2áÿí´YESOPEN STAR CLUSTER
-DFSR 1192         @ˆÄ¹Žê@¦
-     AÌÍ@ZOß;dZÀ'@     @l6%þÀ
-}ÞO­@ áG®zá@.Ñë…¸R?ë333333@cHè>Sa  í  Ï  -   Å?="92b&?˜G¯=qu«?ãåND@ôÊ¸‡%¯n@–'åŸÈ­û@^QnÅ?ùW@{ÓdU«#¹@ ±  ³ËYESOPEN STAR CLUSTER
-FHaffner 4        @|-8È@±j     A×
-@Z¡hr° ÅÀ-ýp£×
-=@l~iŸÀìÎ$ƒY?üzáG®{@+333333@
-(õÂ\)@T–è€rª|    F  u   Î?K‡›ŒK²?©ØGù[ä?äÎ29UŒ}@óâ,¼ä©@•0|8t«@\þWJMU˜@a[fl0Ò@qGÓû$YESOPEN STAR CLUSTER
-GESO 427-32       @jLL@V"@›è     A®@Z¥?|í‘hÀ>(õÂ\)@n4Ô,´ÁÀ$£}@>Õ?ç
-=p£×
-@"k…¸Qì@
-      @TÉÆŒíÓ*  é  &   €   U?"`ýšáÝ?—F¢åÃ?Ñ+g•7¯—A@©¬ºH8]0@q‘¿Âë@xÌÒ¡Z/@eë¹/çYESOPEN STAR CLUSTER
-HFSR 1039         @pz!Uì`@¤Z     AÌÍ@Z£S÷ÎÙ@™™™™™š@iÿÌdK-@‹¯Â—ñ?özáG®@%Š=p£×
-@áG®zá@[Q7RU.  Ú  Ì   š   j?4ðÀï{‚?“í¿Ï`Ä?ÕiSÿZ†¤ARû+xÁ@¤–•`Í$@l,FTFPÁ@oàÑ[|Òý@¿çÓÊÑYESOPEN STAR CLUSTER
-JRuprecht 10      @t¾O²¹ò@¢R     AÌÍ@Z§\(õÂÀ4Që…¸@mCqvÃÀf1›ÝÇ–?ó…¸Që…@&LÌÌÌÌÍ?û®záG®@ZÓàxß    Í   µ   p?1•8ñü?–U.ŠÕÕš?ÖŸ—‹dzñAI$’I$’@£|;ÏY@j©ç"± @uýôÇfx@'?ÅAïËYESOPEN STAR CLUSTER
-KBerkeley 76      @p¢ÔÍÀ@¢p     Aë…@Zª\(õÃÀ'uÂ\(ö@l#	ÿIÊú¿ÿø@‹Çû?û333333@$¸Që…¸?ò¸Që…¸@b’•BÒ½  ™  ø   †   F?0ë‘DWðÌ?ƒ£^4?ÌG}n=™­AAÔAÔ@¯-+W²(@uT¸è	Zf@qøDå–M•@÷˜¾cæQYESOPEN STAR CLUSTER
-LNGC 2335         @};Ã#‚§I@–     A33@Z­p£×
-=À$\(õÂ@kóWâ©q¿òÚ4¥­	?û\(õÂ\@(8Që…¸@…¸Që…@o?*KûÊ  s  æ   q   U?S±›ÜƒW?wÃï—?Ñ+g•7¯—A@©¬ºH8]0@q‘¿Âë@‘,0Ü:@5éÇò¿~YESOPEN STAR CLUSTER
-MCollinder 465    @¡å¼<ûË¼@µ"     AÌÍ@Z­p£×
-=À%
-=p£×
-@lF×Ï¿ötU´géò@záG®@8nzáG®?×
-=p£×
-@jN¯‰–DÈ  ­    ó  ?b7˜VTL?¦M Cb-Ó?ú¶»„t@Þø½³‰ë­@€€oü­"@F”º@@sâ¨z@/ÒÊ2aðYESOPEN STAR CLUSTER
-QFSR 1209         @Rá%½'@§(     Aë…@Z±‡+À+£×
-=p¤@l_þÇJ »ÀðÝBèÎ½@      @0ð£×
-=q@…¸Që…@nrÍ6îb  º  X  Q   ª?@Äj;iéè?ˆŒ†Vl§Ê?á+g•7¯—@ø@™¬ºH8]0@a‘¿Âë@~uŒµZÄ~@4ÍÔÑ¯HYESOPEN STAR CLUSTER
-SRuprecht 12      @•„Ö„@¡Z     A¸@Z²Àƒn˜À<8Ôýó¶F@mþ³B46šÀ" zþ6@ö?ôQë…¸R@1”záG®@G®záH@]|€§»7    @  Ø  ¡?9	¢Oï?²½%?ijI?õÕ¡,ô¸@ã¥$8zÈ"@„ïû¦åu@L¥X×Ã¯@68àdÅ¾@ƒ}CEbYESOPEN STAR CLUSTER
-TRuprecht 11      @`]aÔÑuæ@ž˜     AÌÍ@ZµãS÷ÎÙÀ4Ë…¸Qì@m(s}„½ÀæÆ ë#µ?ÔzáG®{@ \(õÂ@™™™™™š@@Úë§îh      Ó   Ã   k? Ê¯”|±:?´¦ÙDKÁ¢?Õ	ìÚA#ãJ+¿@¤eSbG£@kèÞËüC@o^%fÒò?Ù<§¨YESOPEN STAR CLUSTER
-VFSR 1202         @r|Ñè>³@£     A™š@Z¶záG®À)å`A‰7@lC•á§jCÀ™Z–ßv?ò\(õÂ@%Â\(õÃ@záG®@XŽ+â¾+â  Æ  Ö   ½   s?1s™hÙ%?—üôqÖo–?×:¹QiuAÏ­¢@¢úaæà´@i÷Õù„P@ršeÑV@Ñ?þ÷YESOPEN STAR CLUSTER
-WFSR 1170         @h	ä¾‹÷@¡È     A{@Z¸     À!ºáG®{@kÔ¡l¸Ù¿ßß^éphW?èõÂ\(ö@"ÌÌÌÌÌÍ@333333@Q¬	‰ÃZ    ,   ¤   X?&ÿ×Q¶9?š¨œX€
-?ÑÆ‰[<©½AEÑt]F@¨Ì¨K“ˆ@p÷Á¡MB@oÏÕŒý3r?ü	|‘£{vYESOPEN STAR CLUSTER
-XFSR 1207         @uÅe¤sè@ž      A\)@Z¸r° ÄœÀ*¨õÂ\)@lS®ò"\ÀYO¥Ì?özáG®@&p£×
-=q@=p£×
-=@bthó
-hò  M     ž   f?(w¾nkÁÊ?‰E©WŠbs?Ôš|L©9A@¥eEæÙ¢ý@mGé%ïˆ@”©}*8@“LwýYESOPEN STAR CLUSTER
-YFSR 0876         @læ›yâwK@¢Ú     A33@Z¹ë…¸R@>+…¸Qì@g_Ê(`ãÀ@0wF¦Šbæ?ï\(õÂ\@$\(õÂ@ záG®@TñYñÞXþ    V       Y?+á/Æx©?—÷„W›«Þ?Ñú?GèýAà\p@¨…Rýp@pÆó:Ð´h@pì´ýº–m@°ä ;YESOPEN STAR CLUSTER
-\Ruprecht 13      @„)a!†@¡È     A=q@ZÀ Ä›¥ãÀ9áG®zá@m½?ÉÔuÔÀ ;µmj¯ú?ì(õÂ\)@+£×
-=p¤@
-=p£×
-@SðÖ?‡  ×  †  ‰  ?3á¨UŸ1Ö?³'l:¬Á¬?ê©ÎÚþ›@ïÁð|@ˆp2b[
-@VŸ¬×­t@0ÆÆÅ3Ï@×ë£‹äàYESOPEN STAR CLUSTER
-`NGC 2345         @‹7µn¦ ö@¤Z     @üÌÍ@ZÃ÷ÎÙ‡À*ffffff@lRÂÎœÀ —?¸Iz@
-=p£×
-@/ffffff@áG®zá@gŽa†“  M  *  &   µ?9:°uÌi6?‘'xŽvb?âGÐ*ëz2@ö¡<ÑSr@˜G¶eè@`ÃZ^ìÑ@€ï†!C1@(èhºžNYESOPEN STAR CLUSTER
-aFSR 1204         @fGœ¯°íÝ@š¨     A¸@ZÄ¬1&éÀ)Ç®záH@lIåß5=DÀi}Jª:?éG®záH@!Â\(õÃ@£×
-=p¤@WàýÝÙ  ü  V   Œ   N?"c–Ïé_?’&JããßS?Ï‚Ü9ÏÏA
-A¤A¤@«ú–|¦r®@s$¥ñõ;@yCÉäç¤@	˜Mc„YESOPEN STAR CLUSTER
-eFSR 1173         @qÜ%)6Ó@¦†     A
-=q@ZË÷ÎÙ‡À"ÚŸ¾vÈ´@ké"W}ñ¿Þï­ý84?è      @&
-=p£×
-@\(õÂ\@JÔXpòòk  y  p   ç   ’?5>—Šs’?±ê)œìð(?Ý}ÀúGú@üÀà@å-v;i@dtOŸÃf@k?Âýd5?ð'Ð>æÜ…YESOPEN STAR CLUSTER
-fFSR 1113         @”%Š/+›@¶­     AÌÍ@ZÒ^5?|î¿ø      @k	IØ›ÇZ@
-0„g°@¸Që…@4µÂ\(ö?ìÌÌÌÌÌÍ@U;CùÁf  Ø  t  |  ,?]3]j
-Áå?Á!,†v8?üÇ‘FK@Ýw¶T¸,4@f–yzX0@E|aÒÃ@g¼Çh\ö@;ƒºIohYESOPEN STAR CLUSTER
-iBerkeley 35      @‹¨ìÄØÔH@³”     A
-=@ZÞùÛ"Ðå@Ý/Ÿ¾w@j“L‰ƒfó@pÑ¶Äq?ÿ
-=p£×
-@1Ñë…¸R?é™™™™™š@SõµŒ°€  	  3  …  Ú?V‘Ó¿Ël?½«É|d:R?÷ï¶Ä˜î@áH_
-Í;@‚jb@1@I3|zéœ@g“wÿÉ~@âÆ:DHYESOPEN STAR CLUSTER
-mDBSB 3           @\xÊ¬@ª@     @à  @ZåV“À2|j~ùÛ#@lðw÷CàåÀ<8
-¼¶:?è£×
-=p¤@ B\(õÃ@Që…¸R@G¢p£×
-=     —   t   T?6ÝÑèîi?£é¢…>n°?Ð÷±¨‹\4Aa†a†@©úùs¿!X@qÆš²v @UÖ~·ºâ?éæTšeÆYESOPEN STAR CLUSTER
-oDias 3           @7ÃWÊ@¼I     AÂ@ZæzáG®À Ê=p£×
-@kÑÉ²õ?Öl426”]@õÂ\(ö@8ffffff?Î¸Që…¸@Pà¶B‰­  Î  
-9    ö?hšC
-œ?Ô_yÊì@	šRîRHØ@Ð(düw)é@q7¿¡¦@7‘(¯ò¿@e-B¹÷•?ù’ÅñÔ¹–YESOPEN STAR CLUSTER
-pFSR 1158         @qÑ¡,˜@      AáH@ZìÌÌÌÌÍÀ¸Që…@k¥zÿ§èÕ?ó+Œ¡Nd?ö=p£×
-=@%\(õÂ@\(õÂ@c:!fž§  ¸     Š   Q?%ct: 3?ƒ-‰ @ ³?Ð\â†bA	H°üÖéà@ªñNŠÿ@ro$‰PÆ9@}Â4‚_-@ —ép%¤YESOPEN STAR CLUSTER
-rNGC 2349         @eŸi¼ná@œl     A=q@ZëS÷ÎÙÀ!5Â\(ö@kØñÀú­
-?ÔÑO©öŒl?Ó×
-=p£×@!Â\(õÃ@ Ñë…¸R@A“€©U˜–  ‡   ï   Ù   †? ¿W]Ý?¹ÈÑY¢¦?Û9â3¥`@þ‘1«ð·g@ ID~Óó@fI;tV0™@v9)]4?Û»ÊüÛ YESOPEN STAR CLUSTER
-vFSR 1281         @sß° Ý@œÜ     A
-áH@[$Ý/ À9;"Ðå`B@mº`]ÃŽ[À^ÿë)+÷?özáG®@%\(õÂ?øQë…¸R@cC™6?Ð  $     …   Y?(AÜû†K?†`Àu‚s?Ñú?GèýAà\p@¨…Rýp@pÆó:Ð´h@~O‘®0e@ ¨pÛ¼<ÉYESOPEN STAR CLUSTER
-wNGC 2352         @„Ê/l„Ém@§p     Aff@[hr° ÅÀ8l‹C•@m˜…Q2OÅÀýñWð¿?ó
-=p£×
-@,®záG®?ìzáG®{@Tta|ÚQ    ¹  •  4?@¤XÅö6%?²á@IRê?ïp_ª)@ê˜ï`jc¾@ŒW›ÄRì@SdK|ÝÑ@uN[J5ƒ@ÇÔ…¯;ÞYESOPEN STAR CLUSTER
-zNGC 2351         @€N»«Ë8@¶Ñ     A  @[r° ÄœÀ$õÂ\(ö@lm<ï€“?²Êg.xq@@=p£×
-=@.p£×
-=q?ç
-=p£×
-@j¿ô£Æâ    t   ð   ‚?U,œQ¹?€ b¹zV8?ÚBb/‚W×@ÿøø @ É}ýx@føÇ!E&G@YSe¤®¥Ë@0KOc{oYESOPEN STAR CLUSTER
-}FSR 1153         @ÕK?s‹@¨.     A
-=@[%ó¶E¡ËÀ£×
-=p¤@k’Óîò†Ó@òÁò Á?èõÂ\(ö@+záG®?ó×
-=p£×@IýË±ÅÒ  ¨  Ù  î  €?BŒV"‚k?ÅÕ3-%vü?ód8ÀŸDÎ@åUUUUUU@†»šEG=-@O§¸N€@qØÑ"§S?îRí¼£ÊYESOPEN STAR CLUSTER
-FSR 1332         @d¾­˜5í#@ ú     A¸R@[-¸Që…ÀApA‰7KÇ@nØtÀÓ›IÀ%{¢4®6?ê\(õÂ@!¸Që…?ñ¸Që…@S²>ˆ„ƒ  ð     Ž   i?/X6ñÍ†M?šÒÈ·W?Õ5ž®3AA88@¤ÈÇÌ­@lpöŠ·#3@lðÃÉeOÙ@iñ6Sc>YESOPEN STAR CLUSTER
-‚Ruprecht 14      @`¾÷$pYœ@¯n     AõÃ@[-Òñ©ûçÀ?\(õÂ\@nqÜKòºÂÀ"b •«U&?öffffff@!333333?úffffff@QñëÃ¬Ä?  —   ý   ‚   V?EÕ¬ªÕl£?™¿e>X»²?Ñ_äùAÐ_A}ô@©`Lôª@q\Æ"…@Q˜¦R-g?üèâÇÙŸYESOPEN STAR CLUSTER
-„Berkeley 36      @ ïh€mK@³±     Aff@[EOß;dZÀ*["Ðå`B@lo6ê8¿â[ì´]í@\(õÂ\@7€     ?ò¸Që…¸@f2žuù  Ê  ·  &  ?\“ ;U'?ª.]‚]\ ?ûLg‡@ÞŸÒDç™@€Q¢Ÿµ@FSåoJci@tCá·aü·@&.o½ßYESOPEN STAR CLUSTER
-‹FSR 1228         @ˆAúHt=@°Z     @Ø  @[SIº^À/—
-=p£×@l¼Duf„¿ùÃaßKßõ@™™™™™š@0\(õÂ?®¸Që…¸@vÊ'ßµ¢O    Ø   ­   Œ?N&_€?q³-³ Å“?ÜG}n=™­@ýAÔAÔ@Ÿ-+W²(@eT¸è	Zf@ks§e]o¼@GP0å]‡¢YESOPEN STAR CLUSTER
-NGC 2360         @€ú ­Ì)E@˜`     A
-ff@[[33333À/G®záH@l¹·ËÉ,¿öÜØT}0Õ@(õÂ\)@)záG®{@(…¸Që…@rÂEµôøé  ©  H   w   K?!ŠIéš?qD&,¸i?ÎL˜¬øÛ‚AN´èO@­bê‹¿@sè¬”Lÿ
-@¡4_Ï@?—l§ç8YESOPEN STAR CLUSTER
-FSR 1306         @qKLG$š@§ô     Ap¤@[`r° ÄœÀ<ýp£×
-=@n76+¼ŠaÀÙZ¼Ó@p£×
-=q@%=p£×
-=?áG®záH@lØ?ÓÃ  €  ð   m   8?:'¬E”?oW…Z?ÆŸ—‹dzñAI$’I$’@³|;ÏY@z©ç"± @f`A¯—I@2¬BòãZoYESOPEN STAR CLUSTER
-“FSR 1377         @„ûnJq^@²      A…@[dÌÌÌÌÍÀFUÂ\(ö@pZÛ¯À,Œé1ñ0@      @,æfffff?îzáG®@YSÜ°>  ™  2  –   Ý?R©c…?§X6˜+“?æR¨aýÝ@òˆ°ˆ°@“¿ñÁfo@[êçðÌ@bc‹²®@ Ú4YESOPEN STAR CLUSTER
-”Teutsch 49       @w@9p÷<@ªR     Aff@[fùÛ"ÐåÀ1“33333@ló$Ê e]Àhm\iû?ó×
-=p£×@(333333@$uÂ\(ö@RúÄ¯A›l  6  &     ­??>¿›n?m?§>NÓë®)?áxøx:,ª@÷­"àìÃ@™:¿î.‚@aCå5q@h©Âº‰‰@ +jqÕ)YESOPEN STAR CLUSTER
-•NGC 2362         @v£ãRNË7@•|     @Ôzá@[k…¸QìÀ8õÂ\(ö@mÅý~¤Š(À,1Uïl‡?áG®záH@%×
-=p£×@QS33333@T@`„Cxè     ‡  (   ‚?àaŠá·?£Þy\Âb¡?ÚBb/‚W×@ÿøø @ É}ýx@føÇ!E&G@hOêÐR@hÏ«º-YESOPEN STAR CLUSTER
-–Bica 4           @Š‰qœåU°@®´     A  @[qÛ"Ðå`À6¸Që…@msœ¼àÓÀj5l»kÕ?ä(õÂ\)@00£×
-=q@
-záG®{@@ˆ^mG^
-  r  œ  @  ¯?Kˆ›-Ó?áÁÛ´Ž¾x@X¦ÄNxŒ@×Ù>ùªKF@yiÁ³,ûº@Ac>hí*Ã@o¦¢Î™X?Ø‰ËB÷~±YESOPEN STAR CLUSTER
-—Ruprecht 15      @rzÕG¿@¢t     A  @[xr° ÄœÀ3¡G®zá@m1:Å}µÀ?¾ýVÈj?éG®záH@%G®záH@ffffff@Q?9DùŠW  ¶  µ   æ   ‰?0ÄðóÏ…Ñ?§ÃÉ¢^dH?Û¬[¨8Ÿ†@ýåÖãø†Š@ŸÛð~ý™@eÌLÖ±»®@rì/ã^n?ú´PÃfÿÝYESOPEN STAR CLUSTER
-™Haffner 6        @†æ˜¤Ô@©ð     A×
-@[€å`A‰7À*LÌÌÌÌÍ@l{Ø,tå?ÎÎÔ¥Ï?üzáG®{@.Š=p£×
-@¸Që…¸@[¥Ÿ…ð  i  Ž  •   å?CG+mÙ?¥ÞDµæª?ç Þ[Kf@ñâï;?¸t@“QFa¼Ë@ZÝcÀ$@s¹úÔ¸Œç@'°MaÀYESOPEN STAR CLUSTER
-šNGC 2367         @y+xøüL@›°     @í™š@[ƒ…¸QìÀ5Ýp£×
-=@ms:7›Àp¤a|Î?ðzáG®{@'™™™™š@
-(õÂ\)@]ù>†ÂÜJ  Ÿ  U   Ô   t?%eŸ|?•”I¨?×no>ÈyA§¹a{–@¢Ð92 ù@i¾†ã¨@ƒÏú¦Æ†@)öehYESOPEN STAR CLUSTER
-›DBSB 12          @ulHÚ‹µ@«R     A…@[ƒ…¸QìÀ;Å`A‰7L@nNÃöEÀ$²ª†æ?ï®záG®@'=p£×
-=?÷
-=p£×
-@M2`Ö›Ö     /  Y   Ð?AÃXjµ8;?³J¤<<©?åè&ßß@ó±;±;@”ûðÝ|Ö@\¶øé–oÙ@d—Ž¢Hl?ó!Ý{@“xYESOPEN STAR CLUSTER
-œBerkeley 37      @‚!·d@²Ï     AÌÍ@[„ýó¶E¢¿ïÎÙ‡+@k$QNè@Û ‹¡ÞZ@£×
-=p¤@.uÂ\(ö?å¸Që…@^NÑ×’®  Û  ¬     Ë?R]®ã6íœ? ŸM!üªñ?ä€¡VSj@ô-f%Õ‡@•€A3§@]lÞòk	@b¨ª¸#LV@½u	ÝHYESOPEN STAR CLUSTER
- Saurer 1         @ÃÙ>S®ê@ÊË€    A™š@[ŽùÛ"Ðå?üÌÌÌÌÌÍ@jÖL™yã@@ˆ$D&¡í@áG®zá@JÈõÂ\)?„záG®{@[#^šëÐ  Xå  >g    e?†Þqpù‘‚?ã«Þ¼°(@%¥YÇ@³¾:Z@T]¶Té%@Þsµcñ8@lo¾{0p@‡‡¸ÖtYESOPEN STAR CLUSTER
-¢NGC 2368         @›¸ÂGIì@³     A™š@[‘hr° ÅÀ$«…¸Qì@l0½q?üó2a¢c?òáG®zá@5ð£×
-=q?ò\(õÂ@HäQK‰¾    	t  š  t?XùU!Ç?–?àÜØ™Ìé‹@ÈÄ=ìj"@Ì¾m–Ëç@n¡&G»†@4ôëŽ¡ä@rÇ„’äT¹?ëÐäœCYYESOPEN STAR CLUSTER
-£FSR 1258         @ƒòž¥ÚØ@¦à     A™š@[”Iº^5?À48Që…¸@mHÝ´Í¦À?H}æV?ñ™™™™™š@,W
-=p£×?û…¸Që…@S_`†KŠ~  [  ý  ë  	?<³ÓZÉç?²šëJ$5b?êÃ¨ÿ1(M@îéÇøEŽ@xw€qpê@V‰ÑÝg@uÖò'*­@ Øž›iYESOPEN STAR CLUSTER
-¥Berkeley 77      @£}0€Ä@²[     A\)@[—+IºÀ	Ý/Ÿ¾w@khŒ@3ù@¹|Nÿ¥|?üzáG®{@8¡G®zá?ñë…¸Qì@Sˆ““%  1  
-  Ù  E?Z}9>R?ÓÏ½@…Ç§@˜÷ox A@ÍúØâ¹3@oòSKEX@5ÛÚËü#@yž„måd@ ‘n“gYESOPEN STAR CLUSTER
-¦King 23          @|‘i9ƒ{Æ@©     A33@[œ›¥ãSø¿ït¼j~ùÛ@k))Æì™‚@/ª¦pL?ñp£×
-=q@*\(õÂ\@G®záH@Q,G 3‰    {  T   ß?>ŸõwØ?±|U¥y”?æ…¼•Q?@ò^"p€’ñ@“’™}(@ZÈƒ%¤lê@okìt—Ý[?û‚ÞðOíYESOPEN STAR CLUSTER
-§FSR 0944         @’ßA]ýÓ@²“     A33@[œýó¶E¢@6€     @htÍn]ôK@0rËˆò6@\(õÂ@3½p£×
-=?ÚáG®zá@Y(ØÑ`¦  
-~  v  ï  „?Sµ)=Uê?µœZï-Z¼?ó—î­K˜0@åêâø@†›QÂ‹¹@NÉtq5E@p(€Ñ›æ@iý&.—–YESOPEN STAR CLUSTER
-±FSR 1440         @v{ýFÜ:@™|     A(ö@[¹ûçl‹DÀJù7KÆ§ð@p•Š]F“À1-nAi5?ó…¸Që…@%      @záG®@cI5%sMQ  ý  L   ›   J?"Ób]«?„ó"VE@ð?Íå,Ó 4¾A¬ùÁºÐ@­}Á7G©P@t-ŒQš´@ƒRØ¥ò}h@ ²% f0´YESOPEN STAR CLUSTER
-³Berkeley 78      @–Fn-j @²>     A33@[»33333@vÈ´9X@jy!€å‰@#9F+0­@(õÂ\)@4™™™™™š@ záG®@Y½ Zƒö  $  ä  M  ?U1.j‹¼?»Dýió·ü?ûQÝJš@ÞHßYo3”@€"¼5à¨@F€ð/‰•@r%aæôô@3¤TÂ|4YESOPEN STAR CLUSTER
-¶NGC 2374         @nxþŸV@•È     A  @[À     À*Š=p£×
-@l³‹#ë¨?ð~¨ä+„?ã333333@#aG®zá@)¸Që…¸@V1çÂK©R  B  p       \?uþÖñ?—ç!æ×5+?Ò•aí÷FABÈY!d@§¸ ú`˜á@p:å»®²@†‡eIšñ9@ÂGÑ…YESOPEN STAR CLUSTER
-·FSR 1297         @“-ÁÅÐù@¬Œ     @Öff@[¿Oß;dÀ9æfffff@mòj’–rÃÀ¶e3•üû?íp£×
-=q@1ó33333?ë×
-=p£×@I÷räØ  
-â  l  1  ý?LMª/¥þ?Õ.5ÛQ»@PÔ‡Þ¥‰@ÕjÀjÀ@vÒl±ù6d@?:Èp(v÷@v€ÁÉxU ?îDb$ÄŸYESOPEN STAR CLUSTER
-¸Ivanov 6         @i£¸™K@£     @Ó33@[Ã¶E¡ÊÁÀ8¢Iº^5@mÏY^4¶À">Ì”×?ä(õÂ\)@"áG®zá@"\(õÂ\@J±±ç"  ×  2   Î   x?.´Íü¯¸d?ªîKÈ—Fè?Ø=FðÇA@¢/®Ò—W@hâ×¹`>Í@l–ã4Ÿî?ïü_¡QêðYESOPEN STAR CLUSTER
-ºFSR 1139         @\>± hÚ@ž°     A®@[ÈÔýó¶FÀn—Oß@ki°éñÚ”@4ÃÙ*¶?á™™™™™š@¸Që…@ffffff@LáœïÖJ	   ð   ®   s   9?ÿ* ÕãF?—r)Ä™ùï?Çd½!µA÷}Áp@³$·ÎŒÕ4@z2&rJ]@mCï+r^?ò¸–’ý¤ÿYESOPEN STAR CLUSTER
-¿FSR 1283         @“[/´a!z@°`     @Ù™š@[ÎfffffÀ7ÞùÛ"Ðå@m¼u·RÀTb¹ËjÃ@=p£×
-=@2s33333?Áë…¸Qì@b¢Üº
-)n  
-¯  ¯  ö  N?QN¢Û+&§?¤žWBk*?ðÝÖ²52ƒ@è†åð«°J@Š"Ìõ4Ç@QáÙÜ”Þò@r6ËVuÖ@-ùÛ“-&YESOPEN STAR CLUSTER
-ÀNGC 2384         @rgè€ç@ 4     @ä(ö@[Ò=p£×
-À5¸Që…@mlU FŽ|À.Ÿ·Ãê?ò\(õÂ@%záG®@Që…¸R@\×_=ªÈ(  g     ½   E?'Z–ó‹%?Žž¤¥DF?Ëà”äòèA®`v¹Û@¯ Ö£+v‚@u£Üú=nC@xBÃ¿/2@«R ±‰YESOPEN STAR CLUSTER
-ÄWaterloo 7       @¢{Öâ–¿@¦è     Azá@[âIº^5À./²-V@lÈå“&c/?ãÞ­L2Îÿ@®záG®@6™™™™š?ó333333@e¡ëvÐ’g  í  ‹  8  ?H8‚iÍ%Ç?®‹0z“T|?úv.«9@ßDežJBq@€¨¿8¡¤
-@FËâì@¶˜@Š}Rbg;ç@%~¨RûZYESOPEN STAR CLUSTER
-ÅFSR 1253         @t¥é£Üºf@¡Ö     A
-=q@[äzáG®À2që…¸R@m'Òú?}q¿î÷(°o?ã333333@&.záG®@ÌÌÌÌÌÍ@K¾fð0q  T  ¼      Ð?1´.d"˜s?· 9oQ¾
-?åè&ßß@ó±;±;@”ûðÝ|Ö@\¶øé–oÙ@v ý…;¾?ð}‡`K9YESOPEN STAR CLUSTER
-ÆMelotte 66       @­è~¯jù@±‡     A×
-@[ã33333ÀGÕ$Ý/@p8Á2A(À,‹cçµÚ@Â\(õÃ@9aG®zá?ýp£×
-=q@oB]hˆ§²   þ  A  C  ?`-ý+y–?¦¿h¹2@ /P³o™@Ù`?æp @{< ß•§'@B¢­…Ÿˆã@}Õ¢@—x	@5îEe,¦¢YESOPEN STAR CLUSTER
-ÇTrumpler 6       @‰¢Ïöy=Q@¦.     A	×
-@[æéxÔýôÀ80£×
-=q@mÊ^¡üFÀ‡œUn@=p£×
-=@.záG®{?áG®záH@d´×èÅƒ˜  V    "   Á??ôjs:`‚?–NÈhNç"?ã~¶õn@õ9	Hôë@–sE‹@^òJ™–0é@zßb`ï@#>î¿ ÝxYESOPEN STAR CLUSTER
-ÉRuprecht 21      @™îXþChl@®l     A
-ff@[ï
-=p£×À?'®záH@n‘Å<Y¦ÖÀ2´7‚ô@\(õÂ@3Å¸Që…?æ¸Që…¸@a?¾\îâ  ?  
-  ü  Ç?QWæœî/?°	AáM.R?öúé’Ü@â  @ƒ/}"F@@J@ã“¼¾@x	PÀÌE @þèwñæYESOPEN STAR CLUSTER
-ÊDC 3             @eFè@?@°Ý     A(ö@[ð     ÀBÃ33333@oI…Z:À#kjô!s5@ =p£×
-=@"záG®{?÷\(õÂ\@X?Š(}†ô  ê   ø   k   k?J8Ò ÷?ú,prÿ²?Õ	ìÚA#ãJ+¿@¤eSbG£@kèÞËüC@Q}Ï@þŸ@
-dŠeS«YESOPEN STAR CLUSTER
-ÏIRAS 07255-2012  @¥EgÚ6@À½     @À  @[ú^5?|îÀ4NV“u@ma ½ùŠ¿ø¬ý÷8:@£×
-=p¤@<333333?×
-=p£×
-@_My ž  ’  `  ë  ˜?r†ÖË©Zÿ?ÁJÅÎºÏ½@:¹Qiu@ÑÏ­¢@rúaæà´@9÷Õù„P@d1‘C¼ƒ@¢«rÞÔ—YESOPEN STAR CLUSTER
-ÑFSR 1275         @µjÅ»@±½     Aff@\ Ôýó¶FÀ5Ê=p£×
-@mŒWTº>ÀT’9u@p£×
-=q@>Ï\(õÂ?ó
-=p£×
-@XÁduN=  /Z  ¿  ™  ÷?`#¤¼)í?Ù/aT=«;@‚6CŒ	@Â`ÅKÏ/@c•hæÓ”@*Ì[—Îß@…v =›¦é@‚0noØYESOPEN STAR CLUSTER
-ÒCzernik 29       @YÑ¬I…ç—@¦~     A  @\ãS÷ÎÙÀ.Ï\(õÂ@lÙéÄÐ"Å?îP|.ÇP>?â=p£×
-=@
-=p£×
-@¸Që…@Dk1ëgû—   æ   º   •   M?/œ¯¹b?¦zí`Kì?Ïp_ª)A
-˜ï`jc¾@¬W›ÄRì@sdK|ÝÑ@[BÊ?â¶ú“84YESOPEN STAR CLUSTER
-ÕHaffner 10       @Ÿ‰w(
-{ @³	     AáH@\	7KÆ§ðÀ.ºáG®{@lÙŽ"é?ð*ì	óÆ?ÿ333333@6¦fffff@®záG®@T¢y¸Þ  U  Ö  t  ?Y,»œ5?Ê‰”©—@¾¿dÞ9@Ô›Ú¥ƒ´@uõô«Aëâ@>Ñ\ß@t%gòÖ¯@üËˆ,YESOPEN STAR CLUSTER
-ÙNGC 2401         @€äJA®@­„     @à  @\‡+JÀ+ñ©ûçl‹@lµwÕæ¹7?ý¦L}$Ìú?õ™™™™™š@+Š=p£×
-@
-=p£×
-@RmØøFy    ù  w   ö?G¶Ô”“¶?³FrcSBî?èØh¶Ì(@ð¦
-h§@‘¾ ýà/¿@XGtÍÔˆ2@hÆ„—`é¹?þ{,¹2§YESOPEN STAR CLUSTER
-ÚFSR 1400         @vÌ*¦Æy@¡ä     A\@\ó¶E¡ËÀGíOß;dZ@p?Ar£7|À+¼l—Ã¨?öffffff@%®záG®?ñë…¸Qì@_†tµŒ/e  S  u   ´   l?2Ÿ,A•û?‘q£dp?ÕÐ¿Ø³-hAö„½¡/h@¤4úè?RÓ@k¦¶Íù)U@tå¡B@N8<4ø^YESOPEN STAR CLUSTER
-ÛDBSB 6           @Šé"§É@°8     @Ñ™š@\Oß;dÀ3™™™™š@mG˜;HÍ¨¿ß¿vÓHÇ@ Që…¸R@1\(õÂ\?ñÂ\(õÃ@YVSÁAÿ  ö  þ  Z  c?PÒˆ|3¹?²3]xdm®?ñíQÌ½èG@çxmœ|	@ˆ—¼'V@PÓnæí)@pM;IöN	@Ða“ƒ—YESOPEN STAR CLUSTER
-ÞDolidze 26       @xµÝ­*ª@ ,     A™š@\!7KÆ§ð@'Å¸Që…@iÐŸqµ×@+Ç)á¼?òáG®zá@'úáG®{?û
-=p£×
-@]e/Wi8>  ²  ƒ   Ø   |?+¦„Øˆ˜ ?–MIÞžÅ?Ù£xcŠA „!B„@¡™±y¯@hTäñÉ)@I!˜üú~@d­iHKªYESOPEN STAR CLUSTER
-àRuprecht 23      @.&ÜR§—@§š     Azá@\)™™™™šÀ7bIº^5@mÂ(‡¨IŠÀH°WyßÌ?ò\(õÂ@*¸Që…@×
-=p£×@SÌã”Ô”  B  à  p   »?<Ñ6iŸå÷?¬Q·W?ââñððtY@õç[¸Ðç@—W4ûÖ&,@_ð{‰úÖÂ@qKQÓ¥}@@™.NK&XYESOPEN STAR CLUSTER
-áIvanov 7         @‘6(@Â«/@°-     A33@\*^5?|îÀ.›"Ðå`B@lßxZˆ”a?÷¨Ø&iZ‡?ü£×
-=p¤@1úáG®{?Ð      @VJHz·Ñ  	©  a  ¼  ½?P^¬3ï?¹Yq«ðÄ.?öxÏã<g@âh³|Ö'@ƒÛý¦À@J×ë‘Mír@q”uÏÕn@MoðÎ¼ZYESOPEN STAR CLUSTER
-åCzernik 30       @¨z’Ju9@ºœ     A33@\3Iº^À#áG®zá@lJŸc”º@¥ªü\9ƒ?õë…¸Qì@<c×
-=p¤?ç
-=p£×
-@D½×Q´  L  8  Ö  â?i¼àK¶a?õpeÔo”@µ`+ÊÝ@¼Ñ×ì/»Ž@^µÖ|©02@%Zÿˆ@p2aŸ†îô?ãO«¿ÊëeYESOPEN STAR CLUSTER
-çDBSB 9           @kº:ÑSï@±%     @À  @\<Iº^5?À3`     @mUÕ9á;¿ÏtÇÄ+X@
-záG®@%¸Që…@ë…¸Qì@c&œ¶öNR  /  š   k   Q?G¬p]†½?ä÷À{¶?Ð\â†bA	H°üÖéà@ªñNŠÿ@ro$‰PÆ9@U—²ýÝÜ@ vuM4—OYESOPEN STAR CLUSTER
-èFSR 1227         @…kçãE9È@±”     A™š@\>¸Që…À+«…¸Qì@lºùâ¿µ@¡Nç>P@£×
-=p¤@/333333?ÞzáG®@iDxl"h
-  ñ  °   ó   ˆ?O,$Gë?ˆD5aù«ý?Ûx¥»ŒL$@þ@ ôm#:>@eõTîÜs¦@fiÀðÑÇ6@,¨„¿7ïYESOPEN STAR CLUSTER
-ìFSR 1226         @uF‡ñì…Î@¦ª     Aë…@\MÒñ©ûçÀ+}p£×
-=@l»úóòtD@•~@ó8?è£×
-=p¤@'#×
-=p¤?ö=p£×
-=@K_¿ºÙÓ  m  f  ƒ   Þ?;§û”R?·×±uHb?ækáž¸'Ž@òsP¸'5@“©+z/Æ5@ZçeÁ|ÎE@mªR[É‡Ø?ðÑfß•>:YESOPEN STAR CLUSTER
-ïNGC 2414         @{©iù#u@¦t     @è£×@\R^5?|îÀ.èõÂ\)@líco?þðÅ¤£îk?üzáG®{@)(õÂ\)@\(õÂ@_ïõ½W    ‹   ß   ?:åy–^]?”ý¸Ý½» ?Ù§@i}]±A  @@¡/×¤·Q@gƒ±¡S‡@qÝÈDß.ï@ä~S®È°YESOPEN STAR CLUSTER
-ðESO 429-02       @jÉ?úýô•@      @ÜÌÍ@\V¸Që…À<0£×
-=q@nS nïÇÙÀ¢OPŽ³!?ñ¸Që…@"¸Që…¸?ùp£×
-=q@ZÒÏ=A|»    ¾   ¡   Q?)Ÿbmq?Ž¢º×®ž ?Ð\â†bA	H°üÖéà@ªñNŠÿ@ro$‰PÆ9@sNÆlÍ@%öÂÖ„YESOPEN STAR CLUSTER
-òASCC 40          @ƒ¬©™¬@¨R     AÌÍ@\Z\(õÃÀ+‡®záH@l¿†°[@Ü z\ç‹@ (õÂ\)@,¨õÂ\)?Ñë…¸Qì@`ºÿ:™-  Õ  ó  "   °?AEõ?±à?›*PN˜³-?áÆ‰[<©½@÷EÑt]F@˜Ì¨K“ˆ@`÷Á¡MB@sÂ€[£Ïü@ úæfIXYESOPEN STAR CLUSTER
-ôFSR 1302         @„9$¹Ày@¡¬     A™š@\fzáG®À:S33333@n"Ë¸EÀ—	:!Mé?ì(õÂ\)@+\(õÂ\@=p£×
-=@T¦èÆÓ  B  [  ˆ  (?5yÞ²6+Þ?´EíšT6'?íå,Ó 4¾@ë¬ùÁºÐ@}Á7G©P@T-ŒQš´@›£kŸŒ@£œÅ‡¶YESOPEN STAR CLUSTER
-õFSR 1243         @}êÛ¯ó@°ð     @Öff@\hA‰7KÇÀ/Þ¸Që…@lÿ’dÒr~?ÿÖ†¹¯Ïu@G®záH@+ffffff?äzáG®{@Y°½&Z  Ì  Þ     È?N(!ÉgÏô?¢ô¤¹k½@?ä3sP’W@ôzáG®{@•ÒÑŠ/èÏ@]ÝÞs~@bžIÕ]:@ž¿¦â»xYESOPEN STAR CLUSTER
-÷Alessi 17        @{Ê«êíž@²Y     A…@\vfffffÀ./Ÿ¾vÉ@lëC@"úË@­ƒªøŒ?öffffff@+#×
-=p¤?ó333333@N½l»µ8Ù  f  –  ‰  ?P‰Laã?¸Fr)Þ×Z?ëÆ6žŽÉ7@íÊÜ Ê@¾HÑR¢@U¸%sQ@_"%}\õ‡?õ5Hÿ6”YESOPEN STAR CLUSTER
-øDBSB 10          @h§À´–Àm@¢t     @Ð  @\véxÔýôÀ6e¸Që…@m·§ñ7V¿î¯³#*þh?ùG®záH@"™™™™™š@ÌÌÌÌÌÍ@a?9DùŠW  Ø  ‘   n   6?-Û^t¥_r?€)­HÍØ}?ÅÐ¿Ø³-hAö„½¡/h@´4úè?RÓ@{¦¶Íù)U@lé‘à¿#B@´PÃfÿÝYESOPEN STAR CLUSTER
-ùHaffner 11       @’Eÿ`\	@´%     A¸@\v$Ý/ À;´záG®@nL1ÄªÑqÀ[À”ëT1?ýp£×
-=q@2ŒÌÌÌÌÍ@333333@Rf¶³ #  
--  Ê  ‚  ?X­çÂëª?Ã˜ªæ¥³þ?ùçãÑTÅë@ßðüÿ @1›'Ùõ@GIºìÄ~@h!z°ƒ&ü?þcÏÉô
-YESOPEN STAR CLUSTER
-úDBSB 7           @o°i_ÅE²@£ê     @ï×
-@\x£×
-=qÀ2Ã×
-=p¤@mRO)&,?êŠ‰Ð^EŸ?ë×
-=p£×@$€     @ ÌÌÌÌÌÍ@Q™Ÿ´Ëÿ  ¦  g   Ê   —?4Z=°?¦Kkƒ„´"?Þ€N™¥.ä@û 6@l€Ù@œçÂv›@cÆëÜ8$X@n(&¢ËÌ‰?ûÏ¥Õw½YESOPEN STAR CLUSTER
-ýNGC 2421         @wFª‹}@¡     @îff@\ƒ×
-=p¤À4œ(õÂ\@mˆ²ÒZ?³x7¸y€?õë…¸Qì@&Ç®záH@$aG®zá@`7Ñ,%Ìñ  š  %   ±   g?0‡»j1yÁ?‘ÚL@„)?ÔÎ29UŒ}Aâ,¼ä©@¥0|8t«@lþWJMU˜@y€—.€1@œôK'YESOPEN STAR CLUSTER
-ÿRiddle 5         @hmâáÕøÒ@¥$     A=q@\Œ›¥ãSøÀ8©xÔýó¶@mûá(xU¿üªC‡Æ?èQë…¸R@"½p£×
-=?áG®záH@L÷,crÆ7  Œ     ¤   ^?01¡B0
-ö?£;åÀˆ'?ÒüÌçFž
-AÉˆ+“W@§7lˆ.#@oÄýšò²6@f\Œ·q?òÔ”µ—YESOPEN STAR CLUSTER
- Ruprecht 25      @†ˆÜ¼q@¬     AQì@\ŒzáG®À7ZáG®{@m×T\øð†¿ò}'ÅÕŠ?õG®záH@.
-=p£×
-?ë…¸Që…@S!mb>wá  ø  ó     U?Hêßê×?¸Ó|ÇéÀ’?ñ8UbÄo@è€`@‰™sêêß‹@Qƒà¦L{@p^WhÜv@ mŒw§¬eYESOPEN STAR CLUSTER
-Alessi 18        @{XZŠð<@@¸     A(ö@\’Àƒn˜À:b\(õÃ@n-hroÀr}Öï@
-=p£×
-=@+ë…¸Qì?Öffffff@Zç›Ý-Z  É  L  K   ¶?XZaøÐ?›F[À¿?âa«!A£ã@öhh@—û\j×Ð@`hŽ<UöÅ@Rcò¥UÜ@>kÓfã,YESOPEN STAR CLUSTER
-Melotte 71       @ Œ¸æ¸#€@£R     A™š@\˜õÂ\)À((õÂ\@lžBËîå@ÅSºyû@ õÂ\(ö@4ë…¸Qì@ffffff@fQà7  Œ    ß   ?@D!ãìs5?¨¿¹!
-ŠÛ?õè&ßß@ã±;±;@„ûðÝ|Ö@L¶øé–oÙ@®¼È3²1@%íÚêáñ7YESOPEN STAR CLUSTER
-NGC 2425         @œ•2ý'1@°ê     Ap¤@\£÷ÎÙ‡À-Â\(õÃ@lðìÐS+@
-Om Nµ÷?õG®záH@5ffffff?ù™™™™™š@O­˜¿¦³˜  ®  	Ö  ¨  ™?T$ÙÌ×@?Ô_,ºÉþH@A0þÿƒ@ÑÊuGþ@rôÔ¼§Â@9ðž&ñh@vÆóÊ&4?ö…½æ$¶CYESOPEN STAR CLUSTER
-NGC 2420         @ŸÁm”F]ˆ@¦€     A×
-@\¦$Ý/ @5‘&éxÔþ@hÃ¡÷î-@3¡»ÊÙP_@£×
-=p¤@5\(õÂ@ …¸Që…@dÛø¿%‹ò  Y  ƒ  Ú  ¿?DŒ"ÌýÑ?«}>±ÇÒ?ö’ª9f@âS~‘w²@ƒ‡câ,s@J¹,_ùd@Š!#Î*;+@#‡ð(-¡YESOPEN STAR CLUSTER
-Melotte 72       @¦ÊÚ¡”Câ@®ö     A×
-@\§®záHÀ%ffffff@l{°d5®r@z¯ð„YG@®záG®@8×
-=p£×@\(õÂ\@\Á †¹€  »      2?TH,Ò(a?ÄHÈ¦¹ØP@§iÇÔMô@Ô‚Ñef@uWá•ŠÝn@=4È˜uõÔ@‚QYôýî@@5pR0AYESOPEN STAR CLUSTER
-Arp-Madore 2     @Íçoóq§Õ@Ê     A\)@\«S÷ÎÙÀ@êáG®{@o—ð±öÀˆ2¤f›@õÂ\(ö@Kð£×
-=q?ÔzáG®{@[.’Œä  ƒÀ  [Þ   á  ¡?qƒÏè±?íf¼Gk8"@/¸/Õ…Ì@ª¸DàÅ@KËŒÉxá1@w IŒu@p^Œr´x@d¿íYáYESOPEN STAR CLUSTER
-FSR 1327         @q@ì°Í@¤J     A(ö@\µ?|í‘hÀ?½p£×
-=@nÊº}º ÀxµLlÖ?õ™™™™™š@$£×
-=p¤@ (õÂ\)@ZÎC:t„  _  ª       Y?2ØñCÃg“?‘5–ä ?Ñú?GèýAà\p@¨…Rýp@pÆó:Ð´h@msV”ñ@ }´øD YESOPEN STAR CLUSTER
-Ruprecht 28      @©±YŸ,7@²h     A(ö@\¹™™™™šÀ>ï\(õÂ@nµE4ÉÀ=Þ¤ÖèT@™™™™™š@9Š=p£×
-?þ\(õÂ@ZÏÓªÏÁj  Ö  …  Þ  D?^Í SôZ¦?Ê&=û;ªÑ@’€±âuÕ@Îàà@oùÐŽuY@5à½¥Çó±@{e>¯@"_–}ñêYESOPEN STAR CLUSTER
-NGC 2439         @¶åa³~ô3@­ô     @è  @\ÌÌÌÌÌÍÀ?´záG®@nÎ¦ÌÃÆŠÀÚ3Öäfk@™™™™™š@=ë…¸Qì?òáG®zá@b(9°­  5  !‚  	&  ÷?[Y’LFº?Ê=2t’{@G"k~Uç@Åu…ÁøJ@fÝç÷/õ@/J}cÎ…@Œe´ Å@˜ä\„YESOPEN STAR CLUSTER
- FSR 1211         @‰l¬U’@°ì     A(ö@\ØQë…¸À#8Që…¸@lh«Dx•@5ŒÖ@•t@õÂ\(ö@0c×
-=p¤?ùë…¸Qì@u‹¢õî!0    D   ð   ®?Q¬­qœq}?v¥zðO?á’ÓnV[@÷ŠLx¤È@™¡fíM@a)¯Bi@j²_¿)ËR@DÖNpÊžYESOPEN STAR CLUSTER
-!NGC 2437         @˜3D7¿‰›@•|     A™š@\Ý¸Që…À-œ(õÂ\@lû£³ê@OúgIÑÖ@¸Që…¸@1Ü(õÂ\@áG®zá@xHs»	Ë  +  	1     ¢?#—êC‘k`?}Ž™ÎšÍ?à\â†b@ùH°üÖéà@šñNŠÿ@bo$‰PÆ9@£ª|È!ì@JwùÕ´YESOPEN STAR CLUSTER
-"FSR 1320         @ppmÄüª@²h     A{@\ãS÷ÎÙÀ=:áG®{@nŽTGý,ÔÀÚ…û*dë?ùp£×
-=q@&záG®?äÌÌÌÌÌÍ@Qf{È¶ä÷  B  ˆ   è   ‘?IÐJ¨:¥W?£qúÐ3wç?ÝJ›:—@ü?Ãøð@žôáéÎ\@d˜kèÜä†@Ty¼íxê?û.n•AÉsYESOPEN STAR CLUSTER
-#Ruprecht 30      @d¾­˜5í#@ ¬     A™š@\æ—Oß;À?wOß;d@nÍhO¹æ0À0Kžü?äÌÌÌÌÌÍ@!¸Që…@×
-=p£×@OiÒjÿ    $   °   v?0.mÌ ð?¥ìžžÁ£x?×ÕÛno=A[_u'@¢~—ŠÍ{‰@iNÒ³×u@n	¡¥òe?ö%Å—ù1<YESOPEN STAR CLUSTER
-,NGC 2447         @Œå•Ü7¼³@4     A
-áH@]	G®záÀ7Ü(õÂ\@nŸ 8ã?Ã
-èÖ|B@×
-=p£×@-aG®zá@*G®záH@€ø–}O%  6  ü   }   J?‹El‡Ò?b–ÂÊ3¶?Íå,Ó 4¾A¬ùÁºÐ@­}Á7G©P@t-ŒQš´@§d.êñç@YÙÔÝWÄYESOPEN STAR CLUSTER
--FSR 1176         @z‰é»âs@¢¼     A
-ff@]Ôýó¶FÀ£×
-=p¤@kögà)ð@"¶“)P;´?ÿ
-=p£×
-@(\(õÂ@\(õÂ@dÛÖ~P1á  Ï  Å   ¥   t?77'Œ×?ŒÑ·5iÎg?×no>ÈyA§¹a{–@¢Ð92 ù@i¾†ã¨@xt+v“†@#‡¯Þq¾TYESOPEN STAR CLUSTER
-.Haffner 14       @~ÒÇæ§åØ@ ¬     A\@]¸Që…À<aG®zá@nÌÕF^qÀ €Ü=¦X?íp£×
-=q@(½p£×
-=@…¸Që…@V;"±rÓÿ  +  ¤  %   é?3NJ6ÈO ?«DmQF:1?çˆJ4kò*@ñ”S€Œ¢œ@’»hU@Y¢=Ëñ”@U.G×'@/*aÐW›YESOPEN STAR CLUSTER
-0Haffner 15       @kÚþ)@¡z     @èõÃ@]r° ÄœÀ@l‹C•@nþ`¬´ÃÀ¡i;R?íÂ\(õÃ@"æfffff@/\(õÂ@UpaïØ    F      Q?-;ê×R?—”ï÷×!?Ð\â†bA	H°üÖéà@ªñNŠÿ@ro$‰PÆ9@p¤’¥¨@¡0%R=´YESOPEN STAR CLUSTER
-5Ruprecht 35      @ŽeúPu¦Þ@®$     A
-=@]#dZ¬À?Hr° Äœ@nÕ10\À
-v¦ÀC¦?ó…¸Që…@0s33333?ôÌÌÌÌÌÍ@PN|² !  p    j  ó?M cí½ì?Ä¯²Á½C?ù2çù¢@àjµœyû@~i`ëh@GðC÷“yu@pô¸—Ù—?÷ß&Kå@YESOPEN STAR CLUSTER
-8Berkeley 39      @”€Ì²Tê@²ä     A  @]-?|í‘hÀ¸Që…¸@kñ‹RþÝH@$+ø<.½@ uÂ\(ö@3Ï\(õÂ?ï®záG®@uðiÔŒÄ¬  W  
-  ?   Ì?U4ßI	bA?~·ü	=½?äš|L©9@ô@•eEæÙ¢ý@]Gé%ïˆ@oK:­Û=@E›¿p*PYESOPEN STAR CLUSTER
-<NGC 2453         @X™«Ë±Ÿ'@¢ž     @û®@]9ÊÀƒoÀ;1hr° Å@nhÙõsæ¿íÜˆht”š?×®záG®@=p£×
-=@ Ñë…¸R@@U;ªPÔ   Ñ   ¬   ¥   \?%ÇÑJ)r?°šÊÜ˜”Â?Ò•aí÷FABÈY!d@§¸ ú`˜á@p:å»®²@aŒ«3÷®’?×ù™|YESOPEN STAR CLUSTER
->FSR 1064         @ŽwêÇ-øƒ@¤Ú     A ff@]>—Oß;@!Â\(õÃ@ji<6ë§@08Ìsô?ê=p£×
-=@0”záG®@       @O¯~+>“  €  U    à?;¥ì­‘øl?Æ­?(M£?ø=FðÇ@á@‚/®Ò—W@Hâ×¹`>Í@þ&t[?öˆp9laYESOPEN STAR CLUSTER
-?FSR 1347         @hÄâð…©Á@ ú     A Qì@]?Oß;dÀ@Ù™™™™š@o>Ÿå†”À¾#¢ê?ñp£×
-=q@"™™™™š@ €     @YÝ¾åŠ=  
-  ¤       K?-ƒ ZãÊÕ?ÉÇ’ ¸—?ÎL˜¬øÛ‚AN´èO@­bê‹¿@sè¬”Lÿ
-@p,žáýÈ@Pÿ¿ï°YESOPEN STAR CLUSTER
-ATeutsch 25       @b\hñY@¦.     A(ö@]G+IºÀ;æfffff@n`A¡Ó¿ò}!œ\³?äÌÌÌÌÌÍ@ úáG®{@Â\(õÃ@GœÒHQ„  ­   í   ¥   v?7…Q«ƒ*’?¯Yw§ð‚³?×ÕÛno=A[_u'@¢~—ŠÍ{‰@iNÒ³×u@`­¿±ð¾ö?éûØ¦àƒYESOPEN STAR CLUSTER
-BHaffner 25       @i”ŸrG–¤@°”     A\)@]J\(õÃÀ9ó÷ÎÙ‡@nJeÌ	œ¿º¸nûuî?îzáG®@$záG®?ø(õÂ\)@F×½6“ô9  	  
-   Ê   ¯?FÒ¦ÒeÄ?´WJ+ÇK?á¬®dæ€@÷gÜä4©±@˜ðïy[S6@a“ìÔHR@TßùŒnô?çl¢—:&YESOPEN STAR CLUSTER
-DFSR 1315         @faðPÌØÅ@¡ž     A33@]K33333À:û¥ãS÷Ï@nf÷¿Š2‰¿ãÇZ ½æŽ?Ù™™™™™š@!Â\(õÃ@¸Që…¸@BKDt´GK  ò  C     «?/~“¡Fm?¾PZ%b¨ò?áEB‹ÙH@÷ôý@@™†Jh»Æð@avÄL1“^@lëºÞ;gù?Þ	ÌzaYESOPEN STAR CLUSTER
-IRuprecht 37      @šý%Iwæ@´‚     AÌÍ@]]Â\(öÀ19™™™™š@m]·3YÒ.@3%(Kº!@p£×
-=q@5Y™™™™š?¤záG®{@pØPHð  *  b    .?\Æ`’¯N?‘kHY?î€N™¥.ä@ë 6@l€Ù@ŒçÂv›@SÆëÜ8$X@n×Æó‰2Ð@9yXõ¿óYESOPEN STAR CLUSTER
-JFSR 1245         @b<4¤[Ca@œ¤     A¸R@]_+IºÀ,
-Àƒn˜@mú(¸Á¯@´'Qãy9?æzáG®@ ”záG®@Â\(õÃ@SiCÊ´´    A      R?#-[ë|P¹?• `­°‘Ñ?ÐEÏ2µpAùÁœú@ª1|ÐGŸ@r5—š_f%@sÕ;ßl @ éÔÃ` °YESOPEN STAR CLUSTER
-LRuprecht 38      @p%Z>O@¦à     A®@]g¾vÈ´9À4/\(õÂ@m²Šl<ˆ@	s×É9lh?ë333333@$Ñë…¸R@\(õÂ\@Mð}æÑÖ  ;  i   Î   €?6&*^<m?©ôMXÖ4(?ÙÚöV)±A       @¡³³õmâ@gTª=Ê:à@g’ÿ.î¶Ð?ô1ÐtÔYESOPEN STAR CLUSTER
-MCzernik 32       @œnÍ­á#û@®$     A  @]hbMÒòÀ=ØQë…¸@n¼WÏçŒ¿û¨´mIÈF?û®záG®@4O\(õÂ@\(õÂ\@W?Ÿ,‚  +  
-b  X  ˜?RNœšÓ–N?Ã¶Wsé¦}@ Ãû»ßÒ@Ø¬¹kóª@zKMu@Aým®dê@y×ÏÊïøÆ@ 3¢³1%YESOPEN STAR CLUSTER
-NFSR 1361         @m^Ó4óev@¡t     A×
-@]jÀƒn˜ÀB1ë…¸R@oqÐêÂÜÀŒ+Ôâ?öffffff@#™™™™š?ê\(õÂ@`(a,°îZ  ç  ¥   y   B?*",Û'l?ƒ )íå/¿?Ê©ÎÚþ›AÁð|@°ˆp2b[
-@vŸ¬×­t@q
-m:ÂËg@pæ¬äBYESOPEN STAR CLUSTER
-OFSR 1294         @a»t4¢@ ’     Ap¤@]r^5?|îÀ6(õÂ\@mé«ÍLŽª@±¾ŽF@?à£×
-=p¤@ B\(õÃ@®záG®@IHã¯.FŠ  0   ç   œ   R?$J?¿tqq?£_¸t —*?ÐEÏ2µpAùÁœú@ª1|ÐGŸ@r5—š_f%@kfÕÜ“Þ•?ì²‹]hYESOPEN STAR CLUSTER
-PHaffner 17       @w8LbÃ’@¦¦     A¸R@]yÛ"Ðå`À?Ñ&éxÔþ@nö•Dp:
-À8'XMke?â=p£×
-=@&úáG®{@áG®zá@DG"ƒB-    ù  ¤  ?<o^Fð¥?Æ‘'ßnó?ì{3Zéí@íµnÀt@Žôµ|=…@U-þgLvÏ@mL jC"{?âu…ëJYESOPEN STAR CLUSTER
-RSAI 81           @“-ÁÅÐù@´-     A{@]Û"Ðå`À<ó¶E¡Ë@n’‰¶÷/ç¿áeµÑ8k@p£×
-=q@2À     ?áë…¸Qì@ZÁ¬ÞáŽ½  
-¨  ±  Ú  Ž?Y_îi®e	?³h%‰­}æ?ô5|úh¦@ä•9ã²Ðg@…îäšQ˜ï@Nm¨@ž@h“ÞHyL@[úF­.YESOPEN STAR CLUSTER
-SNGC 2477         @‘ÂçŽÚ“@–¨     A£×@]‚=p£×
-ÀCC×
-=p¤@o±ñ+jÀ^d	=ö>@×
-=p£×@.ð£×
-=q@5ó33333@±K~W%\  
-  Ö      `?&3‰›µ+‡?döÅè¼ZD?Ód8ÀŸDÎAUUUUUU@¦»šEG=-@o§¸N€@š‰+¾}Â@\„±wéYESOPEN STAR CLUSTER
-_FSR 1133         @¯Ùðë{·@¨P     AáH@] Ä›¥ã?û…¸Që…@kP˜ H\@,î¹ ?ºu@ÌÌÌÌÌÍ@+¸Që…?Ú=p£×
-=@mÓ„G¸  v  $   É   _?=µóuÑV?z&Ó;id?Ó0‚ÓòñlAŽÒ0Xí@¦øÜ‘uÌ¤@ooaUòÖ@q“§kÄ,@3÷SVö8{YESOPEN STAR CLUSTER
-`FSR 1102         @cÀ‰N®æ@™ì     AQì@]™$Ý/@ÌÌÌÌÌÍ@jÝcÈ@0gœ`ÌwÐ?ß\(õÂ\@ ð£×
-=q@ aG®zá@Nv	Ë€ø  W   Ñ   y   W?ÎëXÒ7ƒ?žh†ê?Ñ’ÓnV[AŠLx¤È@©¡fíM@q)¯Bi@xNtŒÀÓ?ôÓ9ÖþçÅYESOPEN STAR CLUSTER
-eWaterloo 3       @kûè[Q¯²@¤:     A  @]±‡+À9_;dZ¬@nR†à§Œ?öïðUÃV?×®záG®@#ffffff@ÌÌÌÌÌÍ@=zQÀþeí  ú       Ô?1¬´ o À?Ç¹Ë—U¦?åiSÿZ†¤@óRû+xÁ@”–•`Í$@\,FTFPÁ@j-ã¹”?Ó€šbYãîYESOPEN STAR CLUSTER
-gNGC 2483         @^ÓÞõqqI@™Ä     @ó33@]ºáG®{À;ç®záH@n™°PišÔ?Î±¡Ûn?á™™™™™š@\(õÂ@Që…¸R@Q2ýâ¨™     Æ   e   3?Ú ß…Ä†?’»cy ]þ?Äš|L©9A@µeEæÙ¢ý@}Gé%ïˆ@tH!§?úŽz§…¼YESOPEN STAR CLUSTER
-iHaffner 20       @p¾«X‰Zô@¦¼     A áH@]Ã÷ÎÙ‡À>]ó¶E¡Ë@nß«rlÍ¿íËëÙÿ†?ñÂ\(õÃ@$¨õÂ\)@™™™™™š@S«jð{Mb  ™  ¹   È   ƒ?9àÛw?¡üÊ#Ò?Úv.«9@ÿDežJBq@ ¨¿8¡¤
-@fËâì@¶˜@g€W ;©8@]á$°yÌYESOPEN STAR CLUSTER
-mFSR 1479         @Š™³Åæu@¯®     A33@]ÚIº^5ÀM¨õÂ\)@qŽ0ÍvÖÀ.y¸OâZg@×
-=p£×@,Ü(õÂ\?æzáG®@bò©8õ¬  ¼  Ì  ‰  ?U¤ä½?ôç?Ÿ¸Êuó?êó„Ôê@ï%öD#
-µ@˜‡ü÷ @Vµ²]=Œ@gžæ)å`@ á‡ÓYESOPEN STAR CLUSTER
-nFSR 1221         @Ëžnt@¤     A  @]Ü›¥ãSøÀ"LÌÌÌÌÍ@l›Šù#Y@$‹†0ü¬?özáG®@)æfffff@×
-=p£×@[³6c‡³ò  y  ×     ª?6TÁ­º?žfj¶åÚ?á+g•7¯—@ø@™¬ºH8]0@a‘¿Âë@w±ô,ùc@8‘¾n7ïYESOPEN STAR CLUSTER
-oFSR 1342         @‘§/AˆJ@¬X     A£×@]Þ¸Që…À?‚MÒñ©ü@oJ:Ù£Ö¿ó‚ž”e®„?ôõÂ\(ö@1záG®?û
-=p£×
-@Rž›êój  	ß  ˜  D  Ö?Kó¶ð¢…?Â«HÀ¢Î?÷¼ !EŒ@án‰Bsy@‚’½9°ñ¶@Ijd{õ[_@tªäe€èZ?ÿÀ+²9YESOPEN STAR CLUSTER
-pTurner 12        @ ‚úcmñ°@±“     A×
-@]àbMÒòÀ=Hr° Äœ@nÇÖé“­Ð¿¥CMŽ›@™™™™™š@5×
-=p£×?Î¸Që…¸@i7<¶Ä‰µ    r  ò  ‹?Y^d$Q5?£ˆ6SB?óòmy*@ä½>Ý¦á@†‰©Õ@N=È“~­‡@uù £_7@,Š‡HÂ[wYESOPEN STAR CLUSTER
-sKronberger 85    @£”7ðoÖ@ÄF     A  @]å$Ý/ÀAbÐå`A‰@o^é“!²ÀÄ…¾ë4?÷\(õÂ\@;µÂ\(ö?êáG®zá@=!4½,s  ä  G  u  	<?xoçP_@ ôCƒ±Õ@Ø?Xuå@»¸ö	‡”“@]Š‡¶=N@$6IØÕPå@Z”÷½íCZ?Òä#\z¾YESOPEN STAR CLUSTER
-tFSR 1514         @mMˆ>Ù¿§@¥„     A  @]èr° ÄœÀP¨Që…¸@quAÄJ`ïÀ2v«Ø*á¹?ñG®záH@!Ñë…¸R?üQë…¸R@T8ØØØØÙ    Q   ¤   a?9¹Ž]E?šš6¦°¤?Ó—î­K˜0Aêâø@¦›QÂ‹¹@nÉtq5E@c…iÌð­!@[ õ]}äYESOPEN STAR CLUSTER
-uFSR 1084         @¯æcBÒ@¢t     AÌÍ@]éÊÀƒo@ ¬1&é@j¨âïxÁ¨@2’‰¸x¾;?ó\(õÂ\@:E¸Që…?ñG®záH@ZjŽÎÀq  'á  Ñ    z?D;É!é³ú?Ò šŽ ¾Ò@³%"|
-x@Ç_Pµ"±|@hçÓ¾4{ÿ@1
-XŠ“r@œÖ=0„ŒC@RÉaæDYESOPEN STAR CLUSTER
-vRuprecht 44      @¬äGÍ5@²:     @Ù™š@]î5?|í‘À<•Â\(ö@n¸
-Á^~?ßC+'ÿõc?ö\(õÂ@:‚\(õÃ?ìzáG®{@O*J’Ž*‡  "²  ò  í  Ó?`ÝFu‰ä?çIp`by@I†¬…@À\Ÿ¡îà@anÂ»S!~@'ÚÙCè5
-@~Ì¿€ÀZ?õÌ‹ /RþYESOPEN STAR CLUSTER
-wFSR 1087         @p%Z>O@¢     A  @]îfffff@ÌÌÌÌÌÍ@j­(zJà@2—
-»7¾Ç?éG®záH@$ë…¸Qì?þ=p£×
-=@Q%5DÈ©¢  >  Z   »   l?-)[]Ã?£ã©oRÙ´?ÕÐ¿Ø³-hAö„½¡/h@¤4úè?RÓ@k¦¶Íù)U@rr÷#°?úcý}N;YESOPEN STAR CLUSTER
-zESO 561-05       @p™¨"K™@$     A  @]õV“À6°£×
-=q@nÈ‚Ê:À@>~€ép?ðQë…¸R@$      @¸Që…¸@\3Ó÷îv  A  y   †   ??#®HB?ŽŸ††$p?ÉsŠ|Ñ
-OAAA@±Qû¢k@w³xCH @zÏ@üŸt«@ÙðR}G@YESOPEN STAR CLUSTER
-~NGC 2506         @©À1¹ñû@«Œ     A\)@^      À%…¸Që…@lÑ²/j×@#ßZw1+@áG®zá@9@     ?ý¸Që…@je¹2qæ€  ù  0  Ù  R?QmjV?ª+ZY?5î?ýÿÉö^o@Û•+ÿ#@}dU®ç¾J@D'Ûï„@‡èè”FŒö@/GSiÖ|ÞYESOPEN STAR CLUSTER
-FSR 1147         @‚q›ÏëÏ@—     A…@^?|í‘h?ô(õÂ\)@kzUÈŒÓ@/½ÿ]fº?èõÂ\(ö@*Që…¸R?ùp£×
-=q@Z¬/«AS  G     %   »?!eoŒ²i?£W÷·IÓ?ââñððtY@õç[¸Ðç@—W4ûÖ&,@_ð{‰úÖÂ@‘ÁèTý@îî÷ÞYESOPEN STAR CLUSTER
-€Ruprecht 153     @  G1øÅ@´Î     A	G®@^“t¼À>NzáG®@nìR,*¿ÁÚì·:Š?û
-=p£×
-@6xQë…¸?ç®záG®@P\ÐVq*´  Q  ¶  —  n?aè¶‚þŸ?Ø»é¯³“@¡ûÌk+˜@Ìå\Ž¬y @nÊ¢çþø@5NSÊ@p™gSä?ø	+¤ü¾YESOPEN STAR CLUSTER
-‚NGC 2509         @oè¤è:UK@š¼     A33@^záG®À3ÌÌÌÌÍ@mºÁ~?Í<@a‹ÒÜø?æffffff@#¸Që…¸@4áG®zá@U¾Q¾  `     ¶   f?!ô2ŸE˜=?›Ô^Ìàþ~?Ôš|L©9A@¥eEæÙ¢ý@mGé%ïˆ@~÷˜¾cæO@úc›Ô˜ÈYESOPEN STAR CLUSTER
-ƒHaffner 21       @d
-bŸÁô¶@£     A
-  @^ÊÀƒoÀ;6‡+J@nšõh5pá?ú‹ƒQ&Ú?ã×
-=p£×@!.záG®@
-=p£×
-@J?³S{Ö£  e  8   Ä   e?,'ƒ&úùC?¥i=+ë?ÔfÆ_üå¹AFøebÙû@¥›€äì@m‘Qj0s+@g0Â{kÌ?îíx²$.0YESOPEN STAR CLUSTER
-„FSR 1378         @h™<rÒ¸”@˜h     A   @^V“ÀDVfffff@p&6%À´˜ÕÄEë?ñÂ\(õÃ@!uÂ\(ö@333333@bR{`ÓáR  ¯  n   i   /?¶¨G?z'¤ÄJ]?ÂüÌçFž
-AÉˆ+“W@·7lˆ.#@Äýšò²6@} Ô"Ø.@#GK°ÑYESOPEN STAR CLUSTER
-‡ESO 311-21       @šJ²=´¨@³þ     AÌÍ@^"Ðå`BÀDÊŸ¾vÈ´@p3—Jí¬À[Ÿo›i?û
-=p£×
-@3øQë…¸?æ¸Që…¸@Ql)‰  “  	>    #?`×ýð€–?Ñ‚68
-ÄQ@Ft¬1œ@ÔgJëGé@u½ò;>¶Ø@=ÀsÑ7@ldúzÿ?úx¶ÕSYESOPEN STAR CLUSTER
-ˆFSR 1339         @—`ñOÔÊÅ@°G     A×
-@^S÷ÎÙÀ>µÂ\(ö@nü,µÛÅf¿¼râú‹C@záG®{@3&fffff?öffffff@\–Û-á    Þ  (  ×?SUJš¿£‡?´Â¬š¸ˆÉ?÷ÈíœCZe@ádPü2@‚ˆ¤è•dm@I\”Ü`@s±·	(W¤@WãæYESOPEN STAR CLUSTER
-‰Ruprecht 154     @p#Æ*]M@¨°     @äÌÍ@^×
-=p¤ÀF6$Ý/ @p9V}ŽpÀ=zø`?ã…¸Që…@#áG®zá?þáG®zá@Cè’ºé“a  S  h  $   Å?=|úÄ?¾•Fz-?ãåND@ôÊ¸‡%¯n@–'åŸÈ­û@^QnÅ?ùW@btò˜w?áÊ†²LnÙYESOPEN STAR CLUSTER
-‹Ruprecht 47      @ž­pìi1R@¦˜     AáH@^%p£×
-=À?ë…¸R@o>d€oª¿Ç»’=¶‡y?÷…¸Që…@3úáG®{?ýp£×
-=q@Z6²  Õ  
-  à  ‚?Gr‹5}ê?Àë¢¸B@ 5Çq#„@Ù…/ŽÀÿ@{1Ä‚¹´Ù@B›?2R×@†AÙàw@Ö³øQPYESOPEN STAR CLUSTER
-’ESO 430-14       @ƒ¬©™¬@¦X     @æ¸R@^9‡+À?j=p£×
-@oDZ˜¿Â¿÷”“"Í?÷…¸Që…@+LÌÌÌÌÍ?ñ™™™™™š@ZÛÑb      ‘   ð?@¹›1¤*œ?¦ˆm?Ûó5?è=FðÇ@ñ@’/®Ò—W@Xâ×¹`>Í@u=Å.pÚ@ˆ[$i‰äYESOPEN STAR CLUSTER
-˜NGC 2533         @~ÒÇæ§åØ@§     A×
-@^qÊÀƒoÀ=áG®zá@nùª³ uÎ?õö˜æB›?û333333@)LÌÌÌÌÍ@(õÂ\)@]ªuþpËÃ  Õ       ¢?@Œ[lÄ®B?œ¢^G¡êç?à\â†b@ùH°üÖéà@šñNŠÿ@bo$‰PÆ9@qÁ|ý@À²°øYESOPEN STAR CLUSTER
-šTeutsch 50       @fTÂŸ¿³@©l     A®@^r\(õÃÀB	XbMÓ@o »ý\›À ²æêô?ðÌÌÌÌÌÍ@!úáG®{@\(õÂ\@P£®Ïae}  v     Š   U?8på‰I@?›„Æ(
-È9?Ñ+g•7¯—A@©¬ºH8]0@q‘¿Âë@\xe˜ÕCî?øÛ"Ì¶]ÁYESOPEN STAR CLUSTER
-›SAI 86           @a‰ üm|@§œ     A
-ff@^ƒ÷ÎÙ‡ÀBK…¸Qì@o²tûzdÀ Û©¢x?÷×
-=p£×@ p£×
-=q?ñÂ\(õÃ@Yl¾ù˜„  j     u   D?7ýyýÐ»ã?†Ñ»:?Ëx¥»ŒL$A@°ôm#:>@uõTîÜs¦@[˜×€=/°@)F cšYESOPEN STAR CLUSTER
-ŸNGC 2539         @Žäl¼ä9*@“@     AÂ@^ªáG®{À)®záG®@m7o€I8Ô@&:¯pö?ÿ®záG®@.uÂ\(ö@&333333@t·õPu  „  }   Ê   ˆ?ú_é¢G™?yÝY_¹Ë?Ûx¥»ŒL$@þ@ ôm#:>@eõTîÜs¦@¡Ð]@v@CD¸÷Î¥FYESOPEN STAR CLUSTER
-¡FSR 1446         @q“
-”ƒ}æ@£     A™š@^­Â\(öÀI~záG®@p »¥X9ÎÀ"à¸VLP?å¸Që…@#¨õÂ\)@	333333@K÷xÞx=  d  ©     •?2eÒaGé?¯âR,í±u?ÞâÀLˆ @û}l=Ú3‹@KÓB¬@d
-áGû@nk=µ¸h
-?ñd¨¢6¡YESOPEN STAR CLUSTER
-£FSR 1380         @qûÖdS@¨P     A×
-@^±G®záÀCû…¸Qì@pu—ƒÂˆÀÊ¦”ÀU?ÿ
-=p£×
-@$Â\(õÃ@
-£×
-=p¤@`±óíÖ  ‰  ›   …   _?<šOWÁ]Ç?‰–¹¡§©å?Ó0‚ÓòñlAŽÒ0Xí@¦øÜ‘uÌ¤@ooaUòÖ@d¿²TÇ›.@1WKrerYESOPEN STAR CLUSTER
-¤Ruprecht 54      @”±]»fî@´{     A£×@^µó¶E¡ËÀ?ñë…¸R@oA	·Ÿd~?îÚÛ©ÉD?õÂ\(õÃ@2úáG®{@Â\(õÃ@JÀ|_Eq  a  ¸    æ?[?\™q!?ÔºçÙœ¦Ú@¼)o5Ï@Ö³h1®”@w‡†%4X)@@LÂqR¸@hpÆ€È?ðîK”1ÉYESOPEN STAR CLUSTER
-¦FSR 1357         @p¾«X‰Zô@¢r     A	…@^»33333À@ £×
-=q@oJÍ!'?ëF[ËÐÂK?è      @$™™™™š@G®záH@Paq†WÓÃ  ²  l   Ì   ¤?2«ÿõº™?ª1q‹0G?àEÏ2µp@øùÁœú@š1|ÐGŸ@b5—š_f%@påj€9†	?øÆñÇ4wYESOPEN STAR CLUSTER
-§NGC 2546         @¨àe!‘Së@8     A(ö@^½¡ÊÀƒÀBÎzáG®@oÚa¨¦”À zÿê`½?ó×
-=p£×@5Å¸Që…@p£×
-=q@qÉó×ê‰  .  Ù  Š  Æ?gV_	!? DòL7SS?öí(nfø@âGgÀÙ@ƒ:N›•Xö@JO±TX9`@¿˜`†Òg@:=Ïóâ´YESOPEN STAR CLUSTER
-¨FSR 1335         @‹¨ìÄØÔH@­ö     AG®@^ÀbMÒòÀ=      @nôŽÜ•¿@‰€Ñx ±?ó×
-=p£×@/Ç®záH?è      @P¬^&5²T  P  ;  ë  Å?NcZ„;Ö9?Ã~Ö‡cO?öà:ó;ã+@ây€HUæ@ƒE,O ÿ@J^ÐJÛ @pOT&hb?øõ
-¿-YESOPEN STAR CLUSTER
-©DBSB 13          @{¹½kF’@«Ì     AÂ@^Ã×
-=p¤À6XQë…¸@nBfœ€ @w)DCz?è£×
-=p¤@)Që…¸R@333333@FQ¼Óµk  ê  £  ó  )?Cgrœ<?Ä}é’?íÿÉö^o@ë•+ÿ#@dU®ç¾J@T'Ûï„@gœ­Ý›J|?æ\]=ÀÉâYESOPEN STAR CLUSTER
-ªHaffner 22       @…_KºÙÏ@¥Ø     A
-=@^Ç+IºÀ;ã×
-=p¤@nØ…
-2@@’2»lZ@ffffff@,¸Që…@®záG®@iÑì9"a  Õ  o   Ó   ˆ?<ó–JRÅ?†Ï§+Mô«?Ûx¥»ŒL$@þ@ ôm#:>@eõTîÜs¦@w”{ÜÉ!@-ìäÏñ%SYESOPEN STAR CLUSTER
-«Ruprecht 55      @ˆáFY‚÷ä@¬p     @ß
-=@^É‡+À@Mp£×
-=@oW"$wút?êRZõ!c?ôÌÌÌÌÌÍ@.333333?ö¸Që…¸@Rj ê ê  "  ®  |  l?JtÞ?»kUÿØ=?òa«!A£ã@æhh@‡û\j×Ð@PhŽ<UöÅ@ph2;£?þrëgýÜYESOPEN STAR CLUSTER
-­SAI 88           @‡Ð¡Ð@¶Î     AÌÍ@^Ï|í‘hsÀDð     @p(<wuÀà0Çl7&?ë×
-=p£×@/G®záH@G®záH@>½5žÜ°    }  S  ó?^ò¬¼{¸?ãˆÅÈD@1 =O@Õ³^™ðg@wÎÅHÍÿ@?¤¬“ó@ZÅ1ºû£ÿ?Õ4º'n«SYESOPEN STAR CLUSTER
-°Ruprecht 58      @ygàRŸ:@¢H     A	×
-@^í¸Që…À?ñë…¸R@oMòª´?ù1 iß´
-?Þ¸Që…¸@'\(õÂ@G®záH@E'ÇIA`ã    ^  Ù  -?4özÂ}—?ÇŸÆ7î†?îfs£O3@ë7HJØÎ@ WòR`Â@S×½ÝÍ*k@v£Ñ÷p3?äçŠ4E¬YESOPEN STAR CLUSTER
-¹Pismis 2         @•‘‰|¨ùœ@¥„     AáH@_l‹C•ÀDÕÂ\(ö@p-Å›6‡À
-£s+6H“?÷×
-=p£×@15Â\(ö@£×
-=p¤@[æ!¯èÌ[  ¥  Â  ¤  ¸?DRT„Ù?µ.7ì´V?ö8+²Ô,@âžA)äž@ƒÖí	BÓ¥@K&›®Ð%@‚5"[³Ê-@xã0»ÐYESOPEN STAR CLUSTER
-ºPismis 1         @ƒ·¨¤9{@·     @ù™š@_$ÌÌÌÌÍÀBŒÌÌÌÌÍ@oã•Wuïç¿æÂŒ ¨[Ë?ùÂ\(õÃ@-Ñë…¸R?ó\(õÂ\@L î$"P  ¿  ×  p  h?\Cc§¬Š?Âïë•¦Jº?ò-õ4•P@æÁlÁl@ˆ?“}ÉÊ@P—:{•3@WË÷5¤R5?ñÂïÎtmYESOPEN STAR CLUSTER
-»NGC 2567         @iÑ7ls«‹@š8     A
-Qì@_)‡+À>¦fffff@o9×ŸÍÇ@±8ÿ;Y¥?é™™™™™š@"¸Që…@&ð£×
-=q@X•©ôg¾  ’  Z      l?&afu–õ·?–-§&?ÕÐ¿Ø³-hAö„½¡/h@¤4úè?RÓ@k¦¶Íù)U@zâ%Bü@!X+’8YESOPEN STAR CLUSTER
-¼FSR 1419         @·ÃæÃs@¾B     A  @_/ß;dZÀGæfffff@p#³Ô}Àe²C€.Z@ \(õÂ@@Â\(ö?àõÂ\(ö@K‚\¯_  5’  ®  .  T?x]“â¡õ¬?öüà¨È1(@%‰¥³F:Á@³5é}¿Æ@Tw°i—yh@ÿ°„Sâ@pƒ"I?ñI¼èß6YESOPEN STAR CLUSTER
-ÀRuprecht 59      @}û¼4£>@¯H     @Ù™š@_5¡ÊÀƒÀA?\(õÂ@o¢Uç¹?íÚ E’(ã?ê\(õÂ@)¨õÂ\)?ýG®záH@E`ìëæ2  ½  ø  ^  “?Lö‹ÎªOÇ?Ë‘aœÈ?ôYØäÑÐà@äSÙâÇvÊ@…©:³‚@M¤·P÷•@c&¼ã"?ä„,Ý¾ëYESOPEN STAR CLUSTER
-ÁRuprecht 156     @tEoš	Á@¥@     AõÃ@_8õÂ\)ÀF¬ÌÌÌÌÍ@paHý™Ü_ÀšµU„´?ð(õÂ\)@%¸Që…?ú=p£×
-=@S%Óº †í  È  ü   ô   ‹?7aìð…?£Çã!f´ø?ÜÇ‘FK@ýw¶T¸,4@Ÿf–yzX0@e|aÒÃ@kØJ7àU@ uÆò˜8YESOPEN STAR CLUSTER
-ÄNGC 2580         @“DkYfæÎ@³Ë     Aff@_X Ä›¥ãÀ>K…¸Qì@o;æ´%3@z“rëN—?ùë…¸Qì@2k…¸Qì?è£×
-=p¤@P|Ž;yÅA  ú  7  ç  µ?\p_š:>?Ì¹zÛ"ÕË@o5Ï·@×¤c ^‘Œ@y1n¢Ò@A<´s¨º@h¥€Ú\m?øfÆœTëyYESOPEN STAR CLUSTER
-ÈNGC 2588         @qñ?¹õ,£@¢ê     Aff@_s…¸QìÀ@|(õÂ\@o‰\IW@°ŸbÀÀ?íp£×
-=q@$…¸Që…@záG®{@S˜yN{5½  Ï  ‘   Æ   ‹?3¡Úó¬?£›pj?ÜÇ‘FK@ýw¶T¸,4@Ÿf–yzX0@e|aÒÃ@p¿cè¬@<}onÕYESOPEN STAR CLUSTER
-ÊNGC 2587         @’œ÷ÐóËÈ@¥     A33@_véxÔýôÀ=~5?|í‘@o.Uœ“ò@ï_¿ÜÁ9?û\(õÂ\@0À     ?ÿ®záG®@`RÁ±É¬    ¾    }?C˜¢
-t?­`æAò,€?ó=pOE@å€VX`@†ém†IÁ@OZB,o_@îE~u<@ë§ØÞBËYESOPEN STAR CLUSTER
-ËCollinder 187    @fTÂŸ¿³@¡     A£×@_ƒC•%À=+…¸Qì@o(åò"O×@9Ž“&?äzáG®{@!záG®{@£×
-=p¤@N.6¤4ˆÐ  ‹  1   »   R?(@ü›« ø?¡«-•®xZ?ÐEÏ2µpAùÁœú@ª1|ÐGŸ@r5—š_f%@mÉM4„?ôqy`îÜÚYESOPEN STAR CLUSTER
-ÌESO 312-03       @c¸[&ò)@ ô     A
-£×@_‡®záHÀD§
-=p£×@p4aè0À ñc(1T6?æ¸Që…¸@ ffffff@	…¸Që…@Pß5F¼xþ  Q   ã   ‰   V?'$ÁþX~?˜>z¬y?Ñ_äùAÐ_A}ô@©`Lôª@q\Æ"…@j¡ƒL³EÏ?ùŽ7~J¶YESOPEN STAR CLUSTER
-ÍRuprecht 60      @¡s$údS@¶k     A	™š@_†éxÔýôÀG™™™™™š@ptu]%€À=´Ê±@Që…¸R@5ÌÌÌÌÌÍ?éë…¸Qì@aê‚ ´·  ï  Î    o?e¬ý”07Ø?¶i.i#Dý?ÿuî½×ºö@ÚLn &7@|³€€@C,ƒ°î…	@jév‰@/=ÜðYESOPEN STAR CLUSTER
-ÐRuprecht 61      @aªh@·v     A™š@_“¶E¡ÊÁÀAZ¬1@o¯ç7Ðõˆ@ ù]aI(?û
-=p£×
-@"\(õÂ?Ð      @M—šî  n   â   ‚   g?SØÖ?`	?¡µ;£èp?ÔÎ29UŒ}Aâ,¼ä©@¥0|8t«@lþWJMU˜@@ÝQ’I³?òæ¸65­ÿYESOPEN STAR CLUSTER
-ÑSaurer 2         @†Ù×Í%‡@·„     A  @_—
-=p£×ÀCÑë…¸R@pòühX¿ð%J£·†b?öffffff@/¸Që…@ záG®{@Gûû<¹¿³  C      ?]i€•…ß?Ìbfá–™Â?ú™¾N@ß°ÆÕé9@€â}zCÄw@GæüSjV@XëP1èð
-?éÒKL²,–YESOPEN STAR CLUSTER
-ÔESO 370-13       @œ¢¸ê>T@½Á     Aff@_²¬1'ÀAY™™™™š@oÅJ²Õ“×@Yº²[@™™™™™š@2Š=p£×
-?©™™™™™š@W[*¦]]¬  ±  ¦  ¥  ¡?g›2&åµ?´Åá×H_ ?õÕ¡,ô¸@ã¥$8zÈ"@„ïû¦åu@L¥X×Ã¯@V+«—Ú¡@|ÿ5 YESOPEN STAR CLUSTER
-ÕSAI 90           @y”+©‰|€@¨P     A®@_ÁxÔýó¶ÀDâ\(õÃ@p@aOÁ+¿ý`@PÛ`¦?íp£×
-=q@'¸Që…@333333@N}1âA"  B  $  D   ý?C]¯lþÚä?·ã-.M£†?ées'4 @ð0‘µ^@‘@u.úÒ@W›|³åì¦@i¼sóýé?ôÝ	Õ«¨YESOPEN STAR CLUSTER
-ØRuprecht 157     @‚Qõÿ)Ã@¢     A33@_Ý¸Që…À3¸Që…@n5Ä&½@'%ÏeÆ³‡?òáG®zá@*uÂ\(ö?û\(õÂ\@ZTmúVÓ  º    P   Î?5îÈç<ð¡?¥Š'/ÑM?äÎ29UŒ}@óâ,¼ä©@•0|8t«@\þWJMU˜@~¹xt,@eûì4YESOPEN STAR CLUSTER
-ÛESO 313-03       @u-©Þ)x@°­     A	™š@_ú¬1'ÀDä¼j~ùÛ@pFÍO+‡F¿ôüóô^?ü(õÂ\)@&€     ?éG®záH@UBkoïN    Z     œ?L¦J…b?¡ð–·c?ß‚Ü9ÏÏ@úA¤A¤@›ú–|¦r®@c$¥ñõ;@YçSÇ¾!É@I o@s>YESOPEN STAR CLUSTER
-ÝESO 370-17       @tEoš	Á@¥     A  @_ýÒñ©ûçÀB7KÆ§ð@oþ7rOžŠ@ @à1ýOl?õë…¸Qì@%\(õÂ\?¾¸Që…¸@Z6±-<š  -  ä   ·   …?9bo³öÉ?˜K{*b?ÚÝƒõ‡Qþ@þÌ³ìÀ@ hŒx¶¿@ft ô?½y@mIóäÇ¾6@ØAè‡ÎYESOPEN STAR CLUSTER
-ÞTeutsch 64       @bF÷Š“¼@¨P     A…@`÷ÎÙ‡ÀDÿ\(õÂ@pK ·¿¦¿ôâÌædeG?á™™™™™š@ aG®zá@\(õÂ\@B:&+o7ð  œ   ã   À   Š?=*®
-U´}?¹Cgk>³?Ûà”äòè@ý®`v¹Û@Ÿ Ö£+v‚@e£Üú=nC@YÕ“yGÉO?ÝÓoÚfT`YESOPEN STAR CLUSTER
-ßRuprecht 62      @oè¤è:UK@ à     AÂ@`å`A‰7À3®Ù‡+@nP[à:¶Æ@'˜F¬i“d?äÌÌÌÌÌÍ@#æfffff@=p£×
-=@O	°[±  Î  ’   ì   ¶?0—8=ÏéÊ?®_?Ggò?âa«!A£ã@öhh@—û\j×Ð@`hŽ<UöÅ@sÉŒ*58?õžMh[fYESOPEN STAR CLUSTER
-àRuprecht 63      @• JN‰>@²Ý     Aff@`¸Që…ÀH%Â\(ö@pœ¤‰V„À_µ©N@p£×
-=q@1Ç®záH@áG®zá@\žEéâ	z  7  ™  Ý  Á?\FQ´Mfš?³qö’¹d?ö¬…É@â>·—`[@ƒq•Ñ@Jš³Mß1v@iHl²€p@a¯tod‘YESOPEN STAR CLUSTER
-åvdBergh-Hagen 37 @£fD&`–Ì@´R     @ð  @`MÒñ©üÀEÏŸ¾vÉ@pež§C!!¿ü¡µ
-S@ =p£×
-=@6\(õÂ\?ü£×
-=p¤@TxiZK<  ¶    «  ;?cInsCïÃ?ÒG÷ü$y@XT ˜@ÎA¶¸ÙxQ@pë v˜—@6HÌº&@q:‡O@-+ù*IYESOPEN STAR CLUSTER
-æFSR 1397         @l-Ã9q•@ (     @øõÃ@`((õÂ\ÀD1G®zá@p>…aÖk–?ÕÂÐ_´“¬?î¸Që…¸@"ffffff@®záG®@WðïÛŽO  F  ‡   œ   r?,Öe]ò]?”°â—–i?×d½!µA÷}Áp@£$·ÎŒÕ4@j2&rJ]@rt’ð[¹@	¸¿Db°YESOPEN STAR CLUSTER
-çSAI 91           @qÜ%)6Ó@ª     AG®@`((õÂ\ÀI¸Që…@pº.^üÁÀå€²Ý´ã?÷\(õÂ\@$¸Që…@\(õÂ@V›Îëû3ð    ·   »   }?Ep©.q?ŸSqµiHä?Ù?Ô$¶ìA bMÒñ©ü@¡utnŒº?@gäK˜s@a`½*#û@ñ¾<óä(YESOPEN STAR CLUSTER
-èFSR 1401         @û„ýÝÛ@°R     @Ø  @`(bMÒñªÀE.¸Që…@pWÓìI„¿ë<œ1¥U"@×
-=p£×@*¨õÂ\)?Ó333333@`ØçE$     °  f   «?O’ë.“ž¡?—†,Qr4‰?áEB‹ÙH@÷ôý@@™†Jh»Æð@avÄL1“^@büu¤\@{!¨,áPYESOPEN STAR CLUSTER
-éFSR 1412         @„âÀWÚ­Ä@¤¨     @á™š@`*=p£×
-ÀFÄ›¥ãT@pnÄ©‹	w¿þ#m‰ |<?úffffff@*£×
-=p¤?Ð      @`¹ %  æ  º     ¶?=,Œ‘¿?´.¬ê?âa«!A£ã@öhh@—û\j×Ð@`hŽ<UöÅ@wª.‹@=ñ êYESOPEN STAR CLUSTER
-êNGC 2627         @zzI–Ä³w@¥0     A™š@`*\(õÃÀ=ñë…¸R@or´•/@¬äU<Ñ?òzáG®@'ž¸Që…@p£×
-=q@U|fffff  y  ¦      ·?=šÜ°Ö?©Cëï¦?â{†—Í•@öaìjQ"ù@—ÙÐ‰±@`Qšqxë@q®ùÅ	¶@¸à4þ‹YESOPEN STAR CLUSTER
-íFSR 1429         @lll(%@ªV     A33@`-¸Që…ÀG-V@p‡uÇç”…ÀÅù´Lòt@\(õÂ@"ÌÌÌÌÌÍ?ã333333@c¨uèF˜  ç  ³   d   7?>µ“Öýçy?y­<;±û<?Æ8+²Ô,AžA)äž@³Öí	BÓ¥@{&›®Ð%@] ÑêQ<Š@!X	Ô¬žYESOPEN STAR CLUSTER
-îFSR 1406         @ƒÎõ+,ë·@©     @ÜÌÍ@`2=p£×
-ÀE,ÌÌÌÌÍ@pY×$	«Ê¿å%Õ\ì”K?õ™™™™™š@*³33333?ò\(õÂ@U³DO)  4    ¨   ?F{_ç?±,½c"?íU îç5@ìqÇqÇ@ŽOx\^ü<@T½	zß @p&üæº¾@#<ÿü<YESOPEN STAR CLUSTER
-ïNGC 2635         @˜AŒLV¤¿@­š     A®@`3|í‘hsÀAc33333@oóTC*„@¢<„?øõÂ\(ö@2®záG®?ñë…¸Qì@U;õLA  ó  ÿ  þ  ‡?SLú??#•?ÅžÞÒd æ@ V$ð×¢@ÙR²sî—@zû÷ÎÓ@BvoÅF7L@vª1½¿<“@;žrðžYESOPEN STAR CLUSTER
-ðPismis 6         @mÇlúþÜ@š     @ò\@`8záG®ÀGzáG®@pŒ SÑÀC/ø)?÷×
-=p£×@"\(õÂ\@¸Që…@g»’š  ú  ý   m   ,? aÉ{?sn¹v# À?ÁÆ‰[<©½AEÑt]F@¸Ì¨K“ˆ@€÷Á¡MB@|>¶÷°@'ÏŸ²«âÈYESOPEN STAR CLUSTER
-ñFSR 1251         @‘æ@…µ]@¦.     A33@`8¼j~ùÛÀ(õÂ\)@m0;8Æá@3Ù.âUËÕ@	™™™™™š@1záG®?á™™™™™š@mÇ»x  ¥  _  5   è?D0þLcÉ?‘ù×¼s?çno>Èy@ñ§¹a{–@’Ð92 ù@Y¾†ã¨@€à0;JÌR@2ô sž3äYESOPEN STAR CLUSTER
-öFSR 1415         @kën]lã¸@«"     A  @`C
-=p£×ÀF\ÌÌÌÌÍ@p{´'±ã¿üà
-œm¦t@£×
-=p¤@"áG®zá@Â\(õÃ@c'Rƒ<f2  s     —   R?DÎAŸƒ5°?h¡|§b(?ÐEÏ2µpAùÁœú@ª1|ÐGŸ@r5—š_f%@[ŽÂ)žQ®@ w­âQäuYESOPEN STAR CLUSTER
-úRuprecht 66      @€fu­¸,Á@«À     A\@`CÆ§ï²ÀC
-=p£×@p'dÕ‰@J,fÜs@ \(õÂ@)™™™™™š?øzáG®{@^ „×ÞÉ  @  E     Ï?I_†">«?žQuìÄÕ?äè/«¶.@óÉ•¤{«ç@•älÇ¤W@\Ú{øQèY@h8 =ï¶:@D¿3ÕŽúYESOPEN STAR CLUSTER
-ûFSR 1345         @i£¸™K@¢4     @Þff@`F¸Që…À9`     @o*P)@$yˆZ›–?ð(õÂ\)@"k…¸Qì?ü      @VZMöòTÿ  Ì  &   ~   Z?,Þï7~L?’Á`Àøÿ?Ò-õ4•PAÁlÁl@¨?“}ÉÊ@p—:{•3@m#ÃÙë£@mŠ÷üÛ×YESOPEN STAR CLUSTER
-üPismis 7         @•«ø ø‡@²¯     AG®@`I™™™™šÀCZ~ùÛ"Ñ@p1¤è".@  uB²*÷@ ÌÌÌÌÌÍ@2c×
-=p¤?à£×
-=p¤@V£òƒ!  µ  –  ƒ  T?]¯j8?ÁnªÚ×‹ˆ?þâÀLˆ @Û}l=Ú3‹@}KÓB¬@D
-áGû@k‘úå‚8@FCÓo‘YESOPEN STAR CLUSTER
-NGC 2660         @x§Qûm@¦     A™š@`UG®záÀG™7KÆ§ð@pžÝöË9Àô6dE?ë×
-=p£×@&=p£×
-=@Lù™™™™š@OÙò–*4  ë  q  i   Ý??}¨ež?´$¦÷X?æR¨aýÝ@òˆ°ˆ°@“¿ñÁfo@[êçðÌ@m«@ºh?öÄú²YESOPEN STAR CLUSTER
-NGC 2658         @›ÉªMd@¨f     A™š@`\     À@U¸Që…@oÒ%ô¼®þ@KÙ¯Í¥•?ÿ
-=p£×
-@3(õÂ\)@záG®{@`3½³_D  ·  
-]    ?KÞÖÖð(©?µ=ÐÕö?úÝƒõ‡Qþ@ÞÌ³ìÀ@€hŒx¶¿@Ft ô?½y@Œ¬5éJ'@–ÉôúYESOPEN STAR CLUSTER
-
-FSR 1399         @ŠZ­•z+@©Ø     AÌÍ@`aG®záÀC®¸Që…@p?Bçÿº@ ax“äÜ2?ñ¸Që…@-™™™™™š@ffffff@P­õ¹ðv  ]  `  ñ  Œ?GGØ	†?Á@ö”Fäî?óÿZ†¤>õ@ä¯Ö R¿[@†@C-Î¸@N*;ÉlçF@rª_Ð¶ã?øùàlXÎµYESOPEN STAR CLUSTER
-Ruprecht 69      @Z{9M§Ï@Ÿh     A  @`cÎÙ‡+ÀGÈõÂ\)@p¦›äÔöÀ÷g<³c?è£×
-=p¤@¸Që…@¸Që…¸@SÁŒÃ½   Ô   Ú   f   )? þÅx½èË?†"üÄ¥?ÀEÏ2µpAùÁœú@º1|ÐGŸ@‚5—š_f%@fÐPž»3@„8©ÒlYESOPEN STAR CLUSTER
-SAI 94           @æ^E~Uê@®\     Ap¤@`e$Ý/ÀG$záG®@p–ÒvË£"À]WR¢E¬?ðÌÌÌÌÌÍ@*      @=p£×
-=@KÝÑ[ÕO·  Ê  h    -?JÛgÀ†|o?ÀÝ æà?îfs£O3@ë7HJØÎ@ WòR`Â@S×½ÝÍ*k@dß+²—û?ñm´jõ‹YESOPEN STAR CLUSTER
-Bochum 7         @­ú%ÏÇŸ@·«     @ð  @`fzáG®ÀFýp£×
-=@p“*²4õ¿ÿ‹§—À?ùÂ\(õÃ@:J=p£×
-?×®záG®@Kg‡w=Çš  "  }    ¤?lk„§¯b–?í™ú‘åL½@ìÿÁ@½ ¢ó€;A@_’2_Iy‰@%™ØiZ{ó@qŽYåt²W?ðÚ÷ºdYESOPEN STAR CLUSTER
-ESO 211-01       @…ë¤s}•@ªª     A(ö@`yÂ\(öÀJQë…¸@pã‡­—4ÀÀÄ‹²Íq?öáG®zá@*ð£×
-=q?û\(õÂ\@U›<JwŸ  Ô  Y  Õ  ?G{«˜hž?°G<êé0 ?ì{3Zéí@íµnÀt@Žôµ|=…@U-þgLvÏ@m³°®ý@ôª¶”YESOPEN STAR CLUSTER
-1NGC 2682         @š+ÅKð@‹Ð     A\@`›Ÿ¾vÉ@'¡G®zá@jö86FÞ@?ìªfå¿?ùë…¸Qì@1úáG®{@B=p£×
-=@ww-­cÀô  1  	<     ¨?ë9d Xç?ƒ+OSRª?à÷±¨‹\4@øa†a†@™úùs¿!X@aÆš²v @·ÉKà—È<@H·o‡co“YESOPEN STAR CLUSTER
-3ESO 211-03       @‘æ@…µ]@°­     A\@`œÌÌÌÌÍÀI\(õÂ@pÓÂ÷œ>´À‘hRw?üÌÌÌÌÌÍ@0O\(õÂ?þ¸Që…¸@U¾l©†  
-%  $  *  Â?UÏ4£À?»údï˜@Q?ö¹rº¤¢@â4Vxš¼ß@ƒf—GÕ@J‹Å»þ¸@k9Ó8<@8b¼ïYESOPEN STAR CLUSTER
-5FSR 1430         @°+ÿ*ãÍÅ@ºQ     A  @`žùÛ"ÐåÀF bMÒñª@pŠJPG·?·/=¿ê@¸Që…@;£×
-=p¤?ê\(õÂ@RK#Ÿê[  $U  ¿  ž  [?pî÷Y"ý?á±û\@Å²=x•/@Áfê§Ä.9@b‹)õYÉÃ@)`ÉÌPä@odbuÓ·§?þ"p¸çYESOPEN STAR CLUSTER
-8Ruprecht 158     @q@ì°Í@¥@     Aff@`£…¸QìÀBÇ
-=p£×@p8ÄIàg@ÈT×Ý¦@ (õÂ\)@$\(õÂ?äÌÌÌÌÌÍ@c%Óº †í  è  -   ›   _?:ÓöAg?„«zHK®¹?Ó0‚ÓòñlAŽÒ0Xí@¦øÜ‘uÌ¤@ooaUòÖ@i\ŠÆ@ uÆò˜8YESOPEN STAR CLUSTER
-;ESO 371-25       @oSŒ³8²ð@¦.     AáH@`¨     ÀA»Æ§ï²@p 
-¡±8@qÓXJØ£?î¸Që…¸@#”záG®?ðzáG®{@QoÞ=H  Ã  ¬   é   –?=&Õd™ )?§¯h!äˆ{?ÞL˜¬øÛ‚@ûN´èO@bê‹¿@cè¬”Lÿ
-@f-oãá9á?ûKÈT‘äNYESOPEN STAR CLUSTER
-?FSR 1304         @žãàéVeP@´0     A  @`ªÙ‡+À-‘ë…¸R@n*õ­F½@2«‹]‡pá@
-záG®@5õÂ\(ö?ÑG®záH@`CÓu  Ó  "  à  .?]=b¢ßºÑ?´»-”ÂJ?ü-¢wçoü@Ý\¬€ur²@IÆæ-ª@EhKv,A@pÖLŠ‡Ö@¿\KNÑYESOPEN STAR CLUSTER
-@vdBergh-Hagen 55 @”%Š/+›@¬t     @îff@`Á‰7KÆ¨ÀCÁG®zá@pX_„êÑß@¡2-Ä@ =p£×
-=@1!G®zá?ð(õÂ\)@\¾íÇÒÉ  ú  ©  –  œ?Pý.­?²æÐeÊª”?ôÎ29UŒ}@ãâ,¼ä©@…0|8t«@LþWJMU˜@t¡ô£Øƒ@Š‘óþô†YESOPEN STAR CLUSTER
-AFSR 1346         @…ë¤s}•@§Î     A33@`ÁÂ\(öÀ7o\(õÂ@o{”•‘»@+ög€áŠ?ó…¸Që…@,aG®zá@\(õÂ\@T¥•;*1  q    Î  ?B£áÛë?³³jÀÔÔ‹?ëùì‹;™@í’ò#Š@ƒ›£Ag@UÝ›yá@t9Yá£HH@"šûïRKYESOPEN STAR CLUSTER
-DFSR 1435         @u˜ÐöÛ1@”@     @À  @`È¼j~ùÛÀEáë…¸R@pþo«›[?ñöõH?[”?à      @$záG®{@2œ(õÂ\@Säö„½¡/  x  È   õ   ?å´ÒRñ?¦Ú|_œÕ?ÝU îç5@üqÇqÇ@žOx\^ü<@d½	zß @‘R„r@Är ‡YESOPEN STAR CLUSTER
-SPismis 10        @ƒ‰a¬¿þ™@ÁA€    Aff@`õ‡+ÀEÑhr° Å@p–øW±c?ÿi"!8X@ffffff@/ffffff?è      @V-ÕÝPî  R  9  Ü  ?jo^}½ò¿?¬3éÙûý´?ê©ÎÚþ›@ïÁð|@ˆp2b[
-@VŸ¬×­t@GŽ¥«Îú€@¥aÂ>vYESOPEN STAR CLUSTER
-ZFSR 1402         @“ñÁW×«@¦’     @ì£×@azáG®ÀBð     @pX>WÀˆ‘@ñb6‹`?û®záG®@0³33333?ð£×
-=p¤@^á
-BâbÉ  P  >  J  l?E?bœI?®ï»¬‘‡?òa«!A£ã@æhh@‡û\j×Ð@PhŽ<UöÅ@(¾- ÑE@fŠ9 E`YESOPEN STAR CLUSTER
-eFSR 1389         @ˆPJÛE„¿@«h     A	…@aAXbMÓÀ@aG®zá@p(ñ™ÿA @%CJ¢<6å@(õÂ\)@-záG®?öffffff@f2H‚NXÛ  µ    b   Ù?L'ÜY6?”e6L =À?åêšÏ	W@òà%ÀK€—@”$8“øÉ@[†áS@peýu@&ƒg„ßYESOPEN STAR CLUSTER
-jFSR 1381         @v-¤mÑþ@¥Ö     A{@a]‰7KÆ¨À=¬ÌÌÌÌÍ@pì_ÎY@*‡Äù,äï?ï
-=p£×
-@%úáG®{@®záG®@Qå^èc6l  ¢  C     Ò?=~g'S?­”Bh`?å5ž®3A@ó88@”ÈÇÌ­@\pöŠ·#3@lÕ•-:$Å?üÀ€ü{aþYESOPEN STAR CLUSTER
-kPismis 11        @eø=®e@²Ÿ     @À  @a_
-=p£×ÀIG®zá@púlx ’¿æ‚s¾Ä•?úzáG®@!LÌÌÌÌÍ@™™™™™š@Q¡ÛØòI  œ      –   i?N­(6Ì?šÿ*Nœ£??Õ5ž®3AA88@¤ÈÇÌ­@lpöŠ·#3@HQ
-÷‡?ûé+¯HoYESOPEN STAR CLUSTER
-pNGC 2849         @h§À´–Àm@²À     A…@a{n—PÀDB-V@p”Q.ø¡@rž—‘-5?ú=p£×
-=@"½p£×
-=@×
-=p£×@QžS÷ÎÙ  ü  h   ¹   l?PW]ì–çý? «p¼´%?ÕÐ¿Ø³-hAö„½¡/h@¤4úè?RÓ@k¦¶Íù)U@Lm^š€ù3?ûÝÿ:‘³µYESOPEN STAR CLUSTER
-qESO 314-14       @]Ù†@-W@8     A
-ff@a|“t¼jÀCå`A‰7@py	»NTŒ@ Oc}«J?Ú=p£×
-=@\(õÂ\@ ¸Që…@Fœ¨ p%¬   ð   Ÿ   z   S?W‚nâP?£ïcòe?ÐÃû»ßÒA¬¹kóª@ªKMu@qým®dê@l»¾™e;?æóvà\èYESOPEN STAR CLUSTER
-rPismis 12        @i+êçÎz@¡Z     AG®@a€     ÀFŽzáG®@pÊ(ÙÀƒk@	ÄkW‹–?æzáG®@!ffffff@/8Që…¸@P'YÖ       ”   f?0÷Ò‘–™i?¥"êT:F?Ôš|L©9A@¥eEæÙ¢ý@mGé%ïˆ@lÞUÿ,Ê?÷
-SmëKGYESOPEN STAR CLUSTER
-sRuprecht 159     @±rÕþó¹ã@¸Ë     A33@aƒl‹C•ÀN2\(õÃ@qyº²øJÀõÌêÝ7@ë…¸Qì@9ã×
-=p¤?¾¸Që…¸@VBÚÉ¯«¹  ([  p    Ù?sôÃ=Ž?Ú‹ºÎ@!Œ€o±@Â±It®¨†@cë4ôµ M@+AÃ=<J
-@o8bzt@>”îýê¯YESOPEN STAR CLUSTER
-tTeutsch 48       @“}ˆ·õ+÷@¹e     A™š@a„bMÒñªÀJiÛ"Ðå`@q"ÃÏaé À@½u—@
-£×
-=p¤@1\(õÂ?¹™™™™™š@Zié¾Dñ¨  r  i    ò?hœú)h?µcnÒzZ=?ù%ù™Î;@às&
-G÷Æ@‡gˆ²N@Gü’=x†Ž@[6Ùl´à(@QAóí2YESOPEN STAR CLUSTER
-uvdBergh-Hagen 63 @^U°Jçóë@°#     Aff@a…7KÆ§ðÀH›Æ§ï²@pú	E%ˆ?ÙÖ.¦Í²?ï\(õÂ\@p£×
-=q@8LÌÌÌÌÍ@HwX‡ð<  X   Ä   ˜   i?HÙì`Ž§?§j~¿¨È?Õ5ž®3AA88@¤ÈÇÌ­@lpöŠ·#3@IPëve`Ã?êÞ—,ßQxYESOPEN STAR CLUSTER
-xFSR 1464         @iÂc,³@¡X     Aë…@aŽ=p£×
-ÀFáG®zá@pÕ¾8©c@ÝäR
-ôæ?äzáG®{@!€     @333333@M»]D[â  Ñ  š   ô   t?-ZZüScÒ?¥n¨­e ?×no>ÈyA§¹a{–@¢Ð92 ù@i¾†ã¨@løþJ¼?ó×
-p-£YESOPEN STAR CLUSTER
-yRuprecht 75      @~®†©%÷@±5     Ap¤@a\(õÂÀL(“t¼j@qL›–ñ.ªÀìÝà^.@?ï
-=p£×
-@'×
-=p£×@õÂ\(ö@FµÑÑ–·  þ  ·    =?Q¿•}þ“?Ä/ÂÓãÚ?ð„XÐ"@é×Ÿkh-@‹‰œÿ 0D@R×YÕÖ1)@[PÑW"J?ç&¦š–%FYESOPEN STAR CLUSTER
-€ESO 261-07       @r&o­äŒ®@ª@     A  @a¤ÌÌÌÌÍÀFUÂ\(ö@pÎpÔ´¶ê@nû¶j?ýp£×
-=q@$(õÂ\)?üzáG®{@\=ÞZ²x  g  
-   ¶   €?G¹Û~íO?–@dæ*/»?ÙÚöV)±A       @¡³³õmâ@gTª=Ê:à@`Èó4”‡@å®4à¢YESOPEN STAR CLUSTER
-ƒvdBergh-Hagen 66 @xŠQ§È@¶      Aë…@aªÐå`A‰ÀK\ÌÌÌÌÍ@q@8ä(ÀPÜÂD`@
-¸Që…¸@'
-=p£×
-?ç
-=p£×
-@^hvã\Ú¯  Ç     õ    ?\§t	§{”?•Nk†;?à(ÙõÚ¬@ù™™™™™š@›G…ì»ã@bª!Ë/@NÜ*_ÕÒì@À¯¡±©…YESOPEN STAR CLUSTER
-…vdBergh-Hagen 67 @¡s$údS@¹e     A\)@aµÛ"Ðå`ÀI¢ñ©ûçm@q.]ªÙy¿Ør£‡¿t@=p£×
-=@5^¸Që…?Ð£×
-=p¤@\ ±Ýu  š  ’  (  Ý?lv]V(û?ÀLqÄCµH@üÕ-X@ÖZ=Ñ3W@wÑ{‘”U@@KçÊ`N@d'ÈSjµ@˜›õìYESOPEN STAR CLUSTER
-†Ruprecht 77      @ŽTiµH@¯ò     @þff@a¹p£×
-=ÀK¾vÈ´9@qG®Rðl­ÀáëÒßëü@(õÂ\)@-½p£×
-=?í¸Që…@tžrk¨³h  à  ó     ¥?U zyÎ?{7¥éØ>?àª Åˆß!@øÓ0Ó@šsæ·ÄÜ@bWtŠÃ@hª;ùß–@Cc$éhÂYESOPEN STAR CLUSTER
-‰FSR 1577         @e-á†°9 @˜d     A™š@aÆ$Ý/ ÀSp£×
-=@r:”Â“-fÀ1àÚgTø?ã×
-=p£×@õÂ\(ö@™™™™™š@T{,£ÝÁà  Å      ~   K?"¡¤¹ ?•ÿõßáwƒ?ÎL˜¬øÛ‚AN´èO@­bê‹¿@sè¬”Lÿ
-@vìÿUs*@ÔP<o´,YESOPEN STAR CLUSTER
-ŒFSR 1407         @¡…ó“Z@®(     AÌÍ@aÎÐå`A‰À@êáG®{@p_c;èS@)ØNÿ*ÿ@áG®zá@4€     ?ø£×
-=p¤@aoÔG    l  -  +?U+OE%Ç?´gÙ›,½á?üÚf1r@Ý…MôØU@u]="@E…ë0¥@zM0uÉ½@I¸L‘YESOPEN STAR CLUSTER
-NGC 2910         @hmâáÕøÒ@h     @æff@aÓ×
-=p¤ÀJvfffff@q5ÆÖ^¿òí©®Ø?õ¸Që…@ ×
-=p£×@ÌÌÌÌÌÍ@btb'ïå    i   q   ??*×Ã¸š&?€™ü‰MYÿ?ÉsŠ|Ñ
-OAAA@±Qû¢k@w³xCH @rªJ¼#ùÃ@[ÑÁBçJYESOPEN STAR CLUSTER
-‘vdBergh-Hagen 72 @gb.Ï4§@ŸÀ     A33@aÛ
-=p£×ÀJ„záG®@q7ÚC°å¾¿ò»˜$l?áë…¸Qì@ ž¸Që…@…¸Që…@Ll£­Áê  |   Ü   †   b?&GúŠ8TE?£*i42‰§?ÓË¤™÷ë’Aåà§/9@¦DÕÐìø@ny&èÊI@o0óÿö)?ò!zÂ@ÎYESOPEN STAR CLUSTER
-’vdBergh-Hagen 73 @kH¼XK@¡º     Aff@aÞáG®{ÀI…¸Qì@qúþPø?î5¼`”ö7?ï
-=p£×
-@!£×
-=p¤@\(õÂ@VlÉ0‰Ž  ã  ˆ   ž   C?/X®ÝMc?”?\êù|‹?Ë9â3¥`A‘1«ð·g@°ID~Óó@vI;tV0™@l.)we@ÐX–žYESOPEN STAR CLUSTER
-“FSR 1417         @f:~~!×ƒ@¡D     A(ö@aâùÛ"ÐåÀAýp£×
-=@p}ëk&4„@&ÁºU«ˆ<?ñ¸Që…@ áG®zá@¸Që…@X÷j>ì7  Æ  A   ~   O?.†ŽöF¿*?¬þ’o„­?ÏêH[v“A	ìŽ•3Ù@«Ÿì`JW@ræ\/,u@k3XýÔ`@úÃánYESOPEN STAR CLUSTER
-˜Teutsch 66       @	z&žž@²     A
-=@aì´9XbÀJ0     @q4›uèç¿Ýddð%:?ö=p£×
-=@(G®záH?òffffff@NíºWkÍ;    ä  ¨  ;?WUü…)51?»Ð2ƒU+Ñ?ïÐmLâ@ê  @‹¶_jexç@Rõù±ÏlÍ@Y–«#Q}?õx#õÌYCYESOPEN STAR CLUSTER
-šPismis 15        @ƒòž¥ÚØ@£ü     A…@aö“t¼ÀH×
-=p¤@qÚYhœ³@ùJÿ±«&?ó…¸Që…@)p£×
-=q@=p£×
-=@X˜ Qûê´  x  Ó  v   Ú?;ÂË¶«[¾?§“’fA9L?æuÅ_€Ê@òÉûM, @”……Ò´µ@[eÅ‘^7@wÖ’¡›Ž@&€ùxºYESOPEN STAR CLUSTER
-›vdBergh-Hagen 75 @]DkŸÃr@·`     A™š@aõº^5?}ÀKY™™™™š@qOµ!ý#”À }hÅ²sš@×
-=p£×@3‚\(õÃ?ÊáG®zá@g†-¹\E  K  6  %  þ?lz'ØV?¦¹ Šú‘?ùÁ_Ó‡b@à@Ñ…zèË@GlTY9@cÓ'˜7¯@(×¿1¥
- YESOPEN STAR CLUSTER
-œFSR 1431         @ˆ{oè‹îÀ@¢N     AG®@aù$Ý/ÀBHbMÒò@p‹©•i6@&­ƒkCú?ñÂ\(õÃ@+³33333?ù™™™™™š@XmùÖo×  Ñ  A  ™  !?8|paƒÉ?­ÈZ|ý­²?í00Eæ@ìX”ÑI†@Ž4žëšÏ@TªªJ8åQ@€J¼o¬åƒ@
-Ê|+dwYESOPEN STAR CLUSTER
-žNGC 2932         @ƒýàñlïQ@¦Î     A™š@aû¾vÈ´9ÀGg®záH@püC<“í@Öß¡ƒ*†@=p£×
-=@)³33333?ØõÂ\(ö@t#§‹ds  ñ  Í   ×   g?C=ÖpSì?s†jØÑ‰?ÔÎ29UŒ}Aâ,¼ä©@¥0|8t«@lþWJMU˜@r7È37@B4’k„slYESOPEN STAR CLUSTER
- FSR 1405         @¢Ê‡ú@®(     A  @báG®{À?p£×
-=@pYÖ£€Ã@.¤ûjÉ@¸Që…¸@4æfffff?ê\(õÂ@m—)‹+"¥  ß  ñ  ˜  š?UE‰!üö?–¾{ÏH?ô´WBÿbÌ@ãû?°û@…Jýsl@M"Œ*2=	@{Vƒã7©@3¦×4K&kYESOPEN STAR CLUSTER
-¡ASCC 53          @võì„ñ@›è     A   @bG®záÀMºáG®{@qˆt1\q¸ÀTœ®™P?÷×
-=p£×@$B\(õÃ@Â\(õÃ@e‚8îø¸  ˜  Ž   ’   ]?,G7·q>?„@ûX`ä?ÒÉúšJ¨A`X@§wTì¬¢?@p8˜¡0Æ@}ÿ°Ã"Ñi@$ÄÃsŠÎ«YESOPEN STAR CLUSTER
-¢SAI 108          @‡*{_ÊŠ{@§„     A{@b
-=p£×ÀJw®záH@qD$Ðº1¦¿Õœ–8„¸8@\(õÂ\@*™™™™™š?â=p£×
-=@dº²½ ŠB  €  Ð  +   ¡?Däþ
-s†È?“¸ßÊ`?àB´ì08]@ùpäø¸r@›%°ne”@bŒtD4§§@r4Æ“ p@#IÒ€GdŸYESOPEN STAR CLUSTER
-¥Ruprecht 79      @q]LÂ1Í@Ÿ     @èzá@b'\(õÂÀJìÌÌÌÌÍ@qQvÿSžM¿ê_*bËf¦?özáG®@"Â\(õÃ@'#×
-=p¤@aÞëÖ¦,  â  2   ´   N?0MœÚs°h?‡‰ºäµ«©?Ï‚Ü9ÏÏA
-A¤A¤@«ú–|¦r®@s$¥ñõ;@t²y›M&@«É\4YESOPEN STAR CLUSTER
-¨FSR 1496         @r&o­äŒ®@¡ä     A™š@b7ï²-ÀJùÛ"Ðå@qC<å6?æ8aÎè?ë…¸Që…@#B\(õÃ?ý™™™™™š@S]Õì}    “   Ã   ˆ?1ÅÔýÿ$›?¡hûß^ŒÅ?Ûx¥»ŒL$@þ@ ôm#:>@eõTîÜs¦@p}†Y…?@ ÕwÃF²@YESOPEN STAR CLUSTER
-©SAI 109          @‹¨ìÄØÔH@´~     A  @b<õÂ\)ÀId9XbN@q6\Ø±H?ü@ißÚ£ì@(õÂ\)@-ë…¸Qì?à£×
-=p¤@XÅJÑš‡  †  …  0  P?]ÇX¥Ü?¯ù	òƒú?ð÷±¨‹\4@èa†a†@‰úùs¿!X@QÆš²v @^U:õTóa@ŠÜªæêlYESOPEN STAR CLUSTER
-ªvdBergh-Hagen 78 @q@ì°Í@Ã€    A	™š@b>fffffÀLHQë…¸@qrÝqÒN¥Àß‰Õø;³?ö\(õÂ@'      ?â\(õÂ@=Ê[»­i  ô  €  y  i?p²óJîu?ÑZí2øŒ?ò:â¯ÀeZ@æ±I
-£=@ˆ.ap±äã@P‹v™‹@4³† ?Óê²ÕôwÔYESOPEN STAR CLUSTER
-¬vdBergh-Hagen 79 @Þ‡2Ë‚tk@Ä     Aff@bA$Ý/ÀJ©™™™™š@qQ¾Rî¥Ì¿½šVUæ,ã@.      @Lp£×
-=?Öffffff@rÔ6ÖÞØÝ ä  Ûó  å  o?‘lÃ¥ZEõ?Ï´Éý)†©@-É´-ä¨r@«Æ÷(O@M˜óÒ$pÚ@@("øŒð@|õ{¹n	@?Ó÷øo†àYESOPEN STAR CLUSTER
-®Ruprecht 81      @ƒýàñlïQ@§‚     A®@bI‘hr°!ÀFÌÌÌÌÍ@póÓyõ…@]j²@Â\(õÃ@)Ç®záH?à      @c¾÷_‚9  ù  Ô  6   ±?Dm2Uw?•…'Pžþ?áàdQ’Ón@÷$(FÞ¼@˜¨ÊgOa@`ß7"ZN@qÁÞù`@ >$GYESOPEN STAR CLUSTER
-°FSR 1541         @ŽeúPu¦Þ@«î     Aff@bVéxÔýôÀP(r° Äœ@qË®æú¥RÀ! ¥žo•?ë×
-=p£×@,Që…¸R?ó
-=p£×
-@I'2ÌŠ  	  º    œ?S iLØï?ÓÊëUK£›@ ÝÖ²52ƒ@Ø†åð«°J@z"Ìõ4Ç@AáÙÜ”Þò@mB-˜´A¶?ìFlí–KþYESOPEN STAR CLUSTER
-µRuprecht 84      @v:áòg@˜(     AõÃ@bi¸Që…ÀPO\(õÂ@qÕ˜G£žÀ!ž‡}ÌÚŒ?ä(õÂ\)@$záG®@35Â\(ö@Uo¬r  @  æ   ã   †?#X~ûÁÒ?£1CÏc«?Û9â3¥`@þ‘1«ð·g@ ID~Óó@fI;tV0™@ƒ©ë'3­b@ÒÿïãªYESOPEN STAR CLUSTER
-¶Ruprecht 83      @™Ã×ÔnG@·„     @ÌÌÍ@bj\(õÃÀKNV“u@qhT¶‚‹½¿ã”ëÅ£¾Q@       @2aG®zá@ë…¸Qì@Q!³t„­  K  
-^  Š  L?hÂ¿,áø?Ï¿C¥ñà¨@Oy	\ó@ÓióÞH@t¯Í=@<NtÄK€t@ab’@,ðŽ?úY2¶ÀBgYESOPEN STAR CLUSTER
-¸FSR 1566         @duÐ'¿@˜     AáH@bt£×
-=qÀR0Ä›¥ãT@r&03MŠ¶À,ë©6«Ú?ØQë…¸R@®záG®@®záG®@Iy¯üDä  §   û   ©   Z? ¨I.¨â^?ª‚@p@þ?Ò-õ4•PAÁlÁl@¨?“}ÉÊ@p—:{•3@w8µóuRË?í.ù1L/YESOPEN STAR CLUSTER
-¼ASCC 55          @|zIäÂ@ŽP     A33@b     ÀL‰Û"Ðå`@q‰P”#äÛÀ ì!¨wèË?özáG®@%õÂ\(ö@áG®zá@rW/Òe"  Ú     f   A?/>|à¼œ?mÛ{0
-?ÊBb/‚W×Aøø @°É}ýx@vøÇ!E&G@Þö`y˜å@>2ÃœÔ>ðYESOPEN STAR CLUSTER
-½Collinder 213    @i:Å¹¡ü @–à     Aë…@b•Â\(öÀIvfffff@qMs¢ïz@)ƒ£†?äÌÌÌÌÌÍ@ ë…¸Qì@"G®záH@VåûÍ£¬  ¨  /   y   5?ç¦/â
-?z…ð?ÅiSÿZ†¤ARû+xÁ@´–•`Í$@|,FTFPÁ@#fãg?@‡hc?úéYESOPEN STAR CLUSTER
-¾FSR 1475         @“õYk©Ô@¤Ì     Aff@b”“t¼jÀEzáG®@põÁ+äç½@#Q9`@@£×
-=p¤@/³33333?øzáG®{@ki
-
-;xr    ¾  ]   ß?C£¥Ü=ëì?“@V®‚Ç±?æ…¼•Q?@ò^"p€’ñ@“’™}(@ZÈƒ%¤lê@€‡Ž‡z@0ÜÓO`7ýYESOPEN STAR CLUSTER
-ÀESO 435-09       @‚ÉcÐzF%@¡ž     AÌÍ@b›Æ§ï²À<÷
-=p£×@pk
-U»ô@3ÖÜ.ƒK@=p£×
-=@)aG®zá?à£×
-=p¤@oÉ-W’Õy    K   º   n?7÷£cÄoC?6}t0¢?Ö8+²Ô,AžA)äž@£Öí	BÓ¥@k&›®Ð%@}‡î”Ë&@6­ÑËrYESOPEN STAR CLUSTER
-ÁRuprecht 160     @qˆ±ž<!v@¡     A	ë…@b¢¸Që…ÀGƒ×
-=p¤@q*æK”@÷:÷´’$?ð      @#™™™™š@
-=p£×
-@W”°I
-ã  ·  ¤   Ÿ   f?1ß	[­v¶?™w›ï$?Ôš|L©9A@¥eEæÙ¢ý@mGé%ïˆ@qÇñ«g»@ô„ªÓ”—YESOPEN STAR CLUSTER
-ÂFSR 1498         @š×¢0>7È@³H     @À  @b£33333ÀI"\(õÃ@qJPq^@™"nWÎ@(õÂ\)@2aG®zá?Û…¸Që…@jSŒÒaB  s  9  V  €?a{mú+—|?«-?ód8ÀŸDÎ@åUUUUUU@†»šEG=-@O§¸N€@iÜÄÂ¬ý@/Pæ{ë«YESOPEN STAR CLUSTER
-ÃFSR 1413         @hQ&ú–êV@¡ž     A33@b¥¸Që…À=që…¸R@ps¨«Z0þ@3¤¿ŒafË?ØõÂ\(ö@!ffffff@\(õÂ\@AÖ/‹bø¶  ,       Ä?2P§ËÔ0?ÁÍ(§[—?ãË¤™÷ë’@ôåà§/9@–DÕÐìø@^y&èÊI@kÂžíµs?ÜÊ¯·£YESOPEN STAR CLUSTER
-ÄFSR 1517         @“röc`ô@¹ó     AõÃ@b¨     ÀKh´9Xb@qx?d¶m¯¿´‚bÂ0>F@p£×
-=q@1(õÂ\?ü£×
-=p¤@V¾}ä\„è  æ  ¾  Z  7?l$9ætJ‘?½ý/õöù‹?ü¡ûÌk+˜@Üå\Ž¬y @~Ê¢çþø@ENSÊ@X¾™Ã±;M@8YÖ‚«lYESOPEN STAR CLUSTER
-ÇESO 435-17       @p%Z>O@¬&     A\@b¶$Ý/ À>èr° Äœ@p‰©\‰Ó@2ÓÑŽ(p @…¸Që…@#³33333?à      @e	ç[ô“)  #  ¹   p   =?Aña+Ð98?y,õvûC?È¤²Ê¼ÆAÉqO¼Ú;@±ã\'E@xzgª5a@[àšä§N'@#ÞRn•YESOPEN STAR CLUSTER
-ÈFSR 1554         @[)½âJä@—¤     AÌÍ@b¶‡+JÀPïKÆ§ïž@qú»ŽÑÜÀ$Gv ¥¶n?ØQë…¸R@ë…¸Qì@#.záG®@Iç€/¥•   í   ¤   k   7?~)@-Î?œÈÒ
-m?Æ8+²Ô,AžA)äž@³Öí	BÓ¥@{&›®Ð%@rs=lð¼?îÞžÂÐYESOPEN STAR CLUSTER
-ÉFSR 1481         @¤½68!H@°     Aë…@bº¸Që…ÀEô9XbN@qªÙ€“N@!Œ]¦?÷×
-=p£×@5™™™™š?Ýp£×
-=q@R¸¿âôì  æ  z  $  ‚?[/«üëž?ÕKbê«ªï@#Bœü@Ìe(_ÕhC@nB¯-’¦@4³ÕŸ¸@x¦ëäP¬?ÿw^èxïYESOPEN STAR CLUSTER
-ËDBSB 125         @s~9,sý@¦     A{@b»33333ÀLˆõÂ\)@q’‚,{¥L¿ú‰ÍdãÀ?æzáG®@#…¸Që…@™™™™™š@IBìˆÀ^8  À  Á  B   º?<Á}%o?¶yo$äg«?âÉúšJ¨@ö`X@—wTì¬¢?@`8˜¡0Æ@fc,Î½ˆ+?ì¥'*!YESOPEN STAR CLUSTER
-ÌFSR 1491         @f¤IÍÊ¯_@¡t     A{@b¿C•%ÀG~záG®@q1Tƒ0Ð9@š2ÍÏ?å¸Që…@ €     @™™™™™š@Nx³\E   -  *   ¶   }?4£júª?¨r‡ü?Ù?Ô$¶ìA bMÒñ©ü@¡utnŒº?@gäK˜s@io,€U£”?ôÕôgUBYESOPEN STAR CLUSTER
-ÎNGC 3105         @Çë¼,Ø@Ä€    @ìÌÍ@bÅÂ\(öÀKc×
-=p¤@q~®ÿ?àÂ?Ñ¯G—?a@\(õÂ\@D¥¸Që…?ÄzáG®{@H:‘>©fŸ  p‚  DE  0È  ~?‹w´`Ì¦@< †s@9qìÍk§´@ BRV.@AS:1Øa@´ùs.&\@möñA~Ý_?êY½¨òn‘YESOPEN STAR CLUSTER
-ÓRuprecht 86      @³Íè6“-R@¼     AÌÍ@bÍë…¸RÀMº=p£×
-@q­…yoùÀ
-û9Å,ü?ýë…¸Qì@;5Â\(ö?â\(õÂ@Jâùû–»  ,£  Ä  +  J?xUÒäÐ|s?ô f²)È@">‹*@¶­CÚqž@X*¼qH¦@ ˆˆ;`·t@jÖBz/%Á?ð9sÙBø¸YESOPEN STAR CLUSTER
-ÔvdBergh-Hagen 85 @ŽÒ<bön@¥Ö     AÌÍ@bÎáG®{ÀHÊáG®{@qNË7ìD8@ÿkï©@záG®{@-záG®?¹™™™™™š@}az*cŠÖ  	H  Ô   Í   w?E†<dÛIÐ?l	HÈ‘³$?Ø	‘Â A5È5È@¢VÎ3•ùl@iaûñâ@y<M´b¨@S_ÉLXùYESOPEN STAR CLUSTER
-×Loden 28         @†a%´@ò@¯
-     @ìõÃ@bÙ²-VÀM     @q£4/[ºÀŒ61zb?ô(õÂ\)@*záG®?â=p£×
-=@PZË:½  þ  è  Ã  ž?T^Fc-:Ä?Á!i$ä?ôè/«¶.@ãÉ•¤{«ç@…älÇ¤W@LÚ{øQèY@d:c#¶?ø¬àp«YESOPEN STAR CLUSTER
-ØESO 092-05       @Šj;+à¿@´0     AÌÍ@bÙ²-VÀP2áG®{@qãUë¬ÏÅÀ%•eýJc@¸Që…@+™™™™™š?¹™™™™™š@\Ö¤a³    t  Ú  I?_Vë}>f?¦T±¹Ã?ð3J]ÊI@èæRzñ7?@Šˆ|	Eë–@R'lXŠ®û@Z˜¥êpe§@©±Ð³öcYESOPEN STAR CLUSTER
-ÝTrumpler 11      @‘œÊ1ó Ø@®X     Azá@bç;dZ¬ÀNÌÌÌÌÌÍ@qÇs’çÀpøŠsÈO@
-=p£×
-@-ð£×
-=q?û\(õÂ\@_™( {,ß  	  3  "  Q?TN–‹;î¡?©?²Û¦?ñŸ#¶q@èO Âx@‰ç=r™E@Q¹@im@k´ŽÑt0@h¶¸ÉH`YESOPEN STAR CLUSTER
-ävdBergh-Hagen 88 @·{¼Ä˜×®@¶¿     A™š@bò$Ý/ ÀIÌ(õÂ\@qjþ*³ä@
-¢š/tV@¸Që…@<O\(õÂ?ã×
-=p£×@RóuâLV   4Ñ  #ì  °  
-Š?q‡­^sP¢?ç÷²..Y@!Ú‚6C@¸JcÑ²1¸@YâR«+@!µ¼>Ø"@v
-‡¼EÝ‹@ ù1œåYESOPEN STAR CLUSTER
-îFSR 1530         @ƒrfûé(@°9     AÌÍ@cÆ§ï²ÀL¤záG®@q¥Aàä6¿ðüŸÉ4§R@(õÂ\)@(õÂ\(ö?ê=p£×
-=@b¿ÅjNà™  r  ¿  X   §?Rì#ÊÃ…?”2@‡–h@?àÝÖ²52ƒ@ø†åð«°J@š"Ìõ4Ç@aáÙÜ”Þò@`×rfZÐ`@ —È¿YESOPEN STAR CLUSTER
-ïESO 435-48       @igŠÝ @œl     A33@cQë…¸À<[¥ãS÷Ï@pŒüƒ9@6Hz w†Ï?à£×
-=p¤@!k…¸Qì@
-=p£×
-@M{$9Â  »  
-      f?"òreqd×?¤ÃÕM?Ôš|L©9A@¥eEæÙ¢ý@mGé%ïˆ@uakrÇß?ó‚<4¥£`YESOPEN STAR CLUSTER
-ñLoden 27         @}êÛ¯ó@¤ˆ     @Ó33@cQë…¸ÀLK"Ðå`B@q¢‚Ç‚˜¿Õ	˜Ió¸…?èõÂ\(ö@&aG®zá@	ë…¸Qì@Nœ/±rRÃ  ¾  ~  g  &?@jh]F;?ºeóA-?í±væóá\@ëÝ+‰”÷@±‘J®@TP°ð†Û@pèXâÌ?õ„§XXYESOPEN STAR CLUSTER
-òvdBergh-Hagen 90 @ZÙˆ@ÐeÍ@ž      Ap¤@c!p£×
-=ÀM®záH@q² ®XTQ¿÷0‘Ú(„?â=p£×
-=@
-=p£×
-@GÕÂ\(ö@N}Œ ÙŒ    Þ       f   6?!µb~JØ-?“utµWÑ?ÅÐ¿Ø³-hAö„½¡/h@´4úè?RÓ@{¦¶Íù)U@fír†e`?ôÝ€`…3YESOPEN STAR CLUSTER
-õESO 092-18       @´D ƒ2$@Â¦     Aff@c6MÒñ©üÀP%Â\(ö@qñ™·rE1À—¾Ìlã?ü      @<Ü(õÂ\?íp£×
-=q@BçÃðü?  /1    €  ®?„BÚ˜W8¾@†^6óŸ@*ô#¶y@®².H©É@PZ×ÉHy¶@aHK”N@a	ÿ¿£z?à	çÝçYESOPEN STAR CLUSTER
-÷Ruprecht 87      @r¾¨÷ÀA@´†     AÂ@c;×
-=p¤ÀIZáG®{@quÈ¬+=ô@‰YÆ ¤?û…¸Që…@$k…¸Qì?ùp£×
-=q@Pá—âˆ (    ÷     È?Y­ÁëµŒ?¬EÕ×õÔ?ä3sP’W@ôzáG®{@•ÒÑŠ/èÏ@]ÝÞs~@L+ã¼Ù?ù•qÁÁßhYESOPEN STAR CLUSTER
-ýFSR 1531         @gÑykOo@¥,     @Ó33@cWß;dZÀLÂ\(ö@q­RÇ%Æ?äFÉWx?è      @ p£×
-=q@Që…¸R@LŠÍîÿ+  Ì     ©   €?8ƒÖ‚I‰=?§bÊù‰?ÙÚöV)±A       @¡³³õmâ@gTª=Ê:à@a(œ„q±C?òHµƒuÕ²YESOPEN STAR CLUSTER
-Teutsch 44       @¦ÊÚ¡”Câ@¶õ     Aff@ck²-VÀK8õÂ\)@q¢÷>5™@*~MX—€?ü£×
-=p¤@5ÔzáG®@\(õÂ\@OiléÜí  c    
-
-  ?n·)”6«?ánìýóJa@µl‡@ÄýÞ7n^Ê@f^fEÏ	2@.œ˜»ê0@i»eÑhÉ?ö%56€FYESOPEN STAR CLUSTER
-FSR 1572         @€æÚwï$@«L     A™š@c}XbMÓÀQtÌÌÌÌÍ@r,,ªQA5À%TÏ˜SX?ýÂ\(õÃ@&”záG®?àõÂ\(ö@[sj<}Ž  Û  š  H   Ë?M/¬á¶‘ë? ÍM¾~,?ä€¡VSj@ô-f%Õ‡@•€A3§@]lÞòk	@cxðGå	Î@é™§lÄPYESOPEN STAR CLUSTER
-
-FSR 1568         @gµu}›¤‘@<     A™š@c†=p£×
-ÀQDzáG®@r&Ü	¯OêÀ#­U`mŸŠ?ç\(õÂ\@ 
-=p£×
-@ úáG®{@TÆ¤’É  €  C   ª   S?$~œÔ•ð7?“SWá‡²ý?ÐÃû»ßÒA¬¹kóª@ªKMu@qým®dê@q"4gœý@+‡¾ž YESOPEN STAR CLUSTER
-NGC 3255         @–`ÀhªËA@¨´     AÌÍ@c•G®záÀNWKÆ§ïž@qá³6²±À
-Ç¾1Û@p£×
-=q@/áG®zá?ýG®záH@vßC·T;v  ¨    …   ã?PÜôY¹à¶?½Sð?æí(nfø@òGgÀÙ@“:N›•Xö@ZO±TX9`@w²ˆµüðé@G{tá6ÒíYESOPEN STAR CLUSTER
-IC 2581          @xÄrÔ$y@¡Z     @ê=q@cœÌÌÌÌÍÀLÑë…¸R@qÉÐÆà‚ñ?—ÛÚÕÊ}ƒ?éë…¸Qì@$ÌÌÌÌÌÍ@.®záG®@RÎeØÃ«Ð  N  2     Ï?8¤’ßÂÄ?¯¼ä•g2¸?äè/«¶.@óÉ•¤{«ç@•älÇ¤W@\Ú{øQèY@trH¿ù&?ÿÀQ¯¯^YESOPEN STAR CLUSTER
-Hogg 7           @˜ÍC‰ºý@±ç     @À  @c©$Ý/ÀN_\(õÂ@qæYx9A;À6êóí?ó333333@0¦fffff?ç\(õÂ\@Ke~¾A  '  R  Œ  ½?`Òïä<Þ?ÙMÁ]½o¸@)â¸v½@ÑÃFã`’@r>FÖ~/}@8öÐ`›@h‰yü_i?ð]ÅÙM„üYESOPEN STAR CLUSTER
-Hogg 8           @yþ‘ÜO3†@¯Ü     Aff@cª=p£×
-ÀN}Òñ©ûç@qè“ô²ÉNÀÃIvì•?@záG®@%LÌÌÌÌÍ?íp£×
-=q@f1#”Ô;  †  =   ¬   V?P6ÝôK?‚§çÄ:rŸ?Ñ_äùAÐ_A}ô@©`Lôª@q\Æ"…@Yp’H‚Å@&;h¼N£YESOPEN STAR CLUSTER
-ESO 168-04       @pÜbOÀÛ@¨     A
-=@c·l‹C•ÀJî¸Që…@q°ðØß¯œ@ö…Iç¡±@£×
-=p¤@"€     ?ã×
-=p£×@i¿ëGëGì  T  ø   i   0?@=ö.Qˆ?rOÖT¹ü-?Ãd8ÀŸDÎAUUUUUU@¶»šEG=-@§¸N€@`Ç„›f$@-Ã7×Î?óYESOPEN STAR CLUSTER
-DBSB 48          @­Öâª¬ëQ@·©     A  @c»×
-=p¤ÀMZ¬1@qÔ%T¡Še¿¨A±Ë»ª_@\(õÂ\@7ŒÌÌÌÌÍ?Ò\(õÂ@XÜUAÛˆ  $@  —  	+  ¸?rÏîX/kH?Ó—Jö@{†—Í•@ÆaìjQ"ù@gÙÐ‰±@0Qšqxë@l1uØö™¹@½xUÞ\YESOPEN STAR CLUSTER
-FSR 1536         @‚³JòYÚ'@±Ù     A™š@c¼¼j~ùÛÀK“33333@q¼Í‘áŒÇ@†Š`@ÐI?ýÂ\(õÃ@(£×
-=p¤@
-£×
-=p¤@TýþÛcàð  9    ë   Ü?VŠxŽ¿l¿?®çvI®?æ8+²Ô,@òžA)äž@“Öí	BÓ¥@[&›®Ð%@[¬Â—@ÇÚíÿ?YESOPEN STAR CLUSTER
-Loden 112        @„±»fJôA@¢ü     @Þ¸R@cÂ¸Që…ÀLXõÂ\)@qÊÖJè"¦?ò u_¾_@=p£×
-=@(³33333?àõÂ\(ö@m*š|$ê  Î  ‰   â   l?<5QÝ×Â?e˜Vq£?ÕÐ¿Ø³-hAö„½¡/h@¤4úè?RÓ@k¦¶Íù)U@xJeC@3‡Ê5ïÓYESOPEN STAR CLUSTER
-DBSB 51          @yX"öú¦@¨ê     @à  @cÈ9XbNÀMÎ¸Që…@qãÁ¯p2¿ôë‚¬áž†?òffffff@$ë…¸Qì?å¸Që…@R˜u†$Ê    ‚  T   Þ?H
-kPÃ0”?¯¢F(êK?ækáž¸'Ž@òsP¸'5@“©+z/Æ5@ZçeÁ|ÎE@dŽpPýÅ?ÿ4"ÙÆhYESOPEN STAR CLUSTER
-"NGC 3293         @m<GwEÜk@£     @Ø  @cÞ\(õÃÀMp£×
-=@qÝ¤Í‡8e?²Wšf8Œ?ôÌÌÌÌÌÍ@!aG®zá@1Þ¸Që…@[vjÃG   z  u   Ž   `?8‡2ÉÄ£×?‘ âcî?Ód8ÀŸDÎAUUUUUU@¦»šEG=-@o§¸N€@g¢ì£q!P@íMËÂYESOPEN STAR CLUSTER
-$Loden 213        @kXÖR„Öö@P     A  @cá/Ÿ¾wÀNë"Ðå`B@qúÜb ÀQwx®ì?ã…¸Që…@ ð£×
-=q@záG®@PÄlK‹hy  à  a   »   c?'aÇºYü?¡dÂ(ÀÐ?ÓÿZ†¤>õA¯Ö R¿[@¦@C-Î¸@n*;ÉlçF@s0#ÇÓh?ù=S¤7«YESOPEN STAR CLUSTER
-,ESO 062-11       @f‰¨" ¾ß@¥     AG®@c÷…¸QìÀQB=p£×
-@r8%ô¥u;À"OŒK—³™?òffffff@333333@¸Që…¸@V­¼ï    %   u   M??2Ô®Ú±P?–m¦VM^?Ïp_ª)A
-˜ï`jc¾@¬W›ÄRì@sdK|ÝÑ@_>³ $}ª@»Û[ÝŽYESOPEN STAR CLUSTER
--FSR 1511         @ƒÎõ+,ë·@£R     A£×@cÿ®záHÀEß;dZ@qn8’'"–@+X£/@ ffffff@(ÌÌÌÌÌÍ?ò¸Që…¸@e_|S:|Ø    Ú   ä   ©?@_BPäJ*?’¸%À=6Ë?áŒžá…å@ø<—z²¾Ý@™ÓžšrBy@a«¬Þƒö@wqÑ–†!o@$?Õ£YESOPEN STAR CLUSTER
-.DC 5             @™îXþChl@±N     @Á™š@cÿï²-ÀM˜Që…¸@qì¸æHö¿à “Å{‹z?ö=p£×
-=@0øQë…¸@G®záH@P.Ûb¹†  á  	Ç  ¥  —?b(âvZN?ÕüG£þÔ@4B“Óê«@ÑÓü¨@ t@rÿc¬bˆ^@9ÿÑ†>Ñ@k^Ðüµ÷?÷€•pÏ+YESOPEN STAR CLUSTER
-/Saurer 3         @¡»ºÍÝ¹Ë@»£     AÌÍ@d\(õÂÀK¦fffff@qÑg±Ë„@j"Â@"\(õÂ\@4uÂ\(ö?ë…¸Që…@pº&Õ!'  ‰  H    Ã?rSXƒØ[F?–Áç?ä?öÆ_üå¹z@â*" *@ƒ[·ÝK]@J|l-«Ù@_1’¿2ùO@9n¿ãnÿYESOPEN STAR CLUSTER
-0Melotte 101      @Š‰qœåU°@Ÿ<     A™š@d$Ý/ ÀPFzáG®@rãhÛ±WÀ5ò.à @
-=p£×
-@*k…¸Qì@#úáG®{@n²€†#  ¾  \   ñ   ª?9 È»J¶?ˆ0þ®›Ÿ–?á+g•7¯—@ø@™¬ºH8]0@a‘¿Âë@„\fÜF@5&8È ë<YESOPEN STAR CLUSTER
-2Bochum 10        @va‹¡Ÿ@Ÿ„     @ÝÂ@d²-VÀMŽ¸Që…@qð“±Â:¿Ò  ÐøÊ¯@×
-=p£×@#úáG®{@…¸Që…@o³œÌdÓ  ò  ¬   z   ;?.$(g½)?n‘p~åF?ÇÕÛno=A[_u'@²~—ŠÍ{‰@yNÒ³×u@và.Þ#¬@6ŽL—Ö îYESOPEN STAR CLUSTER
->Bochum 11        @…F'¥‡ä@¡ª     @À  @d9ûçl‹DÀN
-Ÿ¾vÈ´@r d÷ëÑ-¿ëbÇ¶Æ«2?ð(õÂ\)@(£×
-=p¤@×
-=p£×@WïO%5  Þ  È  ˜  ?=3ÈŽè?°ß¹ê6?ü?ë’€±âuÕ@îàà@ùÐŽuY@Uà½¥Çó±@{¯¾yã,Ü@ÑS#™.cYESOPEN STAR CLUSTER
-CASCC 62          @€ Ý·Òö@¢$     @ß×
-@dXzáG®ÀN
-áG®{@r0²˜ð@¿äŽÒa²`?îffffff@&¨õÂ\)@p£×
-=q@UèØø¹8  ø    ]   æ?:2\ÌG?­…3?ç:¹Qiu@ñÏ­¢@’úaæà´@Y÷Õù„P@v3˜R8«@ú´)RþYESOPEN STAR CLUSTER
-FNGC 3446         @};Ã#‚§I@ŸD     A®@dbMÒñ©üÀF     @qÔ6#ã4@)¢t³@záG®{@&(õÂ\)?áë…¸Qì@|'k²Q6¼  K     †   :?1“(‘F)ä?\>ÓšVÍ†?Çno>ÈyA§¹a{–@²Ð92 ù@y¾†ã¨@|—\¦ @QÊ>ÎÓÔFYESOPEN STAR CLUSTER
-GvdBergh-Hagen 106@‹¾L2öI@¨‚     A=q@deV“ÀK!ë…¸R@qàÛ€£Ž@ª×+¼³@\(õÂ@*ð£×
-=q?âáG®zá@oe ÈŽt  Ô     æ   ­?J¥‚ƒ]®?„µ"õ!Ã?áxøx:,ª@÷­"àìÃ@™:¿î.‚@aCå5q@q1nPœç@6Äqpí¿YESOPEN STAR CLUSTER
-IRuprecht 162     @†{—Ç”@§–     A(ö@df§ï²-ÀO'
-=p£×@rß†hÑÀLÛj]Ôs@ £×
-=p¤@(ð£×
-=q@333333@aÃˆ!ÈhV  E  ¿  O   ×?G&Ú«Ú?™ç†û,?å¶äâ]·@ó0Ñ@”M
-\ÓC»@[Ç£i¸Ôü@oÑŸþ­r|@T,F¬7§YESOPEN STAR CLUSTER
-JRuprecht 92      @ƒÃKx»ýi@¡F     @ôÌÍ@dl(õÂ\ÀNÙ™™™™š@rêEöîå¿ÿVmT)Þ?ôzáG®{@'ð£×
-=q@p£×
-=q@]ÚXÈ¡ºd  Ž  º  9   Á?7ÉÝ¤|Š!? @²}’h‡?ã~¶õn@õ9	Hôë@–sE‹@^òJ™–0é@{TÉ¢-£@ yV[FÞYESOPEN STAR CLUSTER
-MASCC 63          @”âaÏìÇ@¤ü     @è  @d\(õÂÀN5¸Që…@r,â¬"†¿å™e£f¶@Që…¸R@.³33333?õp£×
-=q@‚ÊJM‹ð  r  `   ì   ¥?IÖxc1›c?hÓ/ÊÊ?àª Åˆß!@øÓ0Ó@šsæ·ÄÜ@bWtŠÃ@~t^âôk@_²säûEäYESOPEN STAR CLUSTER
-NTrumpler 17      @l÷©²?ö@¡$     @øÌÍ@dƒ®záHÀMœ‹C•@r
-ùÄö×?Û”¸ï9’?ã…¸Që…@!.záG®@5¡G®zá@L¬S7®:    D   Î   …?1¬–=ê§?ªvJRVs?ÚÝƒõ‡Qþ@þÌ³ìÀ@ hŒx¶¿@ft ô?½y@l–¥®n¨þ?òtÊãçLYESOPEN STAR CLUSTER
-QBochum 12        @xµÝ­*ª@£j     @ÿ×
-@dŠáG®{ÀNÜÌÌÌÌÍ@r¨<Ò¶ª¿üŽ[ò*>¸?å¸Që…@$k…¸Qì@&.záG®@Kd.×½“  ç  ‡  ¨  ?=<•*Ä§?»þ¢Öóu?êó„Ôê@ï%öD#
-µ@˜‡ü÷ @Vµ²]=Œ@o{§‘ÔIê?ðÖÙG|YESOPEN STAR CLUSTER
-TTurner 6         @„¥Œ.xÍ@¬      @Ó33@d˜ Ä›¥ãÀM½Òñ©ûç@ru,$R?ÕVýÙ•‰@¸Që…@(\(õÂ\?ùÂ\(õÃ@rèZ¬1  Þ  ¹   ã   ~?PÕMÿM?ueÌf 3®?ÙsŠ|Ñ
-OA AA@¡Qû¢k@g³xCH @eY76Í_@@ˆäùYESOPEN STAR CLUSTER
-UTeutsch 106      @ŠØ±)»À@º.     Azá@d›\(õÂÀMÄzáG®@rLÚ¢:?Ó°¶ì·™s@ áG®zá@,ffffff@G®záH@P<žFV  -    à  ë?l“E	•X?Ä8Ïå_£?øË{; ûP@à¯/r.ìµ@Ça0r@HTsÍÑ@P¾ 0áçl?÷©]‚òœ‡YESOPEN STAR CLUSTER
-XESO 265-01       @’œ÷ÐóËÈ@¨´     A™š@d§l‹C•ÀF«…¸Qì@qµÓâT5@*•O5\`P?û…¸Që…@.Që…¸R?å¸Që…@\É°ê¹-    ä  V  ¨?NRP›?²g’T1È?õiSÿZ†¤@ãRû+xÁ@„–•`Í$@L,FTFPÁ@uoXÆ%½ï@¨¦]ËJYESOPEN STAR CLUSTER
-YSher 1           @n²†õE¹@¶©     @ÖáH@d¨(õÂ\ÀNp£×
-=@rÈx¿ÎâÀkîøˆ?îzáG®@"\(õÂ?ùp£×
-=q@@¶1¹Þ;B    Q  .   ×?[D\«Š}3?Ã¨‹Ò‘}W?å¶äâ]·@ó0Ñ@”M
-\ÓC»@[Ç£i¸Ôü@B‚ç#Ÿ?Ù˜ÀñòYESOPEN STAR CLUSTER
-^Ruprecht 163     @|æ©åd@§–     A×
-@dÇŸ¾vÉÀPüZ¬1@rRœ1ðÊÀv&1÷H?ó®záG®@%.záG®@	\(õÂ\@UT±Í=  ø  ²  N   ¬?D>;¸PÃ?§rPHsM?á_äù@÷Ð_A}ô@™`Lôª@a\Æ"…@fò«WÚË>@ÐX2DšYESOPEN STAR CLUSTER
-_Shorlin 2        @vT]‹‰º+@°!     @À  @dÌbMÒñªÀN £×
-=q@r(Ò"²¸¿î‡òÕN<?ò=p£×
-=@#ÌÌÌÌÌÍ@      @LyvHÖ’>  
-    6   ë?P–ÃËl9?³Œ>îŽ“™?ç¼ !EŒ@ñn‰Bsy@’’½9°ñ¶@Yjd{õ[_@Uqq¢Fä?ò2„8»Ñ(YESOPEN STAR CLUSTER
-`DBSB 60          @oAë˜ä²@­8     @Ø  @dÌí‘hr°ÀO>záG®@r0¿æ‹æÀ ¥(‰Ó¬ù?Î¸Që…¸@!uÂ\(ö?Öffffff@*xö¢Úµy  ²  2  ­  Ã?OèÈÁÂ?ôÜÂ´?öÆ_üå¹z@â*" *@ƒ[·ÝK]@J|l-«Ù@TRÀ(Zy
-?¯tüzïBàYESOPEN STAR CLUSTER
-cShorlin 1        @•RU!Â
-@µÚ     @Ð  @dÒ‡+JÀNŸŸ¾vÉ@r*/t}ü¿íŒŠY@G®záH@/Ç®záH?×
-=p£×
-@e=”A=}    e  °  k?gY¤‚Øõ‰?¡¤¾&oÎÀ?òT½¦@æ‘G:ˆÐÀ@ˆF½›±@Pt œiòƒ@^›ß:ÿü@#êL4 %ÖYESOPEN STAR CLUSTER
-hESO 502-19       @fÙë²rËŽ@”è     A\)@dàõÂ\)À:·Oß;d@q@Tm.˜@>³BB3?ÜÌÌÌÌÌÍ@ aG®zá@#W
-=p£×@QWÈå˜®      ç   ‡   N?Æ£`îPÙ?œ-(zn?Ï‚Ü9ÏÏA
-A¤A¤@«ú–|¦r®@s$¥ñõ;@x^ë6Ø?û •ÓšþYESOPEN STAR CLUSTER
-jTeutsch 143a     @‡¦©ÄÝ`±@°‡     @Ó33@dæzáG®ÀNZ=p£×
-@r+kï­G¿Òõƒ#'·Ç@£×
-=p¤@)p£×
-=q@
-=p£×
-@râA^Ö7  þ       Œ?XFÀˆšsS?|1°6?ÜG}n=™­@ýAÔAÔ@Ÿ-+W²(@eT¸è	Zf@`Û?ÙÎýŒ@=hx°|²YESOPEN STAR CLUSTER
-lFSR 1584         @w}f
-`@¡‚     A  @dé²-VÀPC×
-=p¤@rF¼ûËÞÀ.”Ôy?îzáG®@#ð£×
-=q?ð      @U¡7s~c  Ô     õ   ®?8Fö	-2‚?¥V$õü?á’ÓnV[@÷ŠLx¤È@™¡fíM@a)¯Bi@rtë.¾„¢@ !|›–YESOPEN STAR CLUSTER
-mvdBergh-Hagen 111@•ø0ª*_@¤”     A™š@dèõÂ\)ÀOê=p£×
-@r>ÿ÷—NÊÀ	P½	*?öffffff@.æfffff?Ó×
-=p£×@[ht ò–r  >    û  ‡?FTìÚöË`?µ?n9Õñ^?ó¾·ÌÖº@äóbÝL›@†SjUžò@NŒû»¢@€
-›rD}Í@Ü|	]YESOPEN STAR CLUSTER
-nFSR 1556         @"79bi¥@¬ø     Aff@dép£×
-=ÀJÀ     @qÿlŒ™žú@~«Œ¥È)?é™™™™™š@'\(õÂ@®záG®@F@5Ì¢b    f  Ÿ  h?MtÂÚƒ?È¥>Íjº?ò-õ4•P@æÁlÁl@ˆ?“}ÉÊ@P—:{•3@bT›ÕœÂ?æ9J»òÝ°YESOPEN STAR CLUSTER
-qLoden 280        @oè¤è:UK@´~     A\@dîvÈ´9XÀMŒÌÌÌÌÍ@r#3®¹ý3?óÇóTËÎ?õG®záH@"záG®?ÿ…¸Që…@J%–" ¹  :  ×  N   ?W‡W?@à?°ü-$Í›?ß¶’%¯#1@úÓùzK@›Ì÷\à£@coeHu@F&ú‡2Â-?î°’+óÌYESOPEN STAR CLUSTER
-uASCC 65          @„ï®¸@ž8     @Û33@d÷×
-=p¤ÀN     @r1«mgáÈ¿â›w&iÁu@G®záH@(W
-=p£×@ €     @|ËÉ‘ùÀ’  Ù  ù   y   J?2‰eŽt¦–?bcJý#…?Íå,Ó 4¾A¬ùÁºÐ@­}Á7G©P@t-ŒQš´@‚vYÐƒi@RœU»¡’YESOPEN STAR CLUSTER
-vDBSB 62          @n1yƒüß¥@¡     @ÜÌÍ@dú¸Që…ÀN¥¸Që…@r3NÅö58¿æùkŠU?è      @!G®záH@(õÂ\)@Q¯6È*  á  Y   ²   c?.8Ù8ëYÚ?ŸU†a`?ÓÿZ†¤>õA¯Ö R¿[@¦@C-Î¸@n*;ÉlçF@m‘R„r?ü@.(YESOPEN STAR CLUSTER
-€NGC 3590         @rÉ¸Ú‚®+@™ð     @ìÌÍ@eA‰7KÇÀNc33333@r3EIÚ%¢¿Äô:úæO?ç®záG®@"³33333@BË…¸Qì@VüÃêÇžJ  ˜     Â   q?$†=£d‘&?™™KÅœ?ÖÓMxÎSA·!ûx@£PQ‚Ào@jm$†¨@}•w¾´ÙŽ@¸/C¹y¹YESOPEN STAR CLUSTER
-Stock 13         @rö9Ô<[`@˜¤     @ë×
-@eï²-ÀMp£×
-=q@r'õƒÍ?ù‚þƒb'õ?æzáG®@"Ñë…¸R@ÌÌÌÌÌÍ@VñtuE  Ä  ¤   ¿   y?#ç¾îÃ?œUTsc.¹?ØpüÝsidA ìõkæœ@¢	4”4Å@h®0êžëÅ@€™Ù˜'i÷@Ù¯lú#eYESOPEN STAR CLUSTER
-ƒFSR 1585         @‰u¢_©$Ð@±q     AQì@e¸Që…ÀP‡+J@rJ‹¡æÀŽ®*lÚ?ü£×
-=p¤@)Ñë…¸R?ôÌÌÌÌÌÍ@T¬5Í‘{<  „  ú  A  n?\5ó…Öü?¶íÄ‚yH?ò{†—Í•@æaìjQ"ù@‡ÙÐ‰±@PQšqxë@_.Öa¾‘@.å¬ªƒ¦YESOPEN STAR CLUSTER
-„Trumpler 19      @ygàRŸ:@žÀ     Aff@eûçl‹DÀLÄzáG®@r"z…¸S@>âooØ@¸Që…@$¨õÂ\)@…¸Që…@oOÓ«:²       u   [?2‹/~Ôr?u¦²0v¼Ê?Òa«!A£ãAhh@§û\j×Ð@phŽ<UöÅ@y±(I{í@6-¯ÆYESOPEN STAR CLUSTER
-…FSR 1543         @v±?¶[Î@¤Ì     Aff@eÐå`A‰ÀF*=p£×
-@qÔzDk(@.i…ÃëM?ñÂ\(õÃ@$.záG®@G®záH@U€ˆT;4  ë  Y     ®?A‚&-Ý¹?¦ëje?á’ÓnV[@÷ŠLx¤È@™¡fíM@a)¯Bi@jË]¢[@ÀÙõ’YESOPEN STAR CLUSTER
-ˆDBSB 66          @\çL0è@½W     @À  @e#…¸QìÀN¾záG®@r=Š\zã¿å˜ÝpâÖ]@\(õÂ\@G®záH@ £×
-=p¤@MËÄ£ô[m  Y     ¤   u?fCLp¶QW?Ÿªƒ~˜„?×¢%*ÂÛA@¢§ýÄLt@i†2–¾œO@,Ws0ÚÚÎ?óìôï¯VÉYESOPEN STAR CLUSTER
-‹FSR 1561         @–ó´‚ m¯@©      A×
-@e4“t¼jÀJå¸Që…@rùhVØ+@yûôëh?÷®záG®@/®záG®@ÌÌÌÌÌÍ@WD‡Þ}á  [  j  i  (?QøeÓ¤ñ?ÀëLñZ%?ûà”äòè@Ý®`v¹Û@ Ö£+v‚@E£Üú=nC@u¿_ÂÁNû@M0“ #ÏYESOPEN STAR CLUSTER
-Melotte 105      @n1yƒüß¥@¡4     A  @e=p£×
-=ÀO¼ÌÌÌÌÍ@rNbÌõæÀ=0_çŸ?åp£×
-=q@!.záG®@PˆõÂ\)@OaH ]À  ;  M   Ø   ‘?2eÏB!¸€?§ AQ¬ñ?ÝJ›:—@ü?Ãøð@žôáéÎ\@d˜kèÜä†@laËèýb?ö¼h“q¸YESOPEN STAR CLUSTER
-FSR 1569         @…xŒ*G6î@ª     A33@eBùÛ"ÐåÀLh“t¼j@r*Ð¦²@ùíq?ë333333@(uÂ\(ö@333333@JG :ïm  S  À  u  ­?Mˆ:¯BA?ÇáÈ˜Â¹?õ©÷g1îÞ@ãwXéë¶@„Y' y–@KØ70ÁÊ@iÍg°?îþïÇÍ8‹YESOPEN STAR CLUSTER
-‘FSR 1560         @‰ÁÜ?r@§r     A(ö@eOï²-ÀJ £×
-=q@r$ðJ›n@ yj¬½`@=p£×
-=@*¸Që…?Þ¸Që…¸@u¼ŒÉ†7þ  U  è   Ò   —?HLTæ„?t;“c¾Ëº?Þ€N™¥.ä@û 6@l€Ù@œçÂv›@cÆëÜ8$X@q©:ÎÜ¤@E5V)eÕ…YESOPEN STAR CLUSTER
-’FSR 1586         @zj²¤ßFt@¦^     A33@eUp£×
-=ÀO(õÂ\)@rM4Ã-Æã¿ó>¶­“?ï
-=p£×
-@$™™™™™š@78Që…¸@QxŽ£4ô  Þ  t  O  ?G™ìu¹_?´ÊCô«?ëùì‹;™@í’ò#Š@ƒ›£Ag@UÝ›yá@h#q÷yp?ûgLzÃYESOPEN STAR CLUSTER
-”FSR 1598         @• JN‰>@«î     A33@eXÌÌÌÌÍÀRÀõÂ\)@r“>­mÀ*DòJ>‘X?íÂ\(õÃ@-™™™™™š@£×
-=p¤@JÔ1?!E       Ÿ  ö?UŸ¸à©?ÔÒÖdb@#•XÇÜ“@Õañ#Ìª@w`Ý~ä&@?„L)@oöŽ¼bN¹?ð' Ü]ðYESOPEN STAR CLUSTER
-•DBSB 64          @²²M	M÷î@´†     @Æff@ed“t¼jÀMy™™™™š@r>ÂŽ#¡9@ k^%§Ô%@.Ç®záH@7ºáG®{?Î¸Që…¸@‚á†¶Ú·?  +  )F    ;?p‹Y{c¾(?ƒª¾Çf•2?üÕ±¹~û@Ü±Š‰0Þ`@~“jž£F@Dë†DÚþ‹@sµ°’)'@` „†‘kDYESOPEN STAR CLUSTER
-—FSR 1593         @p@A[ib@œ„     AG®@e~¸Që…ÀQ/
-=p£×@rwÊzyiÀY÷ÃqÄ?îzáG®@!”záG®@#\(õÂ@Zf	œâ  k  õ   ¼   b?**§‡ÓÂµ?‘à$Ä{µÏ?ÓË¤™÷ë’Aåà§/9@¦DÕÐìø@ny&èÊI@u¡Ôå¸"@ªd³œß4YESOPEN STAR CLUSTER
-˜FSR 1580         @rsM¾ý@£ž     Aff@e~“t¼ÀMAG®zá@rBºõ*>@Ñ—Þa—?í¸Që…@"8Që…¸@®záG®@R°rs^D  æ  È   ð   ?;£ÝZ‹Ð??¥¤,édé™?ß¶’%¯#1@úÓùzK@›Ì÷\à£@coeHu@hŒ\,?!?ÿZT´Ñ|=YESOPEN STAR CLUSTER
-žRuprecht 94      @š;7P†×(@¦è     @à  @e”Që…¸ÀO½p£×
-=@r`¿ÍCóÀ ~û¦«Ø@\(õÂ\@05Â\(ö?ú=p£×
-=@i­w;Ü„(  ¡    a  r?Qnð`èê? põãªƒ»?ò¯<D ÷@æ#úwb@@‡—ÍÅÒíÙ@P$p@ä{Ã@|€°^·:@-˜žŸ[YtYESOPEN STAR CLUSTER
-¡FSR 1583         @eŽ—@†@™œ     A	™š@eOß;dZÀLÏ¾vÈ´9@rF/uÑ:W@Ù–?Þaø?äÌÌÌÌÌÍ@Â\(õÃ@ÌÌÌÌÌÍ@TsG±GaO  Ð   ÷   p   _?$«k=tÕ	?–š!í„?Ó0‚ÓòñlAŽÒ0Xí@¦øÜ‘uÌ¤@ooaUòÖ@t‡Q!…l@ÅÏÆ˜YESOPEN STAR CLUSTER
-£FSR 1607         @dã$g@˜d     A
-=@e¨     ÀStÌÌÌÌÍ@r«{¦í6ÁÀ/3“Å	?î¸Që…¸@(õÂ\)?þ¸Që…¸@_¶v«%Ñ\  M  0   e   -?þ(‰•é?zûE†95í?Â-õ4•PAÁlÁl@¸?“}ÉÊ@€—:{•3@uÁ›ž,Æ@’[cZ{ÑYESOPEN STAR CLUSTER
-¥IC 2944          @yßþ«@ d     @È  @eÁ²-VÀOy™™™™š@rgýÏFï¿õþÍ*ˆÝ@õÂ\(ö@$záG®{?üzáG®{@m 6ÜR1     B   ž   c?3¦ø’…‘?vI³ç#õ?ÓÿZ†¤>õA¯Ö R¿[@¦@C-Î¸@n*;ÉlçF@v6êæƒ-@3
-¿|ÆYESOPEN STAR CLUSTER
-¦NGC 3766         @€p#\»:@šT     @þff@eÂfffffÀNÎ¸Që…@rbµ ^Ÿ¿¡¯ˆÜ³§¡?í¸Që…@&aG®zá@?£×
-=p¤@[ÙME^å  q  *     ³?.ùcmX½ú?¢K’0Ë4?â>?&Ð@öá÷kC7Ç@˜bA\æÞð@`®ô»3¦†@„ä‚ð"@hsqeYESOPEN STAR CLUSTER
-¨vdBergh-Hagen 121@”âaÏìÇ@¦ò     @Ôzá@eÐÌÌÌÌÍÀO«C•%@rm\]ú’¿údißŒ@\(õÂ\@-ð£×
-=q@
-=p£×
-@i¢Fd¹øý  N  	þ    ?P¹ÞF?šfT!ž„?ì{3Zéí@íµnÀt@Žôµ|=…@U-þgLvÏ@x9á–ü@-~Ø-*Ú”YESOPEN STAR CLUSTER
-©IC 2948          @•9@ø$c{@¥Ø     @Ó33@eÙ²-VÀOÁG®zá@ro³á@_û¿ü#|Ú”¸ú@¸Që…@.¸Që…?ï®záG®@{Íxk;ý^    
-Ž     ¯?J‹`°¾»?t[é²Ûï?á¬®dæ€@÷gÜä4©±@˜ðïy[S6@a“ìÔHR@{±Ù~A.@QYGQÐ"YESOPEN STAR CLUSTER
-«ASCC 67          @‡Þ¯¯Lå¹@—p     @õp¤@eë®záHÀNG®zá@rhÜ0Ø¬n?æüzçÌéç?ðzáG®{@)ffffff@…¸Që…@a´T`ªdÃ  œ  (  -   ©?'%}ËÝÖ?›}ø?ÿ¢)?áŒžá…å@ø<—z²¾Ý@™ÓžšrBy@a«¬Þƒö@¶ùþ¯=@#ÄG_¸GYESOPEN STAR CLUSTER
-°Stock 14         @˜¦qð¯ó@£,     @Ù™š@eþfffffÀOB\(õÃ@rs}ÉNæÞ¿åLe˜¹Ë?ò=p£×
-=@/Â\(õÃ@
-=p£×
-=@Wôy­¡j  å  «  p  X?DÓ&}¡Ä“?¿‘°õù“s?þL˜¬øÛ‚@ÛN´èO@}bê‹¿@Cè¬”Lÿ
-@ƒ†'a—à·@	Â$USÏYESOPEN STAR CLUSTER
-³FSR 1597         @’Ð"Ñxû@¦~     AÌÍ@f£×
-=qÀPÅp£×
-=@r‡¢>Æ·À81x`g?ø      @,Që…¸R?è£×
-=p¤@ZÝã^*€ï  
-Æ  >  ‡  °?Kó€/­÷u?³u¨ÛøÜ?õÐ¿Ø³-h@âö„½¡/h@„4úè?RÓ@K¦¶Íù)U@vŽ¸@øäþ@3PU~ÁYESOPEN STAR CLUSTER
-´FSR 1574         @g¨ÚH_Æ@•´     A  @f™™™™šÀFÔzáG®@r.x[×k@/Kz(W½y?îzáG®@       @ë…¸Qì@arØöÒTC  Ÿ  L   j   1?‰T>Yµ–?{ÄÊãÕ	?ÃË¤™÷ë’Aåà§/9@¶DÕÐìø@~y&èÊI@~îÞ½!é@U®Â8YESOPEN STAR CLUSTER
-µLoden 467        @v¾£üì5@¤     @Ó33@f     ÀO7l‹C•@rv,e˜”Ë¿àÿùL~"?øQë…¸R@#p£×
-=q@ õÂ\(ö@^‚œ^Éis  l  Q   Æ   t?>YE?“+Ä×Ðë°?×no>ÈyA§¹a{–@¢Ð92 ù@i¾†ã¨@j²½¨H@äo7%iàYESOPEN STAR CLUSTER
-·DBSB 72          @JÍ|ï@±Ž     @Ã33@f•$ÝÀPc…¸Qì@rƒ†´çÀRYP%¹¬?üõÂ\(ö@&(õÂ\)?üQë…¸R@TÄÎüÉ„Ò  ‚  u  ¬   é?WES{g_?«@GY+ñ?çˆJ4kò*@ñ”S€Œ¢œ@’»hU@Y¢=Ëñ”@V¬sSàÌ@\§Áö¹>YESOPEN STAR CLUSTER
-¸FSR 1595         @‰±ðòt˜`@±@     @Ë33@fbMÒòÀOS33333@ry»æ±’¿æU¥lÁq?þ=p£×
-=@)aG®zá@p£×
-=q@VÞ[E  §      m?]` |È³?´{ÒgÝV?òn˜œl¸¼@æqŸ6g@‡êŠt^•î@P]³¸@^Í3ËAI:@Ýü¡Ä~YESOPEN STAR CLUSTER
-»NGC 3909         @gÃsS°”Ñ@œ      A=q@f0ÌÌÌÌÍÀHáG®{@rGæ&$JÉ@*ÔQVMñ?å¸Që…@õÂ\(ö@Â\(õÃ@Rýõñ_ò  ¯     †   X?%B ÊŽÃ¼?˜W«BøÔ=?ÑÆ‰[<©½AEÑt]F@¨Ì¨K“ˆ@p÷Á¡MB@r‰Á1rÈí@ 0Ûl«Ü©YESOPEN STAR CLUSTER
-½DBSB 73          @pÒt§Û3@±´     @Ð  @f1G®záÀP7®záH@r‡·Z—€©À%¦‚ˆøø?ç
-=p£×
-@!ffffff@õÂ\(ö@@bzÓeÐ  ±  n  Z  	?Vë°éq,?Ê$jÒe¨?êÃ¨ÿ1(M@îéÇøEŽ@xw€qpê@V‰ÑÝg@K}Ê½ìzb?ØÓTÖOYESOPEN STAR CLUSTER
-¾NGC 3960         @w}f
-`@p     AÂ@f5¸Që…ÀKÕÂ\(ö@rf½-¢@ÁbýVå?þ=p£×
-=@#ë…¸Qì@      @iÝ€)¾ö  y  •   †   L?/1XòÅ×?{,Ü… ?Î´†Q‚FA
-ò†¼¡¯(@¬·µÓ?Í@s¥œÕ·ÅÊ@zÓ‚/ü@.Á<k’âYESOPEN STAR CLUSTER
-ÀLoden 481        @tÛ[Kéu@™ˆ     A(ö@f>¸Që…ÀN¢\(õÃ@r}NdÏ¾í?èàëÓê{?÷×
-=p£×@"ë…¸Qì?åÂ\(õÃ@g‚Ì,^€ù  6      |   Q?(Ÿ”x˜)?~K]æò.B?Ð\â†bA	H°üÖéà@ªñNŠÿ@ro$‰PÆ9@Af™u¦@(Ïï¼okÀYESOPEN STAR CLUSTER
-ÁTeutsch 77       @eÅÈ0Ðþ@ž      @öff@fKï²-ÀOMp£×
-=@r…(§ÿd¿Þ«†Õ½D«?éë…¸Qì@£×
-=p¤@333333@UÁ'®zâ  Œ        H?(eÐ\«Š?‘ÑC‘î?ÍU îç5AqÇqÇ@®Ox\^ü<@t½	zß @m¯IQ˜I6@>S›r‹úYESOPEN STAR CLUSTER
-ÈJuchert 13       @}7ŽV¶@¥Ö     A  @fp£×
-=ÀPfffff@r˜|›‚í¿ümj£ù;?è£×
-=p¤@$ð£×
-=q@3µÂ\(ö@Li„4>€¢    ­  —  ?BOFEùÚ?ºr†¾¥‡m?ì®éG–@q@ìØV‰›@Ž¼Â+1s+@UÏŠ ¨s@j+”ÎtÍ?ò(iÅ‹žYESOPEN STAR CLUSTER
-ËRuprecht 100     @‘œÊ1ó Ø@¤:     A	™š@f®záG®ÀONùÛ"Ðå@r›P`?Yø¿ÊÒ!UÌY@™™™™™š@,\(õÂ?ó…¸Që…@hfâV‡  	ê  ä  ¸   Þ?E0Ó6õ+?•¶ã Æ?ækáž¸'Ž@òsP¸'5@“©+z/Æ5@ZçeÁ|ÎE@{bVšš‡y@*¸ÈP–’»YESOPEN STAR CLUSTER
-ÍNGC 4103         @vç NF @™ì     @ø(ö@fµG®záÀN      @r™*1<’å?òzµ†<oþ?þzáG®@#®záG®@@8Që…¸@m7¿ja–  8  Æ   ˜   I?&ø×ùró?s©âl<ß?Í}ÀúGúAÀà@­å-v;i@ttOŸÃf@€gþ9W@3(çÎ‹×BYESOPEN STAR CLUSTER
-ÏFSR 1605         @Y:Zu2@±N     A  @f½/Ÿ¾wÀPK×
-=p¤@r¥¯s›KÀŸí‹–k@
-=p£×
-@0Y™™™™š?Ú=p£×
-=@e …÷³   ˆ  µ    Ô?c
-¯X‰ ?¨$ÛãýÏ›?÷¢%*ÂÛ@á@‚§ýÄLt@I†2–¾œO@igzÐ¿²f@$	 °7ð1YESOPEN STAR CLUSTER
-ÑDBSB 75          @‘æ@…µ]@±Ô     @À  @fÇdZ¬ÀO¢\(õÃ@r¢Ãáí×A¿éV#þ–Í|@Â\(õÃ@+Ü(õÂ\?Ó×
-=p£×@j~³«Ñ‚ý  å  )  ±  ?d­"^%¼?–‚Ï´ý÷?ê÷^ëÝ{¯@î®€zºë@Xáþ
-õW@V^™£ÀðŠ@a_¡c5í@/‚¡;‡È"YESOPEN STAR CLUSTER
-ÒRuprecht 101     @¡…ó“Z@¦P     Aë…@fÌ“t¼jÀO€£×
-=q@r£:ÞÌ´¿à–’Ý³‰?ø£×
-=p¤@1c×
-=p¤@ G®záH@[Î*****  †  A  p  ï?R7«uñY7?Â%õø‘I1@öV)±ž@ÕÐõnÉW@w?V„âíÆ@?ÏÑø6Ú¬@IGâŠ@Z%'òa YESOPEN STAR CLUSTER
-ØFSR 1602         @’õŽ.Ðøs@ª     A™š@fîáG®{ÀLdzáG®@rœkÐê@×(fK7ù?úzáG®@,€     ?ò\(õÂ@Y=».«õ  
-_    «  ³?QÅ±»M5?µ96ž>>9?õ÷ˆJ4kò@âÕ
--P @„Mëñ4=@Kuå6{Û^@q|+«ƒû@™<–”YESOPEN STAR CLUSTER
-ÚASCC 70          @¨l(¢ÎÃ‰@¤¸     @Ýp¤@fö\(õÃÀP™™™™š@r¯Ïh=òˆ¿üñ²éÛ@Që…¸R@3—
-=p£×?ìzáG®{@rlhh    ã  ¤  »?P(F²G?šú|ñkTò?ö^ô#¶@â}ú8¡ÎM@ƒ´ˆ	2Å€@JöñÔþˆ<@‰pú7‚¢Í@>xÌ—iê	YESOPEN STAR CLUSTER
-ÛDBSB 129         @„™d#0šQ@»@     @À  @fû²-VÀOtzáG®@r­’³g¨¿Ô»3HØô@\(õÂ\@((õÂ\)?ô      @U•¡•×šŠ  Ö  |    G?n‰UP‘¢Õ?°T÷¼?0ç?ðƒXT ˜@éOÕ@Š²]ðñ@RCÙ”$²@F^Ÿ« a´@é§ðà=…YESOPEN STAR CLUSTER
-ÝNGC 4230         @{ˆà¸ŽfA@¤Œ     A¸@g
-¸Që…ÀK\(õÂ@r r¼\ß@´þ—®µE?û®záG®@$záG®{?ð(õÂ\)@`õÂ·:ÔÒ  ù  º   Ý   x?@ra¿¶+?’ÄþQgµ?Ø=FðÇA@¢/®Ò—W@hâ×¹`>Í@lEÊõ¾­‚@Ò¶ú("UYESOPEN STAR CLUSTER
-àASCC 71          @nÁ-$-f0@’ä     A   @g&záG®ÀPáë…¸R@r¿ö‡¼I¡ÀU1+—Öì?á™™™™™š@!aG®zá@õÂ\(ö@WufEà<ü  -  D   ‘   W?%1xæt?”ž¡É¹"ö?Ñ’ÓnV[AŠLx¤È@©¡fíM@q)¯Bi@ˆ•¥Z@³°N×}YESOPEN STAR CLUSTER
-áFSR 1608         @ª·–¾ä=Ñ@¼º     A33@g)ë…¸RÀL—®záH@r­I£AÃ¼@ÈÇí¹@™™™™™š@5#×
-=p¤?ë…¸Që…@[²ˆàv1  œ  :  †  Ä?|<¢s!é?É)D#wå…@Íß|§«ø@ÊÛè”^@lžù >Ôÿ@3•B!ÄM@^Ò›…^ÿ÷@7ºÞ‡3YESOPEN STAR CLUSTER
-âFSR 1604         @•ø0ª*_@ª¬     A™š@g.ùÛ"ÐåÀI¼(õÂ\@r£ô	KþI@&CåUÕG@333333@-×
-=p£×?Ù™™™™™š@b e®±  3  Ä  t  ž?U¯Õ°Zû¨?ª1•¨ß?ôè/«¶.@ãÉ•¤{«ç@…älÇ¤W@LÚ{øQèY@qÏMG[u”@~H!]µˆYESOPEN STAR CLUSTER
-åESO 130-13       @h&Lqÿ2¸@—”     A¸@g8“t¼jÀMÕ¸Që…@rµ¢«¿]­@XÜµ"S?êáG®zá@ÌÌÌÌÌÍ@-B\(õÃ@\´ri@„  '  K      D?#wž>BR®?‹>ðœY¶*?Ëx¥»ŒL$A@°ôm#:>@uõTîÜs¦@yáá4„@~6ŒÇ ¯YESOPEN STAR CLUSTER
-çNGC 4337         @Ÿa2ð@¦t     Aff@g@     ÀMùÛ"Ðå@r´Ûy9o@>Ê–‹Í¹@G®záH@0À     @333333@n—w›ó™Ð      f  U?P´ƒî¿q?™0ús k?ñ8UbÄo@è€`@‰™sêêß‹@Qƒà¦L{@¬Ðñç@5	:kQYESOPEN STAR CLUSTER
-èNGC 4349         @’‡2¸3>@ Ö     A\@gAë…¸RÀNï\(õÂ@r»´éª^?ê¤éÂ^Ä?þ\(õÂ@,”záG®@2£×
-=p¤@fÚÐ“ßÈ  Ö  %  ¥  ?@äÁ­YFc?!D±H?ë+Ø‰Ï@ît¥—Pä@9Ä¶®‹@V4ð’ÆÈ@„€h¡yF@'pÏpž.YESOPEN STAR CLUSTER
-éFSR 1610         @–9P­’On@²      AÌÍ@gB$Ý/ ÀL¸Që…@r²vÄ@FC_–3?û333333@-½p£×
-=?æ¸Që…¸@RäÃøð  ´  œ  J  ›?ch"î1 ©?Ç3Uq(K@ ×_ôŸ¨@ØOÕtK@z,Ôð÷ÔÕ@Aè¶àÀ¡@c'xÚ)~@ ¨É²‹®YESOPEN STAR CLUSTER
-ìRuprecht 104     @of	]\S@¥     A=q@gH(õÂ\ÀN8õÂ\)@rºÕŽ™Ki@ØhÓ3@?û333333@ ×
-=p£×@®záG®@`8ÈÅB"  3  ¯      D?<m\%Nž?…ÊëÀT?Ëx¥»ŒL$A@°ôm#:>@uõTîÜs¦@bKöãU!@ŸÃ­þ>CYESOPEN STAR CLUSTER
-îvdBergh-Hagen 131@t]c —†@±N     A33@gQG®záÀO³33333@rÁµL›¿åXïž$@™™™™™š@"\(õÂ@'(õÂ\)@i›È·á}  Á  æ   –   X?TÌƒ¹Ïlû?uæzŠï‹?ÑÆ‰[<©½AEÑt]F@¨Ì¨K“ˆ@p÷Á¡MB@Nþú‘Ù¨ó@-oè0UÜYESOPEN STAR CLUSTER
-ðvdBergh-Hagen 132@x4PH:@     A33@gX     ÀPIº^5?@rÄ7[´ü¿õ&ªÙ~ð?è£×
-=p¤@#ÌÌÌÌÌÍ@ p£×
-=q@U[ÚnâÒ  õ      á   ¯?1ƒ~ó!î^?¦ž:¤Å f?á¬®dæ€@÷gÜä4©±@˜ðïy[S6@a“ìÔHR@zr*š¼¼q@zH-ü¶ÕYESOPEN STAR CLUSTER
-òFSR 1609         @ž¿‹‡f¹@±s     A™š@g^ùÛ"ÐåÀH<ÌÌÌÌÍ@r®¦ˆ³@,lÉáLÉº?û×
-=p£×@0”záG®?ìÌÌÌÌÌÍ@TlË³  Å  o  †  V?c^€F%?Ë‹Í&ô®@pÛÅ-@Ó/\íjú@tq»š˜$@;ùš^ya“@i±hÑÞmè@9är¶YESOPEN STAR CLUSTER
-óNGC 4439         @iX•¯šc@™ì     @ö¸R@gcÆ§ï²ÀNzáG®@rÁ$=(·@±N¶¼ñ?ë×
-=p£×@ \(õÂ@Â\(õÃ@[
-¾é€j©  J     ‘   K?(‡A³ÇÏÝ?S-…IB%?ÎL˜¬øÛ‚AN´èO@­bê‹¿@sè¬”Lÿ
-@uØÂ"ÞJ@i–yF²YESOPEN STAR CLUSTER
-ôRuprecht 165     @f:~~!×ƒ@ D     A×
-@gc…¸QìÀL7
-=p£×@r»Ë?É¥@22¢æ0ƒ?Û…¸Që…@p£×
-=q@…¸Që…@ELØš¢¨  ‚  
-   Ö   t?,U-¿õýi?±U£:î¤?×no>ÈyA§¹a{–@¢Ð92 ù@i¾†ã¨@hêšro­“?ä]‹œó€“YESOPEN STAR CLUSTER
-øFSR 1616         @q²:)V·4@ž¬     AÌÍ@gjvÈ´9XÀO·
-=p£×@rÇ]™Æ¡¿åC¤{ëG©?ó
-=p£×
-@!Ç®záH@záG®{@_Bž¢IO  ¬  •   “   [?0ZÒ3‰¥?Œ„ÒYP£†?Òa«!A£ãAhh@§û\j×Ð@phŽ<UöÅ@s ±‚U@î ë'ŒYESOPEN STAR CLUSTER
-ùESO 131-09       @wí2&U”@¡ž     Aff@glå`A‰7ÀLî¸Që…@rÀZ”Pª£@ˆ•ˆñì?ØQë…¸R@#Š=p£×
-@&ð£×
-=q@Aa¢ª!  a  Y  	  2?6˜$”¸ª?Í+ÅZ{¡l?îçºrýÕ©@êÅpÅp@Œ‡Þwƒý@S„½FJZ@qP+Õ¿?Û¢¢q€`YESOPEN STAR CLUSTER
-ûFSR 1613         @t™ÁaŽbt@ž´     A×
-@gŸ¾vÉÀG=V“@r¶ÙAjÑ@0Bþ¥pk²?é™™™™™š@"ÌÌÌÌÌÍ@Që…¸R@TþoÇ¸ã  N     ï   ¢?2 odé¹?£<&·ñ/?à\â†b@ùH°üÖéà@šñNŠÿ@bo$‰PÆ9@uVÖ:@È¯¿Oå$YESOPEN STAR CLUSTER
-þESO 442-04       @IE5ü@˜Ä     A™š@g£×
-=qÀ=ffffff@r¦„: •@@¨Û­ªv?èõÂ\(ö@,záG®@ffffff@Y`_|¨  	#  Ò  e  N?-;zR›‚û?²£hFhâ?ðÝÖ²52ƒ@è†åð«°J@Š"Ìõ4Ç@QáÙÜ”Þò@’JÆÅÊÜ@çñk¯-YESOPEN STAR CLUSTER
- DBSB 77          @‚ÉcÐzF%@µ)     @É™š@g—×
-=p¤ÀNÓ¶E¡ÊÁ@rÏ«1ñöp?ò|@U^o‰@záG®{@&(õÂ\)?Ç
-=p£×
-@Z¿Ô™)  —  ­  Ð  8?h¶Å¤´Á?¨î³d¤z?ï‚Ü9ÏÏ@êA¤A¤@‹ú–|¦r®@S$¥ñõ;@O5Þœûº@$ÖÜ¦YESOPEN STAR CLUSTER
-DBSB 78          @ˆbAB @±Ù     @À  @g záG®ÀNíp£×
-=@rÑè‡~ˆ…?îÍ¸âàºè@™™™™™š@%záG®{?ã…¸Që…@^xö-ãm  É  É  F   Ð?[-Ö¯¢7?šà²ôÈl?åè&ßß@ó±;±;@”ûðÝ|Ö@\¶øé–oÙ@Tœ‘žç¶@×:+áyzYESOPEN STAR CLUSTER
-FSR 1623         @ÉFú­SŠv@»     Aff@g¡V“ÀP¼Iº^5?@rÖâŠ€ìÀu¥m_bç@Që…¸R@?®záG®?ì(õÂ\)@TÎ3f`¶­  q&  I¥  "	  
-?…%jØ¶>#?õLÙ`Œò­@00îbÔû³@©ŒÓ0˜Í@K9èø?Ã"@ ÑbW˜@s’jGIÖë@n.Ì—RtYESOPEN STAR CLUSTER
-FSR 1620         @qi¦¨¸@¢      AõÃ@g¬¼j~ùÛÀL¡G®zá@rÐÔ<Õ_@>©¹ÞÉ?þffffff@!\(õÂ?ø(õÂ\)@eCªªª«  ·     {   J?7wN:Ä?QŒ^ãt?Íå,Ó 4¾A¬ùÁºÐ@­}Á7G©P@t-ŒQš´@kT=¦©@$JîäÈïIYESOPEN STAR CLUSTER
-Collinder 261    @¡œzzæý@¤ö     A33@g°ÌÌÌÌÍÀQ|í‘hs@rÛ(ñ‚+MÀá[0äJ@      @1\(õÂ\@      @hGÊ‘9  ¨    Ô  ¬?Mwy·@õˆ?¦3oy›Q?õ	ìÚ@ã#ãJ+¿@„eSbG£@KèÞËüC@ƒ…ÿ@)è|•Þ??YESOPEN STAR CLUSTER
-FSR 1622         @Ã
-ò¼|»R@·     A	™š@g¯×
-=p¤ÀO¡G®zá@rÖ³8œìØ¿Ûaˆ`è«@ záG®@<5Â\(ö?ÿ333333@Q9Ó¼*ˆ  Uw  6    r?~€ºHßáŸ?÷xV“^—7@,0ÝÖ²52@­YNÂª\g@OF0K!uü@e×-Ç“©@tF•Ió?ú£-…ñþYESOPEN STAR CLUSTER
-Trumpler 20      @ÁÑe($š@©Þ     A33@g¾“t¼ÀNQG®zá@r×úÈèÇ@¢@\¶íj@\(õÂ\@:ð£×
-=q@"™™™™™š@oÙj¶ßc#  L›  5  Ù  Ÿ?b'Ø÷nq?¸˜8:	@*¹ÕÊ‹K@ÆÅxpo«@hCãÓ/ƒ@0š.ÿ¤@ŽÝô„ìJœ@6Ä8pè•²YESOPEN STAR CLUSTER
-FSR 1625         @ˆ	$Fè@¡º     A  @gÆfffffÀM4záG®@rØAîþ@»G¦;"%@ záG®@(…¸Që…@ÌÌÌÌÌÍ@f×½ù‹á  ˜  Ý     ¦?<Y_r ÷®?zË.Hk;?àÃû»ßÒ@ø¬¹kóª@šKMu@aým®dê@{9xÛýà@'j›ÐÅÁMYESOPEN STAR CLUSTER
-Hogg 15          @sr¿ý^Î@¨     @Ó33@gÜ¼j~ùÛÀOŒ‹C•@rà¶}Úm2¿Î°Ôž!àû?å¸Që…@!Â\(õÃ@.¨õÂ\)@F:ü‹Ô  Œ  Ÿ  G  ?J¾ÆŒ¬NÆ?ÂéŒ"®5?ìG}n=™­@íAÔAÔ@-+W²(@UT¸è	Zf@_›˜5[Æ?åó£P"¼­YESOPEN STAR CLUSTER
-FSR 1630         @d"ç‚²@¢€     @ÌÌÍ@hÂ\(öÀOG®zá@réÔE?æ,?ç…´²w…Š?åÂ\(õÃ@ë…¸Qì@!záG®@M¡ç†:  j     ¦   W?3
-R¶VUú? Ðæƒ§:w?Ñ’ÓnV[AŠLx¤È@©¡fíM@q)¯Bi@abº
-v*‚?ó¯p2W¸„YESOPEN STAR CLUSTER
-ESO 065-03       @ŽTiµH@§Î     A\)@hfffffÀQn¸Që…@rî·ãIÇBÀnÚÉâ?ù™™™™™š@)Ü(õÂ\?ë×
-=p£×@[é{ÁÓÐ  	2  ½    n?P*•U‰p?°Yê+ÏÛ?ò{†—Í•@æaìjQ"ù@‡ÙÐ‰±@PQšqxë@pÊº#Ýí@t¸¾Ê¥ÚYESOPEN STAR CLUSTER
-vdBergh-Hagen 140@ªˆeJ)Ì@´m     Aff@h*=p£×
-ÀPÊáG®{@rñÇÁL/À2"¼@      @3O\(õÂ?Ð£×
-=p¤@[óôÖ  *  o    :?pÆ÷+Adš?ÉÙº*ð\Ø@QÝJš@ÎHßYo3”@p"¼5à¨@6€ð/‰•@inõ¢`ÿ@¬Î³;YESOPEN STAR CLUSTER
-FSR 1634         @Ñr8C…Ä@¸¦     AÌÍ@h3²-VÀE×
-=p£×@rø$’j@309Ôw@%p£×
-=q@@ã×
-=p¤?ÈQë…¸R@uæ¿3e–  ›  ‚¾  þ  	Ž?…7iëÂ€ë?ºUpmÍf@áCµhK<@ºË
-¬æ@ä@\ Œ˜Dv@#ˆÓ2°pî@z¹sÍªt @E‡ýðm¦YESOPEN STAR CLUSTER
-FSR 1635         @Í~f˜ê L@¸     AÌÍ@h7•$ÝÀEÀbMÒñª@rù´Êþõ@3]8æù
-@õÂ\(ö@?áG®zá?ØQë…¸R@Y§Ùë£7Æ  ‚  Z"  !ä  ?ƒ¾¡ÛI5?ððÑ•	@.Õóé¢˜ÿ@ªÔÞÓÒƒ@L—yÃt{±@ý¯Úv@x‚ß¿™Ö@‹®¹OõƒYESOPEN STAR CLUSTER
-NGC 4815         @}>‘;bZ@§\     A	™š@hP(õÂ\ÀP=p£×
-=@rú}ÕùÀ Æû$t]k?ðÌÌÌÌÌÍ@$.záG®@6œ(õÂ\@RÉã“Í    ¶  i   ç?F'Ä¦ÂH?¯öŠ.Ë>?çT”G¿žÈ@ñ»J@Fí)@’å‚¹Œ@YÛ¬¦}@e<ú¹Ÿy?ýpfP¡CÑYESOPEN STAR CLUSTER
-FSR 1638         @ÃÁå³’fô@¾     A  @hhå`A‰7ÀQÙG®zá@rûd?£ÃÂÀ!hmGÐ‘@õÂ\(ö@=!G®zá?ÄzáG®{@b`Õ Çˆü  XY  AÄ    ?ˆ9ù¡ÈSã?ÕP†ô<s@!È'
-¢X@·C´èr@XÊgYt é@ ö6â!m™@j­‹kÔf@R‘/Î½(YESOPEN STAR CLUSTER
-!FSR 1641         @p@A[ib@ž8     A33@h…p£×
-=ÀP"áG®{@s­0•în¿û[ƒ¤WÉ’?î¸Që…¸@!™™™™š@(£×
-=p¤@Y˜³,l9e  7     ”   k?,s
-HÚFí?‘¡HEˆ
-?Õ	ìÚA#ãJ+¿@¤eSbG£@kèÞËüC@r9˜I~áÕ@hÓSÄò¬YESOPEN STAR CLUSTER
-#FSR 1639         @ïñªºNÎ@¿     AÌÍ@hª$Ý/ ÀSH£×
-=q@rÿHY‡yæÀ,˜íäZ\@"Ç®záH@Jå¸Që…?ž¸Që…¸@nzè¼•
- (V “g  C_  (”?—Ÿ—MÉ¨?è9ðº*@@d¤OO@™<:À8Ç„@:äò­æ@f•Ì?@…aÕÃça@4ÙäU¤çmYESOPEN STAR CLUSTER
-)FSR 1640         @Äí˜µð´Ò@¸E     A33@h¿C•%ÀS\ÌÌÌÌÍ@sFr!‹À-?odÅ@¸Që…@<Y™™™™š?Öffffff@aÂí/°~/  ]4  Aà  ô  
-å?¨Uºú?Ø-#¯f{@!šçÛ‹Cb@·~ÂÆÐ»@Y
-8ªA¼@!!ÎËo$Y@sjeÚ“Rs@R>%(’YESOPEN STAR CLUSTER
-/DBSB 133         @‡Ð¡Ð@¦Þ     A\)@hÐ     ÀO3t¼j~ú@sªÞ‚gé?Ö¾LfÓZ2?ñG®záH@'ž¸Që…@Â\(õÃ@SÞ¿BÍ›  ¼    ý  =?Iö-!œÑ?¸@ä—mYº?ð„XÐ"@é×Ÿkh-@‹‰œÿ 0D@R×YÕÖ1)@n\´ Àpv@ @ÊÏw¹YESOPEN STAR CLUSTER
-0NGC 5045         @†ˆÜ¼q@™ø     @þ\@hÔ(õÂ\ÀOµÂ\(ö@s+s³-¨¿å>€Ämü@¸Që…@(333333@ 333333@|;öcqN/  ó  í   ‚   V?0tòèy,Ö?f»6@µCx?Ñ_äùAÐ_A}ô@©`Lôª@q\Æ"…@ˆ¶Šëð°@Qä>W@:YESOPEN STAR CLUSTER
-2vdBergh-Hagen 144@û4~KÕt@¼I     A  @hÚ$Ý/ ÀPzáG®{@sÍ«õDÀ	IJ,çÄ?ê\(õÂ@)Â\(õÃ@!W
-=p£×@7¤¤”¾	;  0  <  í  ?tMÙw?ó¬Ø ,@
-(‡9,.&@Ï¡ªú@pÚ%D(ó	@7{Êjùò@Gšp©¦G?É“ºkÍYESOPEN STAR CLUSTER
-4FSR 1646         @³O[ÒÝ‚@²°     A™š@hãÆ§ï²ÀK™™™™š@s*E2ô@ ûâHzúo?ÿ×
-=p£×@5.záG®?ò¸Që…¸@Us3¶µÚ«  +ì    $  Š?q”d	Â°W?ßð#õº@]˜¤²Ê@ÀúmÓös"@b47¢@(ÁÕG«ZT@rG¿j:@§&	’–YESOPEN STAR CLUSTER
-;FSR 1649         @µ„³ê@»®     Aff@hüõÂ\)ÀL
-=p£×@s-ò†Ø9@çp`ðÙ1@õÂ\(ö@6…¸Që…?Þ¸Që…¸@f´rG[ó±  /i  'ä  	h  ?‚i†w>?½úv}a@V$ð×¢@ÉR²sî—@jû÷ÎÓ@2voÅF7L@bÖGxñ@'#Û…ëðYESOPEN STAR CLUSTER
-@FSR 1642         @†‹g¾$@©     A  @ifffffÀRdÌÌÌÌÍ@sìzêçÀ%®PõçsB@
-=p£×
-@&ë…¸Qì?éG®záH@qdÎ4a    –   ö   „?Mžö‹ßÌù?zËšh{4?Ú©ÎÚþ›@ÿÁð|@ ˆp2b[
-@fŸ¬×­t@gÁpb)t¦@:B½eÌ7DYESOPEN STAR CLUSTER
-ACollinder 269    @… ©ï —{@8     AÌÍ@iÐå`A‰ÀPŠ=p£×
-@s#D\@'öÀôŒQ*R?ðÌÌÌÌÌÍ@'uÂ\(ö@®záG®@\ôMÂ6|  v  ß  7   á?4œršIñ×?¤‘óÅyz?æ¹rº¤¢@ò4Vxš¼ß@“f—GÕ@Z‹Å»þ¸@‚Xu‹Àß±@ÐÙ…\áYESOPEN STAR CLUSTER
-CESO 324-15       @tÛ[Kéu@¦     A33@i®záHÀDð£×
-=q@sTªê²×@4˜‘µÈ*B?ýG®záH@!”záG®?íp£×
-=q@`¾T…“îj  6        r?D¶Nø1-’?ÝÂ/tç¬?×d½!µA÷}Áp@£$·ÎŒÕ4@j2&rJ]@b%L/¶@*ÿ)ž’¿YESOPEN STAR CLUSTER
-DLoden 821        @ž‰[šKw@¤¤     @î\@i!ë…¸RÀMç®záH@s0Í9º¸3@dÆ‘
-¼Á@®záG®@00£×
-=q?å¸Që…@S‚ÂA÷  J  ¡  Q   Ò?LåHª„ã^?vøc,¤ø™?å5ž®3A@ó88@”ÈÇÌ­@\pöŠ·#3@‚$à•d@VZ³¨“YESOPEN STAR CLUSTER
-FFSR 1651         @²P"Bj£@¬$     Aff@i,9XbNÀM~záG®@s5½ÀÝ@Ä™iþjO@
-záG®@5ÌÌÌÌÍ?Ð£×
-=p¤@gUÈV2^  (P    A  š?b…==C¯[?¸!y6! 7@G¦Ì”‰ð@ÑÅ"üàY@rï›q4 @9éjUI k@ØÁãÅ@(qGV…Æ×YESOPEN STAR CLUSTER
-JBasel 18         @û„ýÝÛ@¡d     @ýp¤@i>ùÛ"ÐåÀO*=p£×
-@s2]GƒÖ?ÏVxâ ?ôõÂ\(ö@%Ü(õÂ\@záG®{@^XÂOÄaµ  Ï  I   ÿ   Ü?>=Ã{+ëï? rqÉ†–?æ8+²Ô,@òžA)äž@“Öí	BÓ¥@[&›®Ð%@v{môõ@«ELg+¾YESOPEN STAR CLUSTER
-KHogg 16          @yÐÂ‘rcÐ@      @þff@iJ=p£×
-ÀN›"Ðå`B@s7‘ê>(z?õ5Õx ÚŒ?ñÂ\(õÃ@#®záG®@ë…¸Qì@[Ì—â[ôÄ    T   Õ   ?3ŽËˆ'(?˜Ü}ÜÜ?Ú¬BÖu@ÿÀüð@ êÝøc@g&]‚Ä±}@uL.”º@X/x¡²YESOPEN STAR CLUSTER
-LESO 065-07       @xŠQ§È@«*     Aff@iIG®záÀQÐõÂ\)@sºð¶¸àÀ!;ðDù]Ô?üzáG®{@"£×
-=p¤@p£×
-=q@Zf
-ƒŽa  @  ‘   ý   ›?Lc”‚Á”å?˜RRÆ"ö??ßO&LV|m@úm¦Ðm@œ(ÌO5@cDCê[T@ZÌº=
-þg@HÿäšYESOPEN STAR CLUSTER
-NCollinder 271    @…Ð1+„@¤8     @æff@iPõÂ\)ÀPÌÌÌÌÍ@s2‰¡Ÿš¿úL¶tÔš?è£×
-=p¤@&½p£×
-=@\(õÂ@N¯I
-†^Í      g  R?CŒ4¼ÉD?À¦5aõ.F?ñŒžá…å@è<—z²¾Ý@‰ÓžšrBy@Q«¬Þƒö@qÿ¨!ø
-¿?õ!Êà•ÊÕYESOPEN STAR CLUSTER
-OFSR 1657         @· oÁùM€@µ!     A  @iP9XbNÀM]p£×
-=@s>îVÐ!@!Òè‰¡á@áG®zá@6(õÂ\)?É™™™™™š@Vµ|hcG  2Ü  "¶  ½  ³?wÅ&Ôd÷?à_ãøn@yñ•í@½mŒÑ6Õ@_[ÂL{!@%t™VÓ~®@oM„çèÝ’@¸Ù2ÖüôYESOPEN STAR CLUSTER
-PCollinder 272    @}*ŒÒ_Wð@ ^     @à£×@iR§ï²-ÀNªáG®{@s9GPèü€?òöÌ|'?ñ™™™™™š@$uÂ\(ö@!€     @[J©\ý®    ›   ê   ’?5±Æÿz?Qg•õB?Ý}ÀúGú@üÀà@å-v;i@dtOŸÃf@v<RÃP@s÷¶uÆšYESOPEN STAR CLUSTER
-VFSR 1653         @ž¿‹‡f¹@©t     A™š@in¸Që…ÀO…¸Që…@s;uæ¸é¿â… ¾j@
-=p£×
-@/½p£×
-=?é™™™™™š@dÐ2)­6h    ^    ò?V˜Äé–G?©¶O¬®\:?ù%ù™Î;@às&
-G÷Æ@‡gˆ²N@Gü’=x†Ž@v 6¾á£@#qèý<œ`YESOPEN STAR CLUSTER
-XLoden 848        @…¸1Ík„Í@œ     A  @is
-=p£×ÀP#33333@s8k7|À ~ñ®’üE@ÌÌÌÌÌÍ@'¨õÂ\)?ý™™™™™š@r¦ø¼÷t  \  t   ¥   n?2k2ã å?wÕqøÎ¡?Ö8+²Ô,AžA)äž@£Öí	BÓ¥@k&›®Ð%@„4Ý9äÂk@?;»ˆà¾¸YESOPEN STAR CLUSTER
-[FSR 1650         @­qžú˜@°     A  @i}7KÆ§ðÀQ;dZ¬@s0Í,RKÀaÅJ»@õÂ\(ö@3p£×
-=q?íp£×
-=q@bõ.UTE   Å    ‡  ô?fçfàê,?Àk`°RãÏ@	es'4 @Ð0‘µ^@q@u.úÒ@7›|³åì¦@tîë[hš¡@3LÁÈYESOPEN STAR CLUSTER
-^Pismis 18        @„uâmì@¢
-     A™š@i‡l‹C•ÀOQë…¸@sC·«`?ÕœÄdm??öffffff@&¨õÂ\)@.\(õÂ\@_DùYm  Ç    G   ½?>^t¼˜?žÒfŸûH?ã§ÝœÇ»@õ¬kZÀ@—ú-ÿ:@_™õ}¯
-«@vsÆ)z“@ð¡›´;õYESOPEN STAR CLUSTER
-`FSR 1659         @{h}¼ó9ø@›     A
-=@i Ä›¥ãÀO>záG®@sD„GXˆ@¿¹%±ÍM?ù¸Që…@$G®záH?ñë…¸Qì@fò“­Í%÷  „  ©   –   X?1'Yˆ\ho?†\TsK<ý?ÑÆ‰[<©½AEÑt]F@¨Ì¨K“ˆ@p÷Á¡MB@~ÏþÂgØ@'£-OêeYESOPEN STAR CLUSTER
-aFSR 1672         @›g…¢FY¾@§˜     A™š@ibMÒòÀE—
-=p£×@s~b4ô/@2á—r…G‡@Â\(õÃ@.LÌÌÌÌÍ?ÊáG®zá@g8Í Xù  1  D  \  ?T0—=«?£’Ô:¾­?ôÛ´€¡V@ãÕÙ‘ªuÆ@…"öU}x@Lì^„cv=@ww’ä©Ü¦@(4·sØÀrYESOPEN STAR CLUSTER
-eFSR 1656         @§RÃæ vñ@³ß     A  @iª¸Që…ÀP¨Ä›¥ãT@s=Áp¼gRÀù¼_Î(?õ™™™™™š@1°£×
-=q?è£×
-=p¤@K^š~ëÇ  «  l  
-È  †?p¦Õ	X?æVl®L¼@L^Â$@ÃŸZ"ón@dè£÷]l@,œÇT—ê@f¤–Å|‘?ðÏþºÓ;YESOPEN STAR CLUSTER
-gFSR 1654         @„±»fJôA@¯^     Azá@i°¼j~ùÛÀPìÌÌÌÌÍ@s;–XÚBÀ4Û‚ã?ó333333@%®záG®?ìzáG®{@NÒüOQŒ  Ñ  ½  .  g?Y
-Î²?¿íÄI ?ò!¹j;©@æÑ¦&Èa@ˆPÞ¡Ï@P£%¤ãc@[0jy€´³?õSM·T¾YESOPEN STAR CLUSTER
-lNGC 5269         @yïCÂ5™@@™ˆ     AQì@iÅÛ"Ðå`ÀOr-V@sO\oÕ¿ä©V›‘§?ìzáG®{@#úáG®{@"LÌÌÌÌÍ@\=Ê{4µ  ý  ˜   Õ   ‚?*É73×#3?š]ÄmHý?ÚBb/‚W×@ÿøø @ É}ýx@føÇ!E&G@m‰Äz•à@´‚{ÚæYESOPEN STAR CLUSTER
-nLoden 991        @€äJA®@¤ˆ     @è  @iÊ$Ý/ ÀOzáG®@sS'ßÈåÆ?Çnk#–?@ffffff@$\(õÂ@ áG®zá@kxy’d‡  H  ›   ²   …?E©]jC,?‚?Áúòí?ÚÝƒõ‡Qþ@þÌ³ìÀ@ hŒx¶¿@ft ô?½y@l‰Ž.Xy@0ïÖŽ…ÁYESOPEN STAR CLUSTER
-oFSR 1647         @‹ÚëÚ.@£     AG®@iÍ‰7KÆ¨ÀR}p£×
-=@s+“—…NÀ&úXÜ§ìŸ?øõÂ\(ö@).záG®?ý™™™™™š@`‚è‹9@Ò     f  §  ?BËõÀ8 M?£!(ö¿Áö?ê©ÎÚþ›@ïÁð|@ˆp2b[
-@VŸ¬×­t@xèˆ½þ	@y˜cjóFYESOPEN STAR CLUSTER
-sASCC 75          @tus|y(g@§     @ÔÌÍ@iÙûçl‹DÀO333333@sUˆql<¿ÌÖsŽR?æ¸Që…¸@!záG®{@p£×
-=q@HÖ«Þî  í  ë  P   Õ?Dä$¤X?¸»cËë]À?åƒ.õ°°U@ó:ä[W¼²@”}ÖÇvLÈ@\
-j+‹E@`d|'Í ?ë±ÿr¬¤YESOPEN STAR CLUSTER
-vCollinder 277    @pæUXu@¡8     AÌÍ@iáë…¸RÀP„ÌÌÌÌÍ@sJx0ñ1öÀ°ÙŠÇ~?â\(õÂ@ ë…¸Qì@ÌÌÌÌÌÍ@K#ß©Ä·>  X  d   ä   ›?3÷Œå½…µ?°˜ T¢Üb?ßO&LV|m@úm¦Ðm@œ(ÌO5@cDCê[T@kzˆxv?ðˆ%
-]ÜçYESOPEN STAR CLUSTER
-wFSR 1666         @˜3D7¿‰›@¤ê     Aff@iäÌÌÌÌÍÀNº=p£×
-@s[Lêh´ø?å4?.½·@333333@-”záG®?ØQë…¸R@Šì–TX\  o  U     »?O»¿"ä?t9€×ðw?ââñððtY@õç[¸Ðç@—W4ûÖ&,@_ð{‰úÖÂ@|v£ôÇÌ@@VT‹`OÒZYESOPEN STAR CLUSTER
-xNGC 5288         @½¡Æ—’5L@³Þ     A™š@iåÛ"Ðå`ÀP,záG®@sP i¨À¢Ö€2½@£×
-=p¤@7Ü(õÂ\?ß\(õÂ\@\±g.Y	  B9  ,Ì  {  	D?w›óÞ/Ñ?Ú7æ
-áÜe@òNËI–@»¡y½„ˆ@]qöndÑ@$$ÖUK¿#@t…Ô g—©@zJ…ÚöDYESOPEN STAR CLUSTER
-yFSR 1673         @yÞM‚!@ Ô     A  @iñ$Ý/ÀIU`A‰7L@s…•Ä[Ñ—@&AË¬àÇÌ?þ\(õÂ@##×
-=p¤@ (õÂ\)@fÜË­#ƒ  h  ¯   ’   b?5©‘ž¡§?€þ5yu²?ÓË¤™÷ë’Aåà§/9@¦DÕÐìø@ny&èÊI@rh)x¿‡¾@'vb%ÀWsYESOPEN STAR CLUSTER
-~Loden 1095       @…‘ëFš[@¯x     AÌÍ@jå`A‰7ÀMß\(õÂ@sk'µ9{¨@}®ÂôX@ë…¸Qì@%záG®{?ù¸Që…@_àyjj«Á  	  E  ‘   Ù?Z£•%½îÈ?žùˆÅÙÎå?åêšÏ	W@òà%ÀK€—@”$8“øÉ@[†áS@Z„Ž-]Àj@ÎP}=Ô"YESOPEN STAR CLUSTER
-‚FSR 1683         @»èö˜AÀÓ@®     A¸R@j‡+ÀDâMÒñ©ü@s¶}£?(@3’AR¶ ?ù™™™™™š@6ó33333?âáG®zá@UpöóÂC  =ð  &m    
-­?kRé€ó?åôý[TÈ@!@i}]±v@·úÁ%¿¾@Yv›þB@!{¬ ”‹©@€•¼ncÞ@¢×N†’/YESOPEN STAR CLUSTER
-ƒESO 445-74       @–æ0ý842@­´     A  @j/Ÿ¾wÀ?ó33333@säêWIW@=ªZ¼O`?áG®záH@*úáG®{@ë…¸Qì@=KÁŸjåÙ  ,       s?`j–™é Š?ôƒêÑÛ8@œ…Šð¥ý@Ç}VÍ*Â(@iÒ„ñU@1 <^‰Í @gz˜ºfÓ?ÓC.u¡ÜMYESOPEN STAR CLUSTER
-…FSR 1658         @®A'$Z‰@°     AÌÍ@jbMÒñªÀQ°     @sBÄpÀ
-„À!~'ªü^?ò=p£×
-=@3ffffff?üõÂ\(ö@K¼MÕ+—4  "´  õ  7  „?iÿ2HQ‰?íh›“åùe@…“6·`ý@¾ø|á @`jÑu]]@%ëtK_=@s‡ï^“óÎ?ñCá„¦
-YESOPEN STAR CLUSTER
-‰FSR 1684         @†Ù×Í%‡@¥Z     Aff@j,bMÒòÀEo\(õÂ@s¹Ö£gF@2^f0€Dà?÷®záG®@&\(õÂ?ç®záG®@[ìµkƒ®d  *  ]     Õ?FµÂ?O®Ï?¤œÐo‡œR?åƒ.õ°°U@ó:ä[W¼²@”}ÖÇvLÈ@\
-j+‹E@oÅAõ~–@€YmAnîYESOPEN STAR CLUSTER
-ŠvdBergh-Hagen 155@}Mœÿ@      A
-=@j,     ÀMÊ=p£×
-@ssl¢(¬@ÍV¨4&x?ä(õÂ\)@$záG®{@$ë…¸Qì@Qm²¦—/  ä  V  7  ?4WT³[?´ýôwÒ*²?êó„Ôê@ï%öD#
-µ@˜‡ü÷ @Vµ²]=Œ@|$]øÙ?ûDýN ‹LYESOPEN STAR CLUSTER
-ŒFSR 1661         @¥ª£äÁÅé@°ë     Aff@j/l‹C•ÀQW\(õÂ@sL<BBÀÿªQµ°_?ýÂ\(õÃ@1=p£×
-=?íÂ\(õÃ@V%O˜‰:  
-  &    *?gÍÍ#*no?Ïô–$åJ@
-êqp²fÖ@Î½<ÿ…@p`»þ
-±@6iX uj@mQù»@±ÿ÷%YESOPEN STAR CLUSTER
-Loden 1101       @ƒæ]:Ö@@ P     @Ñ™š@j1XbMÓÀNà     @skÛÎ9F¸?»ñ1I @ÌÌÌÌÌÍ@&záG®{?÷\(õÂ\@ƒ#ÈŠL‚  O  Y   Œ   J?;S„lž3?Vsæ 2§?Íå,Ó 4¾A¬ùÁºÐ@­}Á7G©P@t-ŒQš´@{©˜‹™@`q—Ö·«YESOPEN STAR CLUSTER
-ŽLoden 1177       @­³Éµ‹—Þ@°G     AÌÍ@j8ÌÌÌÌÍÀLð     @s}¤¤áÆÄ@yý`Ký@\(õÂ\@2½p£×
-=?à£×
-=p¤@b?ºì"  !ð  «  È  Ä?jSòá«Á?Àñ›ÏÕ0@W!ç?³@Ðþðþð@r])b.@8Èh[!,{@rÜ#ý>¥c@N)Z3â‰YESOPEN STAR CLUSTER
-Loden 1152       @mêœD„ˆt@š¼     A
-=@j;®záHÀMª=p£×
-@sxNu(ã@9(È€ –?òffffff@ záG®{@…¸Që…@aTS0SÉ‰  ¿  Å   w   W?-¹cç%:Å?‡Ø2¼Ùtê?Ñ’ÓnV[AŠLx¤È@©¡fíM@q)¯Bi@u –N~\Æ@õÐÞ³$^YESOPEN STAR CLUSTER
-’NGC 5359         @{8¦ä0†@¡Z     A  @j@     ÀQ™™™™™š@sJ§-üïºÀ —25Î¥y@£×
-=p¤@#ÌÌÌÌÌÍ?ï®záG®@tÇœÈJ|     H   r   D?:IS/nÔ?héC£+[?Ëx¥»ŒL$A@°ôm#:>@uõTîÜs¦@r‡	¶¶â@CaâtÝYESOPEN STAR CLUSTER
-“FSR 1676         @«È Yßï @±Ú     A33@jBfffffÀHáë…¸R@s¢ø¿ÌÝ@'12x_~?ÿ×
-=p£×@1Ï\(õÂ?ä(õÂ\)@VtVÙ{|(   õ  œ  ³  û?q'ð¡?ÕN:WÎøÞ@Tæ©j¿@Åg+NÁ¡\@fÎ›ÇÑ@/5ŸgÏ­@lSA>WEF@¡çúcñÆYESOPEN STAR CLUSTER
-”NGC 5381         @k8«ØstŽ@žt     A
-ff@jEG®záÀMÍp£×
-=@sy i@ Ç½áÈ	½?ö\(õÂ@\(õÂ@&®záG®@b§—Ð    e   e   4?/y“.ViI?~Ìmf^Í©?Åè&ßßA±;±;@´ûðÝ|Ö@|¶øé–oÙ@nX¡?‹Ø@<,£q1\YESOPEN STAR CLUSTER
-™FSR 1674         @¦•\Š™®@§â     A  @ju‡+ÀM\(õÂ@s‹öüû¢v@
-}ÅçÛé@záG®@1«…¸Qì?÷…¸Që…@c¥õÙ¶Š  ö    ø  Ã?Xb0ð§Þ?·JJÿ±‹‡@Ùí“ýI@×,‰˜pù@x±·àsW@@åS¯†@'¸—&¤s@ OÍÃÉYYESOPEN STAR CLUSTER
-ŸESO 097-15       @ ?d´,×@©”     A  @j»\(õÂÀP(Që…¸@s|m"Vx_À	®exý<?ö=p£×
-=@/”záG®?ØõÂ\(ö@Uä¿qàé  2  ó  %  ?XŒ8ÙñzÂ?È¿n„jQæ@åND@ÔÊ¸‡%¯n@v'åŸÈ­û@>QnÅ?ùW@u°“ä\$@ƒ²'èÚ¯YESOPEN STAR CLUSTER
- ESO 021-06       @šÇÔHkc›@£R     A  @j¾éxÔýôÀS õÂ\)@s3yÍ™ÛÀ0Zà©{E@¸Që…¸@/G®záH?ýp£×
-=q@he€-`    Ó  W  j?GŒ©ØÓS·? p¨VkÐ?òGÐ*ëz2@æ¡<ÑSr@ˆG¶eè@PÃZ^ìÑ@‚¦¨‘	¬@*·sD†7YESOPEN STAR CLUSTER
-£Ruprecht 167     @k‰][ÈØ&@™$     @ç×
-@jÒùÛ"ÐåÀM~vÈ´9X@sžþok`ù@ ö@]óÐ?û\(õÂ\@ ¸Që…?è      @kfÎZÑ1  Ú  Á   f   +?"Áx¤þ³Ï?i¸íB…	?Á_äùAÐ_A}ô@¹`Lôª@\Æ"…@w+£„È2@0ÚšÒCÕYESOPEN STAR CLUSTER
-¦FSR 1667         @Æz s(@´7     A™š@jí‰7KÆ¨ÀRp£×
-=@s]2š_úˆÀ$ÝƒŽ–@ffffff@;333333?ã333333@[æŒdRƒ|  eÆ  Dt  ú  ’?|æ¶çgU?åNª;ÚÊ@'‹…“6·`@±‘éÃT$Ê@R¸û$á	ž@ž¹8ˆ@yÂÙBÓ3v@x¡…)ûYESOPEN STAR CLUSTER
-¨DBSB 136         @  G1øÅ@¹µ     @À  @k     ÀN0     @s£þp€¸¨?Û*·‡=©Ø@¸Që…¸@-€     ?ê\(õÂ@X6K¶,  Ô  Ò  	  “?}gi²0&?Äïù×ÔýÞ@g}Àú@ÑçðUµ”@s¦jÔÿ@:)­‚[@R¼ÂŒ=h@
-Pr^îZ0YESOPEN STAR CLUSTER
-ªNGC 5606         @ppmÄüª@ º     @ë33@k=p£×
-ÀMÐ£×
-=q@s­t·ÐÎü?ïÛ<S÷“Þ?Ù™™™™™š@ záG®{@2ó33333@CD¢#'V±  ®  .   ÿ   Ú?6µJ+JŒ7?ÂÒ7Ð=¯í?æuÅ_€Ê@òÉûM, @”……Ò´µ@[eÅ‘^7@kŸñ°Óñm?àª;ì©MYESOPEN STAR CLUSTER
-¯NGC 5617         @r³Ÿ˜\2@›¤     A  @k.MÒñ©üÀN[…¸Qì@sªÎ k=t¿ºþn¥”S;?ê\(õÂ@!\(õÂ@:”záG®@X1Ç­VÌ½  ¢  „   ˆ   m?*Ô¶ëŽ»e?—tÌWcï?ÖuÅ_€ÊAÉûM, @¤……Ò´µ@keÅ‘^7@vø—»ž_e@
-F£ý¦yÆYESOPEN STAR CLUSTER
-³FSR 1690         @eÅÈ0Ðþ@œè     A(ö@kB§ï²-ÀJÙ™™™™š@sÚ'g³¥í@!]Lö?öffffff@      @Që…¸R@c‚õ4ÜLb  ¹  ‘   j   -?,(ªÆÉÊ?w™9RÆ Å?Â-õ4•PAÁlÁl@¸?“}ÉÊ@€—:{•3@l¤xI?ÛP@!¸}ŸOmYESOPEN STAR CLUSTER
-µTurner 7         @¿ÀNÄ@»+     A  @kAûçl‹DÀLr\(õÃ@sÆtbEP@
-ˆcmbð@G®záH@6uÂ\(ö?×
-=p£×
-@U“U¶   G“  1p  É  P?ŠëëÙÙÁß?éõiÁ@%ƒ.õ°°U@³:ä[W¼²@T}ÖÇvLÈ@
-j+‹E@csvÇTU@å5ÀzYESOPEN STAR CLUSTER
-½FSR 1699         @vïyhC@ž„     A™š@k}G®záÀFõÂ\)@t*¼‘TÈ@-:·m­–?÷×
-=p£×@"\(õÂ@333333@c«²K¨Û–    ¹   ­   V?2Û¿]ÄW?„·¨Ý{-?Ñ_äùAÐ_A}ô@©`Lôª@q\Æ"…@sïcÏâ~¢@!^_&Ž‘óYESOPEN STAR CLUSTER
-ÁFSR 1686         @¹)±QÙH@µ     A  @k‚E¡ÊÀƒÀN/²-V@s¿õ•–Šë¿Ò âïâ-Â@ ffffff@4Þ¸Që…@záG®{@SŽÖï™Ö  :Ú  '3  Á  N?~÷¡€eô?éL¤_®@"D”Ì ´ü@¶¥=¾ŠY…@X!‹à«@ ‚®œ™º5@kÎ7–¸ä @+ŽãV€YESOPEN STAR CLUSTER
-ÃLoden 1373       @¨¦]þµ¥@ª¨     @þff@kŒ£×
-=qÀOqë…¸R@s±µ?$ ¶À6˜r?ü      @1®záG®?Ü(õÂ\)@Zr·N¡w  ´  a    +?`Åå£‰Ñ?Ê¿ñ(æ\@
-ðè.GñB@ÎµÜøô|@p\Îê”)@6c÷˜&›Õ@y	¦®Ùþ@f$¾­Â=YESOPEN STAR CLUSTER
-ÆLoden 1375       @qtõ@ñ@œl     @üÌÍ@k¢¸Që…ÀO³×
-=p¤@s²ÎÿÊÝvÀ	þÝ²P™w?Ð      @!™™™™š@"ë…¸Qì@<YC!¢Õ  û  L  T  2?0îà-z›?ÓWhÿô'?îçºrýÕ©@êÅpÅp@Œ‡Þwƒý@S„½FJZ@tš,å
-S”?Ò	sqÁÙYESOPEN STAR CLUSTER
-ÇFSR 1678         @q_Šò@›ü     A  @k¤£×
-=qÀP/\(õÂ@sª&,Ñ>×ÀáñÉÈÙ?ÞzáG®@!¸Që…@=p£×
-=@Kz 5ò  1  ¨     Ó?1‰\µMÐJ?¶¸÷+§?åOy	\ó@óióÞH@”¯Í=@\NtÄK€t@uM ’(D?ðpŒ0#ÐYESOPEN STAR CLUSTER
-ÈESO 134-12       @t-—17†j@ P     Aff@k¦MÒñ©üÀM’-V@sÐ`¹<)?âù3OŠ?â\(õÂ@!”záG®@3ffffff@L¥ÝÝÝÝÞ  Ò  ¦     ª?3ù¿¦ë¿×?±ëùõÏK?á+g•7¯—@ø@™¬ºH8]0@a‘¿Âë@p†Ÿé§n6?òkqö7˜YESOPEN STAR CLUSTER
-ÉLoden 1409       @‘¸jcK@ P     A   @k¥XbMÓÀNÛ…¸Qì@s¾Æ³XÑß¿ûºü‰¼¢	@ÌÌÌÌÌÍ@*uÂ\(ö?ï\(õÂ\@wÅ6oÐëg  	a  Ã   Ó   ˆ?=RÁüDµ;?u¤D2Ó{1?Ûx¥»ŒL$@þ@ ôm#:>@eõTîÜs¦@‚·þô+ Ž@I\ägÒ.YESOPEN STAR CLUSTER
-ÊDBSB 89          @‚êº‹ º@¯Ê     @À  @k¨9XbNÀMêŸ¾vÈ´@sÌ$ï4oø¿§ŸÛ
-È›v?åÂ\(õÃ@#”záG®@záG®@A<76ÆÇ  Ã  h    E?_;ÈJÅþ ?ÙIð7H¯þ?ýVøˆÆOp@Ü3£éy@~±|Ÿa,@DXÆù—ç@U—A‚s•?Ú« ñ‡?YESOPEN STAR CLUSTER
-ÎFSR 1689         @l÷©²?ö@¡Ô     Aff@k·Ÿ¾vÉÀM¾V“u@sÑçƒh-\?ÅTól¶Ô?áë…¸Qì@¸Që…@)uÂ\(ö@INÿ¯–u{  ø  ~   ÿ   œ?5BÊ1xág?°˜êoP?ß‚Ü9ÏÏ@úA¤A¤@›ú–|¦r®@c$¥ñõ;@e­e#©(?ìÀjøÎFYESOPEN STAR CLUSTER
-ÑHogg 18          @[y£*Õä‚@—ü     @þff@kÕ™™™™šÀJ"\(õÃ@t.Å›å@²{ ÄDø?Ó333333@333333@.#×
-=p¤@D'ûÿU8ß   ò   ”   v   O?-;£ÚKÕ?¨DõÞ¡†Q?ÏêH[v“A	ìŽ•3Ù@«Ÿì`JW@ræ\/,u@ojUUÓ'?â<½$aYESOPEN STAR CLUSTER
-ÒTeutsch 80       @~À¡ð*­¹@¢`     @ø  @kë33333ÀN>záG®@sÖ‡÷˜Â¿ñhh4*É¥?÷…¸Që…@#æfffff@5@     @`LÌÌÌÍ  œ  ê   Þ   ¦?@*Î@µH?—$ A‘Ä?àÃû»ßÒ@ø¬¹kóª@šKMu@aým®dê@p°FŽAåü@Oü;ž\YESOPEN STAR CLUSTER
-ÓNGC 5764         @„±»fJôA@¤ò     A™š@kìbMÒñªÀJV$Ý/ @t°°@z ×è´?ò\(õÂ@%=p£×
-=@…¸Që…@VO·•5%Þ    
-  º  ?H;ŸDçP?¯¼ˆ€öHÌ?éôÑLÚÄ@ïààà @û·ûùtn@W=lÐùAž@mC“86ôq@XQ `åYESOPEN STAR CLUSTER
-ÕRuprecht 112     @oÃ×#‰F@›     A×
-@l…¸QìÀOIXbMÓ@sÍC• ·À	iqÂ‚?ÿ®záG®@ \(õÂ@)¸Që…¸@lð³¸òj”  4  -   d   3?)Z.§$1?ko×ý
-@j?Äš|L©9A@µeEæÙ¢ý@}Gé%ïˆ@t‹•×p@2Ì+s#@YESOPEN STAR CLUSTER
-ÙNGC 5800         @µ÷iÊàr@²ì     A  @l.E¡ÊÀƒÀIõ`A‰7L@t'íŠCò@ÊIÊ›>Â@ Që…¸R@2Ü(õÂ\?ØõÂ\(ö@u·rGÊ8’  0g  .Y  F  Y?yŠ±ÖØû? ¹÷uçªÙ@£€©œdr@Ó+œÓ}Â@t_;¯åí@;àˆ€Ëfè@lE’.€ä¦@E+aÏ¤˜ÇYESOPEN STAR CLUSTER
-ÚDBSB 92          @a~­ïEQè@ž¬     @ìÌÍ@l<ÌÌÌÌÍÀL×
-=p£×@sþ„•òG?èÓJÄ.y?ã333333@™™™™™š@záG®@O…ÞZ¡R  ˆ     §   a?0¿{hÅÂr? ¦ùìË?Ó—î­K˜0Aêâø@¦›QÂ‹¹@nÉtq5E@eg=Áòz3?öMcyÐâ3YESOPEN STAR CLUSTER
-ÞASCC 78          @ÁSÇ²L@©R     A{@lLå`A‰7ÀQë…¸R@s¬ÝV¶ØQÀ!]Ö4â?ùÂ\(õÃ@9=p£×
-=?ê\(õÂ@Y¶ZÂ„  L|  /Ò  9  
-þ?cÉ|Ñë?âÿ
-§aV@!ÃMüqä‡@·JvÏÈ°@XÑ+j¾6Ç@ ú×÷Ö@ŒFÿ'lmô@tYa;YESOPEN STAR CLUSTER
-çFSR 1720         @¤˜©«g$¸@§ô     AG®@l{ï²-ÀB®¸Që…@t¸Cg0Æ@1½|h@ \(õÂ@/\(õÂ?ù¸Që…@ahJòEïÄ  §  Ó  Ö  w?ZÕÅÉUÀõ?¸]Ükî!™?ÿÝZ—0a»@Ù÷r Ð@{«!1ø‚@BîHiPL@x³¨ñv@4çî· YESOPEN STAR CLUSTER
-éPismis 20        @SçkzÏ,¹@—t     @ð  @l›n—PÀMˆ“t¼j@tC ´òn¿ó5yªhþ?Öffffff@®záG®@CšáG®{@HX]Jß   ù   š   o   I?!³L‹H?¡Šçþƒ/?Í}ÀúGúAÀà@­å-v;i@ttOŸÃf@jœÀÕ`s?éõ’0üYESOPEN STAR CLUSTER
-ìLynga 3          @¤˜©«g$¸@°D     A£×@l¦§ï²-ÀM+…¸Qì@tîï—‚Ì¿åÈrÙ¡P@Që…¸R@.¸Që…¸?ø(õÂ\)@jÏœç  ˜    Š  ?j‹®ÕØ2?¤}s¬B|?úÝƒõ‡Qþ@ÞÌ³ìÀ@€hŒx¶¿@Ft ô?½y@i`};À>º@0"Af…(YESOPEN STAR CLUSTER
-ôFSR 1693         @‘æ@…µ]@­>     AÂ@lî§ï²-ÀP4záG®@sæí{Å€ÀÏ°œöÆ—@	Â\(õÃ@(LÌÌÌÌÍ?à      @f.6$¸Ø  	˜  Á  Ç  1?\’Sà`! ?™l¶û[n?îÍß|§«ø@êÛè”^@Œžù >Ôÿ@S•B!ÄM@c¦¹ÃX@&f±\ÿYESOPEN STAR CLUSTER
-ùDBSB 141         @¨Ã"Š„õ@´x     @À  @m¼j~ùÛÀL0     @t7X±þL?¹ªrpå’n?ç
-=p£×
-@.333333@      @<W}MžêX  ]    o  à?zË®öÓ\@Ñ\ÿ¡â@#0‚Óòñl@µŽÒ0Xí@VøÜ‘uÌ¤@oaUòÖ@^ù`kQ)Y?Ò2Úg…YESOPEN STAR CLUSTER
-	Loden 2158       @ÒÇº´ÝY@¸>     A  @m8“t¼jÀM#33333@t1a‹g¤Ÿ¿ÿRäUç/C@áG®zá@:Þ¸Që…?Ú=p£×
-=@U¯Î<J¥  ¨  n  0O  :?‘•=²5r?ýüï@7L‘ô
-@¡„°K @BªãF¤×K@	‹p¤@q{¹U"@~ç *þYESOPEN STAR CLUSTER
-	FSR 1700         @}^NDÓ'’@¢j     Azá@mV\(õÃÀM bMÒñª@t.r‚SqÀF9ÚøÃæ?ô£×
-=p¤@#8Që…¸@p£×
-=q@\8ö˜ä¬  s  V  3   ¥?@Ì*æhI?!¨S‰Z}?àª Åˆß!@øÓ0Ó@šsæ·ÄÜ@bWtŠÃ@o ÌZ(@àq(,ŽúYESOPEN STAR CLUSTER
-	Lynga 5          @uì¬ûOæ@›d     A™š@mo33333ÀLS33333@tL¢¸Ó_á¿ó£àýé?ôzáG®{@"¸Që…@,.záG®@bÓ„ƒ2»‘  [     u   \?/‰Ehhi?ˆ¯ÖÍ?^ï?Ò•aí÷FABÈY!d@§¸ ú`˜á@p:å»®²@xèx<"@Ñ"¶û€YESOPEN STAR CLUSTER
-	NGC 5998         @ÔsGøÄ@Ž@²õ     A  @m«…¸QìÀ<•?|í‘h@u|Åha@3Ôèë˜áí@ áG®zá@80£×
-=q?Û…¸Që…@VkŒ>T—_  µ.  v¡  3.  ¤?Œš¢1?ý_õQ¶ˆ@8ÁÉ@«­@ µ¸3,„@AÎW­s¸W@]¤›éÉM@w+&UÒÌ@2è'2YESOPEN STAR CLUSTER
-	 NGC 6005         @sEÈÏã™@œ(     AõÃ@mß×
-=p¤ÀL¸Që…¸@t\¾0Ë™ùÀa îù?íp£×
-=q@!B\(õÃ@7À     @ZS«7Jœ»  ¥  ™   ’   ^?,ò ;f),?“æÙù&?ÒüÌçFž
-AÉˆ+“W@§7lˆ.#@oÄýšò²6@uc2q;‹á@˜½ TYESOPEN STAR CLUSTER
-	"FSR 1709         @~®†©%÷@”     A  @më×
-=p¤ÀK0     @t~ëÝuö¿éo_0ú\?øõÂ\(ö@#ë…¸Qì@£×
-=p¤@e?aœØ{ü  ;     ¶   `?3.Œ@ì™	?ˆoQŸú?Ód8ÀŸDÎAUUUUUU@¦»šEG=-@o§¸N€@yÐˆë7Âõ@$CÔPs·ŒYESOPEN STAR CLUSTER
-	#ESO 389-05       @³ˆXh×®æ@²±     AÌÍ@mîvÈ´9XÀBõÂ\)@u>¬jq’¦@)ëÔ«¾H:@"ð£×
-=q@.™™™™™š?ÔzáG®{@yƒ‚loRë  +  *ƒ  3  )?€ˆ/ì¦yL?•“‹"*{@m=’p%@Ô@Ãà["@u”ª€l"@=‡ö-ï4@cPFÇÊ2@M85È‚³ÂYESOPEN STAR CLUSTER
-	'Trumpler 23      @t]c —†@¡$     A\)@nùÛ"ÐåÀJÄ9XbN@t¿frí¿Þ²/„´aM?û333333@ ë…¸Qì@5Ï\(õÂ@cúQ­c¥u  Ù  í   j   S?8
-Müwõü?‚šçœr?ÐÃû»ßÒA¬¹kóª@ªKMu@qým®dê@kºÍí–!H@!êLeÎÅYESOPEN STAR CLUSTER
-	.Ruprecht 114     @x§Qûm@ P     Aff@n2° Ä›¦ÀLnùÛ"Ðå@ts¾¾Ÿ•“Àótf\?ð£×
-=p¤@"B\(õÃ@\(õÂ\@Y¯0Ø‘ó  M     Ì   ¸?<< *¦ñ?¡ elœK?â•aí÷F@öBÈY!d@—¸ ú`˜á@`:å»®²@qÔ<úøa@œ˜Ä"”ñYESOPEN STAR CLUSTER
-	/DBSB 159         @ˆµmÔ„K3@ª<     @Ó×
-@n3Ÿ¾vÉÀI\ÌÌÌÌÍ@tµ£`ÎYÌ?ñ	†´¤c?üzáG®{@$LÌÌÌÌÍ?îzáG®@[U‡éÌÔœ    c  à  ?X0ÁÍt?¨”Š”ëã?ì®éG–@q@ìØV‰›@Ž¼Â+1s+@UÏŠ ¨s@a
-~}S@ÄÛ(ÍæYESOPEN STAR CLUSTER
-	2FSR 1736         @é([©¤1!@½,     A33@n?\(õÂÀC¬ÌÌÌÌÍ@u4/„“Z@"€éÄº@Që…¸R@9Ï\(õÂ?Ì(õÂ\)@XqPoÓ ¿* @  ~.  J ?²[$>¦Ž@~+D¬/´@MòNËI–@‹¡y½„ˆ@-qöndÑ?ô$ÖUK¿#@fFÂ¦J@
-ÑÞÛ‚?eYESOPEN STAR CLUSTER
-	6FSR 1675         @´€&7ñ@¶"     A33@nS×
-=p¤ÀSj=p£×
-@s´$G1AÀ2Ñ³F2Ï@"#×
-=p¤@4:áG®{?Õ¸Që…@t¢òd(³#  -=  )Ò  ˜  Y?{Öþx×ò?¡Oïí;Å`@£€©œdr@Ó+œÓ}Â@t_;¯åí@;àˆ€Ëfè@gÆW€1@C¸nté”YESOPEN STAR CLUSTER
-	7FSR 1716         @–°rKá„@¢¸     A™š@nUp£×
-=ÀJà     @tœ¿ë;9l¿ùÈtT@£×
-=p¤@+LÌÌÌÌÍ@&#×
-=p¤@i©í=_  +  í  È  /?Iv :Fu?›OSA‘?îš)ûX•@ë	K1Ù"¤@ŒÏV…l@S¶6FÊ÷r@~CÑhRFÍ@,7øK‡
-±YESOPEN STAR CLUSTER
-	;DBSB 158         @ÜíÐ2÷@£     AG®@nY‰7KÆ¨ÀIÃ33333@tµä¨êÇ¿¡‚Æ`ïàÙ?ð(õÂ\)@'W
-=p£×@
-=p£×
-@UeÍCE_á    	  ¨  `?EßÑ?¶Ðgí°L?ñÆ‰[<©½@çEÑt]F@ˆÌ¨K“ˆ@P÷Á¡MB@uo¬‡z(+@`%¸KÄYESOPEN STAR CLUSTER
-	=DBSB 144         @ÃZ(ã³ÔŽ@¼Â     @À  @naOß;dZÀI¼ÌÌÌÌÍ@t¸5W¹ÿ)¿¹ÒÔ¨Ês?â\(õÂ@2®záH@¸Që…@0@
-®¬+:  Xï  2ö  CŸ  5M?©N®œù@;qTÐ¨@Eˆooº0Í@“63«Eö"@4x×S1ê?ü“?Ž4ß@V_DÄÙ˜Ú?·´íÇYESOPEN STAR CLUSTER
-	?DBSB 157         @¬+’¦û8@@®š     @þff@nb° Ä›¦ÀIâ° Ä›¦@tµH./z¿Õrr´j"@      @/õÂ\(ö?´záG®{@w	Ì¡Lˆ4   G  D  ‘  :?nm±6ñU?“Òo GÜm?üÈÄ=ìj"@Ü¾m–Ëç@~¡&G»†@DôëŽ¡ä@o
-HõðìG@GÓÚ`çYESOPEN STAR CLUSTER
-	ADBSB 99          @Š‰qœåU°@¦f     @öff@nh(õÂ\ÀI1ë…¸R@tÅª¾T¬w?ã »Ãÿà@\(õÂ\@%®záG®?ðÌÌÌÌÌÍ@eÃb¡Âã{  è    n   Ö?QZå¸¿=ì?•Ã†Œ¬'Ð?å	ìÚ@ó#ãJ+¿@”eSbG£@[èÞËüC@j©Io¹â4@%B®èº«šYESOPEN STAR CLUSTER
-	BNGC 6067         @JÍ|ï@œ     @ÿ
-=@ni™™™™šÀK(õÂ\@t›ïßá™:À©yyveë@ (õÂ\)@$Ñë…¸R@A±ë…¸R@m£µi½  ©     ’   b?1Zhœcíc?|ÍædÆ´A?ÓË¤™÷ë’Aåà§/9@¦DÕÐìø@ny&èÊI@næs/bP@2ïÛœoaYESOPEN STAR CLUSTER
-	ERuprecht 176     @ƒ‰DZ‹™@¤ü     A(ö@nu¸Që…ÀIªŸ¾vÈ´@t¾B‘àGh¿ÐÑ‹:Úq?éë…¸Qì@#Ç®záH@"½p£×
-=@OÜj«{  8  ú  [  '?H(¥Wƒ{³?¼#;oKê?íËQÝJ@ëÄýeˆ>{@—XÞ’t@T?öEŸ‘@iHäÙ@›?õµ”y„Ô=YESOPEN STAR CLUSTER
-	FDBSB 102         @a¹b8|@±
-     @Ã33@nx(õÂ\ÀHìÌÌÌÌÍ@tÏUÓdJ?è™‹ƒ«¢À?í¸Që…@…¸Që…@¸Që…¸@Eƒ÷DbP¶  c  V     Š?_v:@f(È?¯>Ñ¡,ÚG?Ûà”äòè@ý®`v¹Û@Ÿ Ö£+v‚@e£Üú=nC@4¢âv6‹2?äÇzÏa=ÔYESOPEN STAR CLUSTER
-	IDBSB 161         @¿cBßo?@¸Ñ     @À  @nˆ£×
-=qÀIe`A‰7L@tÈ®™“Ë¿Á®û–uZ@™™™™™š@0ð£×
-=q?äzáG®{@fîB×$  GŠ  ;¥  Ø  q?“»ámuçU?Æ,©]ÿÎI@H+-ª½ø@¾S¢¦WO@`(xÜÞ @&YÉ‹i«@Z…,ÁÖ@'™òbª¢wYESOPEN STAR CLUSTER
-	JFSR 1749         AB5†¤©Ž@¿O     A  @n‹l‹C•À?333333@u§éPM¢/@+€È\=O@ ”záG®@>8Që…¸?Íp£×
-=q@jªòf_ÛÑ § ‘°  åÒ  ‡A?Èôj…z™@¹Ó«L5@[Rÿ÷¹î@~H¦J<ø@ "‚Ñ‰ï?æW%|d:@jƒWT«u@/ì6¼Ä‹YESOPEN STAR CLUSTER
-	KFSR 1737         @f¤IÍÊ¯_@ °     A  @n“
-=p£×ÀD(õÂ\@uAÚSOÝ@˜ËÒ+`?Ú=p£×
-=@G®záH@-ë…¸Qì@CËÈÅå‰~  Ð   ï   Ä   š?6Q´3Ö_?¸ìý©:'?ßp_ª)@ú˜ï`jc¾@œW›ÄRì@cdK|ÝÑ@c@ñô«Á?á—7¦ËýzYESOPEN STAR CLUSTER
-	OFSR 1734         @¡u·MO@«2     A  @n˜´9XbÀEƒn—@u-¹7uIY@@©úbÑv?ë×
-=p£×@+záG®@£×
-=p¤@IÆ•w‰	Ï  ®  …  	.  ì?c_,>Y"Ü?âTî.w@ÐmLâ@Ê  @k¶_jexç@2õù±ÏlÍ@l7}+Ì÷‹?íÒ¢ "›YESOPEN STAR CLUSTER
-	TDBSB 162         @h™<rÒ¸”@µ“     @É™š@n£®záHÀIXõÂ\)@tÏàÂÇÎ¿ÜZ33+‡?ùë…¸Qì@£×
-=p¤?ð      @N@.G{.    ¹     ´?r°pãÑµ?¦â“»[=?â-õ4•P@öÁlÁl@˜?“}ÉÊ@`—:{•3@*ÞYÊÊs?ô‰×åã®YESOPEN STAR CLUSTER
-	VDBSB 166         @Œ,‘°—ØÏ@´ö     @Æff@n¬bMÒòÀIG®zá@tÙ€|±¿³7GÍ„Ã?øQë…¸R@!8Që…¸@(õÂ\)@M6½kD%T  Ä    ¸  …?zµÎñ0?ÊÈ=]æÞ³@ I+©ÅÂÉ@ÙfÌ–lÀ@{c&où@B…›Ðþ@C4Í8”å\?ó'•Eô×CYESOPEN STAR CLUSTER
-	ZDBSB 167         @h¶M‡xQ@¯Ø     @Æff@n»l‹C•ÀHÅÂ\(ö@tâEä. /?¡$~\´„³?ó…¸Që…@ffffff@
-ÌÌÌÌÌÍ@NÞprö    ­   ö   •?`	”
-“›?§ì’Þpþ?ÞâÀLˆ @û}l=Ú3‹@KÓB¬@d
-áGû@>»Â‰üÈ?õbï€VYESOPEN STAR CLUSTER
-	^FSR 1751         @}o£!ã@ª‚     A£×@n¾Ðå`A‰À@G®zá@u­Ó!H•‰@(h¾'ÐÆ?â=p£×
-=@ 
-=p£×
-@ \(õÂ@ASU÷”ps  ­  Ó  ‹  Î?ZC#ÚÙ"?ÔO"µ?QZ?÷T”G¿žÈ@á»J@Fí)@‚å‚¹Œ@IÛ¬¦}@TÖî#eö?Úò½âõÏYESOPEN STAR CLUSTER
-	_Pismis 23        @S~é§0V&@¦     A	
-=@n¿¶E¡ÊÁÀHr\(õÃ@tê§Ú×ZU?ÛeŒ™â6?àõÂ\(ö@záG®{@E‹…¸Qì@Cb_¥^   Ò   ’   }   B?AC?çÆe	?¦ÆD§ª¶?Ê©ÎÚþ›AÁð|@°ˆp2b[
-@vŸ¬×­t@F?’´¸í?àÝJ;-NYESOPEN STAR CLUSTER
-	pDBSB 170         @º§c—º/@´+     A   @nç×
-=p¤ÀHÍ/Ÿ¾w@të¤¬ïi^¿äàätPªŠ@×
-=p£×@0õÂ\(ö?Áë…¸Qì@b <Çr  ;ú  /  Î  ?…Íf‚éW?Ì,âýË@:‘üPÌ@ÁWé–œ@b2²•ž@(æ)œÊ{î@dß’„¸@&ý& YESOPEN STAR CLUSTER
-	qFSR 1761         AwùŸ4R@½,     A™š@né/Ÿ¾wÀ;ö“t¼@uëšõJºI@,/¾Kø™q@
-=p£×
-@=õÂ\(ö?ÊáG®zá@`ot“ú Îy å• zÇ  â‡?ÊŠÙÆLmì@ n ö W@fàïïø>O@rêq°Â—@D“ÝÿFˆ?Ú]¿6R8@nWH6u@>ßüÍÑ*YESOPEN STAR CLUSTER
-	rPatchick 94      @o
-£Í¾@¨Ô     @Ñ™š@nìÄ›¥ãTÀG¦fffff@uu&Áï?ë’U»¾@ záG®{@ffffff@záG®@`¶y7¥…   É  ”   x   r?RÏßÃ4“-?Š H®=œs?×d½!µA÷}Áp@£$·ÎŒÕ4@j2&rJ]@QTMBÜpª@f¾_pYESOPEN STAR CLUSTER
-	uFSR 1772         @÷¿«ŽÛêe@°þ     Aff@nøbMÒñªÀ8Ffffff@v:peHõ@03xXá¥@$ÌÌÌÌÌÍ@Dc×
-=p¤?û
-=p£×
-@~Ò:{ðx Nm £U  ;Ö  #É?’ãìéÈ¿?Ò&Ü`Û¯]@<éäÉŠÏ@œ~×ü@>~G…$@ÜèÓ…#K@”|ú_nö@UR—uYESOPEN STAR CLUSTER
-	{Collinder 307    @j[œ.0[@ "     @è  @o§ï²-ÀI~¸Që…@tæ¾ÕúpÀ¹0Æ%m9?ù¸Që…@333333@*áG®zá@cšHYu\  Ý  ›   t   5?2·¥ô<z?yIÈy;Bñ?ÅiSÿZ†¤ARû+xÁ@´–•`Í$@|,FTFPÁ@gNŒýÛ€·@!?¬JÌÝBYESOPEN STAR CLUSTER
-	}Dolidze 27       @ Çü2c¯@ v     A…@o#\(õÂÀ!Þ¸Që…@w\Z†Éb@8°LPL>¯@õÂ\(ö@.Ü(õÂ\?¹™™™™™š@yñ4Q[2Ÿ  [  ¹  “   ù?F¦°gÐej?‚¿§ÊÕ?é%ù™Î;@ðs&
-G÷Æ@‘‡gˆ²N@Wü’=x†Ž@‰/ä«@N5“{ÙmYESOPEN STAR CLUSTER
-	~FSR 1748         @ R—žvšÞ@°Ê     A33@o$£×
-=qÀAë…¸R@u¦ß¹FÕo@ o¦[ÞŽ£?ñë…¸Qì@'™™™™š?÷…¸Që…@Jßú©Æö  ¸    é  ]?ukÞ¾ŠÇ?áÌ9v«iX@Ukeƒ³V@ÇÝ±Qhš@in~·Çõb@1f|[”]@ZïµI^ê—?ð5ÕýugsYESOPEN STAR CLUSTER
-	Lynga 11         @¾ÄÀ£@°     @À  @o1$Ý/ÀG%Â\(ö@u#®U?Þ)/bJG@
-=p£×
-@#æfffff?ó®záG®@hdÈçž  	–  Â  Ñ   ?iŒäf¥#?• ÞöMcÀ?íU îç5@ìqÇqÇ@ŽOx\^ü<@T½	zß @Uõ‡õ©&@*µáãhŠ£YESOPEN STAR CLUSTER
-	‚DBSB 171         @Ì;2èù~@ºl     @ö¸R@o1$Ý/ÀG‰ûçl‹D@uÎ´<ûå¿ª¿pBr,Z?þáG®zá@2!G®zá?èõÂ\(ö@Mm^`X+[  ¤  VÒ  5^  !0?¡²	/Ó³§@f·%¤@:Ð–z\=%@žÚà©³Ó¥@@p†´Dß–@~ô.xh@ZÌ0œU?óo{G¾ƒYESOPEN STAR CLUSTER
-	ƒDBSB 169         @Ô£¸üIn@º     @ø  @o6Ðå`A‰ÀG¥$Ý/@u™`¨¿ÒdZ2RiR@Që…¸R@4À     ?×
-=p£×
-@Q¶M”XÞX  ½^  €  C  (×?£+´BÉq@—ûûñºœ@@µ‰c‚»@™Ôd @:·éf6~@GßyÙ?e@bÌúí$–?ü*
-•NÍYESOPEN STAR CLUSTER
-	ˆNGC 6192         @†{—Ç”@™L     Aff@oBÐå`A‰ÀE®záG®@uJ`mOP@ãhèÿ?ñ¸Që…@&®záG®@<úáG®{@a
-DàÉbr  k  I  3   Å?0k PLU?œÑcˆ÷N—?ãåND@ôÊ¸‡%¯n@–'åŸÈ­û@^QnÅ?ùW@†ßÚPÏôk@PhìdkYESOPEN STAR CLUSTER
-	ŠFSR 0010         @²†k{uÌ¨@²ì     Aff@oFáG®{À0®záH@*ñó©ø’@3šVMÅQK@ffffff@+£×
-=p¤?âáG®zá@`;õn#w  )š  Ê  	µ  ?„Hì cc?É¹Ç…}‰m@›*]f@ÅŒð«o™@f{åä”ì@.Äa>Û‹ @^\h;êk\@©„-TŠYESOPEN STAR CLUSTER
-	’NGC 6200         @£ñg$uO@¡L     @à  @oaG®záÀG»…¸Qì@uýå²¿ñ5Àv‘Â-@¸Që…@0c×
-=p¤@	™™™™™š@pÓæ¿3ÁI  ò  8  Ä  ?JFû/j}Ç?šiUÅ*Z0?óq&;ÊY§@åG%æ»‚þ@†¬|œÞ¨½@OÞhÇÉO@‰>µéÇc@9lfJqYESOPEN STAR CLUSTER
-	”FSR 1713         @¨`;Ü@³G     AÌÍ@ofáG®{ÀMnzáG®@t•ãçR¶ÿÀ!Ùh´@G®záH@,p£×
-=q?Ú=p£×
-=@dmDAœW  è  è  ¬  k?{P
-,?¶”u·æ@Ùþ  @Ò¹}ƒ]TŽ@sóòÇ|B’@;M¹zí@ƒ@^ø)ã¶}¨@"»Oÿ¶ª:YESOPEN STAR CLUSTER
-	•FSR 1692         @mØÿ Â&@›Ô     A33@oiãS÷ÎÙÀR5/Ÿ¾w@sãfmú™¯À1Yr‹Çm¥?áG®záH@ 8Që…¸@£×
-=p¤@OEñâ2  b  C   ¿   •?,Ù>²ž_N?©jùK>?ÞâÀLˆ @û}l=Ú3‹@KÓB¬@d
-áGû@sUõƒh2?õò²¡ìÀYESOPEN STAR CLUSTER
-	˜Lynga 12         @ƒ‰a¬¿þ™@@     A  @opbMÒñªÀI^¸Që…@tûkT—º?À‹„ù&ï?ñG®záH@%LÌÌÌÌÍ@!\(õÂ\@]¿ð?ð@  Ó  µ  ;   Ä?6–i>Ü?¡(å
-ºqó?ãË¤™÷ë’@ôåà§/9@–DÕÐìø@^y&èÊI@~.] g>@Ý%°†ïdYESOPEN STAR CLUSTER
-	žESO 518-03       @qñ?¹õ,£@“È     A¸R@oxÌÌÌÌÍÀ9ÎzáG®@v1"®ð†O@(Ú[˜˜«i?áG®záH@!(õÂ\)@záG®@Uþ½Áe/Î  Ö     ½   w? {¦)?ž’H!ª9Ø?Ø	‘Â A5È5È@¢VÎ3•ùl@iaûñâ@…jS›}Í¢@·EE¾AYESOPEN STAR CLUSTER
-	¤Lynga 13         @d-ò‡Ø@ª¨     A33@o‡l‹C•ÀE¶È´9X@uYÔñzë?í¨VûÀ?è      @™™™™™š@ë…¸Qì@F«xXÕ®ø  Y  $   ä   t?NØf¡ß©‡?«ZâÊ¥?×no>ÈyA§¹a{–@¢Ð92 ù@i¾†ã¨@Dt¯¼nªš?ç“(Ó@YYESOPEN STAR CLUSTER
-	¥NGC 6216         @•«ø ø‡@ª6     @Öff@oŠÐå`A‰ÀF\(õÂ\@uJÅýxHõ?’jÆŒü±Å@¸Që…@'ffffff@ÌÌÌÌÌÍ@jVd3Ó`  Ž  	Ð    ,?`2ØŸÀ?˜®ŒÈ?îL˜¬øÛ‚@ëN´èO@bê‹¿@Sè¬”Lÿ
-@f®]¯Ñ @.w<hçÃÂYESOPEN STAR CLUSTER
-	¨NGC 6222         @€æÚwï$@©Ø     @Ó33@o“®záHÀF]p£×
-=@uL«~Ì¿ÁÛÜcŽà?öáG®zá@!.záG®@®záG®@VJ”ôë(  Ã  i  Š   â?V(íÂßJ«?¨üî¶Ê?æÓMxÎS@ò·!ûx@“PQ‚Ào@Zm$†¨@Y&Å§·@Nü4³jYESOPEN STAR CLUSTER
-	©FSR 1746         @²eÅô ¤N@°     AÌÍ@o•™™™™šÀCŠ=p£×
-@u’ºÍŒJ@yx7,é@…¸Që…@/333333@ÌÌÌÌÌÍ@tÔÓÖ…XÜ  +  $¹  ü  6?w]ŠéÈ=$? +yÒ·)@ÁD¾*w¥@ÓîB¥¯@u=JÿS`f@=fs—¤è@jõÒÿ:4¬@Cz‘gÃYESOPEN STAR CLUSTER
-	«FSR 1756         @k§3â¼@£È     A  @o £×
-=qÀAy‡+@uÈÙÿ¡û£@^æŒÎ@õÂ\(ö@Që…¸R?ç
-=p£×
-@oÅJúç}ñ  •  1   g   H?FEU8ïnx?j®pmšL¬?ÍU îç5AqÇqÇ@®Ox\^ü<@t½	zß @[$ÞL\E@6§|i?CRYESOPEN STAR CLUSTER
-	®DBSB 175         @ƒÃKx»ýi@­¬     @À  @o¤¼j~ùÛÀE²° Ä›¦@uaŸºÚ&?Ú=ª,j“?ô£×
-=p¤@ ë…¸Qì@…¸Që…@Qƒ½	v©  :  e  ?  Œ?c°¦+¢è¢?ºvÒ;‚\?óÿZ†¤>õ@ä¯Ö R¿[@†@C-Î¸@N*;ÉlçF@RÑÙc~?ûŠ!—VªßYESOPEN STAR CLUSTER
-	²DBSB 106         @Š¨Í“ûX@«D     @ÌÌÍ@o²áG®{ÀF¦$Ý/ @uL¥–9·ê¿ð…¾0äL°?ìzáG®{@#\(õÂ?üõÂ\(ö@JLÞ+{»  k  7  …  @?`ÑÁmˆiG?Ï»òbÇ?ýU îç5@ÜqÇqÇ@~Ox\^ü<@D½	zß @]J€Òœ–‘?ï‡Û&vYESOPEN STAR CLUSTER
-	µFSR 1732         @‰5Œgf@¬      AÌÍ@o¸å`A‰7ÀH©™™™™š@uÄ•^ÀMf]áèÝ@
-=p£×
-@#G®záH@
-=p£×
-@a!™™™™  ¾  7  “   è?]>ŒŒä¶?üy ÷¦Æ?çno>Èy@ñ§¹a{–@’Ð92 ù@Y¾†ã¨@Zü6Ò´‚l@QK¿MÆlYESOPEN STAR CLUSTER
-	¼FSR 1729         @`@ŠëV¹@™t     A{@oÃ\(õÂÀJ‰7KÆ§ð@tîÃ,$£²À¢ibÉ?ÚáG®zá@×
-=p£×@8øQë…¸@J—öò´y  1   Õ   ˆ   a?#Ø4F¹?¡“`ŒôB?Ó—î­K˜0Aêâø@¦›QÂ‹¹@nÉtq5E@mTHJc7þ?ï¼Ó¤¸Ç!YESOPEN STAR CLUSTER
-	¾ESO 332-13       @g™’ƒ_¾c@¦¼     @Ú=q@oÅOß;dZÀDI™™™™š@u‹¹X¼&?ù¤çè¤Ö?æ¸Që…¸@záG®@ë…¸Qì@I)´ 
-"i  –  <   Þ   x?Ep§~o.?ª Ÿ)=À?Ø=FðÇA@¢/®Ò—W@hâ×¹`>Í@QPý¥kâ?ìkíª:9)YESOPEN STAR CLUSTER
-	ÅFSR 1763         @ä—4Ï›Óh@¹Í     A  @oØ“t¼jÀ@”záG®@uíÔ€@HmvtW‘@ffffff@4=p£×
-=?Ú=p£×
-=@UÜ*ñÆT o5 È  p‹  CÆ?³,«·Ç@O_Áâ‚@Ka7LN6\@Ž7ä`é?k@0¯û¶(p?ö lÐv@aƒ@b³Ð-@s5ý`YESOPEN STAR CLUSTER
-	ÉDBSB 176         @ë×«Ú6$@¾     @ùp¤@oÛl‹C•ÀEI™™™™š@uwËu¿§0 Ò¤#_?øQë…¸R@7hõÂ\)?ã333333@D`ŒÆi+- ´ 5‡  ú_  «¸?»’CÙ9@9‹ïlÈp6@aW×ì›Ç?@wÚ[gÀD”@jðÉñsÈ?ádÈ—­@aEZì“G?â£{¸­M\YESOPEN STAR CLUSTER
-	ÏNGC 6259         @t-—17†j@œü     A™š@oç33333ÀFXQë…¸@u_Ç¡9âB¿øòlã¿ÜX@
-=p£×
-@ ð£×
-=q@3ž¸Që…@rGåd~Û  q  ‘   f   G?4¸&•ä1²?jÜ·¸*¸-?Ì®éG–@qAØV‰›@®¼Â+1s+@uÏŠ ¨s@spýRF®ù@=ý´RÛÛYESOPEN STAR CLUSTER
-	ÓFSR 1778         @Ðíç!¬?@²     AÌÍ@oñ$Ý/À:È1&éxÕ@vF"99Î@"T|,"W @(õÂ\)@4ó33333?Ì(õÂ\)@\¡XˆòJ  ”Ú  `ú  !z  {?Œ{†™ÿ,?îÁ¹¹wA@1[KfŒu@§ÕêNM¾»@If51mŽ@`Ð½È•ÿ@sëM˜EU@³ÊG†'¬YESOPEN STAR CLUSTER
-	ÕDBSB 178         A§õŽ“?@½R     @þ\@oñÂ\(öÀDäzáG®@u†Ùß8ŽC? æoJÚÃö@CŒÌÌÌÌÍ@E&fffff?ÄzáG®{@ÉßßBø ~ †£  ¿>  tÊ?È°éx?Ìåßqßª`@W—<ÊÕÂE@‰0 F$À@"¯®ØO„Ù?é‘ÿÑ¼ó„@}oHÖè@yM¿ËÍˆYESOPEN STAR CLUSTER
-	ÖvdBergh-Hagen 211@_‹²;{!@œp     AQì@oñxÔýó¶ÀDŽzáG®@uSeºþJ?Üå6Ã7ýy?Û…¸Që…@Â\(õÃ@4èõÂ\)@H]Ðö©*  F   ½      S?+£Œ«Û¾?¦_»ÙÇÕ?ÐÃû»ßÒA¬¹kóª@ªKMu@qým®dê@e’ÂÓ¯}®?ê¦¡S‘MÏYESOPEN STAR CLUSTER
-	ÚFSR 0041         @À6—ˆß<@¯H     A  @oübMÒòÀ!­V“@'±cÓ­@34ƒnˆÿœ@ë…¸Qì@3ffffff?ß\(õÂ\@a¤ÏÞrD<  G8  2  (  G?wÌÐ|¡3?Ò¤p*oâµ@Àm fc@¾í„Ç•@`ztæx¸@&ŒŠìÔ^@uäIšö@ò…ñ$ÈYESOPEN STAR CLUSTER
-	ÛHarvard 13       @®Ñ%bùâH@¬8     A\@oþÐå`A‰ÀH
-Ÿ¾vÈ´@u9³OrE×À""ü”@(õÂ\)@0+…¸Qì?Íp£×
-=q@vs~Üö  "  Z  º  8?j¤˜SÛr±?–q‡_iœ?ü®éG–@q@ÜØV‰›@~¼Â+1s+@EÏŠ ¨s@r°;šTX@FŸfJ9×DYESOPEN STAR CLUSTER
-	ÞTeutsch 84       @´˜Lqûh[@ª¦     Aë…@pG®záÀEõÂ\)@u‡Ô0x¿ÜÒ›xæý?ú¸Që…¸@1Ü(õÂ\@¸Që…@Y?Gêe  1E  Õ     [?l2ƒè¦s÷?Ù2E•‡@Å²=x•/@Áfê§Ä.9@b‹)õYÉÃ@)`ÉÌPä@y©hö)@œQznâäYESOPEN STAR CLUSTER
-	ßESO 587-04       @ãB·]Ü-m@´—     AÌÍ@pdZ¬À3s33333@ÔñÓ×Áò@*%ßƒß@áG®zá@9&fffff?Û…¸Që…@[úº¬¯ä~ W   æ   Oé  0µ?ŒŒÖ&+u@ÚI\Ž¥@C­XJò·@•~¬þV@6g ¯8s?þ§ôS¼ŒØ@u:¹òèè@‘ðÝr%`YESOPEN STAR CLUSTER
-	ãFSR 1769         @Ò…ÃÊ!˜Œ@µ!     A
-=@p®záHÀ?…¸Qì@vöA®­¢@{À@ë…¸Qì@3
-=p£×?õ¸Që…@W¼û$ãJ`  ¢¶  rº  .ä  i?™ž³Fgf?÷‡‡P6ö@6%–Pýæ5@¢­àBò,@Cç’ÉÙÕ@<ÊeŠ¸ˆ@g:÷ãgZã@	KV€‚mYESOPEN STAR CLUSTER
-	ævdBergh-Hagen 214@g}ÐVi(@˜¬     A\)@p° Ä›¦ÀBU`A‰7L@uÎgÚêj9@æd&.7ý?éë…¸Qì@áG®zá@#×
-=p£×@ZsÝãfè  ñ     w   E?'O‰·½M¾?ŒðQ9ß”?Ëà”äòèA®`v¹Û@¯ Ö£+v‚@u£Üú=nC@sM¹r!@hàÐ!% YESOPEN STAR CLUSTER
-	èASCC 88          @£Ùòv5Ì@”D     @à  @p\(õÂÀAÊ=p£×
-@uÞ–ô	@Ÿ…lú'•@(¨õÂ\)@1®záG®@$
-=p£×
-@ž£z#J‘Ó  š  w   ¡   d?/âéX‡kø?@câHÕ*¼?Ô3sP’WAzáG®{@¥ÒÑŠ/èÏ@mÝÞs~@¥¨Á"ÎNç@•Š^”`—YESOPEN STAR CLUSTER
-	ìFSR 1786         AZoäØï@»Ú     Aff@p=p£×
-À933333@vnÿê]@!G©ã³g¤@=p£×
-=@<#×
-=p¤?åp£×
-=q@_+Ò¬‹… ßb ©Æ Ë3 ¯?Ï¸f%8r‚@% ­Ks×@kŠRiñ2¤@n
-ÉÿëX•@¨²?Õç=U„}w@mÐ)ýï@Î¯“¡<ÇYESOPEN STAR CLUSTER
-	ðDBSB 179         @úµ:/ ;@¾ä     @ì(ö@p™™™™šÀC–éxÔýô@u¸ô¥Ë0?Êhõ¹^¨e@záG®{@9(õÂ\?¼(õÂ\)@`±s¯‚r† Ö· Ö0  Úà  „;?Çå@uË¸¡@õç`Äj@Zµ¸öfµÓ@~ùé‚K”…@ ¸îº?æ•”¦@bÍ¯ÕÉÓ@VÆ¶…YESOPEN STAR CLUSTER
-	ôFSR 0042         @“"vüð¬Ñ@©ð     A33@p(fffffÀ$õÂ\(ö@'µán|Ö@0u¹ñß@×
-=p£×@&W
-=p£×?öáG®zá@aQtvîšµ  1    E  l?_nùV?¨SM¸L+¦?òa«!A£ã@æhh@‡û\j×Ð@PhŽ<UöÅ@egÀJáC@ìãƒ‘¬YYESOPEN STAR CLUSTER
-	øNGC 6318         @g+MZà@œÄ     @ù™š@p0¼j~ùÛÀCµ`A‰7L@u¾‹‡ÚÝß¿åÜ•h6Ç/?æffffff@      @C\(õÂ\@S›`]qâÌ  
-     ‡   g?1´~Ék?›©nþê¸?ÔÎ29UŒ}Aâ,¼ä©@¥0|8t«@lþWJMU˜@jöBÄL/@A™ }¡dYESOPEN STAR CLUSTER
-
-vdBergh-Hagen 222A%çÄ•!…@¾…     @üÌÍ@p;Iº^ÀC%Â\(ö@uÑÑú>9¾¿Ü[ƒNdyš@záG®@FB\(õÃ?îffffff@_{v[d A U™ Ô ,œ?ØhÃ-1·)@@œ¡EÞGT@„„‘±Ú/Ä@T)††P ‡?õ| †ð´š?½faêfÍÓ@~GKw'é@>¬a=k®YESOPEN STAR CLUSTER
-
-Havlen-Moffat 1  @ÖÉ¥(ì“@²ö     @Þff@p;™™™™šÀCh“t¼j@uË@BØBM¿è‰VvF@
-(õÂ\)@7#×
-=p¤@ záG®{@a^£yé  ØÐ  Þ  (ô  V?’¶œŸÌ?íGÉËô‹@5Gdœ	oë@£pìðG°j@D·jË²Ç@Y4P>?}@u10xõôF@­’’
-nYESOPEN STAR CLUSTER
-
-DBSB 120         @Û¶Ì-ž¯w@µk     @À  @pLÙ‡+ÀBá$Ý/@uàä(N~¼¿ëy¡ˆZ‡@záG®{@5îzáG®?Ð£×
-=p¤@jmfÖÁ  ýe  Ì`  )+  ®?Ÿ³Ç^„?Ý­¦þá{@3!÷©byø@¥Ÿ5Kl\è@G
-Ràp¾b@‡FƒND•@mÕ Å-'@/YˆK¯YESOPEN STAR CLUSTER
-
-Trumpler 25      @}Mœÿ@œh     A™š@pQ‘hr°!ÀC‚-V@uÒUÛ;Ë¿ü&P«Š?÷333333@#™™™™š@Bð£×
-=q@dhÄa)    Ô   ¯   m?2µëµbû!?‰]çÈn?ÖuÅ_€ÊAÉûM, @¤……Ò´µ@keÅ‘^7@y»IþØ>4@"ûoâ]_YESOPEN STAR CLUSTER
-
-NGC 6360         @Ò¼«þx¯@±“     A33@pV     À=ù™™™™š@vL+YeKá@	Ý4=&Ù@(õÂ\)@6TzáG®?ç\(õÂ\@j¡Ž	 ´  «  }ý  ~  9?‹<ÑŽ>sQ?Ô—`«$(á@(™bþZ
-‰@°Ñ)s+Ñ@Që•Ë[0@…¨Ÿüt@vøÁ§Á—N@.bâïíõYESOPEN STAR CLUSTER
-
-!BDSB 164         @r³Ÿ˜\2@¨~     @À  @pV¬1'ÀB.Ù‡+@u÷vvµŒ¿Ý@”¯<¤Ë?ö=p£×
-=@õÂ\(ö?áë…¸Qì@VÝ¦J-Ã  ¨  ð   â   ?PÄI†R7?š€úœ?ÝU îç5@üqÇqÇ@žOx\^ü<@d½	zß @R‹³¹ÑW@vìÑ‡"AYESOPEN STAR CLUSTER
-
-%Dol-Dzim 8       @”%Š/+›@¦ô     AÌÍ@pWë…¸R@8.Ù‡+@GJs$-Z@<Ú]KTù}?ðõÂ\(ö@+Š=p£×
-?èQë…¸R@RšÅÿq=  ;  ò  i  _?QxÈ)*<N?ÇæàF}?þ§&mn@Úýä*,´‚@|Ã/ÿî*Ò@C­æ)†n@t{ß ³?ÿëªÛ9„YESOPEN STAR CLUSTER
-
-*Ruprecht 124     @~œvLO{@¡     A  @p`záG®ÀD]p£×
-=@uÁÈ~~%À
-W(ûkÅ2?ðzáG®{@"£×
-=p¤@
-=p£×
-@XL|ï  H  ã  $   ·?=K9Œë?¢éjÀ)æ?â{†—Í•@öaìjQ"ù@—ÙÐ‰±@`Qšqxë@póK±÷<‡@
-Èª:UYESOPEN STAR CLUSTER
-
-,Trumpler 26      @eyNŒþ“@—H     A¸R@pb¬1'À=|(õÂ\@vXŒs2WC@Ñ,”T*f?ë×
-=p£×@333333@)€     @^ñn*xÒ  y  ;   h   %? ƒ‚lýWÎ?€ñŒjãº`?½å,Ó 4¾A¬ùÁºÐ@½}Á7G©P@„-ŒQš´@tàU º·@XÀ€ÐaòYESOPEN STAR CLUSTER
-
-.BDSB 166         @ÒÔ=.&ÿ@ºc     @À  @pcë…¸RÀBGï²-@uû
-[Í¿òHå¡¥Ž@¸Që…¸@-B\(õÃ?Û…¸Që…@]PRÀþ  ¦;  €˜  +á  &?±`Fd9_ñ?ï‡Yéj7@5ïsÝ9~ê@¢ÛùÏÒÏ@D²9D{@€¤T@ú@Q+r²ý@I/zýüYESOPEN STAR CLUSTER
-
-/BDSB 165         @…9f•ïª@´     @À  @pe¸Që…ÀBS•$Ý@uú[úMÔ¶¿óä#fWYi?üÌÌÌÌÌÍ@záG®{@×
-=p£×@R÷‹j1    Œ     ¢?|­æÙ ?¸>p¤r?õÃX	@ã™,c@„â<áSÑP@L“ÌÙÅ|É@8®…j¨g?ý21²À/ YESOPEN STAR CLUSTER
-
-1FSR 0033         A !á¤%@¾Õ     A™š@pg
-=p£×À/E¸Që…@"Ëk†ƒ³@$IàôÈhË?ùp£×
-=q@7Ü(õÂ\?ë…¸Që…@DÆ„J~sò zo Ï§ >F r°?ÎÁ½î¸ÊG@KÛ"×@r¸Hñ¿L@fwX‡•@Œšì_?ÐÆ2ß¨5@a
-ä3bRÈ?ã_×@EÙÎYESOPEN STAR CLUSTER
-
-5Antalova 3       @r|Ñè>³@¤8     A£×@pj‡+JÀ@=p£×
-@v83àcri?ï:¦ä®ß@Që…¸R@ÌÌÌÌÌÍ@p£×
-=q@fÐt¤êø  8  0   Š   c?H`®÷ÜÍq?€ "9œ)?ÓÿZ†¤>õA¯Ö R¿[@¦@C-Î¸@n*;ÉlçF@^èÓú_ÙC@']RÜÿYESOPEN STAR CLUSTER
-
-9FSR 1758         @øÏè™Žä@»®     A33@pnzáG®ÀCë…¸Qì@uÓ¿/ª„³À“¾GJé@3®záG®@9¡G®zá?ó\(õÂ\@æãóWE qÔ 6  Yž  3â?À†]Æ  ü?ÌÀÍ@DõÉ‚‰|T@“¼žiŸf@5Þ›\?üÇ“oàÔ@hf'F<µ1@\ÅcGCÜYESOPEN STAR CLUSTER
-
-<vdBergh-Hagen 231@£q¶òlB@¥´     A33@poÎÙ‡+À?èõÂ\)@v>š»¹zÝ?ìëòìpFO?þáG®zá@-\(õÂ?ù™™™™™š@aé¥‹ Æ*  ;  !  z  °?YÀÖé+9ð?·™?åeÖ@_äù@×Ð_A}ô@y`Lôª@A\Æ"…@zeHQ•Ø@Î?ñÙ•HYESOPEN STAR CLUSTER
-
-=FSR 0027         @»(ýøè@¥^     A33@ppfffffÀ1âIº^5@‘atE‘@ ò×Ó?íp£×
-=q@%\(õÂ@ffffff@QXŠÔfƒ(    F  Û  ¶?PA¸paì?ÁoJ›#‘?öP»µª{@â´­+@@ƒî¤'›@KE¾Ò*YÝ@lù5ÔC,?ûñÅ_}üYESOPEN STAR CLUSTER
-
-?FSR 0002         @¡hÞËâ™©@­6     AÌÍ@pr Ä›¥ãÀ;33333?¢á¯Ä®î@|ô©ï<?ý¸Që…@(½p£×
-=@
-=p£×
-@Y¶õx>  ÿ  T  Ê  +?k;'¾W¡p?Ã§Æ÷W@"@z*˜½„þ@Ô3Ä§îR´@u‡
-¬LLß@=uQmæh@di¸„çý@GÙ…çDÕYESOPEN STAR CLUSTER
-
-ABDSB 102         @ÁýR°@¦*     @É™š@psÂ\(öÀ@HõÂ\)@v7•Y+¤?×’ÿŸÄâª@õÂ\(ö@%Â\(õÃ?ýÂ\(õÃ@v¬ÊþÊt1  	y  	  ;   ’?T6´Cßà?xV9÷?Ý}ÀúGú@üÀà@å-v;i@dtOŸÃf@kmï‹¢n@GDscF°YESOPEN STAR CLUSTER
-
-DTerzan-Ju 20     @ƒfóÈ7éÔ@¦~     AÌÍ@pv     À=R° Ä›¦@vd8®8óœ@ GÕ–°L€@	G®záH@"W
-=p£×@&¸Që…@lLµw«Y  È  ‰   Ë   ?QáãÂ£R?‚ÒÏy ~ˆ?Ü{3Zéí@ýµnÀt@žôµ|=…@e-þgLvÏ@bë§O6ƒ³@1ù}¡ž’íYESOPEN STAR CLUSTER
-
-FFSR 1766         @±e‰ßþ@«¨     A  @pz=p£×
-ÀBS33333@vªÕùNÀ´‚ƒFù?ñG®záH@0záG®@£×
-=p¤@OvÒ³uØÈ  &©  c  @  ³?mf.,?éuË<K”@yñ•í@½mŒÑ6Õ@_[ÂL{!@%t™VÓ~®@s=ˆ¤6|”?ö8‚pþEYESOPEN STAR CLUSTER
-
-HRuprecht 126     @qiË;=@¢*     A  @p|bMÒòÀA'
-=p£×@v$	}˜ü!¿î ¬fÉùÐ@ =p£×
-=@333333@ffffff@f‚ÿïeW       }   ]?AìÂˆÞ,Ç?~þFâpj?ÒÉúšJ¨A`X@§wTì¬¢?@p8˜¡0Æ@cª›Ñ×œ@&¿KµnòYESOPEN STAR CLUSTER
-
-PESO 334-02       @‹7µn¦ ö@©     A33@pƒÊÀƒoÀEzáG®@u¼
-ÀMºeÀÄÌöÕÔ?ê\(õÂ@#õÂ\(ö@®záG®@Jªª( Ãþ  È  ï  .  ?YBê«þÒ6?Ìˆ‡R¬þ?ùôÑLÚÄ@ßààà @€û·ûùtn@G=lÐùAž@b÷ô¹…B?ïë‰È6ÃYESOPEN STAR CLUSTER
-
-QTrumpler 28      @waÄø5<¤@—     @Ó33@p„záG®À@=p£×
-=@v@=¬Ë`K¿Ó—úÃ[ l?ö¸Që…¸@"LÌÌÌÌÍ@"úáG®{@hÖ«Þî  ‚  /   s   [?&ÚLñæÿ?}¦çÁu?Òa«!A£ãAhh@§û\j×Ð@phŽ<UöÅ@÷p¥›@+±ÿr¬¤YESOPEN STAR CLUSTER
-
-VESO 139-13       @iÿ†¬ß¾@—p     Azá@p‡Oß;dZÀM\(õÃ@tß§‰ÒÀ+¨hI%ä?ê\(õÂ@®záG®@!¸Që…@\ˆ‡ü¹#¢  ó  X   w   G?"·*¦@øA?ˆøÞš §?Ì®éG–@qAØV‰›@®¼Â+1s+@uÏŠ ¨s@xa™¤¯¸%@EÌgó5YESOPEN STAR CLUSTER
-
-\FSR 0091         @\£Hg<Ua@™ð     A33@p‰hr° Å@âMÒñ©ü@=°x—ýQ\@2Ù¡Röø?Ü(õÂ\)@
-=p£×
-@"³33333@KVj9}÷   é   µ   }   @? !À?™h`ˆ¨ä˜?ÉÚöV)±A      @±³³õmâ@wTª=Ê:à@j…±½›‡?ðÅ±=ÁYESOPEN STAR CLUSTER
-
-bNGC 6404         @rö9Ô<[`@ Ä     A  @pŽ£×
-=qÀ@Òñ©ûç@v:Ì‹£{¿òÕÌl× ”?þ\(õÂ@¸Që…¸@×
-=p£×@fòœ›,µå  ¶     q   L?8ë’*p ?zÙcuò5?Î´†Q‚FA
-ò†¼¡¯(@¬·µÓ?Í@s¥œÕ·ÅÊ@iw[44á@'£?´SYESOPEN STAR CLUSTER
-
-cFSR 0050         @eŽ—@†@›     A  @pxÔýó¶À"8Që…¸@0a‘º©ë@&Ð±An?ØQë…¸R@\(õÂ@3Ñë…¸R@F7}
-Æ/  k   Ò   ¢   n?'UL¡àýÁ?­öâúÀP?Ö8+²Ô,AžA)äž@£Öí	BÓ¥@k&›®Ð%@lsÑ|ºî?æ'ã™dªYESOPEN STAR CLUSTER
-
-kESO 393-15       @nU&ýi‡¾@£N     Aff@pžzáG®ÀAC•%@v4m™1IpÀ&a©Ðò@       @Që…¸R@'
-=p£×
-@dÞZö]rå  ­     ˆ   F?Dtµ©eIp?€…š„¢Ò?ÌG}n=™­AAÔAÔ@¯-+W²(@uT¸è	Zf@^Ÿ%]®Ô‹@#Œfü5TÈYESOPEN STAR CLUSTER
-
-zFSR 0096         @²½U æÂ@³“     Aff@p§Iº^@ï²-V@@œß <J@1ýh›¹y?ðQë…¸R@0ë…¸Qì@ ffffff@Dþ+#l”ä  )»  w  ð  j?|¶å\>#Ù?þÝVº•P@%­2Åü´@³ž}Š6’@TVôÄ¹V@Ôcñ]V@eCdtE,ê?ãÈ.a8YESOPEN STAR CLUSTER
-
-}FSR 0043         @«ÙÍš½@¯Ü     A™š@p§º^5?}À-Që…¸R@(•§eNãŽ@D¡ñí±û?ö=p£×
-=@,LÌÌÌÌÍ?÷…¸Që…@Q“—pÅDS  H  š  
-¶  ­?tb’†x0?à€†mi+G@“WÏ¦Šc@Ã,}:‘æ‰@dn}Å‡Ç‰@+õi˜c½W@ftAÂ—ÿ„?û¼ß,–YESOPEN STAR CLUSTER
-
-‚Dutra-Bica 44    @dã$g@¡°     A™š@pªIº^5?À8å¸Që…@Ôcu«?þ·#¢YÒ?ð(õÂ\)@záG®{@6À     @Wïåò  C  $   ƒ   /?4zÄ_™?ˆÞ8à'?ÂüÌçFž
-AÉˆ+“W@·7lˆ.#@Äýšò²6@]‡)ãûŽ@Á--Ì±TYESOPEN STAR CLUSTER
-
-FSR 1721         @‚¾TÉ°q@¢,     AÌÍ@p³\(õÂÀNzáG®@tÎþ ydÀ0 Ö'@\(õÂ\@$p£×
-=q@záG®{@xÌªýP…  ƒ  °   †   _?Aë×Qg?h×¡wó–?Ó0‚ÓòñlAŽÒ0Xí@¦øÜ‘uÌ¤@ooaUòÖ@r œÓ§Q@Iø·5o`YESOPEN STAR CLUSTER
-
-“FSR 1740         @Š¸ˆ ÃÏ}@§ô     Aff@pµ&éxÔþÀIÅÂ\(ö@uKrmsÁÀ(3éâþ@
-=p£×
-@$Â\(õÃ@ záG®@fÜ!CÕ  |  \  ’   ?W:˜TÑÿ?–_±áäÔ?éÚöV)±@ð      @‘³³õmâ@WTª=Ê:à@e`G8{@%ôã@Ö¡ÜYESOPEN STAR CLUSTER
-
-žNGC 6451         @°RM½åL@¤Z     A33@pº¼j~ùÛÀ>333333@vwÇ‘ÐÊ,¿ù‡Tn"¬Ù@ (õÂ\)@1ó33333@=p£×
-=@cþ8õr  '    2  K?YÒx\“¯Ê?¿Ü^ô.ç@¿¿àù>Ë@ÍÐòA°U¹@oÅ¬ümÐº@5½:¼å@†#<ÁY¡@!ñMM€óÒYESOPEN STAR CLUSTER
-
-¤FSR 0106         @duÐ'¿@˜ð     @þff@p½n—P@&Rñ©ûçm@B)§¢.]¦@2Z–²úîü?ÞzáG®@£×
-=p¤@ffffff@N_ bŒåo  Š   ü   œ   e?#2Õ?¡gHTÞ—e?ÔfÆ_üå¹AFøebÙû@¥›€äì@m‘Qj0s+@rÄtª¥Ç?ô³ÇI¶»YESOPEN STAR CLUSTER
-
-¥NGC 6455         @¿ˆY­lƒO@¥,     A  @p¿Iº^ÀA–fffff@v51Ø·ÀI©ðŠ{Þ@*Š=p£×
-@6™™™™š?ñp£×
-=q@Ÿãƒ  Eì  FÃ  œ  ?`%/‚yÒ?và¤„B+¿?úBb/‚W×@ßøø @€É}ýx@FøÇ!E&G@ÝlH}@v[âåÉ™YESOPEN STAR CLUSTER
-
-¨Ruprecht 133     @ÄO™ÏðYŒ@´~     A   @pÁ•$ÝÀ<¦éxÔýô?ð!qæ--R¿òøCfr@¸Që…@/záG®{?áë…¸Qì@`©F"PÅ²  Zæ  Eê  ­   ?“Í³ÐÛ3º?Ú®Ð¸Åœ@%5ž®3A@³88@TÈÇÌ­@pöŠ·#3@`Ê
-¥ûàb@ëÙØtYESOPEN STAR CLUSTER
-
-ªRuprecht 134     @ùÜUõÕ&r@º     @ü(ö@pÂÝ/Ÿ¾À=ŒÌÌÌÌÍ?ÑLo'ë˜ã¿úJe¨ô¦@
-£×
-=p¤@8™™™™™š?éG®záH@YÄ„£üÍÉ » ‚9  ñv  —?Á.d'6–@Mu#Ø@^…[]Â	@{¹Jop@âú!'?ãÃ¦+„Ÿ@ijýÕNÝ@ÍÚyïZ8YESOPEN STAR CLUSTER
-
-±Czernik 37       @i:Å¹¡ü @š     AQì@pÅ¸Që…À;]p£×
-=@¹÷àœ¹¢¿äzí0·@Y?ØõÂ\(ö@333333@H™™™™š@H\Ò±‹  ·     µ   z?&yÝüÊe?®Â¾ÀKK?Ø¤²Ê¼ÆA ÉqO¼Ú;@¡ã\'E@hzgª5a@qÜ^µŠa+?êÒ+ñŠYESOPEN STAR CLUSTER
-
-²Dutra-Bica 28    @æ»ÓÐbÖ@½—     Aff@pÅÊÀƒoÀ<Që…¸R?ö–ÎæÞÒ¿òŒm@
-=p£×
-@(™™™™™š@\(õÂ@WTPóc ¡¬ L†  <  W‚?Ók3;@eVI‘@Q­Ð¿Ø³@‡gSò`Ü$@(ð]‹²Ô>?ñ0°³u@C«DØN$ô@Ã¬,¢²¤YESOPEN STAR CLUSTER
-
-¶FSR 1776         AÍU0´~a@Ám€    A  @pÈ     ÀB\(õÃ@v+<×áaËÀÑ¦/ü^ó@…¸Që…@9õÂ\(ö?ÄzáG®{@cá=Ö•PP #© Î• ’ æ?ïÅqZMG@,Ex°Z3@{jh!Þ×.@^-Ã&Û¬@ J=ƒ]?Æ ¼ØHÎ@_’Nw\ý@!½nS£_YESOPEN STAR CLUSTER
-
-¾FSR 1775         A!™üíA¿Æ@Àž     A™š@pÐ‡+JÀBHQë…¸@v(Ñ·“¼'À$ÿ’;ÒZ@\(õÂ\@8ýp£×
-=?úáG®zá@c6eQÅ ˜É ¨a .Ù w?ñÑé~E"@1MÄuóÀ@Þgçó@Yöuèrø?ûªxÔž½?ÂíÕ7æ¥@`xOÚœ@ ‘è€f¼„YESOPEN STAR CLUSTER
-
-¿FSR 0022         @µ,GˆšŒ@°ô     Aff@pÑº^5?}À71&éxÔþ@µm?ëM³EHHÄ@\(õÂ@.Që…¸R@#¸Që…@[¼ 0RL  .Å  !¢  [  ú?~fÓ½?ÔUÑ@Œ3R£Û¬@ÂXÞu‰Q!@cŒýNw²@*ÀÕôËø@fÁ‹èMyµ@ÍÉ;$ÌYESOPEN STAR CLUSTER
-
-ÂFSR 0080         @£å©ÝèY@©x     A  @pÒ‹C•?­²-V@:¤3ÍCÜ@(d5«nPƒ@=p£×
-=@..záG®?Ã333333@tuZ(  ›  Ä      ?aIA1åè?“7Ï¿ôè?õè&ßß@ã±;±;@„ûðÝ|Ö@L¶øé–oÙ@súÓè¯L@AøèwÞïYESOPEN STAR CLUSTER
-
-ÃTrumpler 30      @ƒKÇ¾¸@žø     A™š@pÓ¥ãS÷ÏÀA¢\(õÃ@v<(³§[FÀ e4àE¸@áG®zá@$k…¸Qì@õÂ\(ö@rš3ù—ò\        ½   f?7ÌnVÏÿ\?rôÆƒò?Ôš|L©9A@¥eEæÙ¢ý@mGé%ïˆ@x¾É+R@?	‡S@YESOPEN STAR CLUSTER
-
-ÄDutra-Bica 30    @úÔÉWÔá.@»•     A×
-@pÓÂ\(öÀ<      ?øèàg¿ÿ‘þG<²@záG®@5èõÂ\)?ò¸Që…¸@eû_Ï
-d ÊÞ 
-  ·-  n?È¸oÇîÊB@w=<¼Î@V=Ó—î­K@‚™…#í‹®@#Ñá€»¨ˆ?ëEÞ@aôó÷M¤¨@%°ŸÄ>€=YESOPEN STAR CLUSTER
-
-ÅNGC 6494         @§Šš$Â@„@     A=q@pÓ¥ãS÷ÏÀ3      @#¹ƒE¦Ýi@Ýüž3É?ñÂ\(õÃ@3×
-=p£×@BˆõÂ\)@v0[°[  ¬  U  ø  m?¤xŽs¹?’pW¹?òn˜œl¸¼@æqŸ6g@‡êŠt^•î@P]³¸@ËQ!°xâ@Eã¯4ÑŸ2YESOPEN STAR CLUSTER
-
-ÆFSR 0023         @“ ¾vô½@¢ä     A33@pÖ‡+JÀ6Ýp£×
-=@dôÇ„…?èè¡I[Û—@333333@(k…¸Qì?ü(õÂ\)@lAÆÔ+2.  
-÷  	  ³   ì?Jüõ‰x?‘çzÍHO?çÕÛno=@ñ[_u'@’~—ŠÍ{‰@YNÒ³×u@wÇ]ü 0@1ë13`lYESOPEN STAR CLUSTER
-
-ÇRuprecht 135     @iÂc,³@«R     A  @pØ9XbNÀ'ZŸ¾vÈ´@0ajÊC@M ò¥¿?û\(õÂ\@¸Që…@záG®@Y7%oQ     x   ž   f?Vm[.G?‘nQWö?Ôš|L©9A@¥eEæÙ¢ý@mGé%ïˆ@F.UÿZî­@ŠQËõ|ËYESOPEN STAR CLUSTER
-
-ÉESO 456-29       @sr¿ý^Î@§~     A33@pÚ¬1&éÀ@G®zá@vl… ÍLGÀÞ-ú-›?û\(õÂ\@£×
-=p¤@ë…¸Qì@]Sâ+6á       À   n?L]Ÿy:?öýâh?Ö8+²Ô,AžA)äž@£Öí	BÓ¥@k&›®Ð%@U%ÛÒ-Ä¼@LÀÊ»
-YESOPEN STAR CLUSTER
-
-ÍRuprecht 136     @Ðytpæ1@±¡     Aff@pÝ33333À8µÂ\(ö@ÃO¬0.¥¿ÞPaá·»V?ýë…¸Qì@55Â\(ö?ä(õÂ\)@U]î$™VÍ  “¿  [ï  (S  ¼?Š<û¶^ÿt?ú^é]*AÇ@4ÊöÚŠÇG@£åCì¹æ3@E3c“%Ž@Øù­H¾@t˜ÃÎ]ÎÕ@~Cì*°@YESOPEN STAR CLUSTER
-
-ÏESO 229-02       @‡úäTˆÖç@¢t     A33@pÞ° Ä›¦ÀIØõÂ\)@uU™ê“—²À+ VÁj?ü      @%ž¸Që…?÷…¸Që…@cGˆXp¸  w    6   À?C_›GB¿?—,‡_}ž?ãd8ÀŸDÎ@õUUUUUU@–»šEG=-@_§¸N€@sˆ%ÿç@ aH.!+YESOPEN STAR CLUSTER
-
-ÒNGC 6507         @°Ç]@¥æ@¬ö     A33@pß;dZ¬À1kIº^@'(xˆü”§@d°Ë5kT?ó®záG®@/”záG®@…¸Që…@Q#÷7;§  $ë    ‰  Ï?oíˆ®B@?äg”ŽZ{@<™1Yñ¶@Àdfö¦½G@aw°Îè¿w@'ç‰2–@pë/–	pÛ?úH×³ YESOPEN STAR CLUSTER
-
-àNGC 6525         @¡Æ1âr7X@©*     A33@pèE¡ÊÀƒ@&´9Xb@B¯8u¹?@/Ê!©Ú<@záG®@.æfffff?íp£×
-=q@qçæòÊ  ×  Ø    €?\lkï=1à?—AÝÑŒL?ód8ÀŸDÎ@åUUUUUU@†»šEG=-@O§¸N€@utiñl:É@:8vùÓ+ÁYESOPEN STAR CLUSTER
-
-âESO 589-26       @|oÏ(ï@£     @Ð  @pé¸Që…À5êÀƒn˜@ÒA©uÀä?ÔRÁûA?ìÌÌÌÌÌÍ@!”záG®@\(õÂ\@S5£Ý€†    ¸  Q  ?HaŒMÄ‚K?²+NÌŠX¤?ê÷^ëÝ{¯@î®€zºë@Xáþ
-õW@V^™£ÀðŠ@hR¥ôÈ@ Q½Ú$‘þYESOPEN STAR CLUSTER
-
-ãFSR 0117         @m‡ÄÄam@šð     A¸@péXbMÓ@0Æ$Ý/ @Ep%™ŽÖ‡@29Þ*˜¸C?éë…¸Qì@ B\(õÃ@Â\(õÃ@X:N¤,0ò    H   ”   P?'1Õ·.„!?’A\GR?Ð(ÙõÚ¬A	™™™™™š@«G…ì»ã@rª!Ë/@t¼ÆY’;~@
-Y,Êq{€YESOPEN STAR CLUSTER
-
-çTeutsch 14a      @ygàRŸ:@ t     AÂ@píó¶E¡ËÀ6ó¶E¡Ë@­^¥[‚(¿™CDóñ¬?ç\(õÂ\@!™™™™™š@-ffffff@QßÔÒ¢}  >  "     Ö?>I…ä°¨?±OËê>´ƒ?å	ìÚ@ó#ãJ+¿@”eSbG£@[èÞËüC@pH7J¾$?ü®·ÓNEYESOPEN STAR CLUSTER
-
-õBDSB 3           @Næœ#ÕNª@—¬     A{@pùOß;dZÀ5ž¸Që…@!YÑÚ&›«¿ÖÀš|œb?Ó×
-=p£×@
-=p£×
-@)úáG®{@E_xXi   Š   ‹   i   (?¿äšBW?™@FÏxl•?À(ÙõÚ¬A™™™™™š@»G…ì»ã@‚ª!Ë/@de+ÆI¤±?ãýyÝ·@YESOPEN STAR CLUSTER
-
-öFSR 0125         @ÂÞA @¸k     A™š@pùÎÙ‡+@5éûçl‹D@H#7FÌ£@3W¦×Hâp@(õÂ\)@9™™™™š?ÕÂ\(õÃ@m	—_D¤  SZ  C„    Z?„GFý^Øq?À[¯Î@ÂvÞ­Ïù@ÁiH£;ú@b¯±š¸S@)cziß_@nÊÄðs®@2ìŽ€(Š¤YESOPEN STAR CLUSTER
-
-ùFSR 0039         @¢Þëò~Ç@¦ø     @À  @pü1&éxÕÀ3èõÂ\)@$€=(aØô?Õ4!Íj€@™™™™™š@,áG®zá?÷…¸Që…@xÆLG•l    =  \  z?^“ YÕc?ˆö¬Ó÷˜ý?ó§ÝœÇ»@å¬kZÀ@‡ú-ÿ:@O™õ}¯
-«@v~½gá³@K?‡4ÎYESOPEN STAR CLUSTER
-
-þASCC 93          @s¡Éª@œ˜     @Ã33@q £×
-=qÀ6G®záH@ œx"N¨	¿ðÃá÷ZHZ?ñp£×
-=q@ €     @
-=p£×
-@^¶Ýì1‰  ¿     ˜   k?0õÉ`$?Ž\º_t÷?Õ	ìÚA#ãJ+¿@¤eSbG£@kèÞËüC@ró±Ï/ŽÕ@,=w•ÙƒYESOPEN STAR CLUSTER
-FSR 1774         @~äø’êü@ž<     A  @qí‘hr°ÀBøQë…¸@v(ÔŒË%À!J|£Þ‘X?äÌÌÌÌÌÍ@#.záG®@p£×
-=q@QRnV†&æ  Ò    ®   ò?8¢u7?´ò<ûÅ?èpüÝsid@ðìõkæœ@’	4”4Å@X®0êžëÅ@vç•®Ñ?úïì“õì&YESOPEN STAR CLUSTER
-vdBergh 113      @~BÂƒ	@      AÌÍ@qÌÌÌÌÍÀ5g®záH@"Cgœr!—¿çt^ðSý.@õÂ\(ö@"Ç®záH@×
-=p£×@s%t%t&  +  í   ’   E?9ïÓYE6?leîÖ|wª?Ëà”äòèA®`v¹Û@¯ Ö£+v‚@u£Üú=nC@ssY»C9ó@A-ÚQJüYESOPEN STAR CLUSTER
-NGC 6554         @×ðÐð¤F@›¼     A	ë…@q²-VÀ2qhr° Å@'~öËÖî1?åhúƒé=?õ¸Që…@(W
-=p£×?ôõÂ\(ö@c,†¦´  ë  œ  d  ?7Ïï¨¿“É?Ÿ nÞŸ°¹?ë+Ø‰Ï@ît¥—Pä@9Ä¶®‹@V4ð’ÆÈ@…ëS#º*@ €¡»Ð’çYESOPEN STAR CLUSTER
-BDSB 113         @¿ˆY­lƒO@²$     @À  @q¬1'À4záG®@$§ÚÙƒRt¿Ä4êÚY­Y@Â\(õÃ@0¸Që…¸?íp£×
-=q@gC6£É~  J†  9¿  ‘  È?†)Ckì?Æq£ qŠ'@%ù™Î;@Às&
-G÷Æ@a‡gˆ²N@'ü’=x†Ž@h,Ê¢¤k¯@(Jp;w½YESOPEN STAR CLUSTER
-FSR 0095         @°–2m‡ó@°É     A™š@q=p£×
-@ãS÷ÎÙ@?ý]’¥Ú>@&?ïQ”0?ë333333@0ã×
-=p¤@záG®@Df ¼¼ùû  ';  /  €  Ž?së’¼–Ö‘?þ¹LãÙÕE@$I°
-ÛöÒ@´d
-Õ%Á<@Uº{)+W@»µÀ÷ˆ@lÐn€bg]?â®›Ìß|˜YESOPEN STAR CLUSTER
-NGC 6561         @|_Üžßß@£p     @Ó33@q	ÎÙ‡+À0ºáG®{@*Øõt.$?ò¨«¡îpw@	Â\(õÃ@!™™™™™š@…¸Që…@p¯5ÿ«µ—  -  ‡   ‹   V?DòíÛÅ›y?sŽÜÒZÿæ?Ñ_äùAÐ_A}ô@©`Lôª@q\Æ"…@gTÜÇž€@8ýŸ»Q+×YESOPEN STAR CLUSTER
-FSR 0099         @rsM¾ý@£~     A®@qt¼j~ú@æfffff@@²\ÌfY@&YûfÏ!L?û\(õÂ\@ ¸Që…?÷®záG®@a«ÆŸ‡Ô*  ë  É   u   d?AÄ®²šf?ˆ]æ‡¨x¶?Ô3sP’WAzáG®{@¥ÒÑŠ/èÏ@mÝÞs~@c8Þ4³	@™ú°¨YESOPEN STAR CLUSTER
-FSR 0051         @¬LÜ&â~@±?     @Ã33@qE¡ÊÀƒÀ*¦fffff@0·1ÏPˆ@û‡Îˆ?ñë…¸Qì@+¨õÂ\)?ðQë…¸R@J)§ã%§¨  "‰    e  	U?{œVí?ˆé?ðr	Œ†@)šBb/@»n±ªê¬ô@];cåÈ^õ@$ $6A<@bLç]­ƒÅ?î¹›ÅÃ{ëYESOPEN STAR CLUSTER
-FSR 0062         @²Þ–ˆ9 @¯     A  @q33333À!j~ùÛ"Ñ@4Ýüš¾„@(#ŽÃrX@ë…¸Qì@0™™™™™š?÷®záG®@`%™³øþ©  +h  ¬  Î  ó?s‰ *ãGæ?Ë"­r@:4ðSA@Åƒó9§•Ä@fíG	Ü›(@/_‡LÞÜ@pA ùŠqG@h†	YESOPEN STAR CLUSTER
- BDSB 115         A8©-\ç@¿     A
-=@qV“uÀ1xQë…¸@*b©l¾ø?©^0ÉxÂ?û…¸Që…@Aýp£×
-=?ÈQë…¸R@FI§~ÆFè 
-Eã &g ©‘ ä?ÏŒtY•@Zö§“:^@ƒ—9°=@UÊøÎêo?ö€k+fkÊ?¾ÊÝ\¾@s“] Ç»?æL-Ð;â8YESOPEN STAR CLUSTER
-"FSR 0046         @Î‡¼ûŠcö@²€     Aff@q;dZ¬À1S33333@*°^»aG?²kG”†§³@"úáG®{@4îzáG®?ØQë…¸R@yÕì „Ø  !  ~@  /  ?Œ¿
-rrž?±zlÜ}#o@Ö_x„£F@½¸¶ù&mÕ@_«ÚÂ½u@%«f‚ ê@r6SêSO@Mô
-š$sYESOPEN STAR CLUSTER
-#BDSB 116         @”€Ì²Tê@´î     @À  @qƒn—À0ÁÊÀƒo@+ÂŒ„/<?Ñ¬øKr—Ë@záG®@ ³33333?ø(õÂ\)@UÀ'rD¯æ  x  	ê  †  ‹?‚…ô î‚ú?¿›eçsÖ[@ oôGS@Ù*Ý d«t@zÑ… ÅK¶@BYe@¸7¾@B'«‰ã¼@<_9=lYESOPEN STAR CLUSTER
-$BDSB 114         @qÑ¡,˜@°­     @Ê¸R@q›¥ãSøÀ1á‰7KÆ¨@)Ê[4+)¿Ñç’Õì?æffffff@£×
-=p¤@záG®{@@é2gh  ö  å  Ä  W?h={Xlhâ?Êÿˆ‘6‘Ü?ñR0¸î @çâ%QZO@‰s=ÒL@Qi»ƒò¼¼@<˜S:ÛbÉ?Ù¬ƒ\ ¢ÅYESOPEN STAR CLUSTER
-&FSR 0078         @qtõ@ñ@§6     AõÃ@që…¸RÀ	=p£×
-=@9íÈ•œ¥@‘¿2ä¢?ù™™™™™š@záG®{@333333@[Å<ÒÊ  a     ³   X?HC7Z_™?U•JwI?ÑÆ‰[<©½AEÑt]F@¨Ì¨K“ˆ@p÷Á¡MB@VóðÌ‡L‹@Ožø¡YESOPEN STAR CLUSTER
-'FSR 0063         @†£|Ø¢ÃŒ@®È     A\)@qzáG®À æfffff@5?ú}S¦@~ë±¦Åp@¸Që…¸@!Â\(õÃ?üQë…¸R@^ )ÿåbë    0  ·   ö?bÉSŒ8²? èµM×”Ò?èØh¶Ì(@ð¦
-h§@‘¾ ýà/¿@XGtÍÔˆ2@RòpÜ‰	@ü-NÉEYESOPEN STAR CLUSTER
-(FSR 0073         @ºæ…àî£«@±M     A33@qÝ/Ÿ¾Àffffff@9ElÆ2@ìi`gâ@	™™™™™š@2aG®zá?ðQë…¸R@b êç|
-  :ð  -m  i  ?zÙÈºŒ?Ë­Ú	¨ux@Èò\@ÁùŠRJmA@c'h¸ˆ@*5Ô-C>@p0@¯ß@'xiSYESOPEN STAR CLUSTER
-)Markarian 38     @ƒ[‡R^®Ù@¢     @ÜÌÍ@që…¸RÀ3×
-=p¤@'üjÿ¿ïV—@òIø@333333@#Ü(õÂ\?ùÂ\(õÃ@rè»Ni”§           m?D–ÿÛs?uó&g¬?ÖuÅ_€ÊAÉûM, @¤……Ò´µ@keÅ‘^7@qÜ%Ö)@@½„ç‹MYESOPEN STAR CLUSTER
-.ESO 335-05       AÂJ+¢@½Š     A33@q ÌÌÌÌÍÀD†fffff@vtÉzÀ&¯
-ÙXÓ@	p£×
-=q@?½p£×
-=?àQë…¸R@U¯PïØYÏ 
-ž2 è ± ßã?Òé¶¸žCG@=p¨&3	Ë@x;Ð	Ó4¥@aê‚ø@0Çö´)±?ÈäX¸Vˆ@pmšDÇÛ@Š÷2Õ¢YESOPEN STAR CLUSTER
-/FSR 0121         @_A¨e%Ø7@—Ì     A33@q!;dZ¬@1s33333@FwÍ×D(@.å”@ƒŠv?äzáG®{@®záG®@ .záG®@U«Y¨©*B  8   â   d   ??ç[ÿ…³ ?‹{J·¸—?ÉsŠ|Ñ
-OAAA@±Qû¢k@w³xCH @qâ¬3•Ñ#@Ó*ýYESOPEN STAR CLUSTER
-0FSR 0102         @_A¨e%Ø7@ Ò     A=q@q!ó¶E¡Ë@bMÒñª@AÍ°´Íý–@&9l`«,"?×
-=p£×
-@
-=p£×
-@+#×
-=p¤@A> lÒ |     Ë   ·   c?/"­X?²¢#OüÂ?ÓÿZ†¤>õA¯Ö R¿[@¦@C-Î¸@n*;ÉlçF@_ˆTObæ?Ú²w{_G;YESOPEN STAR CLUSTER
-9Trumpler 32      @›WcWÃ.@™\     A¸R@q$Ä›¥ãTÀ*¨õÂ\)@10S4z•?õÐ%ÆÓª?øõÂ\(ö@.k…¸Qì@3}p£×
-=@hÈDåÈëw  M  
-    ??5Þ<( Æ? =¬mEo?ðìz®ùÓ@é®$êUÚ@‹]jA½G<@R¹H¡4@”ylvÿ@+‘{År<>YESOPEN STAR CLUSTER
->NGC 6604         @Œ€2ñ¹"@œ     @Üzá@q(¬1'À(yÛ"Ðå`@2?SBa>?û8?Þ…@®záG®@'Ü(õÂ\@0Ü(õÂ\@•éM1  (  Â   ®   e?9ÔÒþÇP?a1u×cOj?ÔfÆ_üå¹AFøebÙû@¥›€äì@m‘Qj0s+@‚z¤¬¾Ï@[ÃdÕ-Ý°YESOPEN STAR CLUSTER
-AFSR 0145         @€æÚwï$@™     AõÃ@q)dZ¬@=(õÂ\@L59\@3~w	`)?÷\(õÂ\@&333333?ýÂ\(õÃ@gl³Ò?‡±  ê  î   »   x?)ÛY¶$Ïê?‡ZE‹?_8?Ø=FðÇA@¢/®Ò—W@hâ×¹`>Í@†>¶Þ¡@?@(¡bÊdÈ{YESOPEN STAR CLUSTER
-BNGC 6605         @UŸËp(Å
-@‘à     AÌÍ@q)®záHÀ-îzáG®@/Ç³¿ad?ÔàÞáË8¿?ÑG®záH@Që…¸R?íp£×
-=q@HW8í½gz  -   Ÿ   v   N?»)29ºQ?¤³ô4Ø?Ï‚Ü9ÏÏA
-A¤A¤@«ú–|¦r®@s$¥ñõ;@x7ºóT‚Â?ê˜6±5îYESOPEN STAR CLUSTER
-CNGC 6603         @@ž˜|R:@¢*     Aff@q)®záHÀ2nzáG®@)¬í$i…O¿õ[S|?ó×
-=p£×@#¸Që…@3æfffff@[€ƒn—Ž  å  O  "   ®?B+AEÈÏ? ßÊô g?á’ÓnV[@÷ŠLx¤È@™¡fíM@a)¯Bi@oˆ­¡y‘@ùÁW°£YESOPEN STAR CLUSTER
-IFSR 0108         @ˆ	$Fè@£€     AÌÍ@q,° Ä›¦@ A‰7KÆ¨@BJ7Ç´ŒY@%¯ñ½¶?ð      @&uÂ\(ö?õÂ\(õÃ@T¨Ø‰Ø  ’  T  ó  =?D^âÈ¶a?´ ©rC?ð„XÐ"@é×Ÿkh-@‹‰œÿ 0D@R×YÕÖ1)@ràXÁO3@(§èIAÁYESOPEN STAR CLUSTER
-KFSR 0076         @ºhÔjÀ½Z@´Í     A™š@q/n—PÀÜ(õÂ\@9‹£ýzíÌ@]¶èH~ä?û333333@0½p£×
-=?îzáG®@Pvd§(=  ;Æ  (  :  ˜?‡¹—˜í?ñøö²K@%÷ˆJ4kò@²Õ
--P @TMëñ4=@uå6{Û^@bnW‹/e!?øTŠv¸¤"YESOPEN STAR CLUSTER
-NFSR 0077         @vô„M†î°@«R     A®@q0‡+JÀXbMÒò@9³×†MÈ@Hð0û?÷…¸Që…@\(õÂ?úffffff@U­(Ý¹„  ‚  Ü  a   ·?WéS£L³?£w•Û|vs?â{†—Í•@öaìjQ"ù@—ÙÐ‰±@`Qšqxë@QÍ¬Tå5¹@XkOLMYESOPEN STAR CLUSTER
-ONGC 6588         @ÇšiãîŽ@²•     Aff@q2záG®ÀOç®záH@t­smòÝ»À4à*Æâp;@"
-=p£×
-@6µÂ\(ö?¾¸Që…¸@xqÂ•ù  hÓ  ]l  
-¿  Z?‚
-„}°P?¬—3þ’;@‡è™Ö@Ä'¦’¼M@ey|5 I@-bÄ)LÎh@u@¶'S×?@JÒSÂ—1¹YESOPEN STAR CLUSTER
-RKronberger 2     @‘Ûƒj1ô@¨ú     A33@q5C•%À,å`A‰7@0Òm8¯žñ?ŸYXLý­!@p£×
-=q@&#×
-=p¤?òáG®zá@t›¨é  	â  	‚  m   ±?YÝ³3ìñÜ?~Xö`¼ê?áàdQ’Ón@÷$(FÞ¼@˜¨ÊgOa@`ß7"ZN@f\^º¾OÏ@C	Þ€/ðYESOPEN STAR CLUSTER
-TKharchenko 2     @Â›ûû0@ª¨     AÌÍ@q9dZ¬À-+…¸Qì@0¬D&B7Þ¿Õ=¿„t¿²@záG®@5Ù™™™™š@p£×
-=q@dÛ1G|è¦  S©  ;²  1  5?phµ?ÏXNiª@†@ö$…H@¿1YéV%@`ž˜þ`0 @&½ÿE@ƒâÍZNm@#†zýÂ‹YESOPEN STAR CLUSTER
-XFSR 0120         @zzI–Ä³w@›è     A®@q<E¡ÊÀƒ@/³33333@F5€-V@*Ÿ”ÿd?ñ¸Që…@#³33333@G®záH@^ä¿ôýàí  I  ÷   ×   s?1¯¼i´
-?—jUŠzyà?×:¹QiuAÏ­¢@¢úaæà´@i÷Õù„P@|]£p‡s@k®ä«YESOPEN STAR CLUSTER
-`Ruprecht 170     @Ó‡§˜¸{#@¶™     @À  @qEãS÷ÎÙÀ$®záH@5…·O[?ò#ÜÅ¢x@Â\(õÃ@5xQë…¸?÷×
-=p£×@X>ØãÆ  ³Â  xØ  0  4?™˜ˆðåÇj?øëw ¸@7˜saÌ9@¡ˆIj³nÏ@B®¹"Uª­@	¯–“\@i°3‚³9e@
-c«' YESOPEN STAR CLUSTER
-dNGC 6631         @°H±Ÿ&¯½@§8     A£×@qMIº^À(
-=p£×
-@3ƒÂž¿ÇøVóMÑ@®záG®@1«…¸Qì?ó…¸Që…@uWbœ&PY  $Û  Â  ³  O?`[äŸº?š`???ýØ?Xuå@Û¸ö	‡”“@}Š‡¶=N@D6IØÕPå@€{:òêg_@Dq·ÍÝØ\YESOPEN STAR CLUSTER
-iFSR 0009         @ÒZJÃCÚ'@´6     Azá@qR1&éxÕÀ?ç®záH?ýÆÚæDÐÀ#-Æ®J@(õÂ\)@3½p£×
-=?ðzáG®{@Y‰6|?ã  ¤  u/  -9  M?–kD¸l¤?õ1ƒîa@5@Á41@£w”¶õÙ@D¾˜ÂGß@bç±’e¬@k%—îRw@Pv“9<àYESOPEN STAR CLUSTER
-sFSR 0054         @~÷3ûEøˆ@¢*     Azá@qY®záHÀ.
-=p£×@1,¸ÚÃ'À.5_¡ù?ò=p£×
-=@"”záG®@3E¸Që…@YHºòu  Ö  Y  L   Â?C•¹7¶?£¹³ñËîò?ã—î­K˜0@õêâø@–›QÂ‹¹@^Étq5E@mÆšJgè@²-ÃöeÚYESOPEN STAR CLUSTER
-tDias 6           @‡˜¼áÛ¶œ@ð     A	™š@qZ(õÂ\À(œ(õÂ\@3žad³—Í¿ð€,¡Ó$?üQë…¸R@&ffffff@G®záH@gÑ…J€{#  …  ¬   ø   ª?7òüŠu?÷Pu€A‚?á+g•7¯—@ø@™¬ºH8]0@a‘¿Âë@ÝÌQ@)w/C;SYESOPEN STAR CLUSTER
-wRuprecht 141     @…ë¤s}•@ªj     @Ñ™š@q]C•%À(¦éxÔýô@3°ˆ\:Û¿óXA¬]˜ð@¸Që…¸@"ž¸Që…?õë…¸Qì@e¨S:xç  D  ç  (   ½?YîB²:,š?‘j•›eá3?ã§ÝœÇ»@õ¬kZÀ@—ú-ÿ:@_™õ}¯
-«@\HM—5ª	@%ñZ¾`YESOPEN STAR CLUSTER
-{NGC 6647         @ÒejÒo1@´~     A  @q]ãS÷ÎÙÀ1W
-=p£×@.€¿\ôSŠÀn(íEj+@\(õÂ\@4øQë…¸?ÚáG®zá@j>À¾ªô  £B  ‚  ž  ?”	ñ¤Wª1?ÓPS¬^ß@(mÁ~¨¤.@°ï2«¹Õ@R—nô­ü@±tÏÀ½R@mÌÔÙÐG@.ë;k‰óYESOPEN STAR CLUSTER
-Ruprecht 143     @m¤eVõ#¥@      A
-ff@qbbMÒñªÀ(G®záH@3ÿIËt¿öh¬Î«A?íp£×
-=q@
-=p£×
-@
-=p£×
-@WÛ&âZH  =  Z   ”   `?5.$¿]dm?–h0àT?Ód8ÀŸDÎAUUUUUU@¦»šEG=-@o§¸N€@h½(L;´A@Â±è©ó8YESOPEN STAR CLUSTER
-ˆNGC 6659         @ŒÃ˜¹H›@ž´     AáH@qh\(õÃ@7™XbMÓ@J?ÞÁÌfó@,@ /Ió'?í¸Që…@)Ü(õÂ\@õÂ\(ö@Wákó.2  ;  ì  q  [?7Ü-ÎÂ?²Ñ9N?ñ…åóeA‚@ç›ªk¶9‹@‰("ùLŸ.@Q6XµUÜ@„0ÛGhè@	™:Â³->YESOPEN STAR CLUSTER
-Dolidze 31       @±»j‰ãKë@´+     @À  @qkë…¸RÀffffff@8ö¯ß^Ñ?à‡c-×…@Që…¸R@-€     ?â=p£×
-=@fß)R¬÷¤  (Æ  !é  È  Ó?ƒ˜³Ÿ‰]?¹gÕñ">¢@.Ô˜jÈP@Êˆe(¨†@lEûÆ¸^T@3X;æH§@^qhìÉŒ¥@'{>¯Ž3‡YESOPEN STAR CLUSTER
-ŽFSR 0072         @pƒÚ ƒÓ@š     A33@qlýó¶E¢À£×
-=p¤@8·á˜ŠMŠ?Ô%’úø¨ë?ò\(õÂ@ G®záH@®záG®@aîC	ò ¼  º  ’   i   Q?,½ËW!N??†‚1èÝ?Ð\â†bA	H°üÖéà@ªñNŠÿ@ro$‰PÆ9@v5.ÜA™@ÝÒ¾„YESOPEN STAR CLUSTER
-–FSR 1782         @€\Í±²Xó@¤´     AÌÍ@qy¸Që…ÀBÇ®záH@vWÜKÑSéÀ+yÔ&©É]@™™™™™š@"
-=p£×
-@ffffff@t0Lå‡Ó.  n  6      V?Gÿ ‘ÜÿÅ?lW  *M?Ñ_äùAÐ_A}ô@©`Lôª@q\Æ"…@e›sjíÓù@BK $Á‡yYESOPEN STAR CLUSTER
-›ESO 281-24       @¯ÀÝØgG	@­ì     A¸@q÷ÎÙ‡ÀFQë…¸@uô±¯Ç1HÀ0žsI§@=p£×
-=@.áG®zá?ðÌÌÌÌÌÍ@^²ˆñ{q  $v  g  ì  ?q™Æõ	£M?É94±z @2Œ:^N@ÉŠF¢kY1@k71›ÄÓQ@2žõž¿@@nO)Dx$è@&Dò8 MYESOPEN STAR CLUSTER
-§FSR 1785         @­ú%ÏÇŸ@¯à     Aff@qr° ÄœÀBx“t¼j@vhÚ~!ÌCÀ-YxÖ¶¼?û333333@,£×
-=p¤?Áë…¸Qì@U|fffff   Ú    
-Í  í?tëÜ?·Úg?×1örYZ@&Ð·’¡Ê@Å™¼)-®@g}Ó»ƒ@/KkãHç@fùo×Bl§@¸à4þ‹YESOPEN STAR CLUSTER
-©Andrews-Lindsay 5@{8¦ä0†@¡â     @À  @q‘\(õÂÀ¸Që…¸@;¼xG€!Ì¿åžŽ*¬¢?ù™™™™™š@"B\(õÃ@.³33333@b´,IÐ\  š  ´   Ç   Š?B'Â·?’x¢Ì­¨?Ûà”äòè@ý®`v¹Û@Ÿ Ö£+v‚@e£Üú=nC@m«²¼ôóo@(ÃNƒÀYESOPEN STAR CLUSTER
-ªBerkeley 79      @v£ãRNË7@£     @Ù™š@q“Â\(ö¿òzáG®{@?)¾—4~÷?íeíVà•?ìÌÌÌÌÌÍ@!.záG®@1      @S5£Ý€†  Þ         Í?C|šj µ?«¼¯~!?ä´WBÿbÌ@óû?°û@•Jýsl@]"Œ*2=	@g:…6—q@ Q½Ú$‘þYESOPEN STAR CLUSTER
-«NGC 6694         @zI.‰nà@›P     Aë…@q•n—PÀ"Â\(õÃ@7àÄ©ˆ,áÀ=}•˜>æ?ô(õÂ\)@"Ñë…¸R@AõÂ\)@b•Èw	}{  Þ  ¡   ¬   ƒ?0À€ì0~?1ài8“?Úv.«9@ÿDežJBq@ ¨¿8¡¤
-@fËâì@¶˜@{ŒO)K@Ez(ÌîYESOPEN STAR CLUSTER
-®BDSB 125         @¾d]’åï@º+     @À  @q˜E¡ÊÀƒÀ=p£×
-=@=õ?aéÔ¿‘5§ƒ]É±@\(õÂ\@1Y™™™™š?À£×
-=p¤@aªF5=  E³  5•  ¯  	6?”a‰G-?Ò2ám#6@ÄÛ´€ @»Ëþzåº@]Åºê¼@$Ct`9…Ý@Y¬¹|@ŠÚñRçYESOPEN STAR CLUSTER
-°FSR 0098         @Á‘|ç„û@µ     @Ã33@qžn—Oß?ãl‹C•@@„ŽÑ£n¿?ò 8Å?A@333333@4B\(õÃ?Ýp£×
-=q@[ÂƒAW­€  P—  7Ö  k  7?†Ym$fu?á8›|w@#½ogt@´õF|î-@VU>=X»Ñ@|£Ö@jaˆxx«@K02¶ÇYESOPEN STAR CLUSTER
-³NGC 6698         @ eá8m"+@°'     A33@qŸ•$ÝÀ9àƒn—@"z™ÕáUÀ%ƒQPn@áG®zá@'\(õÂ\?øQë…¸R@]nHÈ1 ¡  6  º  Û  ¬?qçêG	c?»inÐxÉ5@EB‹ÙH@×ôý@@y†Jh»Æð@AvÄL1“^@]Â¹ü­âF@p°íZz2YESOPEN STAR CLUSTER
-´Basel 1          @aññ@™     A(ö@q ›¥ãSøÀuÂ\(ö@;V(Îäâ¿ÿ±sa.?ã×
-=p£×@×
-=p£×@!=p£×
-=@SîŽßó¾  U   á   p   >?#Çí£K ?‘|K®°?É£xcŠA„!B„@±™±y¯@xTäñÉ)@pQ’¯þV¬@ÕT÷Ï›YESOPEN STAR CLUSTER
-¸FSR 0101         @tQe‘ñwy@™ä     @ÜÌÍ@q¤ñ©ûçm@"Ðå`A‰@A’|Ù{©#?üe ^¿?æffffff@!Ç®záH@2¸Që…¸@UÈ¿“<V  Þ     à   €?)‘äs‘b?Ÿ‚zjrX:?ÙÚöV)±A       @¡³³õmâ@gTª=Ê:à@z×j}(9B@M*§»¼¾YESOPEN STAR CLUSTER
-ºCzernik 38       @wT ¥u÷Z@›Œ     @é™š@q§&éxÔþ@×
-=p£×@B”±}Qˆ@®ÈÆ?ðQë…¸R@"\(õÂ@7¸Që…@]Õ‰¯pkV  5     Á   o?-Ã…Z+?’Êu/‡¢?Ökáž¸'ŽAsP¸'5@£©+z/Æ5@jçeÁ|ÎE@yÖ9û¹"@ú&Ú@ÍYESOPEN STAR CLUSTER
-»FSR 0094         @oè¤è:UK@ *     @À  @q§$Ý/¿ðZ¬1'@?Ø%I~t¿¾WÜ&kÅ.?ñ¸Që…@\(õÂ@=p£×
-=@Zªû’Ó    v   ‹   c?6 ¹D?’Ã;Áá(M?ÓÿZ†¤>õA¯Ö R¿[@¦@C-Î¸@n*;ÉlçF@k±Æç|@ìL±OÂYESOPEN STAR CLUSTER
-¾FSR 0088         @£YIm@¦*     Aë…@qª‹C•ÀÀƒn—@=»\O`o¿û¯6ôÚØ{?ð£×
-=p¤@&®záG®@"£×
-=p¤@RçD*Á  @  l  ž  š?P4T@ŸÑ?¾íF“‰ð?ô´WBÿbÌ@ãû?°û@…Jýsl@M"Œ*2=	@mÌA G†ô@ 
-@É2êñYESOPEN STAR CLUSTER
-¿NGC 6704         @pIØ~{ÿJ@¡     A   @qªýó¶E¢À×
-=p£×@<6ÛïìÚÀÂ¾lrïó?ç\(õÂ\@333333@ €     @QDD¬{¢  ©  b   Ä   š?:!J¤àë?§C‘úz$?ßp_ª)@ú˜ï`jc¾@œW›ÄRì@cdK|ÝÑ@gà&3Ÿó?úÄ®YESOPEN STAR CLUSTER
-ÀNGC 6705         @¡+¸A>ã@›X     A{@q«ó¶E¡ËÀ¸Që…@;IY”¶ÀFXàl?özáG®@0s33333@S0£×
-=q@dTó/t€    m  #  è?; €ÊoùY?­ù˜äIñj?ø¤²Ê¼Æ@àÉqO¼Ú;@ã\'E@Hzgª5a@”™OÑ÷$@"ŽIMYPËYESOPEN STAR CLUSTER
-ÁNGC 6709         @j<›{iÞ@Ì     Aff@q­‰7KÆ¨@$¨õÂ\)@Eñ>a‚(@ÎÂd`?åÂ\(õÃ@ (õÂ\)@3™™™™š@`O/öèÂ  Ò  ¡   u   =?-ƒdÝé?ØKÝÔR?È¤²Ê¼ÆAÉqO¼Ú;@±ã\'E@xzgª5a@ŠW):§Q,@á34 YESOPEN STAR CLUSTER
-ÂTeutsch 146      @ÜíÐ2÷@±K     A  @q­ÎÙ‡+?Æffffff@@‹m€à}à?³ &x#¤¾@záG®{@$=p£×
-=@…¸Që…@mÑ·i*  	  –  »   ú?kVä*>)?Š³ÐßWF?é?Ô$¶ì@ðbMÒñ©ü@‘utnŒº?@WäK˜s@S}àØ 4@3ôéþ•¯YESOPEN STAR CLUSTER
-ÄRuprecht 146     @r’ªhîD@›     A™š@q±ãS÷ÎÙÀ5Â\(ö@,1ú)ú*À#Qˆ1M		?ò=p£×
-=@ £×
-=p¤?ó®záG®@`ðê1)ï  Þ     “   J?/M
-3:‘?Šæ¯Ëã?Íå,Ó 4¾A¬ùÁºÐ@­}Á7G©P@t-ŒQš´@uqˆŠÏ?B@Ã÷x•ý!YESOPEN STAR CLUSTER
-ÎPoole J1855+10.8 @£¶ö'ÏÇ@±i     A™š@q¼\(õÃ@%ŒÌÌÌÌÍ@Ez^KÀû]@P€MàúÐ?û…¸Që…@.úáG®{?ÑG®záH@Sæa@ê‡Ÿ  Û  v  µ  ý?lcñAð²?Ñý0\ÈŠ@	Ç’iÎ@Ð	ÅÏ@q†Ù@@7f6æ÷tw@f†Î0:@Æ›d%ÀìYESOPEN STAR CLUSTER
-ÒPoole J1856+10.8 @s.ohÇÞ@±%     A™š@q¿‘hr°!@%‹Æ§ï²@E„ÙÌº|3@MÂ:iI@p£×
-=q@ÌÌÌÌÌÍ?ë×
-=p£×@YœÞ(†ª¸  ½  c   í   Œ?[ë4G§?•ÄÒda9×?ÜG}n=™­@ýAÔAÔ@Ÿ-+W²(@eT¸è	Zf@FõúŽeë²@rgöÔéNYESOPEN STAR CLUSTER
-ÔESO 524-01       @qiË;=@¥Ø     A  @qÂ° Ä›¦À:ó33333@"'xú– RÀ)ú®Ciß?òffffff@×
-=p£×@=p£×
-=@U5”S€Œ¢  U  ±   ¹   b?F¦Úge?›	^@•É+?ÓË¤™÷ë’Aåà§/9@¦DÕÐìø@ny&èÊI@XÍr0+@1&%ÅéYESOPEN STAR CLUSTER
-ÕNGC 6724         @Ÿd_
-D¼’@²Í     A™š@qÂÌÌÌÌÍ@$ÔzáG®@Egn_	L8@—I<äIÞ@	™™™™™š@,Që…¸R?ÕÂ\(õÃ@a$oEŸð¯  W  e  ý  i?onºW[•ý?³;¿°ñ˜Œ?ÿ(]ÚÕ=ã@ÚæFˆë«@|KÙUÑiœ@C\?DI7@`$&ÐŠ«@aœ¡íYESOPEN STAR CLUSTER
-×FSR 0034         @k§3â¼@L     @ð  @qÊí‘hr°À:ËC•%@"Ô™„¦@À*±ÿ|›?Ýp£×
-=q@záG®{@"Që…¸R@IMEbàŸé  ð  8   ç   ‹?/{PáÐ)Æ?¯‘;+æÒþ?ÜÇ‘FK@ýw¶T¸,4@Ÿf–yzX0@e|aÒÃ@lÐ2”Lè?ì¼~)'YESOPEN STAR CLUSTER
-ÚNGC 6735         @uÒ>»qzi@¡J     A£×@qÒ(õÂ\¿ÞzáG®@@Æ”¾ãùÀêmÉQJ @      @!ffffff@®záG®@qyäc^ƒ  r  Ž   h   J?;ûGY)¦?mjeœ$T?Íå,Ó 4¾A¬ùÁºÐ@­}Á7G©P@t-ŒQš´@lÒî(3ú@;k2LnYYESOPEN STAR CLUSTER
-ÜNGC 6743         @—*„é™¥@¡X     A™š@qÔí‘hr°@=PbMÒñª@N2(ä6@%ê¦¯Û?ìzáG®{@.Ç®záH@\(õÂ\@T¬FÙ‡ã8  z  ©  »  €?BçÀg¢ç?Æ{z®&@ (ÙõÚ¬@Ù™™™™™š@{G…ì»ã@Bª!Ë/@†hC>lzö@/OÇ¡YESOPEN STAR CLUSTER
-ÝFSR 0037         @ž›`òp@¥.     Azá@qÕ•$ÝÀ:‘ë…¸R@#¿Üø;WÀ+™”Z@?ñÂ\(õÃ@+úáG®{@p£×
-=q@U
-q§ô  ù  ¸  )  Ý?T +yªˆ?ÈÒUf*ä@üÕ-X@ÖZ=Ñ3W@wÑ{‘”U@@KçÊ`N@xÕ,¨Jrí@ˆ!@gYESOPEN STAR CLUSTER
-ßBerkeley 81      @ŸÔ+kÑ@ª’     A  @qÖzáG®¿Ýp£×
-=q@@×~À2úÀÍ.ofÓy?ôzáG®{@,Š=p£×
-@333333@ShOÙ8IÔ  e  M  ˆ  |?`dØfHØ?ÏÖ@Oj»@…¼•Q?@Ò^"p€’ñ@s’™}(@:Èƒ%¤lê@pj¤g]a/@ è+²ÿhYESOPEN STAR CLUSTER
-âNGC 6737         @q@ì°Í@ŸÔ     Aff@qÙXbMÓÀ2ˆr° Äœ@1s%kF¿À%SÜWåíb?ü      @£×
-=p¤@…¸Që…@f&ƒõq|
-  ð  É   n   G?8sàÇÄ'?9<ÿædY?Ì®éG–@qAØV‰›@®¼Â+1s+@uÏŠ ¨s@lEà%Æ0@&4=æ¤YESOPEN STAR CLUSTER
-äESO 397-01       @w}f
-`@¡>     Aë…@qàn—OßÀ@²\(õÃ@¡›qáßÀ0úÔK78˜?ì(õÂ\)@!™™™™š@(õÂ\)@T¢ÕJr   À  0   ù   ¶??]tñ·??§!Ud/D¼?âa«!A£ã@öhh@—û\j×Ð@`hŽ<UöÅ@kýzçS÷â@úSë5YESOPEN STAR CLUSTER
-çAlessi 56        @Œ,‘°—ØÏ@¶q     A	\)@qëOß;d@#.záG®@Eœ
-l‡Îv?îåÇüä!;?îzáG®@%\(õÂ\@õÂ\(ö@@ßåzCÛQ  Ø  q     ?qÎE›m'#?áõê´ý@d8ÀŸDÎ@ÕUUUUUU@v»šEG=-@?§¸N€@IÇñQÜF?ÙMP¦YESOPEN STAR CLUSTER
-ëNGC 6755         @‚Ä´€“f@Ÿh     A   @qïC•%@hr° Å@CL‰Ä¿'ý¿úþña%4@¸Që…@%.záG®@¸Që…@ks`p|¶Ë  B  Ç   «   |?<L°LÍ´?…§§.«Ö	?Ù£xcŠA „!B„@¡™±y¯@hTäñÉ)@yâ	àîW@0éË˜¯YESOPEN STAR CLUSTER
-ìNGC 6756         @khùÍ“ø>@ž|     Aff@qòýó¶E¢@Þ5?|í‘@Cc#×Ú‰¿úüRÐ:Þ?ÞzáG®@×
-=p£×@Iâ\(õÃ@HØG+¿;~  \  *   Õ   µ?2ö±™ù?³ï”œZ?âGÐ*ëz2@ö¡<ÑSr@˜G¶eè@`ÃZ^ìÑ@m •xzŒ?ëµ%DKŠÿYESOPEN STAR CLUSTER
-íBDSB 11          @mä[¸/@ Z     Aff@qòñ©ûçm@cS÷ÎÙ@Cñ=¿Z­¿ôv%‘Í?Ü(õÂ\)@=p£×
-=@G®záH@E®Tû’  @  |  %   °?4H„ ÿBÖ?¸ö~õz'2?áÆ‰[<©½@÷EÑt]F@˜Ì¨K“ˆ@`÷Á¡MB@i÷Ú‚?å ƒ·ÁYESOPEN STAR CLUSTER
-îFSR 0107         @#­ó°¾@¦>     A™š@qô1&éxÕ?ø—Oß;d@B'æ°„º7À	µ÷¯‘[#?øõÂ\(ö@(\(õÂ@õÂ\(ö@\Agó`  	>  Ã  ]  M?P>Pš@o>?®/¯ˆíÈÙ?ðÐé7
-«@è™Àö‰œ@Š6ä¢ê]œ@Qï™+¨‰ƒ@p¦LçWùñ@ë#Æ¢ðYESOPEN STAR CLUSTER
-ïFSR 0067         @»B;$@¯Þ     A™š@qö‡+JÀ+ÌÌÌÌÌÍ@6xmÁ¥7À$ƒ>w <@333333@2Ñë…¸R?í¸Që…@bTªõ¤ÿO  =@  .³  ¸  ý?v’ynd]?Íµ nÑØ@•åo+N@ÂPþ#Æ0^@c„˜|»©o@*µYlñ<ö@sÙÒÅ›.»@*xœÌ®YESOPEN STAR CLUSTER
-÷Riddle 15        @t¥é£Üºf@±     A  @qü—Oß;@-ª~ùÛ"Ñ@H-r	ób5@£Ñ¦€?×
-=p£×
-@ €     @20£×
-=q@0„ÃSD±  Ô  ž  (  ¶?Z[}VuîZ?ë	½^Š²?öP»µª{@â´­+@@ƒî¤'›@KE¾Ò*YÝ@ISŠó2ì?¸}¯Ë~YESOPEN STAR CLUSTER
-úFSR 0124         @Çõ(‚? @§¤     A  @qëº^5?}@*}p£×
-=@G<‰«|ÿ@º)uÂï?è      @)W
-=p£×@#”záG®@IÄq™L  	9  ¡  Ï  o?P‚Z?Òg/»
-KÞ?ÿuî½×ºö@ÚLn &7@|³€€@C,ƒ°î…	@pYâaÄ!?íTP('ì×YESOPEN STAR CLUSTER
-ûFSR 0123         @š˜¢PQÏ@©Ø     A(ö@qþ›¥ãSø@(™™™™š@Fø‹&bSÿ?ðûÎµM?úáG®zá@-™™™™š@Â\(õÃ@Z0<l·ë  µ  
-$  ¿  7?WÛ°ä B?»õky¹¡?ü¡ûÌk+˜@Üå\Ž¬y @~Ê¢çþø@ENSÊ@r
-N`R¿a@ÉLBúÍYESOPEN STAR CLUSTER
-ÿESO 282-26       @r¿îûSþ@—”     AÂ@rõÂ\)ÀEP£×
-=q@v0lþDlºÀ5ÝºÐ/l‚?ê=p£×
-=@ ð£×
-=q@ =p£×
-=@\{à¦½  Œ  -   Ë   N?$KETO›¡?ê~3õì?Ï‚Ü9ÏÏA
-A¤A¤@«ú–|¦r®@s$¥ñõ;@}a)&\[@ŸuJüÑYESOPEN STAR CLUSTER
-NGC 6775         @n ›“|‡@ŸP     A™š@r33333¿í$Ý/@A÷É?”À?óü÷‚?í¸Që…@\(õÂ@=p£×
-=@Wjr©Ù^½  "  M   ‘   ]?1ET°¨j?”IOe¥1ô?ÒÉúšJ¨A`X@§wTì¬¢?@p8˜¡0Æ@lèÂ{>©@œ¥H¼mdYESOPEN STAR CLUSTER
-ESO 231-30       @¬ÓMÿtA@©˜     A  @r(õÂ\ÀI½p£×
-=@už?ÇõòÀ8¾-MÏô?ÿ
-=p£×
-@0°£×
-=q?äzáG®{@^‰k±k  ö  C  b  K?cR~<»Ÿ?ÆWõ"@¿¿àù>Ë@ÍÐòA°U¹@oÅ¬ümÐº@5½:¼å@x4n0U@íÂö(YESOPEN STAR CLUSTER
-	FSR 0149         @´€&7ñ@´Ý     AG®@r‡+J@7úáG®{@L’°~YvÊ@§Š|ŸO?øzáG®{@6ffffff?äzáG®{@M‹-ÁIuŽ  .  (  R  ?tgüí`s?ñ6øTMsC@!ÓvÖg¾–@·4ðÅAþ@Xº¬+sîm@ ës{Ûçú@pfî|*?ó–ï¦±ìYESOPEN STAR CLUSTER
-
-Berkeley 44      @ŠZ­•z+@žè     Aff@rí‘hr°@3‹Iº^@JšÊƒÅ¶¥@
-Á/s{Ç‚?ó×
-=p£×@)™™™™š@$LÌÌÌÌÍ@`)ÐD¿ö  Ì  l  ¦   ý?8O¤X¨è?£tïôÐ?ées'4 @ð0‘µ^@‘@u.úÒ@W›|³åì¦@‚ÄýÍžíì@t?œYESOPEN STAR CLUSTER
-ESO 141-47       @ç„¼à@§<     A¸@rIº^ÀLó33333@u/^š¢p5À:2Ê{°@\(õÂ@&úáG®{?ô(õÂ\)@hr±v`  ã  Ê  l   í?R®ÌÍ“›G?“bŠiäø?çï¶Ä˜î@ñH_
-Í;@’jb@1@Y3|zéœ@kÖ~1»”@*Ô`ÝYESOPEN STAR CLUSTER
-Berkeley 45      @u˜ÐöÛ1@¢p     AÂ@r~ùÛ"Ñ@/q©ûçl‹@I©ÕGÈŸ?ò ±Œ†Ð?ØQë…¸R@"¸Që…@G®záG®@@›(š¤0  2  %    0?;„qrGèÅ?Î6únž?î´†Q‚F@êò†¼¡¯(@Œ·µÓ?Í@S¥œÕ·ÅÊ@k.ñ…4ù#?ØÁ°7Cm{YESOPEN STAR CLUSTER
-Alessi 57        @nU&ýi‡¾@­ª     A
-ff@r#•$Ý@/^¸Që…@I˜b*,?è¥ªH‘?ôÌÌÌÌÌÍ@¸Që…¸@®záG®@Q§¯¢&)!       Ó   x?PTÛÛ@†?¡„þï?¤?Ø=FðÇA@¢/®Ò—W@hâ×¹`>Í@N…DÚ?ûû¡Œî7ƒYESOPEN STAR CLUSTER
-Juchert 1        @~÷3ûEøˆ@£š     A
-ÌÍ@r*=p£×
-@)U$Ý/@GÝŒýæ[D¿ðîÏó|?áG®záH@$(õÂ\)@2ffffff@F2[´üNr  P  ¶    <?@ÄÆÈ8÷ü?ÆÒò¿Q‰?ïêH[v“@éìŽ•3Ù@‹Ÿì`JW@Ræ\/,u@n&v•!¡?æ©Qåº«YESOPEN STAR CLUSTER
-(FSR 0134         @tïrpT’[@£\     @à  @r1ë…¸R@0å¸Që…@IÖ–¨iÎ?â¤¾âY×?áë…¸Qì@"      @¸Që…@GN‰£%Q  ¸  Æ  J  ?A±mâZIü?ÁÙõùyz?ë9â3¥`@î‘1«ð·g@ID~Óó@VI;tV0™@h™ö­´”ã?èb(ôÌ–YESOPEN STAR CLUSTER
-)King 25          @p-$’kÁ@œ     A33@r2     @+ffffff@HnªP[Š¯¿íè½âp?ñG®záH@ Ü(õÂ\@(×
-=p£×@_7kM§¿  †  h   i   G?,Á	VË%ê?‹_Ž’š¥Z?Ì®éG–@qAØV‰›@®¼Â+1s+@uÏŠ ¨s@t‹SÚeq@”Ÿ0RÒYESOPEN STAR CLUSTER
-+ASCC 102         @[)½âJä@—p     A=q@r2Ä›¥ãT@=õÂ\(ö@O¡°òHc»@²«ŸqA´?ÜÌÌÌÌÌÍ@ffffff@p£×
-=q@Nð“t¼j€  K   Ý   {   Q? Ä1Ÿž?œ-$8Óe ?Ð\â†bA	H°üÖéà@ªñNŠÿ@ro$‰PÆ9@r›™–?õ|aŠûŽYESOPEN STAR CLUSTER
-0FSR 0118         @‡ŠØ1Ìª@¦†     Aff@r6Ù‡+@ (õÂ\)@F½O"ÀÒ“–†Á³?è      @&ffffff@õÂ\(ö@JÔXpòòk    M  µ  ý?Pª¬ÁtL?Í	~æ|Ä?ù´-ä¨r‰@à$6Qz7@&mWùcø@GwÞ
-Ú‚¤@l%Ü*Ú?ð'Ð>æÜ…YESOPEN STAR CLUSTER
-1BDSB 157         @Š‰qœåU°@µ­     @È  @r8(õÂ\@0TzáG®@I­K¬'À¿‹=L¶+ó@®záG®@'záG®?ç
-=p£×
-@a=KÕö  Ì    Ñ  >?oéÞØ‡Xp?£L]L’a?ðþÿƒäû@éÂÑNä¡@‹sqÖfÛ@RÈ.âÙ‹+@P!Îí±®Ð@­tš˜ï¤YESOPEN STAR CLUSTER
-5ESO 525-08       @Šçó4Xiƒ@¤     A33@r<¸Që…À7—
-=p£×@.2j`u•À2A„òÚˆ?ë333333@%õÂ\(ö?ÿ
-=p£×
-@QáÞà¬e  •       š?Iýã6
-?Àð›#í£_?ô´WBÿbÌ@ãû?°û@…Jýsl@M"Œ*2=	@qû¡¼BÎ?ú1ÓS\$YESOPEN STAR CLUSTER
-8King 26          @V²(Ñ5@£Ò     A
-áH@rC×
-=p¤@-¾ùÛ"Ðå@I4Ê¦¡ ¿õ;†“1ˆë?àõÂ\(ö@¸Që…@(€     @E‹“–úO  '   ´      b?;ÝãA‰W?©ä“;:?ÓË¤™÷ë’Aåà§/9@¦DÕÐìø@ny&èÊI@S\[·0V?äÖ0³Ç'¼YESOPEN STAR CLUSTER
-9Teutsch 40       @{ûi±£Ù9@¨œ     A×
-@rExÔýó¶@7LÌÌÌÌÍ@Líø Â¿@ôƒ«gw?æzáG®@$¸Që…@ffffff@F—GHŽÆ  ®  c  Ø  ?FÞŠQæC¼?ÂÍµÃ!d?ê÷^ëÝ{¯@î®€zºë@Xáþ
-õW@V^™£ÀðŠ@bÕN‘wb?æèzè}YESOPEN STAR CLUSTER
-:FSR 0133         @£OrÃ"³¬@¥ü     A£×@rFýó¶E¢@/"Ðå`B@IŒ§ðó!¿ò²8uŒ½?ÿ…¸Që…@1B\(õÃ@4áG®zá@bÎ*[{  `  ë  V  L?QÔE÷_½’?µbt.éÃ?ý±væóá\@ÛÝ+‰”÷@}±‘J®@DP°ð†Û@ŠvZþþ@?ÂÒN•YESOPEN STAR CLUSTER
->NGC 6802         @s[Þñè× @›¼     AG®@rJj~ùÛ#@4E¡ÊÀƒ@K«#%˜4Ð?íZ2(æ$Ý?äzáG®{@"8Që…¸@@ê=p£×
-@R—ÈbÿQ  ¼  «   Ý   z?*>çÓŒ?¤ ¬³Ò?Ø¤²Ê¼ÆA ÉqO¼Ú;@¡ã\'E@hzgª5a@x8~îÙ?ÿò‚›rYESOPEN STAR CLUSTER
-@FSR 0083         @vïyhC@°u     Aff@rKhr° ÅÀ%'ï²-@;Ño±£ÞÀ*ÿL•^@?ñ™™™™™š@Â\(õÃ@£×
-=p¤@Jís¢lH1  á  +  h  	?då`ï&NÆ?»æó"&?êÃ¨ÿ1(M@îéÇøEŽ@xw€qpê@V‰ÑÝg@EºFÑ©bâ?ðF¼è…YESOPEN STAR CLUSTER
-BKronberger 79    @€æÚwï$@ªR     A=q@rW™™™™š@2‡+Iº@K–‹J¨¿ãZüñ€Ø?åp£×
-=q@$ÌÌÌÌÌÍ@8E¸Që…@D‚š½cÍ  U  D  £  ¥?QŽøµˆÞÈ?Ð†žÎç?õB‹ÙH@ãu[ÑÉEî@„¼$‘Ú(@L_«)³©€@aÅ²2¨Ò‘?âáü·YESOPEN STAR CLUSTER
-CFSR 0142         @€ª­Ý¯wF@¤Ú     @ÌÌÍ@r^Që…¸@4      @Kâì'OÒž¿Æ¿’c÷@…¸Që…@%=p£×
-=@…¸Që…@u'çÀž`j  «  ‘   ž   ^?Bieî·?k20J@í?ÒüÌçFž
-AÉˆ+“W@§7lˆ.#@oÄýšò²6@m‡|¹cY@D%3”VYESOPEN STAR CLUSTER
-HTeutsch 27       @ˆïõ™-ª@¬      A  @rexÔýó¶@2±ë…¸R@K]sîå]™¿óÜ»³•¼B?Ýp£×
-=q@'£×
-=p¤@Â\(õÃ@:[(FÿQ>      J  °?WƒÃÒu?îRü®Ô}@ÕÛno=@Ñ[_u'@r~—ŠÍ{‰@9NÒ³×u@dìRWY0?Ï.N9ü YESOPEN STAR CLUSTER
-LKronberger 3     @kXÖR„Öö@¬Ê     AÌÍ@rl     @n—Oß@F:È	¢’¢ÀÓp5"@
-¸Që…¸@£×
-=p¤?ÿ®záG®@g^†MšN  o  °   n   L?T:gq·Å?w=WùˆÎX?Î´†Q‚FA
-ò†¼¡¯(@¬·µÓ?Í@s¥œÕ·ÅÊ@L)äsxQ@(ƒ›#˜rYESOPEN STAR CLUSTER
-MSaurer 5         @jLL@V"@´œ     Aë…@rnV“u@9¦éxÔýô@N…ºö¨¤–?û—ÿûa/ˆ?ôzáG®{@¸Që…¸?÷333333@IQf\vx  g  >   Ö   Å?`¯^é1u7?´:~Âím?ãåND@ôÊ¸‡%¯n@–'åŸÈ­û@^QnÅ?ùW@@ÚWoW
-ö?ìõðúLÍYESOPEN STAR CLUSTER
-OKronberger 31    @×Q‡8—­Ã@È¤€    A  @rp¼j~ùÛ@:@     @NÐæË	‘¢?þlr¦×@=p£×
-=@HØQë…¸?ÕÂ\(õÃ@LÚÃñb  ÕÎ  †í  T:  3Ý?›	1¦p]@ì÷˜‚Få@DóÄgJÁ@“¾…(eí@5
- M§Ñ?üÊY¹¬@líPŽÅ‡D?ò¯µî­Ñ YESOPEN STAR CLUSTER
-PFSR 0132         @¾ÄÀ£@®œ     A™š@rp° Ä›¦@,Y™™™™š@IŽxpXÀ(rœ×|e@ Që…¸R@)G®záH?ø£×
-=p¤@ZÙdéÒJ  	  ‘  y  u?[aú;¤®?°mÜç¦?òÖuÅ_€@åöd4)-ü@‡g9îL@P3£ãU@ci)ªw@-åZ`ŸåYESOPEN STAR CLUSTER
-YCzernik 40       @¦È³¬e@ª¼     AáH@rz‡+J@5$›¥ãSø@L¼8­¹]X¿ñË]ˆÃ0$@
-õÂ\(ö@2aG®zá@ÌÌÌÌÌÍ@id.3ãd„  Æ  ¿  a  Q?Zò~&§?©žc§“1?ýòNËI–@Û¡y½„ˆ@}qöndÑ@D$ÖUK¿#@zæÑòd‰@,ðŸ‡ÒðYESOPEN STAR CLUSTER
-[NGC 6823         @{h}¼ó9ø@›     @àQì@r|\(õÃ@7LÌÌÌÌÍ@M³Jç¨¿Â-„tÅ%?æzáG®@$®záG®@*aG®zá@T+¤‰í1  º  Ÿ  P   Ù?1DcV¶º'?®K4¨ûœ?åêšÏ	W@òà%ÀK€—@”$8“øÉ@[†áS@€»´v@C/&GÛòYESOPEN STAR CLUSTER
-^FSR 0160         @t²Öø‚@¡â     A
-=@r‚í‘hr°@:ç®záH@OZNÐ*$Z?õ}Ñ¢?ßØ?î¸Që…¸@"Ç®záH@)”záG®@U qÎ¾ú  ‡  ã   Ô   ?:Ou“¿£?£ª`ÓÒŠ?ß¶’%¯#1@úÓùzK@›Ì÷\à£@coeHu@obxÆ´©Õ@þ¡RŠsVYESOPEN STAR CLUSTER
-bKronberger 4     @~T²X“4@­&     A™š@r„›¥ãSø@<*Àƒn˜@Oì>Eå¾X?þJ©^â=?æffffff@%(õÂ\)@ p£×
-=q@CYt¶ƒš-  Ë  ã  t  Â?R´Pˆ“î{?Ð°Úf¶æZ?ö¹rº¤¢@â4Vxš¼ß@ƒf—GÕ@J‹Å»þ¸@]þ\•8âÁ?àÎS\”â‘YESOPEN STAR CLUSTER
-lTeutsch 7        @«¼¬ 	T@³A     A
-ff@rŽÌÌÌÌÍ@8AG®zá@N_ý}ËÙ&¿â{B÷×?öffffff@4ÌÌÌÌÍ@(\(õÂ@MK¡ã¤  ‡  ‰  ó  i?lò|ù2ß„?ç1+³g|@òñl^%@ÁF	ü}Åù@bh!%›@?@)0ÚAÕ~@nÜ.|˜÷?óB7ØcÆYESOPEN STAR CLUSTER
-mFSR 0154         @“röc`ô@±*     @à  @rë…¸R@7VE¡ÊÀƒ@Mþ®C­ËÅ¿ñ\# ÒüŒ@…¸Që…@,=p£×
-=@¸Që…@g€ Ð  ‹  ž  Û  h?càÎ­?ž˜ž&ÄÎ?ò-õ4•P@æÁlÁl@ˆ?“}ÉÊ@P—:{•3@cB:ig¦@'þ ÞV*YESOPEN STAR CLUSTER
-nFSR 0158         @hQ&ú–êV@¥¢     A{@r=p£×
-@:
-=p£×
-@O*x7XÞ?ÐðëŸ{?øÌÌÌÌÌÍ@(õÂ\)@"¨õÂ\)@\Ý|ˆu™`  é  f   €   B?>KM¯°G?‡éˆõÆÿÎ?Ê©ÎÚþ›AÁð|@°ˆp2b[
-@vŸ¬×­t@]…y¦ÍD@³=k±×†YESOPEN STAR CLUSTER
-pTurner 1         @ußgv@Ö@¥Æ     A×
-@r‘ÎÙ‡+@;K…¸Qì@Oº¿'O^?êZv½§Ry?å¸Që…@#
-=p£×
-@¸Që…¸@HlV£>©Ü  ë  Ë  C   Ñ??cþ^@X?¹ƒñòL?åÃX	@ó™,c@”â<áSÑP@\“ÌÙÅ|É@eÂÍ4:×Û?êÆo:5k•YESOPEN STAR CLUSTER
-rNGC 6827         @w8LbÃ’@°`     AõÃ@r“hr° Å@57
-=p£×@M!5Áö@zÀ¥ön#¾t?ñp£×
-=q@"£×
-=p¤@ë…¸Qì@JÑ È#õ  ±  R  …  ?WoOýø×?ºÅO2FË?éôÑLÚÄ@ïààà @û·ûùtn@W=lÐùAž@RoòÝÒ?ð#Ê5?YESOPEN STAR CLUSTER
-sBDSB 15          @`µW@¥n     A	p¤@r”Ðå`A‰@:ÕÂ\(ö@O’Ó#Ú£¯?Ühâ„Ç?Û…¸Që…@™™™™™š@G®záH@@*Õßm‡  6   Ú   Ë   ~?8k3ü.¤?¸)9!+ŸŸ?ÙsŠ|Ñ
-OA AA@¡Qû¢k@g³xCH @Wš0V~d?×w6_ 0¤YESOPEN STAR CLUSTER
-tDias 7           @q,¡qòÇ@¥Ø     A¸@r•ãS÷ÎÙ@5*Àƒn˜@M%Dñ½‡À×ˆÔ9q@
-£×
-=p¤@!(õÂ\)@®záG®@nµ1©kä  C  [   g   1?>%ÝÔ5<m?ižÉ`!?ÃË¤™÷ë’Aåà§/9@¶DÕÐìø@~y&èÊI@aéì>œ#@5)É:t¯qYESOPEN STAR CLUSTER
-wNGC 6830         @t™ÁaŽbt@œÄ     A®@rœ     @7™™™™š@N•Uð¿üÙÞK½5Z?ó333333@"ÌÌÌÌÌÍ@
-=p£×
-@`ÎR™=‹  î  `   ±   Y?,6…©j²?‹J~´Ã½?Ñú?GèýAà\p@¨…Rýp@pÆó:Ð´h@xO„Kú!•@[*%JâµYESOPEN STAR CLUSTER
-{Dias 8           @¥wÉÎoxÔ@²±     Aff@r ° Ä›¦@'A‰7KÆ¨@I+^˜ätÈÀ\1zíÓ?ê\(õÂ@0ó33333?õÂ\(õÃ@Aã¤´êØ  ü    {  ç?o=¤±PL?ùri/ßf@Åˆß!¤ì@¼Á¨(pTy@^¤–ã–‰@$÷F2ÏT@gfê’üu?Üºô\¶¿YESOPEN STAR CLUSTER
-|FSR 0143         @ ³ì–þÇÔ@§ò     A¸@r ÌÌÌÌÍ@2|í‘hr°@L&è’ cÀøÕaÀ?ö=p£×
-=@0À     @™™™™™š@Wb»uâ¢  µ  Ñ  é  ?S§ï§zF\?ÆLŠ©À@±É£¡Áá@ÕPP@vbýQõX@>¡	±ˆ_@{ÙtÃÚTJ@ŒoÃC_‰YESOPEN STAR CLUSTER
-}NGC 6834         @]‚TVóé@ ú     @ÿ\)@r ÌÌÌÌÍ@=hõÂ\)@PlÆNâÃÝ?ó	=In¼?ðÌÌÌÌÌÍ@õÂ\(ö@-(õÂ\)@Xê¾$ýÿL  c     f   <?2ÅsOl?‡LáãœM?È=FðÇA@²/®Ò—W@xâ×¹`>Í@añ:Œö“î@ÞcÛ(ÏgYESOPEN STAR CLUSTER
-~Harvard 20       @i+êçÎz@™     A ÌÍ@r¤ÌÌÌÌÍ@2R° Ä›¦@L$'ŠoðÀ¸
-N°+?Û…¸Që…@×
-=p£×@1”záG®@K¥ÒJOjÞ    5   Ã   r?$‹ò|Z?«€ð {:Þ?×d½!µA÷}Áp@£$·ÎŒÕ4@j2&rJ]@v÷ÔÐÀ?ñ'ïN˜HYESOPEN STAR CLUSTER
-NGC 6837         @~À¡ð*­¹@ªN     A¸@r¤fffff@'c×
-=p¤@IA…>Î³ÐÀ Ðš‰@ \(õÂ@#½p£×
-=?öffffff@_³Ó‰TB<  8  *   ü   ?NÏõmš µ?•ä!}$.?Ü{3Zéí@ýµnÀt@žôµ|=…@e-þgLvÏ@`© §5B@Žš|¥”SYESOPEN STAR CLUSTER
-ƒNGC 6839         @¥EgÚ6@µÔ     AÌÍ@rª£×
-=q@1Þ¸Që…@LÎwþÀÖ&ã§Ü@(õÂ\)@1Ü(õÂ\?äzáG®{@fäJé›\  Ç  ­  Œ  ?rB®Ë±Ç?¯»³üu]¯@ EÏ2µp@ØùÁœú@z1|ÐGŸ@B5—š_f%@c+a×q@%íüÚNYESOPEN STAR CLUSTER
-…NGC 6840         @‰ÁÜ?r@£&     Aff@r­G®zá@(B\(õÃ@I•_+ÀÛÀ ‚ækþtp?õÂ\(õÃ@(LÌÌÌÌÍ?úffffff@\œãÜ§³L  ¬  ´  —  :?F%è\¹?«žÕöe`ä?ï¶’%¯#1@êÓùzK@‹Ì÷\à£@SoeHu@vê($î8Ò@_è®WÝ‹YESOPEN STAR CLUSTER
-†NGC 6843         @xÄrÔ$y@°h     A(ö@r°Ä›¥ãT@(]/Ÿ¾w@I©†:ÐpÀ ÓÐ´(„‡@p£×
-=q@"záG®?îzáG®@`s¼™Î  °     í   ‘?XúK€‘·¯?‘Ã(4Yµq?ÝJ›:—@ü?Ãøð@žôáéÎ\@d˜kèÜä†@QG´ÒŒn@L±7ÏYESOPEN STAR CLUSTER
-“FSR 0163         @˜žZ³@ª¨     AÌÍ@rÁdZ¬@9k…¸Qì@Oþaù#Ài"ñ9V?îffffff@.úáG®{?ÿ333333@L·çý™[  e  u  /  7?TdÚë:Ø„?Õ-øðQW\@Ç»{À@Óè\©ÖQ@u6¯°Qh®@=\éãÙ@s8†õ”?ò•WîßüYESOPEN STAR CLUSTER
-—Berkeley 83      @°å#hNžT@¾     A
-õÃ@rÅÂ\(ö@<¡G®zá@P…fäX¿îOFä¬N@333333@8W
-=p£×@G®záH@LK¡Ë  'ã  f  V  
-=?€8^YDÜ?ð=«– D/@ ‹lÁŸ@¹Ñ‚@Z¤ýàº@":íˆzÛF@aýP7]—Ç?ñ÷pŽ"®qYESOPEN STAR CLUSTER
-¡NGC 6858         @of	]\S@ x     Aë…@rÌ     @&…¸Që…@I¯Uo›ßqÀ$¢Ÿ©I¸ø?æffffff@ ™™™™™š@"æfffff@QžØ§·    k   Á   k?1$^Ä‚- ?¢Ô§ö?Õ	ìÚA#ãJ+¿@¤eSbG£@kèÞËüC@lé¸‰òÉ:?úRÌÌÑä¥YESOPEN STAR CLUSTER
-¯ESO 461-38       @‰ÐM¸‚@¢Ä     A™š@rÓ‘hr°!À>ZáG®{@&zÓð9ÈÀ<0fYªÅ?éG®záH@&W
-=p£×@
-ffffff@Põ²ªÇÅ      Š  s  ™?D­ Ôíxq?À%ô7÷H;?ô§iÇÔMô@ä‚Ñef@…Wá•ŠÝn@M4È˜uõÔ@t*[ƒÓž¸?ùÒ†J”gYESOPEN STAR CLUSTER
-±FSR 0136         @*ÎÛ3g@²ü     A™š@rÕº^5?}@'âMÒñ©ü@J#:ÒLè<À$öUQ1†?ú\(õÂ@(\(õÂ@333333@QœøIÔB>  è  É  "  ¸?d>þ–õ?À3PYÙ?ö8+²Ô,@âžA)äž@ƒÖí	BÓ¥@K&›®Ð%@VÚ®jJ$M?ûÙ³‹OYESOPEN STAR CLUSTER
-¿NGC 6873         @™“D1s¯@²±     AÌÍ@rÞ¸Që…@5
-=p£×@N8ù)]hÀ—]FúœS?øÌÌÌÌÌÍ@/™™™™š?åp£×
-=q@P´,Lf9  8  	Ð  i  9?eõ¥Ž¯?ÐœE-¾@Ô¨öëé@ÓÜ=ÀÜ@u)…_67@<õX‡Dl@c²#áÇ2?ù_ž\jYESOPEN STAR CLUSTER
-ÀFSR 0170         @n˜ªêKz@¯n     Aff@rÞÙ‡+@;ŽV“u@Pz\mäÌÀyÉ+É±?ü      @0Ù™™™™š?å¸Që…@Vnf´—õO  …  ò  :  ¾?]ŒÊLfiÞ?Åg$ Kê@¹›à”ä@×VÊÂum@xÞ¾§°eð@A!¹Ôh5@p[Ðž×š>@•ñ,!‘ÝYESOPEN STAR CLUSTER
-ÒNGC 6885         @¦È³¬e@­€     A¸R@rð¬1'@:ƒ×
-=p¤@Pcòì+›À9¬b¹O]?úffffff@3=p£×
-=?û333333@Vˆm/º“  d  r  #  -?^°r;³2+?ÐLÎæ-‹@
-ýÕ©s@Î§'ƒxïz@pT÷Ð²@6Y>AjNè@x5¿oâ|@ÊyfÚYESOPEN STAR CLUSTER
-ÕFSR 0178         @Ô»)¨ýk@­Ä     AáH@rô° Ä›¦@=í‘hr°@Pø%â‚ÔÀ¿Pè4û?èõÂ\(ö@+½p£×
-=@ë…¸Qì@E0ž®  
-.  X  /  ø?X¤~ÎÎ?ÝÅ½~…¶5@0‚Óòñl@ÕŽÒ0Xí@vøÜ‘uÌ¤@?oaUòÖ@h·UHüÊˆ?ä­=ë¾YESOPEN STAR CLUSTER
-ÖFSR 0166         @nÓSlÐã3@À     A¸R@röj~ùÛ#@9tzáG®@P7mzŽ4 À»Q`ÿO?ï\(õÂ\@!B\(õÃ@=p£×
-=@ZŠœœœœ    Ÿ      U?)X«Æ³7-?Ž¶8s¡¼þ?Ñ+g•7¯—A@©¬ºH8]0@q‘¿Âë@s(H3ôÄ@žûÆ®ÞYESOPEN STAR CLUSTER
-ØBerkeley 52      @v¾£üì5@³S     A  @rù÷ÎÙ‡@<ð£×
-=q@Pùj¿ÙÀ	o¬¶m>?ðÌÌÌÌÌÍ@#õÂ\(ö@(õÂ\)@EãÍ³O   @  n  æ  ?Y–zK˜?Á¯²å.ó?ì•Q@À@ìòn\D¿Æ@ŽØ2•!B@UÕ³Òúv@N\e«ŒJÛ?å‚4Ëa2TYESOPEN STAR CLUSTER
-ãMelotte 227      @©ÏdÓèÿ@¡T     A33@s33333ÀSÂ\(õÃ@s¬æ°ºŽÀ>	¹þè¾@##×
-=p¤@3ffffff?À£×
-=p¤@‹ÏÄó”´Ë  H  T  c   ê?G3v]ýh¥?gÕìN•ÓW?ç¢%*ÂÛ@ñ@’§ýÄLt@Y†2–¾œO@‘Õµ6ŸwF@q\%ìPA	YESOPEN STAR CLUSTER
-ùAlessi 11        @ƒ¬©™¬@§:     A\)@sn—P@2c×
-=p¤@Mò*§eÙŠÀ$˜=+´£@…¸Që…@&½p£×
-=?÷\(õÂ\@mÕI5“›Z  A  o   »   ‡?JÕáWsË?‚R¦óns?ÛDïÎßøÂ@þW:Éåt@ *bSeÛÜ@fø¤ÇTD@kGý¨°@3ù±Î×ÃYESOPEN STAR CLUSTER
-þNGC 6904         @ÆÒÍh c@¦Ð     @ù™š@s\(õÂ@9¼(õÂ\@Pˆ·Ö3óàÀIHÃ2ñ?é™™™™™š@&ž¸Që…@¸Që…¸@LAgó`  Ç    û  l?H+?Ïz…æ?ÂÞž¾ì?òa«!A£ã@æhh@‡û\j×Ð@PhŽ<UöÅ@kúµ5Œ«¦?ñë#Æ¢ðYESOPEN STAR CLUSTER
-,NGC 6938         @„±»fJôA@¢ø     Aë…@sJõÂ\)@65Â\(ö@P:Z`ÑsÀ%žáê2ä@ ÌÌÌÌÌÍ@'ÌÌÌÌÌÍ?ê=p£×
-=@fLÑ/¨FÛ    #   ê   ¤??½ŒØ:…‰?ÙÃŽPá?àEÏ2µp@øùÁœú@š1|ÐGŸ@b5—š_f%@vfYì¶‰º@&R‚\di\YESOPEN STAR CLUSTER
-4FSR 0140         @¤hR7N@¯V     A33@sWn—P@#ï²-V@KqC“F¯>À2BXqqj
-?ï
-=p£×
-@1€     @       @Hðè8<©  3    	½  c?c6FiZÜ?èOì"Ø@¤.i	ˆ½@Ä
-¥¨@ª@e[9G''@-9[E¹ÔQ@qÀ6žì`?ëì/™KßYESOPEN STAR CLUSTER
-BNGC 6950         @Žö§Ò¹T@©      AG®@sdA‰7KÇ@0¡G®zá@NŽõÖ
-P!À.a‰w•¥>@ë…¸Qì@*…¸Që…?÷
-=p£×
-@ko[i%·  Ž  ò  `   ¥?PlúNÞ×f?£²Å=ê?àª Åˆß!@øÓ0Ó@šsæ·ÄÜ@bWtŠÃ@nzë:ø~Á@0ä@:¼âVYESOPEN STAR CLUSTER
-GFSR 0183         @pªùOÖd@¨@     A×
-@shõÂ\)@:–E¡ÊÀƒ@Qa›"øÈ*À#éž'Dç?ðzáG®{@!×
-=p£×?øQë…¸R@Qy#]mD  J  Û     „?Ae|ç¼¢?¤bÛç²b?Ú©ÎÚþ›@ÿÁð|@ ˆp2b[
-@fŸ¬×­t@^Í–0‹þy?úI ‚«Ö‡YESOPEN STAR CLUSTER
-IFSR 0184         @ƒP!–eQ*@£Ü     A{@sjáG®{@:‹Iº^@Qc„6ÊÞÀ#R\k¿¾$?æffffff@'£×
-=p¤@záG®@LfefQÆ  G  S  	  G?>£%ùûëÅ?ÁÄ
-+¬æ?ðƒXT ˜@éOÕ@Š²]ðñ@RCÙ”$²@t)rÎ»ù?ò- DYESOPEN STAR CLUSTER
-OFSR 0151         @ŠÒû8ðÓ@£&     Aff@sr1&éxÕ@'Ù™™™™š@LÉlK†6üÀ2|Ø>£@õÂ\(ö@)záG®?ñÂ\(õÃ@k—¸N¶  Ø  ˜      —?BÎl+RûL?Ší"CRuˆ?Þ€N™¥.ä@û 6@l€Ù@œçÂv›@cÆëÜ8$X@xhË.€n%@1d)×²MYESOPEN STAR CLUSTER
-ZFSR 0161         @{¹½kF’@¬H     A  @s”§ï²-@0äZ¬1@O„$þ.À1cX¹ÅÖ1@ÌÌÌÌÌÍ@$uÂ\(ö?ýÂ\(õÃ@wÜ-ÓN[  Î  ß   …   B?Mær;;’?am=Á¬É?Ê©ÎÚþ›AÁð|@°ˆp2b[
-@vŸ¬×­t@]É¼Î<W@Iþ£¨vYESOPEN STAR CLUSTER
-«ESO 236-07       @±¦7´žÜ@¦ê     A  @t×
-=p¤ÀIî¸Që…@u›ºÔ©âßÀEûzœ+@G®záH@3Å¸Që…?ÔzáG®{@e/‚»`ÝÅ  '  í  '  æ?ZôxjÃNö?¼W­uŠ÷R@	2çù¢@Ðjµœyû@q~i`ëh@7ðC÷“yu@…/|ÖÔ@$%™¥y~ÜYESOPEN STAR CLUSTER
-ÄNGC 7084         @`¾÷$pYœ@“¬     AÌÍ@t0áG®{@1“33333@Q}nþ­JèÀ82ÐLÇž?ÑG®záH@áG®zá@"¸Që…¸@FHñ
-  4   ¶      ]?^BÄµÜ„?©§@Eê¯í?ÒÉúšJ¨A`X@§wTì¬¢?@p8˜¡0Æ@~ª½É¹ãH?åõBÜnêÂYESOPEN STAR CLUSTER
-MWSC 4116        @z¹”èÆî@›<     A  @W³33333ÀMü(õÂ\@pÑ(ÎÿìÀ;53¶È³½?ã…¸Që…@&záG®@G®záH@Rõ˜  Å  ¯  d   ¼?'–ŒÚCô?®.KýZÊ?âüÌçFž
-@õÉˆ+“W@—7lˆ.#@_Äýšò²6@‚´„’­j-?ý=}ß²,YESOPEN STAR CLUSTER
-MWSC 4119        @ƒP!–eQ*@¢V     AÂ@Z õÂ\)ÀLp£×
-=@pºÇ•ÛÀ4§ÊÃƒ?ð£×
-=p¤@)W
-=p£×?îzáG®@VÙ˜4.‚€  Ò  x  k  ?9®u¾„x?­fËí¡?ê¬BÖu@ïÀüð@êÝøc@W&]‚Ä±}@{,âf•ì@oÑÛÎáÊYESOPEN STAR CLUSTER
-*MWSC 4138        @v-¤mÑþ@Ð     Azá@a¸õÂ\)ÀR`     @r­WBÐÀ0*ATø\…?ôQë…¸R@#ÌÌÌÌÌÍ@(õÂ\)@a)f¸ÕÐý  ‚  ~   ¦   h?0ZËZ`¹Ö?€»t È?Õè&ßßA±;±;@¤ûðÝ|Ö@l¶øé–oÙ@yåÌ¡i@pç¥…ØYESOPEN STAR CLUSTER
-,MWSC 4140        @¡5ÚY]‡@£B     Azá@bÌÌÌÌÍÀS^¸Që…@rP£¼ÎºjÀ2ˆckmp@
-¸Që…¸@1èõÂ\)?ñÂ\(õÃ@qw¹‹¤[ù    ´  =  W?Fš1•rÊ?”OAœøÃB?ñR0¸î @çâ%QZO@‰s=ÒL@Qi»ƒò¼¼@ˆ½¢ý@;dfè|%YESOPEN STAR CLUSTER
-JMWSC 4170        @†÷g7†@˜0     A{@i†vÈ´9XÀC—®záH@s‡Bý¤¸@6Ø°…üØ?ñ¸Që…@'ð£×
-=q@
-=p£×
-@aÒXçÊ    í     È?)9jò~›?˜©~Ï¶p?ä3sP’W@ôzáG®{@•ÒÑŠ/èÏ@]ÝÞs~@‹àÏT¬@ƒðYESOPEN STAR CLUSTER
-RMWSC 4178        @´OõÀIÇÑ@«v     AÌÍ@k$Ý/ÀFxõÂ\)@toú¬‹@-SPÛ8f>@
-=p£×
-@4:áG®{?öffffff@au,<Åì  .<  Î  ë  j?eæƒ:·T'?È¹:%Hö@o5Ï·@Ç¤c ^‘Œ@i1n¢Ò@1<´s¨º@~ãO·gê%@\f€ÍnÚYESOPEN STAR CLUSTER
-bMWSC 4194        @žep¹<¤ë@ R     A33@l_Ÿ¾vÉÀ1lÌÌÌÌÍ@uvÁï“ÃÁ@A@Äüó~!@£×
-=p¤@/.záG®?õë…¸Qì@o×Ü‚¯²  .       C?D|sF¬7ê?—`'œjÒ?ðO¢g[M5@é\»ãw®@‹©#™¥v@R}ÀÉ%nÜ@‰÷¹Åý?g@6Áÿ5)©YESOPEN STAR CLUSTER
-rMWSC 4210        @˜—îtËB@£      AG®@lþ¸Që…ÀBB\(õÃ@tírbß°C@0{I{@£×
-=p¤@+ÌÌÌÌÌÍ?æffffff@zæýN%º  ›  Ä  F   È?J#Àÿ[Y&?z/»-›Òu?ä3sP’W@ôzáG®{@•ÒÑŠ/èÏ@]ÝÞs~@~v '>@Nh1DïÁhYESOPEN STAR CLUSTER
-sMWSC 4211        @–°rKá„@¢r     A¸@m¼j~ùÛÀB¾¸Që…@tî ·ðƒL@.‚þðÕ›@×
-=p£×@+333333?ó®záG®@-…MZ]K  j       w?G{$ag?p¦”¥O[Ã?Ø	‘Â A5È5È@¢VÎ3•ùl@iaûñâ@~ðáókôß@UÑÅõé#YESOPEN STAR CLUSTER
-tMWSC 4212        @—Ó}u†@¡Z     Aff@m)p£×
-=À>UÂ\(ö@u;DÚm¬3@4ÁA“U ?ó…¸Që…@+™™™™™š?èõÂ\(ö@\SPµ”    ›  ù  è?F!f¶Ÿ8w?¶*<=?ø¤²Ê¼Æ@àÉqO¼Ú;@ã\'E@Hzgª5a@‚ -ßÒÒ@âÿà9HYESOPEN STAR CLUSTER
-MWSC 4225        @’;=A<z@£~     A33@m¢fffffÀ2NzáG®@uóÆ¼ä³®@;Š}y÷ Â?õp£×
-=q@(½p£×
-=?ó×
-=p£×@[±äô	Fˆ  
-&  =  {  ™?IéMf_(ö?±@5…Å?Š?ô§iÇÔMô@ä‚Ñef@…Wá•ŠÝn@M4È˜uõÔ@vëñëF²$@6î8÷YESOPEN STAR CLUSTER
-„MWSC 4228        @wo‘jÍt’@”€     A×
-@mÔQë…¸À>¨õÂ\)@us_ˆ¿–)@1‹Pß2ð?ê=p£×
-=@"×
-=p£×@×
-=p£×@`LÌÌÌÍ  {  µ   á   {? óMdìà?‘y˜?%›?ØØh¶Ì(A ¦
-h§@¡¾ ýà/¿@hGtÍÔˆ2@ˆ	ýÁL@Oü;ž\YESOPEN STAR CLUSTER
-˜MWSC 4248        @ˆáFY‚÷ä@™H     Aff@nf“t¼À=ç®záH@u«ˆïÏ…@.Á0Ó©(?ó
-=p£×
-@'p£×
-=q@¸Që…@bö~s¿  ä    /   Õ?2à€¼Ð¹‚?œœ”&?åƒ.õ°°U@ó:ä[W¼²@”}ÖÇvLÈ@\
-j+‹E@ˆvž;tý@ $"Í†tYESOPEN STAR CLUSTER
-©MWSC 4265        @£¶ö'ÏÇ@ Ò     A	™š@nè“t¼jÀ3'®záH@v[PõÅ@3Ûr.%`Y?ÿ®záG®@0G®záH?ìzáG®{@g¶• ì«  &  n  c  û?HO¼ÈÉ†ç?©®MŠ‘Ü?ùšRîRHØ@à(düw)é@7¿¡¦@G‘(¯ò¿@Š¨ž¾¶÷@)<´ò WYESOPEN STAR CLUSTER
-«MWSC 4267        @Á‘|ç„û@¯B     A  @nël‹C•À4#×
-=p¤@vOõÎn@3)Š3*4Æ@
-=p£×
-@3”záG®?”záG®{@i×SÎfL1  Tå  =R  [  €?{Ï/º‡E?Ä¸*7tÕ@=FðÇ@Á@b/®Ò—W@(â×¹`>Í@vUVŒL@-ùmD&LkYESOPEN STAR CLUSTER
-¿MWSC 4287        @œ{Ñ,îï@£¸     @ýp¤@oTÌÌÌÌÍÀ8uÂ\(ö@v7ÕP=©0@, “˜Š6t@¸Që…@+®záG®?è£×
-=p¤@r—ui=l}  )  „  ª  G?QèÝÄ‘u?.¡-ŒòÕ?ðƒXT ˜@éOÕ@Š²]ðñ@RCÙ”$²@|	¡æÖ¤@?Ý11YESOPEN STAR CLUSTER
-ÀMWSC 4288        @¢œ£‘|ßI@Ÿ(     A=q@oa‰7KÆ¨¿ÁG®záH@1ó´êbV@;èfÍ(6@	×
-=p£×@0ž¸Që…?ë…¸Që…@táìås/ê  @  Y  Õ   ?BK1Ó^LÛ?ŽE™J/[ù?íU îç5@ìqÇqÇ@ŽOx\^ü<@T½	zß @2ß¼è@C“Ë´%YESOPEN STAR CLUSTER
-ÁMWSC 4289        @†FÓu>@¡     A33@op£×
-=qÀ4ð£×
-=q@vmµú<ë–@/@m™Zì(?÷333333@%.záG®@=p£×
-=@a 1¸ï:ý    Ö  G   ¸?@E­&+5®?›µNA8?â•aí÷F@öBÈY!d@—¸ ú`˜á@`:å»®²@uñà^óŠ@TgÐ6†YESOPEN STAR CLUSTER
-ÂMWSC 4290        @¡»ºÍÝ¹Ë@¤ˆ     A{@otõÂ\)À"c×
-=p¤@!ë(Ëiè@6zÜõP@\(õÂ@.™™™™š?ÄzáG®{@qƒ3æÀ,ã  l    J  U?TGMßO?–Äk†*?ñ8UbÄo@è€`@‰™sêêß‹@Qƒà¦L{@~•*×É@;ˆrc†PYESOPEN STAR CLUSTER
-ÍMWSC 4301        @ƒ{Œè@•,     A£×@oÚ¸Që…@2\(õÂ\@Ce<ô›<@@[âÄõÛç?þzáG®@&Ñë…¸R?ýë…¸Qì@qâîGC¬¸  5  Ì   ¬   d?"oeI$\ ?u8g:Ì Š?Ô3sP’WAzáG®{@¥ÒÑŠ/èÏ@mÝÞs~@‡ÁpÏ.@<¸ªqÕYESOPEN STAR CLUSTER
-ØMWSC 4312        @p¾«X‰Zô@•      A33@p
-1&éyÀ3që…¸R@FbtPa@)Q‚lR—?ê=p£×
-=@ ”záG®@záG®@^`Æá„I  Î  ¯      i?#ŸÙWqÊ?W'ßU?Õ5ž®3AA88@¤ÈÇÌ­@lpöŠ·#3@€ºyâ¾»@ó0ÌÍÙWYESOPEN STAR CLUSTER
-ÝMWSC 4317        @…-!Î½ÿà@¢®     AÌÍ@pãS÷ÎÙ?ô=p£×
-=@5þœ˜ÁS@6ìPÎJ+Þ?ñp£×
-=q@%™™™™š?ö=p£×
-=@W‚ æ=I,  L  4  Ã   ÿ?DLw®S$h?­¶jèJ#?éÁ_Ó‡b@ð@‘Ñ…zèË@WlTY9@r'¦£:ùó@ÎB¶ÓŒÅYESOPEN STAR CLUSTER
-ýMWSC 4349        @¬õK§¤Æ@©     AáH@p\¬1'ÀLÃ33333@tÜ[EAÀ(žò‰h°?ø£×
-=p¤@1&fffff?ìÌÌÌÌÌÍ@X½+¼>e£   }  ª  U  ¼?aÛ²….¶?ÑM~öš|@š)ûX•@Ë	K1Ù"¤@lÏV…l@3¶6FÊ÷r@zž8»ïY@xÐ-ÏyYESOPEN STAR CLUSTER
-MWSC 4355        @]¤ë„Yë—@‘d     A
-áH@pjfffffÀ7ï\(õÂ@‰IÐ´@
-(~àjý?àQë…¸R@áG®zá@záG®{@W õúž(       p   2?Ï®ùw±?„$-îˆ^¹?Ä3sP’WAzáG®{@µÒÑŠ/èÏ@}ÝÞs~@‚ãXà@	Á5§YESOPEN STAR CLUSTER
-MWSC 4375        @±‘Ìm³îù@­x     A  @pÃÎÙ‡+@#®záH@AycjA£@1F<+¶Ø@£×
-=p¤@2s33333?ô(õÂ\)@cXìãc  )³  Y  ø  Ž?kXËó,¦|?Â)L9Î¿ö@pÓy!@ÌX³'õv@mòM£¶ûØ@4}JkÖ/@vOSü+Â@ ËüÛÉOþYESOPEN STAR CLUSTER
-MWSC 4383        @xµÝ­*ª@ D     A…@pÚõÂ\)@7ÌÌÌÌÍ@HXiù«þ@5k7•o»×@ £×
-=p¤@#G®záH@\(õÂ\@iÂ#µ\„  V      †   g?9c
-˜“)?
-i”Ø-6?ÔÎ29UŒ}Aâ,¼ä©@¥0|8t«@lþWJMU˜@sýÃà¹ûÞ@-ÈZ×ÚYESOPEN STAR CLUSTER
-8MWSC 4408        @€—W9Ú@ î     Aë…@q1&éyÀN…¸Qì@tãO/à¹äÀ3àÍI¥Ã@ÌÌÌÌÌÍ@#æfffff?üQë…¸R@pôjËmûü  ¬  Â   …   X?;Ð¯dXý?u0{JOÊ?ÑÆ‰[<©½AEÑt]F@¨Ì¨K“ˆ@p÷Á¡MB@s¨ßÊž—,@9ÎŸÖ®†ØYESOPEN STAR CLUSTER
-:MWSC 4410        @„EQåiX@¡4     Aff@q$(õÂ\ÀJØQë…¸@uJµl®›À0ÆÑ( @õÂ\(ö@$áG®zá?û×
-=p£×@u1vqŽ)    6   •   i??
-)¾C?p"­”ˆÅö?Õ5ž®3AA88@¤ÈÇÌ­@lpöŠ·#3@tö
-Ý5íî@D)P=bQYESOPEN STAR CLUSTER
-MMWSC 4429        @›úle ö@      A¸R@qnQë…¸ÀIß\(õÂ@uyðv‘·À2©:E(?ü(õÂ\)@-£×
-=p¤?è      @fýš©º  q  
-™  d  r?B·Ù2Ê"?¤PVvŠµ?ò¯<D ÷@æ#úwb@@‡—ÍÅÒíÙ@P$p@ä{Ã@ˆWï_µ@%ù‚q“íYESOPEN STAR CLUSTER
-{MWSC 4475        @a~­ïEQè@šD     A\@qð£×
-=qÀ>:áG®{@ìûìD¹TÀ0˜»åÿÜ?è      @
-=p£×
-@áG®zá@WÇ§ý  g  +   †   C?'y3Ó(Ö=?‹¢.ï—™?Ë9â3¥`A‘1«ð·g@°ID~Óó@vI;tV0™@køƒî×Ex@Â‰¢6ÏÏYESOPEN STAR CLUSTER
-„MWSC 4484        @ƒýàñlïQ@š     A¸R@r)G®záÀ9\(õÃ@*zÏU
-À1†‡¯…ß­@®záG®@%½p£×
-=?æffffff@~ŸÍb14  >  Æ   l   V?2mt¦ŒðÌ?a[Óòßm?Ñ_äùAÐ_A}ô@©`Lôª@q\Æ"…@ƒÓ©§j>@U|Ü	¬CYESOPEN STAR CLUSTER
-†MWSC 4486        @„C@;<ó@¡h     AÌÍ@r0     ÀN\ÌÌÌÌÍ@tÿHrM¶2À;X¼‹<¿}?õ™™™™™š@%k…¸Qì@=p£×
-=@_>ÉN—«o  ‚  Æ  4   Æ?=ëN ~ù§?l/ú—œ?ãÿZ†¤>õ@ô¯Ö R¿[@–@C-Î¸@^*;ÉlçF@uŒ'+	»4@é@@—YESOPEN STAR CLUSTER
-ŸMWSC 4511        @µ÷iÊàr@®ê     A  @rv\(õÃÀ8tzáG®@/«†|÷À5ea¹iŸ™@ë…¸Qì@1—
-=p£×?ÄzáG®{@kÛªÁÚ‚  0{  &K  D  h?s?D…ùwU?´Í6òx±ì@{3Zéí@ÍµnÀt@nôµ|=…@5-þgLvÏ@rm;›k|½@1¸9®¼¯YESOPEN STAR CLUSTER
-ÃMWSC 4547        @«È Yßï @°Ê     A33@rðÙ‡+?øffffff@Eí8ŸÝHÑÀ1'éÂÖT@@®záG®@1¸Që…¸?Ù™™™™™š@oži£äu   O  Œ  ‡  ·?mÒ´ïo[¾?¥åŽq±ÓÈ@Œ\°úËï@×’øCÆ‰Ã@yÞÇ•Z@A0¦´¨œ@o³qñ*ô°@5–’êóYESOPEN STAR CLUSTER
-ËMWSC 4555        @ƒòž¥ÚØ@›0     A{@s1&éxÕÀ&³33333@@‡DcÀ83TBîlw?ô(õÂ\)@&B\(õÃ@(õÂ\)@b«¨n+     ”   ÷   ½?2‰ã'R…¹?–š*cB?ã§ÝœÇ»@õ¬kZÀ@—ú-ÿ:@_™õ}¯
-«@ƒ´è–ç@KoOùÑYESOPEN STAR CLUSTER
-ÑMWSC 4561        @ƒ{Œè@žÀ     Aff@s…¸Qì@™™™™™š@H¬S„Þ×À1~mF™u?ú¸Që…¸@&\(õÂ\@záG®{@eá^èEî    
-   ÿ   ’?7 »úÖ¾?‹RÜ—×Ü?Ý}ÀúGú@üÀà@å-v;i@dtOŸÃf@~(û³’@%|»T¥À‚YESOPEN STAR CLUSTER
-úMWSC 4602        @gížt*¿V@“è     A\@s»
-=p£×@%‡®záH@M¥£ós™À6âMX¿æ?â=p£×
-=@õÂ\(ö@ uÂ\(ö@W<ìóa  ·  L      6?ãá¢¯ô?Í:Êþ6?ÅÐ¿Ø³-hAö„½¡/h@´4úè?RÓ@{¦¶Íù)U@‚V¿ë«Ti@ä”8¿YESOPEN STAR CLUSTER
-¥MWSC 5029        @_‹²;{!@ž„     A\@`m$Ý/À'O\(õÂ@m¯ÖóÖn@2îPÓC°î?×
-=p£×
-@ffffff@×
-=p£×@C¶Ÿ×§  Y   Ï   ¶   }?$ðØ,õüK?³r}2ó¥?Ù?Ô$¶ìA bMÒñ©ü@¡utnŒº?@gäK˜s@n!„á½?à8öäŽµ¹YESOPEN STAR CLUSTER
-©MWSC 5033        @nå„kj¹@—è     A¸R@`¿²-V@>'®záH@hW¥¼5ì[@CiÍˆcä?ë333333@#®záG®@
-      @\¥ÝÝÝÝÞ  %  y   Š   E?#+{#8?‹AH\}o?Ëà”äòèA®`v¹Û@¯ Ö£+v‚@u£Üú=nC@ƒIª¿/N@kqö7˜YESOPEN STAR CLUSTER
-®MWSC 5038        @dýPÎðõ@ž„     AÌÍ@aRfffff@7ð£×
-=q@i}øMM?@D¥'¸ ×?âáG®zá@!ffffff@ÌÌÌÌÌÍ@O( ¡S6  o     œ   P?""Ïñõc?žÎâ~îŠw?Ð(ÙõÚ¬A	™™™™™š@«G…ì»ã@rª!Ë/@r3JËIA?õÉWlmàäYESOPEN STAR CLUSTER
-²MWSC 5042        @Š™³Åæu@›ˆ     A  @aˆ¼j~ùÛÀæfffff@méÁäóÛÝ@<z&ÂË?ôÌÌÌÌÌÍ@-8Që…¸?ñp£×
-=q@cÒªG|  Ç  ²  0   Î?,eóÖ«™¢?œ‘à½·þ?äÎ29UŒ}@óâ,¼ä©@•0|8t«@\þWJMU˜@#êÊä-@ >Dïz^YESOPEN STAR CLUSTER
-´MWSC 5044        @r³Ÿ˜\2@¥R     A¸@a©¸Që…@=ìÌÌÌÌÍ@h”¥d4ž½@F}g~žš?øÌÌÌÌÌÍ@%áG®zá?î¸Që…¸@]IÌá;2  Ÿ  Ñ   ‘   E?4xÿ)ƒi7?Þ÷v>c?Ëà”äòèA®`v¹Û@¯ Ö£+v‚@u£Üú=nC@mø¦»,å@@šð£PYESOPEN STAR CLUSTER
-»MWSC 5051        @mä[¸/@•T     A33@bNùÛ"ÐåÀ¸Që…@nhÕN‡˜@@Ï#;„?æzáG®@"\(õÂ@333333@ZCgi©  l  ›   —   Y?O	jÎ?’–Í¶‘b?Ñú?GèýAà\p@¨…Rýp@pÆó:Ð´h@…ŒÐ‰z @ÕÙYESOPEN STAR CLUSTER
-ÆMWSC 5062        @¦°™]¯Ú@´p     A33@c"áG®{À"\¬1&é@oT6_¸i@B†¾uVÔ‡?ð      @7³33333?ñë…¸Qì@C¶=p»ä    –    Á?d©%:·µ?öªv)D4@J¸Í^ã@½>|„*D@_)›®Ã–@%RI2>·@s"W z­?áqw–YESOPEN STAR CLUSTER
-ÏMWSC 5071        @l>1ÈpeZ@ž´     A33@cÅÛ"Ðå`À=•Â\(ö@pàæà@8JG±2°î?ÜÌÌÌÌÌÍ@!áG®zá@	…¸Që…@Gž=À¯Ÿ  Ý     ¹   y?&™/ÒìÊ?±kŸI?ØpüÝsidA ìõkæœ@¢	4”4Å@h®0êžëÅ@sMBo0DL?é	þn!YESOPEN STAR CLUSTER
-ÛMWSC 5083        @¥k%ùÜé@²ü     A33@d×
-=p¤À@3×
-=p¤@qEfÇK
-@8oÉÜ5n´@ õÂ\(ö@58Që…¸?Õ¸Që…@V~q†bZÆ  »    ^  â?c‡Ù¸ûœ?Î“p¶@	£xc@Ð{Ÿ)¸êâ@qnôAÐ@8í0·›ò@qÆý£°Í°@¶Jë±,
-YESOPEN STAR CLUSTER
-àMWSC 5088        @’‡2¸3>@¦     A™š@dåë…¸RÀ@C×
-=p¤@qpÓ¶˜6@9‰%t¼ez@=p£×
-=@.™™™™™š?äzáG®{@w
-²¸‚  
-G  Ÿ   ß   œ?F\A|‰q?y<ûQ1Üƒ?ß‚Ü9ÏÏ@úA¤A¤@›ú–|¦r®@c$¥ñõ;@{<‰˜ºXÊ@GÔøÇ=ÈYESOPEN STAR CLUSTER
-üMWSC 5116        @sÏNÕ6{÷@™X     A=q@eØ¼j~ùÛÀB+…¸Qì@qð#^s¦@8Hâ5ö7?áG®záH@#B\(õÃ@333333@Q*äê™(x  i  Ì      «?(Is7_~ì?®+éÓÃü?áEB‹ÙH@÷ôý@@™†Jh»Æð@avÄL1“^@€oYˆ Êç?úu‰Š¢7YESOPEN STAR CLUSTER
-MWSC 5122        @ƒ”é1ážÏ@žl     A  @eÿ\(õÂÀ<ÌIº^5?@qØ<úúö½@?Ç¬úëÇØ?ú\(õÂ@(8Që…¸?Öffffff@eû‡#¼É  I  î   ã   †?1%õ8D3?Œ… —ÍP?Û9â3¥`@þ‘1«ð·g@ ID~Óó@fI;tV0™@‚	“¥ÅØ¹@%°íbjö YESOPEN STAR CLUSTER
-BMWSC 5186        @†,ŸDÏ[s@žl     A33@hª$Ý/ À@|(õÂ\@s3ÓyU{@=À©‰šÁ¬?ó333333@'ð£×
-=q@(õÂ\)@_È/U˜§@  #  ò  B   Å?4a7…®5?Ÿ¯0•šSA?ãåND@ôÊ¸‡%¯n@–'åŸÈ­û@^QnÅ?ùW@ŸmÙÙæ@«œlô‡4YESOPEN STAR CLUSTER
-GMWSC 5191        @c~‘i
-u|@”˜     A™š@hÓl‹C•ÀAQë…¸@sEfëJÖß@<p¹í*k?åÂ\(õÃ@…¸Që…@ffffff@ZšÐ_·æ„  V     j   3?dÀ´nö ?ƒ¯½<ôÐ?Äš|L©9A@µeEæÙ¢ý@}Gé%ïˆ@}<ž3fÜ@Å¢´TÝ¯YESOPEN STAR CLUSTER
-_MWSC 5215        @•x*ûh@¨\     A£×@iÐbMÒñªÀDëçl‹C–@s›W\ÉÁœ@3âF¥@       @+™™™™™š@záG®@`‰Êwß(  ª  	¦  &  h?R¯w›)Š?«Ìæþg(œ?ò-õ4•P@æÁlÁl@ˆ?“}ÉÊ@P—:{•3@rD4à“ø@Ž5¬ÂYESOPEN STAR CLUSTER
-hMWSC 5224        @“õYk©Ô@P     A{@jvÈ´9XÀ?µÂ\(ö@såê½'@=ADéeª/?òffffff@,
-=p£×
-?öáG®zá@_œEÞ(dn  è  Ò    `?:Â4bñ¢?¯'I?ñÆ‰[<©½@çEÑt]F@ˆÌ¨K“ˆ@P÷Á¡MB@Š
-YŒ„ÔÊ@m"n¼åìYESOPEN STAR CLUSTER
-oMWSC 5231        @{™ gi@ž<     A
-=@j„(õÂ\À3w
-=p£×@tm4g_’@CæÜÁûÒ?àQë…¸R@#áG®zá@£×
-=p¤@K.¥DÒƒî  £  g  £  ?1L‚û¿o&?¹«HºBÈ‚?êv.«9@ïDežJBq@¨¿8¡¤
-@VËâì@¶˜@x›db¸?ð•GXB0YESOPEN STAR CLUSTER
-™MWSC 5273        @y£D~Gà@˜ü     A¸@lX‹C•ÀB.5?|í‘@t´˜Ò6u@2ï'ÛÑû?ä(õÂ\)@#8Që…¸@¸Që…@TQ òÖû|  ×  Ž     ¥?*° %4?¨AÏa2âi?àª Åˆß!@øÓ0Ó@šsæ·ÄÜ@bWtŠÃ@€×K!b``@‡Pbß—YESOPEN STAR CLUSTER
-ŸMWSC 5279        @€ÔCœHl@ $     A™š@l|å`A‰7À5m‘hr°!@uVt)¡$N@>Æá„ ¦?ó\(õÂ\@#õÂ\(ö@áG®zá@^3qsîZç  [  ¤  8   œ?7mÑ®0~?˜çXu/¢?ß‚Ü9ÏÏ@úA¤A¤@›ú–|¦r®@c$¥ñõ;@uÂlPJ‚ê@x¹4YESOPEN STAR CLUSTER
-©MWSC 5289        @z,²qVKI@š      A33@lÚvÈ´9XÀ@>¸Që…@ubÙû(@4K÷×÷6?ï®záG®@#¸Që…@Â\(õÃ@^ˆ[žýN&  Á  Z   Î   u?,Ó‰Xú¡?• ¤k(‚?×¢%*ÂÛA@¢§ýÄLt@i†2–¾œO@~|?¾ŸÊ@ìNáË”YESOPEN STAR CLUSTER
-¬MWSC 5292        @#­ó°¾@¡È     A×
-@lù²-VÀ:|¬1&é@uRu$´1I@8—öÌº”Ü?ó
-=p£×
-@(uÂ\(ö@ÌÌÌÌÌÍ@Zöjrÿ_  Û  ‡  `  c?C?È~Y§?¯ÄA½k%6?ñíQÌ½èG@çxmœ|	@ˆ—¼'V@PÓnæí)@zìÎ§ikó@P‹f`|YESOPEN STAR CLUSTER
-¯MWSC 5295        @~T²X“4@›     AÂ@m5/Ÿ¾wÀ*Â\(õÃ@vë(Úc@@­úÂ¢Up?éë…¸Qì@#úáG®{@=p£×
-=@W­ªQ€…À  ²  Â     ²?2`=È??¥Ö^ÀÚå8?áú?Gèý@÷à\p@˜…Rýp@`Æó:Ð´h@}èX‘x.ø@	*½X„HYESOPEN STAR CLUSTER
-³MWSC 5299        @³8e6¬“@±y     Aff@mo
-=p£×À=      @ub¿0Æ™@4™5mrí'@®záG®@/×
-=p£×?á™™™™™š@_=æ­r»  ,}   P  
-L  O?{\Þ(^ž?Í¶§üx¹Å@c‹2 ƒ@ÄJ/<µùX@eží¶„^@-–AÕ~-@gŸëšW×¶@èž$©&YESOPEN STAR CLUSTER
-µMWSC 5301        @¢%y=_C-@®Ü     AÌÍ@m‰/Ÿ¾wÀ;‚\(õÃ@u|µ‡ˆž@5CE¿4×’?ü(õÂ\)@*LÌÌÌÌÍ?õG®záH@Vùò]+É%  É  ë     v?l†øuÑ?Èn‘I·X@^ô#¶@Ò}ú8¡ÎM@s´ˆ	2Å€@:öñÔþˆ<@d«tIJš@²^ðþÇYESOPEN STAR CLUSTER
-½MWSC 5309        @zÈÆ½S@šð     Aff@nMG®záÀ8p£×
-=q@uå·ÞQò@3°üŠÁ8?ð      @"æfffff@¸Që…@]é+\¡  ¯  |   Ô   t?.Ç
-—d?•xþ4?KY?×no>ÈyA§¹a{–@¢Ð92 ù@i¾†ã¨@|š„šåN@[Þ:KYESOPEN STAR CLUSTER
-¿MWSC 5311        @cg£pEP™@–     AÌÍ@n\õÂ\)À77
-=p£×@uù\EQ@46–k¯¼?ÞzáG®@Â\(õÃ@áG®zá@Q0Që…¸     	   ‡   P? ÖÖ%÷?œ¯‰ÖK?Ð(ÙõÚ¬A	™™™™™š@«G…ì»ã@rª!Ë/@v—4œL5?ú†=´yýYESOPEN STAR CLUSTER
-ÀMWSC 5312        @¨àe!‘Së@¦¼     A™š@n\£×
-=qÀ/ë…¸Qì@vVXo5`Ð@9/þ-?û®záG®@0W
-=p£×?éë…¸Qì@^§þO˜÷t  O  ^  ø  –?[-î^tÀ?ÂñUa.ºf@-ËÖ>`>@ÑØõg.J½@s¯é¥¨@:Q²Ìc#@}f¸ÄËa^@Àç|yêYESOPEN STAR CLUSTER
-ÄMWSC 5316        @s.ohÇÞ@•¸     Aë…@nyë…¸RÀ6^¸Që…@v˜5:\@4-¿üÜ?Ü(õÂ\)@!p£×
-=q@"Që…¸R@PR¸[l^  ±     ï   ž?!+O}Ëœ?ªVý$€³D?ßêH[v“@ùìŽ•3Ù@›Ÿì`JW@bæ\/,u@‚YpE—Éé?÷ëw:DŽYESOPEN STAR CLUSTER
-ÉMWSC 5321        AC¼†^>j@½ç     AQì@nÖ§ï²-À!ÚŸ¾vÈ´@RhjF™@:œd²‚7?üQë…¸R@;¡G®zá?Ýp£×
-=q@GØ°…ržª e +k H! vW?È­•)üo•@G}| Ãò@rçV¥Ìn@eâD…G«@QÈJ¼³?Ïé?îa@hKûSë4?é†…¯¸Î`YESOPEN STAR CLUSTER
-ËMWSC 5323        @{©iù#u@ž     A  @nØzáG®À®záG®@ØÂ3<„@;™–Ñ­¸?â\(õÂ@"ë…¸Qì@£×
-=p¤@OÝ<¸Ìz  R  æ  ©   ÿ?6t{¯Ùj%?·U¥ºï&?éÁ_Ó‡b@ð@‘Ñ…zèË@WlTY9@v…\_æá?õ«ÑtöåYESOPEN STAR CLUSTER
-ÕMWSC 5333        @€IŽÄ²#é@žÀ     A™š@o‡33333@0æfffff@A»`~¸”M@A@•õ®?éë…¸Qì@$áG®zá@™™™™™š@U9Rke&·  ©  l     ¸?4É0
-¯U:?ªú-xã%?â•aí÷F@öBÈY!d@—¸ ú`˜á@`:å»®²@z=ú<õ†@8Gà(¥YESOPEN STAR CLUSTER
-ÚMWSC 5338        @×ðÐð¤F@¥ž     Azá@p&éxÔþ@(5Â\(ö@@2ê äaú@<jñ-­>?ö\(õÂ@'Ñë…¸R?ó
-=p£×
-@ZFè^ã0ˆ    (  D  (?K‚¯7øX,?®«Uøi||?íå,Ó 4¾@ë¬ùÁºÐ@}Á7G©P@T-ŒQš´@qFÁnAâ@þvÝËTYESOPEN STAR CLUSTER
-ÜMWSC 5340        @z¹”èÆî@•D     Ap¤@pãS÷ÎÙ@³33333@:üm¥ei@9Yß$º#¸?â=p£×
-=@#æfffff@×
-=p£×@U˜°©#    <   ú   ›?#VžÙ„-•?§¹j¯]¡?ßO&LV|m@úm¦Ðm@œ(ÌO5@cDCê[T@ˆëƒÊö®@ï•Ä¡>YESOPEN STAR CLUSTER
-àMWSC 5344        @x4PH:@™     A¸@p-ë…¸R@G®záH@9ÍÍ”ý÷@7deGÅàë?ô      @"×
-=p£×?ÔzáG®{@dÃýrF:  H  R   ™   ^?'â"ÿIËN?…1vý€óî?ÒüÌçFž
-AÉˆ+“W@§7lˆ.#@oÄýšò²6@€·£$0@"C`’lpYESOPEN STAR CLUSTER
-âMWSC 5346        @p¾«X‰Zô@ž€     AõÃ@p4ÌÌÌÌÍ@²-V@7Äyqï)@5ç™àú«?özáG®@ ¸Që…@záG®@b:R¬ç¨µ  î  &   œ   b?5‘©=§¸l?†þ'¡i0\?ÓË¤™÷ë’Aåà§/9@¦DÕÐìø@ny&èÊI@oÌ&rlU@Ô‚m YESOPEN STAR CLUSTER
-äMWSC 5348        @…Rµ¥F.Œ@ªà     A  @p<n—Oß@+\(õÃ@AŽ •×»@:xà!Mè@…¸Që…@$záG®{?èõÂ\(ö@qYäî`¯  +  I   ü   q?U×á÷¢$¹?z¶ÊÈA(?ÖÓMxÎSA·!ûx@£PQ‚Ào@jm$†¨@`†–—|E@;&®,Z©YESOPEN STAR CLUSTER
-æMWSC 5350        @t9žhœ¾@è     A™š@pHzáG®@¨õÂ\)@:óxTëa@6[yõ,?ì(õÂ\)@!Që…¸R@333333@Wµh*_V‚  ¥  Ì   »   y?07=™?˜‰@K
-©¸?ØpüÝsidA ìõkæœ@¢	4”4Å@h®0êžëÅ@søB‚ŠÛ@	;4éÅ›°YESOPEN STAR CLUSTER
-õMWSC 5365        @kXÖR„Öö@¢d     AÂ@pÈõÂ\)@<Ù™™™™š@KÂÂ6.P@8]’„Ëw?áG®záH@ë…¸Qì@£×
-=p¤@G¨ƒä®†  [  $   à   ¨?9ºT6²?µò„N/¾¨?à÷±¨‹\4@øa†a†@™úùs¿!X@aÆš²v @en±3@$—?éËêÜ;ŸYESOPEN STAR CLUSTER
-÷MWSC 5367        @„½ñÎå˜@Ÿð     Aff@pì¬1&é@4¬1'@G5,](´@3[NhG}P?ê=p£×
-=@&Â\(õÃ@
-=p£×
-@T¯âW’/~  ¼  }  ¤  ?78˜C!ù?±xb^9ÐÃ?ê©ÎÚþ›@ïÁð|@ˆp2b[
-@VŸ¬×­t@|ç£V^Q
-@5·ÒÔ;3YESOPEN STAR CLUSTER
-øMWSC 5368        @¯Ùðë{·@¤J     A{@píÎÙ‡+@3rn—Oß@FÉäÒˆL<@3
-—f?éG®záH@$333333@áG®zá@O_cŠ“¾   b    ä   ?B/­žD¥}?·9!õj<ô?éÚöV)±@ð      @‘³³õmâ@WTª=Ê:à@l5Qß 	?öê8/YESOPEN STAR CLUSTER
-ûMWSC 5627        @j^îri¥@™ì     A  @P2Àƒn˜@4UÂ\(ö@eãË^©È À4Ü-æfyô?ï
-=p£×
-@#
-=p£×
-@ÌÌÌÌÌÍ@^&v±ó9   È  “   o   @?(Ø½x–:?„p/iî°?ÉÚöV)±A      @±³³õmâ@wTª=Ê:à@~´Ö—!¦¹@fûÙ°•YESOPEN STAR CLUSTER
-MWSC 5634        @s¸äËÄ„@Ÿ     A  @Q5?|í‘h@2Š=p£×
-@ff:P©À3<LÞ«Ä?ó…¸Që…@&LÌÌÌÌÍ?ùë…¸Qì@_˜ülî‰þ  š  <   Ã   `?$Ó×Tð\?‹-´¤BÈ?Ód8ÀŸDÎAUUUUUU@¦»šEG=-@o§¸N€@}>Ç$j¥H@hx¼ÚéYESOPEN STAR CLUSTER
-MWSC 5645        @€?÷ÍÓ@¢†     A(ö@RÍó¶E¡Ë@$ã×
-=p¤@g¾Œ„1œMÀ2Þ<s}â¼@\(õÂ\@*Ñë…¸R?å¸Që…@jPãX+\}  Q  ›   «   T?0ïùš½ž¶?€@¬]Þ°í?Ð÷±¨‹\4Aa†a†@©úùs¿!X@qÆš²v @}ÔI4nñ@/”2ÖYESOPEN STAR CLUSTER
-MWSC 5651        @èzÚ­ @£j     A™š@Sk¶E¡ÊÁ@\(õÂ@hlÿIÿ×6À3Aô¦—Ü?ó®záG®@*½p£×
-=?ð      @Y†§æ2  ð  î  )   Ã?5hó¬6®ë?£Ãe/ V`?ã±É£¡Áá@õPP@–býQõX@^¡	±ˆ_@zþPNúH^@>x+¹YESOPEN STAR CLUSTER
-MWSC 5656        @kûè[Q¯²@œÜ     AÌÍ@SÊ^5?|î@®záG®@hò
-0×¡À3Þ1 *ê?íÂ\(õÃ@#ž¸Që…@záG®@YöïäñÕ³    F   q   Y?"·‡ß_?"îÄJ,?Ñú?GèýAà\p@¨…Rýp@pÆó:Ð´h@zNJÐ·@BîåÍ}nYESOPEN STAR CLUSTER
-#MWSC 5667        @rsM¾ý@¡ä     A=q@W      À?ÌÌÌÌÌÍ@mâDRuG"À4€¬¥«­?÷333333@$áG®zá?òffffff@`SWÞC  f  ²   ~   N?,øL¼ì?‡w3êòg‰?Ï‚Ü9ÏÏA
-A¤A¤@«ú–|¦r®@s$¥ñõ;@saôÁÝ„@í`=øÒFYESOPEN STAR CLUSTER
-$MWSC 5668        @€¾_ùoS@ º     Aff@W¸r° ÄœÀ=]p£×
-=@m˜-¾ÁôÀ3X0ýÞ›@G®záH@)£×
-=p¤?áë…¸Qì@jÛÕ  \  b   ¤   Š?2Ã2A D?„§{gÛÀ?Ûà”äòè@ý®`v¹Û@Ÿ Ö£+v‚@e£Üú=nC@€·’º•iÐ@._4¡ÁVYESOPEN STAR CLUSTER
-'MWSC 5671        @x{Þº‡¹E@ŸD     Aff@Z‘™™™™šÀRXQë…¸@qÉ=­NºwÀ8ò?«%H8?ö=p£×
-=@$½p£×
-=@
-Që…¸R@aé
-„.úe  i  F   š   k?/à.—:W?‹¸Žõ‚’C?Õ	ìÚA#ãJ+¿@¤eSbG£@kèÞËüC@y_–”w@ÌM`KYESOPEN STAR CLUSTER
-@MWSC 5696        @y§)FØO@¢     AÌÍ@q
-=p£×ÀOhQë…¸@t·(„ž™^À3Ú²¥—Ù?åÂ\(õÃ@"
-=p£×
-@$×
-=p£×@Nbº…G›ê  s  ‰  d   Ð?<X®ö<(õ?³{Ÿbgç?åè&ßß@ó±;±;@”ûðÝ|Ö@\¶øé–oÙ@l|5ã_Ñ$?ô¸Ü ¿"(YESOPEN STAR CLUSTER
-EMWSC 5701        @bö©8Èn@–ì     A  @q¦=p£×
-ÀJîzáG®@ucs9ó#À5W¬©x3?â\(õÂ@™™™™™š@¸Që…@Tc1†U¥¿  ~     v   =? îÚKV»¢?’¸ý“þR?È¤²Ê¼ÆAÉqO¼Ú;@±ã\'E@xzgª5a@t¡£µ=@¨RmúýYESOPEN STAR CLUSTER
-IMWSC 5705        @mØÿ Â&@     A33@qëOß;dÀG"Ðå`A‰@uî<j\À5Æ,)uð?íÂ\(õÃ@Â\(õÃ@áG®zá@YÄîê<ék  `  F   z   d?1u‰š+ú?’¦ôËÖå­?Ô3sP’WAzáG®{@¥ÒÑŠ/èÏ@mÝÞs~@oØ@Ö¯É‘@ÎÐT×yYESOPEN STAR CLUSTER
-JMWSC 5706        @f–õEmÐ@˜X     A×
-@qö‡+JÀAîzáG®?ùi_âlXîÀ2ì¡Ñ•~?êáG®zá@¸Që…¸@™™™™™š@[ÍU‚3¨ú  ñ  9   s   B?&òÆÃî)­?Š2–ÂLL¥?Ê©ÎÚþ›AÁð|@°ˆp2b[
-@vŸ¬×­t@sÍíX8,@YÀ“IYESOPEN STAR CLUSTER
-QMWSC 5713        @r³Ÿ˜\2@¡²     A×
-@r6¬1'ÀAèõÂ\)@"ä“u­À5ó_§¿?î¸Që…¸@¸Që…¸@p£×
-=q@UÛß-€ê  ‹  Ø   Ë   w?:
-`äÔôÜ?›Ãs’®:’?Ø	‘Â A5È5È@¢VÎ3•ùl@iaûñâ@fÜP¢¢)¡@q"ÏsYESOPEN STAR CLUSTER
-SMWSC 5715        @ƒ}àñlçr@ ô     AÂ@rVE¡ÊÀƒÀ:å¸Që…@(Ðaà­@À4‘ú85\¦?ó\(õÂ\@$\(õÂ@¸Që…¸@\Àçj ¿Æ  x  ±  D   ª?>–U+ÚÐô?¡?6–„y?á+g•7¯—@ø@™¬ºH8]0@a‘¿Âë@tíg¼·ð@ŽG
-ýŽ8YESOPEN STAR CLUSTER
-UMWSC 5717        @m‡ÄÄam@ b     Aff@rZÐå`A‰À6ãS÷ÎÙ@0yƒ6Á¹[À3W²¡¹f?ã…¸Që…@záG®@£×
-=p¤@N ÈzxF  ÿ  ‹   ø   {?3{µ?ôé¢?§!ûQìï?ØØh¶Ì(A ¦
-h§@¡¾ ýà/¿@hGtÍÔˆ2@gûÕ82²2?ô30¯©ŒYESOPEN STAR CLUSTER
-^MWSC 5726        @`J"9“”.@ŸØ     Aff@r¥º^5?}À+ë…¸Qì@;¹wS„À3ìæî}ß?åÂ\(õÃ@G®záH@\(õÂ@Q4£eØè½  ž   Ð   w   J?5ºaÙ¶×?œ}e”‘G?Íå,Ó 4¾A¬ùÁºÐ@­}Á7G©P@t-ŒQš´@aïbkP
-?ú““(`iYESOPEN STAR CLUSTER
-cMWSC 5731        @©ƒÁ³bŠ^@ªb     A=q@rËS÷ÎÙÀ08Që…¸@9Ì(™~nTÀ6éKI´È?þáG®zá@0s33333?ñ¸Që…@]x…È¸¹ð  Z  t  R  å?b¿Hýô‡?ÅG´¸í@	,pWd¨@Ðnì¾‘U@q‚çM>Ö@7öi†<º@v r¥Äo@~9Ôf´YESOPEN STAR CLUSTER
-dMWSC 5732        @×ðÐð¤F@¡6     A
-ff@rÐn—OßÀ)Û"Ðå`B@=0ÿí5<À5ÞRyÙÄ@áG®zá@(aG®zá?Íp£×
-=q@n‹çìu  H  &   ü   ’?@ùþñ{?‡$ƒÖåBÿ?Ý}ÀúGú@üÀà@å-v;i@dtOŸÃf@|#I3ÉÏ@4ñ,ú¶ÒYESOPEN STAR CLUSTER
-iMWSC 5737        @ˆµmÔ„K3@£~     AÌÍ@rì1&éyÀ1ð£×
-=q@8áÁÿÝš)À9`4 ì9ï?è£×
-=p¤@&=p£×
-=@Që…¸R@OÔh²Ç‚  Þ  $  Z  {?E²m‘\Û”?Á­È»QL?ó#•XÇÜ“@åañ#Ìª@‡`Ý~ä&@O„L)@r…ñÀ_¯?ö¼šWü¸YESOPEN STAR CLUSTER
-lMWSC 5740        @‡´žß¨*£@¡ž     A33@rþÌÌÌÌÍ¿ä(õÂ\)@E'žJ%ª£À2õqZ;¢?ù¸Që…@'B\(õÃ?â\(õÂ@aótÅ·L[  B    c   Í?Aú>_ªÁ?]–GCÉz?ä´WBÿbÌ@óû?°û@•Jýsl@]"Œ*2=	@xÍ¶pAj@íÕGä\YESOPEN STAR CLUSTER
-pMWSC 5744        @kÊ—vaC@œ°     A…@s\(õÂÀE\(õÂ@vg2íöØ[À@áºÅó%o?ô      @™™™™™š?ú¸Që…¸@aÊuÊu  Ð  ·   •   <?*5}öq?~­ß<‚<?È=FðÇA@²/®Ò—W@xâ×¹`>Í@p0o)fÜ¯@©ÇxâñüYESOPEN STAR CLUSTER
-qMWSC 5745        @jš§ôo@™œ     AG®@sZ¬1À=p£×
-=@D!ÊmÔú1À5„™³Â?Ù™™™™™š@záG®{@×
-=p£×@I+kíá²×  &      Å   ˆ?'d‡Ÿ¿j?±¯¸e¾?Ûx¥»ŒL$@þ@ ôm#:>@eõTîÜs¦@u€ÐZæ?ìoÎ0"9–YESOPEN STAR CLUSTER
-uMWSC 5749        @|÷&•O4³@ˆ     A…@s@£×
-=qÀS§\(õÂ@s°O•>0À?sL‚_å?íp£×
-=q@$záG®{@ÌÌÌÌÌÍ@YÝ7mk    #  .   Ž?1+Ç*»¥N? žƒÊ‚Q˜?Ü®éG–@q@üØV‰›@ž¼Â+1s+@eÏŠ ¨s@{_ƒÛòQ@H/»ÚÝYESOPEN STAR CLUSTER
-“MWSC 5779        @rö9Ô<[`@¤¤     A{@t^Ù‡+@9Ñë…¸R@S˜/?%þÀ4dÚÎ A7?õp£×
-=q@#=p£×
-=?úzáG®@Z'j<²"W  ‡  Ñ   ­   h?7íu¾Êí£?“DÝ“ï	v?Õè&ßßA±;±;@¤ûðÝ|Ö@l¶øé–oÙ@h¹ú‹˜uï@´X ìñ§YESOPEN STAR CLUSTER
-–MWSC 5782        @lll(%@›     A£×@thzáG®@4ÔzáG®@RÀ˜Ÿí¦À8T#9™=	?ñ¸Që…@!8Që…¸@…¸Që…@_ÛSÕç¤>  1  <   e   D?&CÇ€?†…ÎeÒö?Ëx¥»ŒL$A@°ôm#:>@uõTîÜs¦@wEÛ1ò@ÆóÊ&4YESOPEN STAR CLUSTER
-¨MWSC 5800        @Y¤,°:ã@š<     A33@u1‰7KÆ¨@>=p£×
-=@VËA'“À8-Päy?Z?áë…¸Qì@p£×
-=q@Â\(õÃ@Q2ðØ$ÖQ  C   Ã   g   M?"ùh%Ky?–>¥²yY?Ïp_ª)A
-˜ï`jc¾@¬W›ÄRì@sdK|ÝÑ@o"Zåç?úŽTõþŒYESOPEN STAR CLUSTER
-¬MWSC 5804        @€ª­Ý¯wF@      Ap¤@uO‘hr°!@.záG®@T²bþ…²ÀBÙ¦–$«?úffffff@'aG®zá?øQë…¸R@fp®üÂn  a  ß   Þ   ^?,êçÀÃ$÷?†®¢iTž?ÒüÌçFž
-AÉˆ+“W@§7lˆ.#@oÄýšò²6@¹n€Mß@&™W4•¨¶YESOPEN STAR CLUSTER
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
