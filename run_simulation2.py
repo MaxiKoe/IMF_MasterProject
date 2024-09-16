@@ -122,7 +122,7 @@ def run_simulation():
     from multiprocessing import Pool
 
     # Set the number of workers to 32 (or leave it as the default for system-optimized usage)
-    with Pool(32) as pool:
+    with Pool() as pool:
         # Apply the process_cluster function to all clusters in parallel
         results = [pool.apply_async(process_cluster, args=(cluster_name, index)) for index, cluster_name in enumerate(cluster_names)]
 
