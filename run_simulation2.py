@@ -35,7 +35,7 @@ open_cluster_filename = os.path.join(BASE_DIR, 'OpenClusters_final.fits')
 open_cluster_table = Table.read(open_cluster_filename)
 
 # List of cluster names to process (all clusters, sorted by MICADO crowding distance)
-cluster_names = open_cluster_table['NAME']  
+cluster_names = open_cluster_table['NAME'][:11]  
 
 # Total number of clusters
 total_clusters = len(cluster_names)
@@ -129,7 +129,7 @@ def run_simulation():
     rendered_main_latex = render_main_latex(all_clusters_content)
 
     # Save the rendered LaTeX to a file
-    output_tex_file = os.path.join(OTHER_DIR, 'Complete_clusters.tex')
+    output_tex_file = os.path.join(OTHER_DIR, '11_clusters.tex')
     with open(output_tex_file, 'w') as f:
         f.write(rendered_main_latex)
 
