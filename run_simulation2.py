@@ -119,11 +119,15 @@ def process_cluster(cluster_name, index):
 
 def run_simulation():
     global cluster_names, total_clusters
+    from multiprocessing import Pool
 
-    all_clusters_content = ""
-    
-    for index, cluster_name in enumerate(cluster_names):
-        all_clusters_content += process_cluster(cluster_name, index)
+    # Set the number of workers to 32 (or leave it as the default for system-optimized usage)
+    with Pool(32) as pool:
+        # Apply the process_cluster function to all clusters in parallel
+        results = [pool.apply_async(process_cluster, args=(cluster_name, index)) for index, cluster_name in enumerate(cluster_names)]
+
+        # Retrieve and combine the LaTeX content for all clusters
+        all_clusters_content = "".join([res.get() for res in results])
 
     # Render the main LaTeX template with all clusters content
     rendered_main_latex = render_main_latex(all_clusters_content)
@@ -140,9 +144,13 @@ def run_simulation():
     process = subprocess.Popen(['pdflatex', '-output-directory', PDF_DIR, output_tex_file], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     stdout, stderr = process.communicate()
 
-    # Output compilation logs
-    print(stdout.decode('utf-8'))
-    print(stderr.decode('utf-8'))
+    # Decode with 'latin-1' and fallback to 'ignore' in case of issues
+    try:
+        print(stdout.decode('utf-8'))
+    except UnicodeDecodeError:
+        print(stdout.decode('latin-1'))
 
-if __name__ == "__main__":
-    run_simulation()
+    try:
+        print(stderr.decode('utf-8'))
+    except UnicodeDecodeError:
+        print(stderr.decode('latin-1'))
