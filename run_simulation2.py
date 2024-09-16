@@ -1,8 +1,3 @@
-import warnings
-
-# Suppress warnings related to the MORFEO package
-warnings.filterwarnings("ignore", message="Package could not be found: /home/mkoecher/IMF_MasterProject/inst_pkgs/MORFEO")
-
 
 import json
 import os
