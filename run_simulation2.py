@@ -136,14 +136,14 @@ def run_simulation():
     rendered_main_latex = render_main_latex(all_clusters_content)
 
     # Save the rendered LaTeX to a file
-    output_tex_file = os.path.join(OTHER_DIR, '1-100_Clusters.tex')
+    output_tex_file = os.path.join(OTHER_DIR, '101-300_Clusters.tex')
     with open(output_tex_file, 'w') as f:
         f.write(rendered_main_latex)
 
     print(f"Rendered LaTeX saved to {output_tex_file}")
 
     # Compile the LaTeX file to PDF and capture the output
-    output_pdf_file = os.path.join(PDF_DIR, '1-100_clusters.pdf')
+    output_pdf_file = os.path.join(PDF_DIR, '101-300_clusters.pdf')
     process = subprocess.Popen(['pdflatex', '-output-directory', PDF_DIR, output_tex_file], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     stdout, stderr = process.communicate()
 
