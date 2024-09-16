@@ -35,7 +35,7 @@ open_cluster_filename = os.path.join(BASE_DIR, 'OpenClusters_final.fits')
 open_cluster_table = Table.read(open_cluster_filename)
 
 # List of cluster names to process (all clusters, sorted by MICADO crowding distance)
-cluster_names = open_cluster_table['NAME'][:100]  
+cluster_names = open_cluster_table['NAME'][101:300]  
 
 # Total number of clusters
 total_clusters = len(cluster_names)
