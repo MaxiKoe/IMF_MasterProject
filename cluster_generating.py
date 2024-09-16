@@ -514,6 +514,7 @@ def calculate_apparent_magnitudes(params):
     return apparent_magnitudes
 
 
+# LaTeX template for individual clusters
 cluster_template = r"""
 % Title and basic information
 \begin{center}
@@ -529,19 +530,30 @@ cluster_template = r"""
         \item \textbf{Total Mass:} [[ total_mass ]] \(\textup{M}_\odot\)
         \item \textbf{Number of Stars:} [[ number_of_stars ]]
         \item \textbf{Distance:} [[ distance ]] pc
-        \item \textbf{Core Radius:} [[ core_radius ]] pc
-        \item \textbf{Tidal Radius:} [[ tidal_radius ]] pc
-        \item \textbf{Log Age:} [[ age ]] Gyr
+        \item \textbf{Core Radius:} [[ core_radius ]] pc / [[ core_radius_arcsec ]] arcsec
+        \item \textbf{Tidal Radius:} [[ tidal_radius ]] pc / [[ tidal_radius_arcsec ]] arcsec
+        \item \textbf{Age:} [[ age_years ]] 
         \item \textbf{Galactic Longitude:} [[ galactic_longitude ]]\textdegree
         \item \textbf{Galactic Latitude:} [[ galactic_latitude ]]\textdegree
         \item \textbf{Core Density:} [[ star_density_core ]] stars/arcsec$^2$
-        \item \textbf{Crowding Distance (MICADO):} [[ crowding_distance_micado ]] px
-        \item \textbf{Crowding Distance (JWST):} [[ crowding_distance_jwst ]] px
-        \item \textbf{Crowding Distance (HAWKI):} [[ crowding_distance_hawki ]] px
         \item \textbf{App. Mag G2 \& M9 (J):} [[ apparent_mag_g2_j ]] \& [[ apparent_mag_m9_j ]]
         \item \textbf{App. Mag G2 \& M9 (Ks):} [[ apparent_mag_g2_ks ]] \& [[ apparent_mag_m9_ks ]]
+        \item \textbf{Suggested Instrument:} [[ recommended_instrument ]]
     \end{itemize}
-
+    
+    % Crowding Distance Table
+    \begin{center}
+    \begin{tabular}{|c|c|}
+        \hline
+        \textbf{Instrument} & \textbf{Crowding Distance (px)} \\
+        \hline
+        MICADO & [[ crowding_distance_micado ]] \\
+        JWST & [[ crowding_distance_jwst ]] \\
+        HAWKI & [[ crowding_distance_hawki ]] \\
+        \hline
+    \end{tabular}
+    \end{center}
+    
     
     % Right column for images
     \begin{center}
@@ -580,6 +592,7 @@ cluster_template = r"""
 \newpage
 """
 
+# Main LaTeX document structure
 main_template = r"""
 \documentclass[a4paper, 12pt]{article}
 \usepackage{graphicx}
