@@ -121,12 +121,15 @@ def run_simulation():
     global cluster_names, total_clusters
     from multiprocessing import Pool
 
-    # Set the number of workers to 32 (or leave it as the default for system-optimized usage)
-    with Pool() as pool:
+    print("Starting run_simulation()")  # Debugging print
+
+    with Pool(32) as pool:
+        print(f"Total clusters: {total_clusters}")  # Debugging print
+
         # Apply the process_cluster function to all clusters in parallel
         results = [pool.apply_async(process_cluster, args=(cluster_name, index)) for index, cluster_name in enumerate(cluster_names)]
 
-        # Retrieve and combine the LaTeX content for all clusters
+        print("Waiting for results...")  # Debugging print
         all_clusters_content = "".join([res.get() for res in results])
 
     # Render the main LaTeX template with all clusters content
@@ -144,7 +147,6 @@ def run_simulation():
     process = subprocess.Popen(['pdflatex', '-output-directory', PDF_DIR, output_tex_file], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     stdout, stderr = process.communicate()
 
-    # Decode with 'latin-1' and fallback to 'ignore' in case of issues
     try:
         print(stdout.decode('utf-8'))
     except UnicodeDecodeError:
@@ -154,3 +156,8 @@ def run_simulation():
         print(stderr.decode('utf-8'))
     except UnicodeDecodeError:
         print(stderr.decode('latin-1'))
+
+
+if __name__ == "__main__":
+    print("Starting the simulation...")
+    run_simulation()
