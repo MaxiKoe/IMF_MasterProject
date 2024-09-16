@@ -35,7 +35,7 @@ open_cluster_filename = os.path.join(BASE_DIR, 'OpenClusters_final.fits')
 open_cluster_table = Table.read(open_cluster_filename)
 
 # List of cluster names to process (all clusters, sorted by MICADO crowding distance)
-cluster_names = open_cluster_table['NAME'][501:700]  
+cluster_names = open_cluster_table['NAME'][701:]  
 
 # Total number of clusters
 total_clusters = len(cluster_names)
@@ -136,14 +136,14 @@ def run_simulation():
     rendered_main_latex = render_main_latex(all_clusters_content)
 
     # Save the rendered LaTeX to a file
-    output_tex_file = os.path.join(OTHER_DIR, '501-700_Clusters.tex')
+    output_tex_file = os.path.join(OTHER_DIR, '701-end_Clusters.tex')
     with open(output_tex_file, 'w') as f:
         f.write(rendered_main_latex)
 
     print(f"Rendered LaTeX saved to {output_tex_file}")
 
     # Compile the LaTeX file to PDF and capture the output
-    output_pdf_file = os.path.join(PDF_DIR, '501-700_clusters.pdf')
+    output_pdf_file = os.path.join(PDF_DIR, '701-end_clusters.pdf')
     process = subprocess.Popen(['pdflatex', '-output-directory', PDF_DIR, output_tex_file], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     stdout, stderr = process.communicate()
 
