@@ -85,7 +85,7 @@ def process_cluster(cluster_name, index):
     
     # Generate the plots again with arcseconds on the axes
     plot_cluster_image_j(hdus_j, os.path.join(IMAGE_DIR, f'{cluster_name}_J_image.png'))
-    pplot_cluster_image_ks(hdus_ks, os.path.join(IMAGE_DIR, f'{cluster_name}_Ks_image.png'))
+    plot_cluster_image_ks(hdus_ks, os.path.join(IMAGE_DIR, f'{cluster_name}_Ks_image.png'))
     distribution_image = os.path.join(PLOT_DIR, f'{cluster_name}_distribution.png')
     spectral_type_vs_snr_image = os.path.join(PLOT_DIR, f'{cluster_name}_spectral_type_vs_snr.png')
     milky_way_image = os.path.join(PLOT_DIR, f'{cluster_name}_milky_way_position.png')
