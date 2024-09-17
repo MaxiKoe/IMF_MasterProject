@@ -35,7 +35,7 @@ open_cluster_filename = os.path.join(BASE_DIR, 'OpenClusters_final.fits')
 open_cluster_table = Table.read(open_cluster_filename)
 
 # List of cluster names to process (all clusters, sorted by MICADO crowding distance)
-cluster_names = open_cluster_table['NAME'][701:]  
+cluster_names = open_cluster_table['NAME'][1:500]  
 
 # Total number of clusters
 total_clusters = len(cluster_names)
@@ -72,6 +72,9 @@ def process_cluster(cluster_name, index):
     # Format the age in a more readable way
     age_in_years = 10**params['log_age']
     age_formatted = f"{age_in_years / 1e9:.2f} Gyr" if age_in_years >= 1e9 else f"{age_in_years / 1e6:.2f} Myr"
+
+    # Calculate apparent magnitudes for G2 and M9 stars in J and Ks filters
+    apparent_magnitudes = calculate_apparent_magnitudes(params)
     
     # Determine suggested instrument
     if crowding_distance_hawki > 10:
@@ -107,6 +110,10 @@ def process_cluster(cluster_name, index):
         'crowding_distance_micado': f"{crowding_distance_micado:.1f}",
         'crowding_distance_jwst': f"{crowding_distance_jwst:.1f}",
         'crowding_distance_hawki': f"{crowding_distance_hawki:.1f}",
+        'apparent_mag_g2_j': f"{apparent_magnitudes['G2_J']:.2f}",
+        'apparent_mag_g2_ks': f"{apparent_magnitudes['G2_Ks']:.2f}",
+        'apparent_mag_m9_j': f"{apparent_magnitudes['M9_J']:.2f}",
+        'apparent_mag_m9_ks': f"{apparent_magnitudes['M9_Ks']:.2f}",
         'recommended_instrument': recommended_instrument,
         'milky_way_position_image': os.path.join(PLOT_DIR, f'{cluster_name}_milky_way_position.png'),
         'j_image': os.path.join(PLOT_DIR, f'{cluster_name}_J_image.png'),
@@ -136,14 +143,14 @@ def run_simulation():
     rendered_main_latex = render_main_latex(all_clusters_content)
 
     # Save the rendered LaTeX to a file
-    output_tex_file = os.path.join(OTHER_DIR, '701-end_Clusters.tex')
+    output_tex_file = os.path.join(OTHER_DIR, '1-500_Clusters.tex')
     with open(output_tex_file, 'w') as f:
         f.write(rendered_main_latex)
 
     print(f"Rendered LaTeX saved to {output_tex_file}")
 
     # Compile the LaTeX file to PDF and capture the output
-    output_pdf_file = os.path.join(PDF_DIR, '701-end_clusters.pdf')
+    output_pdf_file = os.path.join(PDF_DIR, '1-500_clusters.pdf')
     process = subprocess.Popen(['pdflatex', '-output-directory', PDF_DIR, output_tex_file], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     stdout, stderr = process.communicate()
 
