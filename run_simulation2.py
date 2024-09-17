@@ -9,7 +9,8 @@ from cluster_generating import (
     plot_milky_way_with_cluster, 
     plot_spectral_type_vs_snr,
     render_cluster_latex,
-    render_main_latex
+    render_main_latex,
+    calculate_apparent_magnitudes
 )
 from astropy.table import Table
 from astropy.io import fits
