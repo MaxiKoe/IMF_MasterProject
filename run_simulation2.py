@@ -94,7 +94,7 @@ def process_cluster(cluster_name, index):
     cluster_data = {
         'cluster_name': cluster_name,
         'total_mass': f"{params['total_cluster_mass']:.1f}",
-        'number_of_stars': "unknown",  # Adjust as needed
+        'number_of_stars': params['num_stars_tidal'],  # Adjust as needed
         'distance': params['cluster_distance'],
         'core_radius': params['r_c'],
         'tidal_radius': params['r_t'],
