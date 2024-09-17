@@ -606,6 +606,12 @@ main_template = r"""
 \geometry{top=0.2in, bottom=0.2in, left=0.5in, right=0.5in}
 \setlength{\columnsep}{10pt}
 
+\pagestyle{fancy}  % Enable fancy page style
+\fancyhf{}  % Clear any default header and footer
+\fancyfoot[R]{\thepage}  % Add page numbers on the bottom right corner
+\renewcommand{\headrulewidth}{0pt}  % Remove header rule
+\renewcommand{\footrulewidth}{0pt}  % Remove footer rule
+
 \begin{document}
 
 [[ content ]]
